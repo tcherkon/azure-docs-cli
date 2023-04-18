@@ -4,7 +4,7 @@ name: az container
 summary: Manage Azure Container Instances.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_container_attach
   name: az container attach

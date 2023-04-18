@@ -6,7 +6,7 @@ description: This module will not be supported starting January 1, 2021. Please 
 status: Deprecated
 isDeprecated: true
 deprecateInfo: This command group has been deprecated and will be removed in a future release. Use '"az extension add -n kusto" to install the supported Kusto extension' instead.
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_kusto_cluster_add-language-extension
   name: az kusto cluster add-language-extension

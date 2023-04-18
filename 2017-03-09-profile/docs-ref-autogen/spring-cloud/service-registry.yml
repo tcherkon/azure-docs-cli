@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud service-registry** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage Service Registry in Azure Spring Cloud.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud' is deprecated and will be removed in a future release. Use 'spring' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud service-registry bind
   summary: Bind an app to Service Registry.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud service-registry' is deprecated and will be removed in a future release. Use 'spring service-registry' instead.
@@ -48,7 +48,7 @@ directCommands:
   name: az spring-cloud service-registry show
   summary: Show the provisioning status and runtime status of Service Registry.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud service-registry' is deprecated and will be removed in a future release. Use 'spring service-registry' instead.
@@ -70,7 +70,7 @@ directCommands:
   name: az spring-cloud service-registry unbind
   summary: Unbind an app from Service Registry.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud service-registry' is deprecated and will be removed in a future release. Use 'spring service-registry' instead.

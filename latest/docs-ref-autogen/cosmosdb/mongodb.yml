@@ -4,7 +4,7 @@ name: az cosmosdb mongodb
 summary: Manage MongoDB resources of Azure Cosmos DB account.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_cosmosdb_mongodb_retrieve-latest-backup-time
   name: az cosmosdb mongodb retrieve-latest-backup-time

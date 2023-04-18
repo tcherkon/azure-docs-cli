@@ -4,7 +4,7 @@ name: az network nic
 summary: Manage network interfaces.
 description: To learn more about network interfaces in Azure, visit https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface?tabs=network-interface-portal.
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_network_nic_create
   name: az network nic create

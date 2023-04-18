@@ -4,7 +4,7 @@ name: az netappfiles account
 summary: Manage Azure NetApp Files (ANF) Account Resources.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_netappfiles_account_create
   name: az netappfiles account create

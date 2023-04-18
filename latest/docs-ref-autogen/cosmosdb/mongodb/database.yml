@@ -4,7 +4,7 @@ name: az cosmosdb mongodb database
 summary: Manage Azure Cosmos DB MongoDB databases.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_cosmosdb_mongodb_database_create
   name: az cosmosdb mongodb database create

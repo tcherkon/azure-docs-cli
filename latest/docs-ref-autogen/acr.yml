@@ -4,7 +4,7 @@ name: az acr
 summary: Manage private registries with Azure Container Registries.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_acr_build
   name: az acr build

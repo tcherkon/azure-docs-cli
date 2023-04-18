@@ -4,7 +4,7 @@ name: az iot dps
 summary: Manage Azure IoT Hub Device Provisioning Service.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_iot_dps_compute-device-key
   name: az iot dps compute-device-key

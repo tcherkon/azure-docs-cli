@@ -4,7 +4,7 @@ name: az eventgrid topic
 summary: Manage Azure Event Grid topics.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_eventgrid_topic_create
   name: az eventgrid topic create

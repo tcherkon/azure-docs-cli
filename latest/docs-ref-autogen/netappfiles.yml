@@ -4,7 +4,7 @@ name: az netappfiles
 summary: Manage Azure NetApp Files (ANF) Resources.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 commands:
 - az_netappfiles_account
 - az_netappfiles_account_ad

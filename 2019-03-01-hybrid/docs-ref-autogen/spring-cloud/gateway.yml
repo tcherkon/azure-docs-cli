@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud gateway** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage gateway in Azure Spring Cloud.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud' is deprecated and will be removed in a future release. Use 'spring' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud gateway clear
   summary: Clear all settings of gateway.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway' is deprecated and will be removed in a future release. Use 'spring gateway' instead.
@@ -46,7 +46,7 @@ directCommands:
   name: az spring-cloud gateway show
   summary: Show the settings, provisioning status and runtime status of gateway.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway' is deprecated and will be removed in a future release. Use 'spring gateway' instead.
@@ -68,7 +68,7 @@ directCommands:
   name: az spring-cloud gateway update
   summary: Update an existing gateway properties.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway' is deprecated and will be removed in a future release. Use 'spring gateway' instead.

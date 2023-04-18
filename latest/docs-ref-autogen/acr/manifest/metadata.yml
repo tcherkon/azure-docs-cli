@@ -3,7 +3,7 @@ uid: az_acr_manifest_metadata
 name: az acr manifest metadata
 summary: Manage artifact manifest metadata in Azure Container Registries.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group has been deprecated and will be removed in future release. Use 'az acr manifest' instead.
@@ -14,7 +14,7 @@ directCommands:
   name: az acr manifest metadata list
   summary: List the metadata of the manifests in a repository in an Azure Container Registry.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'acr manifest metadata' is deprecated and will be removed in a future release. Use 'az acr manifest' instead.
@@ -60,7 +60,7 @@ directCommands:
   name: az acr manifest metadata show
   summary: Get the metadata of an artifact in an Azure Container Registry.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'acr manifest metadata' is deprecated and will be removed in a future release. Use 'az acr manifest' instead.
@@ -97,7 +97,7 @@ directCommands:
   name: az acr manifest metadata update
   summary: Update the manifest metadata of an artifact in an Azure Container Registry.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'acr manifest metadata' is deprecated and will be removed in a future release. Use 'az acr manifest' instead.

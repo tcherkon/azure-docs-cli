@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud application-configuration-service git repo** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Application Configuration Service git repository in Azure Spring Cloud.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud application-configuration-service' is deprecated and will be removed in a future release. Use 'spring application-configuration-service' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud application-configuration-service git repo add
   summary: Add a Git property to the Application Configuration Service settings.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service git repo' is deprecated and will be removed in a future release. Use 'spring application-configuration-service git repo' instead.
@@ -92,7 +92,7 @@ directCommands:
   name: az spring-cloud application-configuration-service git repo list
   summary: List all Git settings of Application Configuration Service.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service git repo' is deprecated and will be removed in a future release. Use 'spring application-configuration-service git repo' instead.
@@ -114,7 +114,7 @@ directCommands:
   name: az spring-cloud application-configuration-service git repo remove
   summary: Delete an existing Git property from the Application Configuration Service settings.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service git repo' is deprecated and will be removed in a future release. Use 'spring application-configuration-service git repo' instead.
@@ -144,7 +144,7 @@ directCommands:
   name: az spring-cloud application-configuration-service git repo update
   summary: Update an existing Git property in the Application Configuration Service settings.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service git repo' is deprecated and will be removed in a future release. Use 'spring application-configuration-service git repo' instead.

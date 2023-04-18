@@ -4,7 +4,7 @@ name: az iot hub certificate
 summary: Manage IoT Hub certificates.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_iot_hub_certificate_create
   name: az iot hub certificate create

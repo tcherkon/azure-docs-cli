@@ -4,7 +4,7 @@ name: az dms project task
 summary: Manage tasks for a Azure Database Migration Service (classic) instance's project.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_dms_project_task_cancel
   name: az dms project task cancel

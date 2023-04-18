@@ -4,7 +4,7 @@ name: az aks nodepool
 summary: Commands to manage node pools in Kubernetes kubernetes cluster.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_aks_nodepool_add
   name: az aks nodepool add

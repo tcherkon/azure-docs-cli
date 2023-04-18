@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **k8sconfiguration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az k8sconfiguration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Kubernetes configuration.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group has been deprecated and will be removed in a future release. Use 'k8s-configuration' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az k8sconfiguration create
   summary: Create a Kubernetes configuration.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'k8sconfiguration' is deprecated and will be removed in a future release. Use 'k8s-configuration' instead.
@@ -135,7 +135,7 @@ directCommands:
   name: az k8sconfiguration delete
   summary: Delete a Kubernetes configuration.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'k8sconfiguration' is deprecated and will be removed in a future release. Use 'k8s-configuration' instead.
@@ -180,7 +180,7 @@ directCommands:
   name: az k8sconfiguration list
   summary: List Kubernetes configurations.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'k8sconfiguration' is deprecated and will be removed in a future release. Use 'k8s-configuration' instead.
@@ -214,7 +214,7 @@ directCommands:
   name: az k8sconfiguration show
   summary: Show details of a Kubernetes configuration.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'k8sconfiguration' is deprecated and will be removed in a future release. Use 'k8s-configuration' instead.
@@ -253,7 +253,7 @@ directCommands:
   name: az k8sconfiguration update
   summary: Update a Kubernetes configuration.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'k8sconfiguration' is deprecated and will be removed in a future release. Use 'k8s-configuration' instead.

@@ -4,7 +4,7 @@ name: az postgres flexible-server
 summary: Manage Azure Database for PostgreSQL Flexible Servers.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_postgres_flexible-server_connect
   name: az postgres flexible-server connect

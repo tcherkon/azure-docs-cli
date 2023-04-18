@@ -4,7 +4,7 @@ name: az spring
 summary: Commands to manage Azure Spring Apps.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_spring_create
   name: az spring create

@@ -4,7 +4,7 @@ name: az eventgrid domain
 summary: Manage event domains.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_eventgrid_domain_create
   name: az eventgrid domain create

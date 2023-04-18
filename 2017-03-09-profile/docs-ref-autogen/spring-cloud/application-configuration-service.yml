@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud application-configuration-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage Application Configuration Service in Azure Spring Cloud.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud' is deprecated and will be removed in a future release. Use 'spring' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud application-configuration-service bind
   summary: Bind an app to Application Configuration Service.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service' is deprecated and will be removed in a future release. Use 'spring application-configuration-service' instead.
@@ -48,7 +48,7 @@ directCommands:
   name: az spring-cloud application-configuration-service clear
   summary: Reset all Application Configuration Service settings.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service' is deprecated and will be removed in a future release. Use 'spring application-configuration-service' instead.
@@ -70,7 +70,7 @@ directCommands:
   name: az spring-cloud application-configuration-service show
   summary: Show the provisioning status, runtime status, and settings of Application Configuration Service.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service' is deprecated and will be removed in a future release. Use 'spring application-configuration-service' instead.
@@ -92,7 +92,7 @@ directCommands:
   name: az spring-cloud application-configuration-service unbind
   summary: Unbind an app from Application Configuration Service.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud application-configuration-service' is deprecated and will be removed in a future release. Use 'spring application-configuration-service' instead.

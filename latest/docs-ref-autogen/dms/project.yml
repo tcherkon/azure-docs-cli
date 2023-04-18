@@ -4,7 +4,7 @@ name: az dms project
 summary: Manage projects for an instance of the Azure Database Migration Service (classic).
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_dms_project_check-name
   name: az dms project check-name

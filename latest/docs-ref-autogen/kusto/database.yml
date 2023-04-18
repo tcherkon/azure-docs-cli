@@ -6,7 +6,7 @@ description: Azure CLI commands for Kusto are now an extension.  Execute "az ext
 status: Deprecated
 isDeprecated: true
 deprecateInfo: This command group has been deprecated and will be removed in a future release. Use '"az extension add -n kusto" to install the supported Kusto extension' instead.
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_kusto_database_add-principal
   name: az kusto database add-principal

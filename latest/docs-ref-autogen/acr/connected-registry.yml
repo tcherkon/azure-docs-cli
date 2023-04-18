@@ -285,7 +285,7 @@ directCommands:
   name: az acr connected-registry repo
   summary: Update all the necessary connected registry sync scope maps repository permissions.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'permissions update' instead.

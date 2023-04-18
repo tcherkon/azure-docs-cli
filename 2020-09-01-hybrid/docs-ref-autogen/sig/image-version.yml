@@ -4,7 +4,7 @@ name: az sig image-version
 summary: Manage shared gallery image version with VM.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_sig_image-version_create
   name: az sig image-version create

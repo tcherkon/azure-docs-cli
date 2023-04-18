@@ -4,7 +4,7 @@ name: az iot hub
 summary: Manage Azure IoT hubs.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_iot_hub_create
   name: az iot hub create

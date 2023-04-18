@@ -4,7 +4,7 @@ name: az confidentialledger
 summary: Manage Confidential Ledger.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_confidentialledger_create
   name: az confidentialledger create

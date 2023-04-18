@@ -4,7 +4,7 @@ name: az mysql
 summary: Manage Azure Database for MySQL servers.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_mysql_down
   name: az mysql down

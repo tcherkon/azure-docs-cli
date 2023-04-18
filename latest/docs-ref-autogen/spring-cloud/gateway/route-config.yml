@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud gateway route-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage gateway route configs in Azure Spring Cloud.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud gateway' is deprecated and will be removed in a future release. Use 'spring gateway' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud gateway route-config create
   summary: Create a gateway route config with routing rules of Json array format.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway route-config' is deprecated and will be removed in a future release. Use 'spring gateway route-config' instead.
@@ -61,7 +61,7 @@ directCommands:
   name: az spring-cloud gateway route-config list
   summary: List all existing gateway route configs.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway route-config' is deprecated and will be removed in a future release. Use 'spring gateway route-config' instead.
@@ -86,7 +86,7 @@ directCommands:
   name: az spring-cloud gateway route-config remove
   summary: Delete an existing gateway route config.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway route-config' is deprecated and will be removed in a future release. Use 'spring gateway route-config' instead.
@@ -116,7 +116,7 @@ directCommands:
   name: az spring-cloud gateway route-config show
   summary: Get an existing gateway route config.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway route-config' is deprecated and will be removed in a future release. Use 'spring gateway route-config' instead.
@@ -146,7 +146,7 @@ directCommands:
   name: az spring-cloud gateway route-config update
   summary: Update an existing gateway route config with routing rules of Json array format.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud gateway route-config' is deprecated and will be removed in a future release. Use 'spring gateway route-config' instead.

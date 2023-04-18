@@ -4,7 +4,7 @@ name: az dms
 summary: Manage Azure Data Migration Service (classic) instances.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_dms_check-name
   name: az dms check-name

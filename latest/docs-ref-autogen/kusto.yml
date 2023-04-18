@@ -4,7 +4,7 @@ name: az kusto
 summary: Manage Azure Kusto resources.
 description: This module will not be supported starting January 1, 2021. Please execute "az extension add -n kusto" to install the supported Kusto extension.
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 commands:
 - az_kusto_attached-database-configuration
 - az_kusto_attached-database-configuration_create

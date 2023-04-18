@@ -4,7 +4,7 @@ name: az account
 summary: Manage Azure subscription information.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_account_accept-ownership-status
   name: az account accept-ownership-status

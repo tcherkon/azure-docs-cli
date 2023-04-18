@@ -4,7 +4,7 @@ name: az managed-cassandra
 summary: Azure Managed Cassandra.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 commands:
 - az_managed-cassandra_cluster
 - az_managed-cassandra_cluster_backup

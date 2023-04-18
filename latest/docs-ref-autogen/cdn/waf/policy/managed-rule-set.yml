@@ -3,7 +3,7 @@ uid: az_cdn_waf_policy_managed-rule-set
 name: az cdn waf policy managed-rule-set
 summary: Manage managed rule sets of a CDN WAF policy.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -14,7 +14,7 @@ directCommands:
   name: az cdn waf policy managed-rule-set add
   summary: Add a managed rule set to a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -57,7 +57,7 @@ directCommands:
   name: az cdn waf policy managed-rule-set list
   summary: List managed rule sets added to a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -83,7 +83,7 @@ directCommands:
   name: az cdn waf policy managed-rule-set list-available
   summary: List available CDN WAF managed rule sets.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -98,7 +98,7 @@ directCommands:
   name: az cdn waf policy managed-rule-set remove
   summary: Remove a managed rule set from a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -146,7 +146,7 @@ directCommands:
   name: az cdn waf policy managed-rule-set show
   summary: Show a managed rule of a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.

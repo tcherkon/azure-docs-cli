@@ -4,7 +4,7 @@ name: az managed-cassandra cluster
 summary: Azure Managed Cassandra Cluster.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_managed-cassandra_cluster_create
   name: az managed-cassandra cluster create

@@ -4,7 +4,7 @@ name: az batch
 summary: Manage Azure Batch.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 commands:
 - az_batch_account
 - az_batch_account_autostorage-keys

@@ -4,7 +4,7 @@ name: az webapp auth
 summary: Manage webapp authentication and authorization. To use v2 auth commands, run "az extension add --name authV2" to add the authV2 CLI extension.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_webapp_auth_set
   name: az webapp auth set

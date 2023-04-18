@@ -4,7 +4,7 @@ name: az cosmosdb sql database
 summary: Manage Azure Cosmos DB SQL databases.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_cosmosdb_sql_database_create
   name: az cosmosdb sql database create

@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud build-service builder** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage builder of build service.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud build-service' is deprecated and will be removed in a future release. Use 'spring build-service' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud build-service builder create
   summary: Create a builder.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder' is deprecated and will be removed in a future release. Use 'spring build-service builder' instead.
@@ -62,7 +62,7 @@ directCommands:
   name: az spring-cloud build-service builder delete
   summary: Delete a builder.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder' is deprecated and will be removed in a future release. Use 'spring build-service builder' instead.
@@ -103,7 +103,7 @@ directCommands:
   name: az spring-cloud build-service builder show
   summary: Show a builder.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder' is deprecated and will be removed in a future release. Use 'spring build-service builder' instead.
@@ -133,7 +133,7 @@ directCommands:
   name: az spring-cloud build-service builder update
   summary: Update a builder.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder' is deprecated and will be removed in a future release. Use 'spring build-service builder' instead.

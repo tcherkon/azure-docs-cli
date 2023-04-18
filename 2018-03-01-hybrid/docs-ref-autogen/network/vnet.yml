@@ -4,7 +4,7 @@ name: az network vnet
 summary: Check if a private IP address is available for use within a virtual network.
 description: To learn more about Virtual Networks visit https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-network.
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_network_vnet_check-ip-address
   name: az network vnet check-ip-address

@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud api-portal custom-domain** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage custom domains for API portal.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud api-portal' is deprecated and will be removed in a future release. Use 'spring api-portal' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud api-portal custom-domain bind
   summary: Bind a custom domain with the API portal.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud api-portal custom-domain' is deprecated and will be removed in a future release. Use 'spring api-portal custom-domain' instead.
@@ -53,7 +53,7 @@ directCommands:
   name: az spring-cloud api-portal custom-domain list
   summary: List all custom domains of the API portal.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud api-portal custom-domain' is deprecated and will be removed in a future release. Use 'spring api-portal custom-domain' instead.
@@ -78,7 +78,7 @@ directCommands:
   name: az spring-cloud api-portal custom-domain show
   summary: Show details of a custom domain.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud api-portal custom-domain' is deprecated and will be removed in a future release. Use 'spring api-portal custom-domain' instead.
@@ -105,7 +105,7 @@ directCommands:
   name: az spring-cloud api-portal custom-domain unbind
   summary: Unbind a custom-domain of the API portal.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud api-portal custom-domain' is deprecated and will be removed in a future release. Use 'spring api-portal custom-domain' instead.
@@ -132,7 +132,7 @@ directCommands:
   name: az spring-cloud api-portal custom-domain update
   summary: Update a custom domain of the API portal.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud api-portal custom-domain' is deprecated and will be removed in a future release. Use 'spring api-portal custom-domain' instead.

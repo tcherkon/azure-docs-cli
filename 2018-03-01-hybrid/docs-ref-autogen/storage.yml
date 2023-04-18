@@ -4,7 +4,7 @@ name: az storage
 summary: Manage Azure Cloud Storage resources.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_storage_copy
   name: az storage copy

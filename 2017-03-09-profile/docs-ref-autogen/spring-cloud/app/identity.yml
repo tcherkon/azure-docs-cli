@@ -67,7 +67,7 @@ directCommands:
   name: az spring-cloud app identity force-set
   summary: Force set managed identities on an app.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app identity' is deprecated and will be removed in a future release. Use 'spring app identity' instead.

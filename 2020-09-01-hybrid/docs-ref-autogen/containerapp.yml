@@ -4,7 +4,7 @@ name: az containerapp
 summary: Manage Azure Container Apps.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_containerapp_browse
   name: az containerapp browse

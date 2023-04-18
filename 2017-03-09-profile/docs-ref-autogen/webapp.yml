@@ -4,7 +4,7 @@ name: az webapp
 summary: Manage web apps.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_webapp_create
   name: az webapp create

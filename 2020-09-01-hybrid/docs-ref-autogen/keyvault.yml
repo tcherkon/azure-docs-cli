@@ -4,7 +4,7 @@ name: az keyvault
 summary: Manage KeyVault keys, secrets, and certificates.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_keyvault_create
   name: az keyvault create

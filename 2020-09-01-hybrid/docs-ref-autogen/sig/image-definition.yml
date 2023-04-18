@@ -4,7 +4,7 @@ name: az sig image-definition
 summary: Manage shared gallery image with VM.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_sig_image-definition_create
   name: az sig image-definition create

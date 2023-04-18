@@ -4,7 +4,7 @@ name: az mysql flexible-server
 summary: Manage Azure Database for MySQL Flexible Servers.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_mysql_flexible-server_connect
   name: az mysql flexible-server connect

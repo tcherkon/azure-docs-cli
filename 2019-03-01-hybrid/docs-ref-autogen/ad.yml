@@ -4,7 +4,7 @@ name: az ad
 summary: Manage Azure Active Directory Graph entities needed for Role Based Access Control.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 commands:
 - az_ad_app
 - az_ad_app_create

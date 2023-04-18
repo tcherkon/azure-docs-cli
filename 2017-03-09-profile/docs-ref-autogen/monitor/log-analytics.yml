@@ -4,7 +4,7 @@ name: az monitor log-analytics
 summary: Manage Azure log analytics.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_monitor_log-analytics_query
   name: az monitor log-analytics query

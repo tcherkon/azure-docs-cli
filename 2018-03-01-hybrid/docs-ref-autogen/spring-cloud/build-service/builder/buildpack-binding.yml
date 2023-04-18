@@ -7,7 +7,7 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud build-service builder buildpack-binding** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage buildpack-binding of builder.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud build-service builder' is deprecated and will be removed in a future release. Use 'spring build-service builder' instead.
@@ -18,7 +18,7 @@ directCommands:
   name: az spring-cloud build-service builder buildpack-binding create
   summary: (Enterprise Tier Only) Create a buildpack binding.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder buildpack-binding' is deprecated and will be removed in a future release. Use 'spring build-service builder buildpack-binding' instead.
@@ -74,7 +74,7 @@ directCommands:
   name: az spring-cloud build-service builder buildpack-binding delete
   summary: (Enterprise Tier Only) Delete a buildpack binding.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder buildpack-binding' is deprecated and will be removed in a future release. Use 'spring build-service builder buildpack-binding' instead.
@@ -115,7 +115,7 @@ directCommands:
   name: az spring-cloud build-service builder buildpack-binding list
   summary: (Enterprise Tier Only) List all buildpack binding in a builder. The secrets will be masked.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder buildpack-binding' is deprecated and will be removed in a future release. Use 'spring build-service builder buildpack-binding' instead.
@@ -146,7 +146,7 @@ directCommands:
   name: az spring-cloud build-service builder buildpack-binding set
   summary: (Enterprise Tier Only) Set a buildpack binding.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder buildpack-binding' is deprecated and will be removed in a future release. Use 'spring build-service builder buildpack-binding' instead.
@@ -196,7 +196,7 @@ directCommands:
   name: az spring-cloud build-service builder buildpack-binding show
   summary: (Enterprise Tier Only) Show a buildpack binding. The secrets will be masked.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud build-service builder buildpack-binding' is deprecated and will be removed in a future release. Use 'spring build-service builder buildpack-binding' instead.

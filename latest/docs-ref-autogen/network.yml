@@ -4,7 +4,7 @@ name: az network
 summary: Manage Azure Network resources.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_network_list-service-aliases
   name: az network list-service-aliases

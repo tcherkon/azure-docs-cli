@@ -4,7 +4,7 @@ name: az staticwebapp
 summary: Manage static apps.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_staticwebapp_create
   name: az staticwebapp create

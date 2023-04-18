@@ -4,7 +4,7 @@ name: az cosmosdb
 summary: Manage Azure Cosmos DB database accounts.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_cosmosdb_check-name-exists
   name: az cosmosdb check-name-exists

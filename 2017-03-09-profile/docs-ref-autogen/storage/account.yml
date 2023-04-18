@@ -4,7 +4,7 @@ name: az storage account
 summary: Manage storage accounts.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_storage_account_check-name
   name: az storage account check-name

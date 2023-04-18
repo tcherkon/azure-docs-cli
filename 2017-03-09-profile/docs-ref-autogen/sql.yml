@@ -4,7 +4,7 @@ name: az sql
 summary: Manage Azure SQL Databases and Data Warehouses.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_sql_down
   name: az sql down

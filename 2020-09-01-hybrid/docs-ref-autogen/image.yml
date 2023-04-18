@@ -4,7 +4,7 @@ name: az image
 summary: Manage custom virtual machine images.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_image_copy
   name: az image copy

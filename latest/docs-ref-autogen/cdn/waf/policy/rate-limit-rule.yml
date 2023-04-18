@@ -3,7 +3,7 @@ uid: az_cdn_waf_policy_rate-limit-rule
 name: az cdn waf policy rate-limit-rule
 summary: Manage rate limit rules of a CDN WAF policy.
 description: ''
-status: PreviewAndDeprecated
+status: Preview and Deprecated
 isDeprecated: true
 isPreview: true
 deprecateInfo: This command group is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -14,7 +14,7 @@ directCommands:
   name: az cdn waf policy rate-limit-rule delete
   summary: Remove a rate limit rule from a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -57,7 +57,7 @@ directCommands:
   name: az cdn waf policy rate-limit-rule list
   summary: List rate limit rules of a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -83,7 +83,7 @@ directCommands:
   name: az cdn waf policy rate-limit-rule set
   summary: Add a rate limit rule to a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.
@@ -153,7 +153,7 @@ directCommands:
   name: az cdn waf policy rate-limit-rule show
   summary: Show a rate limit rule of a CDN WAF policy.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'cdn waf policy' is deprecated and will be removed in a future release.

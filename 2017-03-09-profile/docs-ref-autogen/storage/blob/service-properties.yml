@@ -4,7 +4,7 @@ name: az storage blob service-properties
 summary: Manage storage blob service properties.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_storage_blob_service-properties_show
   name: az storage blob service-properties show

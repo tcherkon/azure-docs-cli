@@ -4,7 +4,7 @@ name: az aks
 summary: Manage Azure Kubernetes Services.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_aks_browse
   name: az aks browse

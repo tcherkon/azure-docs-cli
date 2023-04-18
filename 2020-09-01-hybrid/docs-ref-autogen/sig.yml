@@ -4,7 +4,7 @@ name: az sig
 summary: Manage shared image gallery.
 description: ''
 status: GA
-sourceType: CoreAndExtension
+sourceType: Core and Extension
 directCommands:
 - uid: az_sig_create
   name: az sig create

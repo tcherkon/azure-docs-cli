@@ -64,7 +64,7 @@ directCommands:
   name: az acr helm install-cli
   summary: Download and install Helm command-line tool.
   description: ''
-  status: PreviewAndDeprecated
+  status: Preview and Deprecated
   isDeprecated: true
   isPreview: true
   deprecateInfo: This command is implicitly deprecated because command group 'acr helm' is deprecated and will be removed in a future release. Use 'helm v3' instead.
