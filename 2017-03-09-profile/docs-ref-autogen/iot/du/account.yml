@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Device Update account management.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_account_create
   name: az iot du account create
   summary: Create a Device Update account.
   description: This command may also be used to update the state of an existing account.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account create --account
                              --resource-group
@@ -81,6 +85,8 @@ directCommands:
   name: az iot du account delete
   summary: Delete a Device Update account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account delete --account
                              [--no-wait]
@@ -112,6 +118,8 @@ directCommands:
   name: az iot du account list
   summary: List all Device Update accounts in a subscription or resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az iot du account list [--resource-group]
   examples:
   - summary: List all accounts in a subscription.
@@ -128,6 +136,8 @@ directCommands:
   name: az iot du account show
   summary: Show the details of a Device Update account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account show --account
                            [--resource-group]
@@ -149,6 +159,8 @@ directCommands:
   name: az iot du account update
   summary: Update a Device Update account.
   description: Currently the following account properties can be updated - identity, publicNetworkAccess and tags.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account update --account
                              [--add]
@@ -195,6 +207,8 @@ directCommands:
   name: az iot du account wait
   summary: Block until a desired account resource state has been met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account wait --account
                            [--created]

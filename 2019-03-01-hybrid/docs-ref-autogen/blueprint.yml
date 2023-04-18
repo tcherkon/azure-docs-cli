@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **blueprint** extension for the Azure CLI  (version 2.3.0 or higher).  The extension will automatically install the first time you run an **az blueprint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage blueprint.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_blueprint_create
   name: az blueprint create
   summary: Create a blueprint definition.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint create --name
                         [--description]
@@ -77,6 +85,10 @@ directCommands:
   name: az blueprint delete
   summary: Delete a blueprint definition.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint delete --name
                         [--management-group]
@@ -113,6 +125,10 @@ directCommands:
   name: az blueprint export
   summary: Export a blueprint definition and artifacts to json file(s).
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint export --name
                         --output-path
@@ -149,6 +165,10 @@ directCommands:
   name: az blueprint import
   summary: Import a blueprint definition and artifacts from a directoy of json files.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint import --input-path
                         --name
@@ -185,6 +205,10 @@ directCommands:
   name: az blueprint list
   summary: List blueprint definitions.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint list [--management-group]
                       [--subscription]
@@ -204,6 +228,10 @@ directCommands:
   name: az blueprint publish
   summary: Publish a new version of the blueprint definition with the latest artifacts. Published blueprint definitions are immutable.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint publish --blueprint-name
                          --version
@@ -246,6 +274,10 @@ directCommands:
   name: az blueprint show
   summary: Get a blueprint definition.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint show --name
                       [--management-group]
@@ -277,6 +309,10 @@ directCommands:
   name: az blueprint update
   summary: Update a blueprint definition.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint update --name
                         [--add]

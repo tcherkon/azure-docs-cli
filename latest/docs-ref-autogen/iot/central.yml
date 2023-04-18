@@ -8,11 +8,17 @@ description: >-
   IoT Central documentation is available at https://aka.ms/iotcentral-documentation
 
   Comprehensive IoT Central data-plane functionality is available in the Azure IoT CLI Extension. For more info on how to install visit https://github.com/Azure/azure-iot-cli-extension.
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_iot_central_query
   name: az iot central query
   summary: Query device telemetry or property data with IoT Central Query Language.
   description: For query syntax details, visit https://docs.microsoft.com/en-us/azure/iot-central/core/howto-query-with-rest-api.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az iot central query --app-id
                          --qs
@@ -37,6 +43,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview"
     summary: The API version for the requested operation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.

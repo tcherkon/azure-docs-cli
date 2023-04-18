@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp identity** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage managed identities.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_identity_assign
   name: az containerapp identity assign
   summary: Assign managed identity to a container app.
   description: Managed identities can be user-assigned or system-assigned.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp identity assign [--ids]
                                     [--name]
@@ -57,6 +61,8 @@ directCommands:
   name: az containerapp identity remove
   summary: Remove a managed identity from a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp identity remove [--ids]
                                     [--name]
@@ -104,6 +110,8 @@ directCommands:
   name: az containerapp identity show
   summary: Show managed identities of a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp identity show [--ids]
                                   [--name]

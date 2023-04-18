@@ -3,6 +3,8 @@ uid: az_sql_server_ms-support
 name: az sql server ms-support
 summary: Manage a server's Microsoft support operations.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_sql_server_ms-support_audit-policy
 - az_sql_server_ms-support_audit-policy_show

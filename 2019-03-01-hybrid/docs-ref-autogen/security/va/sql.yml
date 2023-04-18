@@ -3,6 +3,8 @@ uid: az_security_va_sql
 name: az security va sql
 summary: View Sql Vulnerability Assessment scan results and manage baseline.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_security_va_sql_baseline
 - az_security_va_sql_baseline_delete

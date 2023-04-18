@@ -3,22 +3,29 @@ uid: az_storage_account
 name: az storage account
 summary: Manage storage accounts.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_storage_account_check-name
   name: az storage account check-name
   summary: Check that the storage account name is valid and is not already in use.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: az storage account check-name --name
   requiredParameters:
   - isRequired: true
     name: --name -n
     summary: The name of the storage account within the specified resource group.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_create
   name: az storage account create
   summary: Create a storage account.
   description: The SKU of the storage account defaults to 'Standard_RAGRS'.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account create --name
                               --resource-group
@@ -220,11 +227,13 @@ directCommands:
   - name: --vnet-name
     summary: ''
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_delete
   name: az storage account delete
   summary: Delete a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account delete [--ids]
                               [--name]
@@ -253,11 +262,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_generate-sas
   name: az storage account generate-sas
   summary: Generate a shared access signature for the storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account generate-sas --expiry
                                     --permissions
@@ -326,11 +337,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_list
   name: az storage account list
   summary: List storage accounts.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: az storage account list [--resource-group]
   examples:
   - summary: List all storage accounts in a subscription.
@@ -341,11 +354,13 @@ directCommands:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_show
   name: az storage account show
   summary: Show storage account properties.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account show [--ids]
                             [--name]
@@ -369,11 +384,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_show-connection-string
   name: az storage account show-connection-string
   summary: Get the connection string for a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account show-connection-string [--blob-endpoint]
                                               [--file-endpoint]
@@ -429,20 +446,24 @@ directCommands:
   - name: --table-endpoint
     summary: Custom endpoint for tables.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_show-usage
   name: az storage account show-usage
   summary: Show the current count and limit of the storage accounts under the subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: az storage account show-usage
   examples:
   - summary: Show the current count and limit of the storage accounts under the subscription. (autogenerated)
     syntax: az storage account show-usage --location westus2
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_update
   name: az storage account update
   summary: Update the properties of a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account update [--access-tier {Cool, Hot}]
                               [--account-type]
@@ -629,7 +650,6 @@ directCommands:
   - name: --user-identity-id
     summary: ''
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 commands:
 - az_storage_account_check-name
 - az_storage_account_create

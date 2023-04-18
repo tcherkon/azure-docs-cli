@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines build definition** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage build definitions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_build_definition_list
   name: az pipelines build definition list
   summary: List build definitions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines build definition list [--detect {false, true}]
                                        [--name]
@@ -48,6 +52,8 @@ directCommands:
   name: az pipelines build definition show
   summary: Get the details of a build definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines build definition show [--detect {false, true}]
                                        [--id]

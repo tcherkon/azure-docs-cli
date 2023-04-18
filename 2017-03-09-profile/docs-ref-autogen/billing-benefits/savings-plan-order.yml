@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **billing-benefits** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az billing-benefits savings-plan-order** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure billing benefits savings plan order commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_billing-benefits_savings-plan-order_elevate
   name: az billing-benefits savings-plan-order elevate
   summary: Elevate as owner on savings plan order based on billing permissions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az billing-benefits savings-plan-order elevate --savings-plan-order-id
   examples:
   - summary: Elevate a savings plan order
@@ -25,6 +29,8 @@ directCommands:
   name: az billing-benefits savings-plan-order list
   summary: List all Savings plan orders.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az billing-benefits savings-plan-order list
   examples:
   - summary: List all Savings plan orders
@@ -33,6 +39,8 @@ directCommands:
   name: az billing-benefits savings-plan-order show
   summary: Get a savings plan order.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az billing-benefits savings-plan-order show --savings-plan-order-id
                                                 [--expand]

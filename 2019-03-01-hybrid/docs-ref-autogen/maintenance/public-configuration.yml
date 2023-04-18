@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **maintenance** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az maintenance public-configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage public maintenance configuration with maintenance.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_maintenance_public-configuration_list
   name: az maintenance public-configuration list
   summary: Get Public Maintenance Configuration records.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'maintenance public-configuration' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az maintenance public-configuration list
   examples:
   - summary: PublicMaintenanceConfigurations_List
@@ -20,6 +28,10 @@ directCommands:
   name: az maintenance public-configuration show
   summary: Get Public Maintenance Configuration record.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'maintenance public-configuration' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance public-configuration show [--ids]
                                              [--resource-name]

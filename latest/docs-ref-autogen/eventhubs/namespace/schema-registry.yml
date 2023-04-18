@@ -3,11 +3,16 @@ uid: az_eventhubs_namespace_schema-registry
 name: az eventhubs namespace schema-registry
 summary: Manages eventhubs namespace schema registry.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventhubs_namespace_schema-registry_create
   name: az eventhubs namespace schema-registry create
   summary: Creates a schema group for an EventHub namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace schema-registry create --name
                                                   --namespace-name
@@ -45,11 +50,13 @@ directCommands:
   - name: --group-properties
     summary: Type of Schema.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_schema-registry_delete
   name: az eventhubs namespace schema-registry delete
   summary: Deletes a schema group from a namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace schema-registry delete [--ids]
                                                   [--name]
@@ -75,11 +82,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_schema-registry_list
   name: az eventhubs namespace schema-registry list
   summary: Lists all schema groups of the EventHub Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace schema-registry list --namespace-name
                                                 --resource-group
@@ -104,11 +113,13 @@ directCommands:
   - name: --top
     summary: May be used to limit the number of results to the most recent N usageDetails. Default value is None.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_schema-registry_show
   name: az eventhubs namespace schema-registry show
   summary: Get a specific schema group from an EventHub namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace schema-registry show [--ids]
                                                 [--name]
@@ -134,7 +145,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 commands:
 - az_eventhubs_namespace_schema-registry_create
 - az_eventhubs_namespace_schema-registry_delete

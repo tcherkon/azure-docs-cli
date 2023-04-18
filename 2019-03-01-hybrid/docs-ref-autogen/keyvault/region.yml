@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **keyvault-preview** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az keyvault region** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage MHSM multi-regions.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_keyvault_region_add
   name: az keyvault region add
   summary: Add regions for the managed HSM Pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'keyvault region' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az keyvault region add --hsm-name
                            --region
@@ -41,6 +49,10 @@ directCommands:
   name: az keyvault region list
   summary: Get regions information associated with the managed HSM Pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'keyvault region' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az keyvault region list --hsm-name
                             [--resource-group]
@@ -57,6 +69,10 @@ directCommands:
   name: az keyvault region remove
   summary: Remove regions for the managed HSM Pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'keyvault region' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az keyvault region remove --hsm-name
                               --region
@@ -86,6 +102,10 @@ directCommands:
   name: az keyvault region wait
   summary: Place the CLI in a waiting state until a condition of the HSM is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'keyvault region' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az keyvault region wait --hsm-name
                             [--created]

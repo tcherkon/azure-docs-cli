@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **notification-hub** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az notification-hub** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Notification Hubs.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_notification-hub_check-availability
   name: az notification-hub check-availability
   summary: Check the availability of the given notificationHub in a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub check-availability --name
                                            --namespace-name
@@ -39,6 +47,10 @@ directCommands:
   name: az notification-hub create
   summary: Create a NotificationHub in a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub create --location
                                --name
@@ -80,6 +92,10 @@ directCommands:
   name: az notification-hub delete
   summary: Delete a notification hub associated with a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub delete [--ids]
                                [--name]
@@ -117,6 +133,10 @@ directCommands:
   name: az notification-hub list
   summary: List the notification hubs associated with a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub list --namespace-name
                              --resource-group
@@ -136,6 +156,10 @@ directCommands:
   name: az notification-hub show
   summary: Show the notification hub information.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub show [--ids]
                              [--name]
@@ -168,6 +192,10 @@ directCommands:
   name: az notification-hub test-send
   summary: Test send a push notification.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub test-send --namespace-name
                                   --notification-format {apple, baidu, gcm, template, windows, windowsphone}
@@ -234,6 +262,10 @@ directCommands:
   name: az notification-hub update
   summary: Update a Notification Hub in a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub update --name
                                --namespace-name

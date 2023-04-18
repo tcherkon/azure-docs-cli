@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du account private-endpoint-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Device Update account private endpoint connection management.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_account_private-endpoint-connection_delete
   name: az iot du account private-endpoint-connection delete
   summary: Delete a private endpoint connection associated with a Device Update account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account private-endpoint-connection delete --account
                                                          --cn
@@ -41,6 +45,8 @@ directCommands:
   name: az iot du account private-endpoint-connection list
   summary: List private endpoint connections associated with a Device Update account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account private-endpoint-connection list --account
                                                        [--resource-group]
@@ -60,6 +66,8 @@ directCommands:
   name: az iot du account private-endpoint-connection set
   summary: Set the state of a private endpoint connection associated with a Device Update account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account private-endpoint-connection set --account
                                                       --cn
@@ -94,6 +102,8 @@ directCommands:
   name: az iot du account private-endpoint-connection show
   summary: Show a private endpoint connection associated with a Device Update account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du account private-endpoint-connection show --account
                                                        --cn

@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **sentinel** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az sentinel bookmark relation** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage bookmark relation with sentinel.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sentinel_bookmark_relation_create
   name: az sentinel bookmark relation create
   summary: Create the bookmark relation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel bookmark relation create --bookmark-id
                                          --name
@@ -47,6 +53,10 @@ directCommands:
   name: az sentinel bookmark relation delete
   summary: Delete the bookmark relation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel bookmark relation delete [--bookmark-id]
                                          [--ids]
@@ -82,6 +92,10 @@ directCommands:
   name: az sentinel bookmark relation list
   summary: Get all bookmark relations.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel bookmark relation list --bookmark-id
                                        --resource-group
@@ -120,6 +134,10 @@ directCommands:
   name: az sentinel bookmark relation show
   summary: Get a bookmark relation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel bookmark relation show [--bookmark-id]
                                        [--ids]
@@ -150,6 +168,10 @@ directCommands:
   name: az sentinel bookmark relation update
   summary: Update the bookmark relation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel bookmark relation update [--add]
                                          [--bookmark-id]

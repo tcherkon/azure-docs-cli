@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto private-link-resource** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage private link resource with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_private-link-resource_list
   name: az kusto private-link-resource list
   summary: Returns the list of private link resources.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-link-resource list --cluster-name
                                         --resource-group
@@ -31,6 +39,10 @@ directCommands:
   name: az kusto private-link-resource show
   summary: Gets a private link resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-link-resource show [--cluster-name]
                                         [--ids]

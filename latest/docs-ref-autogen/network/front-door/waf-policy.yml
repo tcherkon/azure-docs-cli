@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door waf-policy** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage WebApplication Firewall (WAF) policies.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_waf-policy_create
   name: az network front-door waf-policy create
   summary: Create a WAF policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door waf-policy create --name
                                             --resource-group
@@ -66,6 +70,8 @@ directCommands:
   name: az network front-door waf-policy delete
   summary: Delete a WAF policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door waf-policy delete [--ids]
                                             [--name]
@@ -88,6 +94,8 @@ directCommands:
   name: az network front-door waf-policy list
   summary: List WAF policies.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network front-door waf-policy list --resource-group
   requiredParameters:
   - isRequired: true
@@ -98,6 +106,8 @@ directCommands:
   name: az network front-door waf-policy show
   summary: Get the details of a WAF policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door waf-policy show [--ids]
                                           [--name]
@@ -120,6 +130,8 @@ directCommands:
   name: az network front-door waf-policy update
   summary: Update settings of a WAF policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door waf-policy update [--add]
                                             [--custom-block-response-body]

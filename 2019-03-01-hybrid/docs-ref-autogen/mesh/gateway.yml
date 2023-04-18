@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mesh** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az mesh gateway** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage gateway resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mesh_gateway_delete
   name: az mesh gateway delete
   summary: Delete a gateway resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh gateway delete --name
                            --resource-group
@@ -34,6 +38,8 @@ directCommands:
   name: az mesh gateway list
   summary: List gateway resources.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az mesh gateway list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -43,6 +49,8 @@ directCommands:
   name: az mesh gateway show
   summary: Get the details of a gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh gateway show --name
                          --resource-group

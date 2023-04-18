@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **sentinel** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az sentinel alert-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage alert rule with sentinel.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sentinel_alert-rule_create
   name: az sentinel alert-rule create
   summary: Create the alert rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel alert-rule create --name
                                   --resource-group
@@ -28,6 +34,7 @@ directCommands:
     name: --name --rule-name -n
     summary: Name of alert rule.
     description: ''
+    isExperimental: true
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
@@ -36,6 +43,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --etag
     summary: Etag of the azure resource.
@@ -49,6 +57,7 @@ directCommands:
   - name: --ms-security-incident
     summary: Microsoft security incident creation.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
     description: ''
+    isExperimental: true
   - name: --nrt
     summary: Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
     description: ''
@@ -62,6 +71,10 @@ directCommands:
   name: az sentinel alert-rule delete
   summary: Delete the alert rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel alert-rule delete [--ids]
                                   [--name]
@@ -76,6 +89,7 @@ directCommands:
   - name: --name --rule-name -n
     summary: Name of alert rule.
     description: ''
+    isExperimental: true
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
@@ -85,6 +99,7 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   - name: --yes -y
     defaultValue: "False"
     summary: Do not prompt for confirmation.
@@ -93,6 +108,10 @@ directCommands:
   name: az sentinel alert-rule list
   summary: Get all alert rules.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel alert-rule list --resource-group
                                 --workspace-name
@@ -105,10 +124,15 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 - uid: az_sentinel_alert-rule_show
   name: az sentinel alert-rule show
   summary: Get the alert rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel alert-rule show [--ids]
                                 [--name]
@@ -122,6 +146,7 @@ directCommands:
   - name: --name --rule-name -n
     summary: Name of alert rule.
     description: ''
+    isExperimental: true
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
@@ -131,10 +156,15 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 - uid: az_sentinel_alert-rule_update
   name: az sentinel alert-rule update
   summary: Update the alert rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel alert-rule update [--add]
                                   [--etag]
@@ -175,9 +205,11 @@ directCommands:
   - name: --ms-security-incident
     summary: Microsoft security incident creation.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
     description: ''
+    isExperimental: true
   - name: --name --rule-name -n
     summary: Name of alert rule.
     description: ''
+    isExperimental: true
   - name: --nrt
     summary: Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
     description: ''
@@ -202,6 +234,7 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 commands:
 - az_sentinel_alert-rule_action
 - az_sentinel_alert-rule_action_create

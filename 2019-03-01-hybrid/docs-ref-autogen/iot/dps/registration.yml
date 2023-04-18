@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot dps registration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage device registrations for an enrollment group in an Azure IoT Hub Device Provisioning Service.
 description: ''
+status: Deprecated
+isDeprecated: true
+deprecateInfo: This command group has been deprecated and will be removed in a future release. Use 'iot dps enrollment-group registration' instead.
+sourceType: Extension
 directCommands:
 - uid: az_iot_dps_registration_delete
   name: az iot dps registration delete
   summary: Delete a device registration in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'iot dps registration' is deprecated and will be removed in a future release. Use 'iot dps enrollment-group registration' instead.
+  sourceType: Extension
   syntax: >-
     az iot dps registration delete --registration-id
                                    [--auth-type {key, login}]
@@ -46,6 +54,10 @@ directCommands:
   name: az iot dps registration list
   summary: List device registrations for an enrollment group in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'iot dps registration' is deprecated and will be removed in a future release. Use 'iot dps enrollment-group registration' instead.
+  sourceType: Extension
   syntax: >-
     az iot dps registration list --eid
                                  [--auth-type {key, login}]
@@ -76,6 +88,10 @@ directCommands:
   name: az iot dps registration show
   summary: Get a device registration for an enrollment group in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'iot dps registration' is deprecated and will be removed in a future release. Use 'iot dps enrollment-group registration' instead.
+  sourceType: Extension
   syntax: >-
     az iot dps registration show --registration-id
                                  [--auth-type {key, login}]

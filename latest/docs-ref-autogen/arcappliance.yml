@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcappliance** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az arcappliance** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage an Appliance resource.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_arcappliance_get-credentials
   name: az arcappliance get-credentials
   summary: Command to get credentials.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance get-credentials --name
                                     --resource-group
@@ -31,6 +39,10 @@ directCommands:
   name: az arcappliance list
   summary: Command to list Appliances.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az arcappliance list [--resource-group]
   examples:
   - summary: Command to list Appliances in a resource group in the current subscription context.
@@ -43,6 +55,10 @@ directCommands:
   name: az arcappliance notice
   summary: Command to display the EULA & Notice File link for Arc Resource Bridge.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az arcappliance notice
   examples:
   - summary: Displays the EULA & Notice File link for Arc Resource Bridge.
@@ -51,6 +67,10 @@ directCommands:
   name: az arcappliance show
   summary: Command to get an Appliance resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance show --name
                          --resource-group

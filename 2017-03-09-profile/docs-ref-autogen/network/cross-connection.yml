@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **express-route-cross-connection** extension for the Azure CLI  (version 2.0.41 or higher).  The extension will automatically install the first time you run an **az network cross-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage customers' ExpressRoute circuits.
 description: To learn more about ExpressRoute circuits visit https://docs.microsoft.com/en-us/azure/expressroute/howto-circuit-cli.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_cross-connection_list
   name: az network cross-connection list
   summary: List all ExpressRoute cross-connections for the current subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network cross-connection list [--resource-group]
   examples:
   - summary: List all ExpressRoute cross-connections for the current subscription.
@@ -24,6 +28,8 @@ directCommands:
   name: az network cross-connection list-arp-tables
   summary: Show the current Address Resolution Protocol (ARP) table of an ExpressRoute cross-connection peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection list-arp-tables --path {primary, secondary}
                                                 --peering-name
@@ -63,6 +69,8 @@ directCommands:
   name: az network cross-connection list-route-tables
   summary: Show the current routing table of an ExpressRoute cross-connection peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection list-route-tables --path {primary, secondary}
                                                   --peering-name
@@ -102,6 +110,8 @@ directCommands:
   name: az network cross-connection show
   summary: Get the details of an ExpressRoute cross-connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection show [--ids]
                                      [--name]
@@ -127,6 +137,8 @@ directCommands:
   name: az network cross-connection summarize-route-table
   summary: Gets the route table summary associated with the express route cross connection in a resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection summarize-route-table --path {primary, secondary}
                                                       --peering-name
@@ -161,6 +173,8 @@ directCommands:
   name: az network cross-connection update
   summary: Update settings of an ExpressRoute cross-connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection update [--add]
                                        [--force-string]
@@ -217,6 +231,8 @@ directCommands:
   name: az network cross-connection wait
   summary: Place the CLI in a waiting state until a condition of the ExpressRoute is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection wait [--created]
                                      [--custom]

@@ -3,11 +3,16 @@ uid: az_storage_directory_metadata
 name: az storage directory metadata
 summary: Manage file storage directory metadata.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_storage_directory_metadata_show
   name: az storage directory metadata show
   summary: Get all user-defined metadata for the specified directory.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage directory metadata show --name
                                        --share-name
@@ -45,11 +50,13 @@ directCommands:
   - name: --timeout
     summary: Request timeout in seconds. Applies to each call to the service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_directory_metadata_update
   name: az storage directory metadata update
   summary: Set one or more user-defined name-value pairs for the specified directory.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage directory metadata update --name
                                          --share-name
@@ -87,7 +94,6 @@ directCommands:
   - name: --timeout
     summary: Request timeout in seconds. Applies to each call to the service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 commands:
 - az_storage_directory_metadata_show
 - az_storage_directory_metadata_update

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **application-insights** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az monitor app-insights web-test** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage web test with application insights.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_app-insights_web-test_create
   name: az monitor app-insights web-test create
   summary: Create an Application Insights web test definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights web-test create --name
                                             --resource-group
@@ -162,6 +166,8 @@ directCommands:
   name: az monitor app-insights web-test delete
   summary: Delete an Application Insights web test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights web-test delete --name
                                             --resource-group
@@ -187,6 +193,8 @@ directCommands:
   name: az monitor app-insights web-test list
   summary: Get all Application Insights web tests defined for the specified component. And Get all Application Insights web tests defined within a specified resource group. And Get all Application Insights web test alerts definitions within a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights web-test list [--component-name]
                                           [--resource-group]
@@ -208,6 +216,8 @@ directCommands:
   name: az monitor app-insights web-test show
   summary: Get a specific Application Insights web test definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights web-test show --name
                                           --resource-group
@@ -227,6 +237,8 @@ directCommands:
   name: az monitor app-insights web-test update
   summary: Update an Application Insights web test definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights web-test update --name
                                             --resource-group

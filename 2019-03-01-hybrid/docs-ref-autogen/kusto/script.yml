@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto script** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage script with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_script_create
   name: az kusto script create
   summary: Creates a Kusto database script.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto script create --cluster-name
                            --database-name
@@ -68,6 +76,10 @@ directCommands:
   name: az kusto script delete
   summary: Deletes a Kusto principalAssignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto script delete [--cluster-name]
                            [--database-name]
@@ -111,6 +123,10 @@ directCommands:
   name: az kusto script list
   summary: Returns the list of database scripts for given database.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto script list --cluster-name
                          --database-name
@@ -135,6 +151,10 @@ directCommands:
   name: az kusto script show
   summary: Gets a Kusto cluster database script.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto script show [--cluster-name]
                          [--database-name]
@@ -168,6 +188,10 @@ directCommands:
   name: az kusto script update
   summary: Updates a database script.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto script update [--cluster-name]
                            [--continue-on-errors {false, true}]
@@ -227,6 +251,10 @@ directCommands:
   name: az kusto script wait
   summary: Place the CLI in a waiting state until a condition of the kusto script is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto script wait [--cluster-name]
                          [--created]

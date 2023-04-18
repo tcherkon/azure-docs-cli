@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml environment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage environments.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_environment_download
   name: az ml environment download
   summary: Download an environment definition to a specified directory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment download --directory
                                --name
@@ -59,6 +63,8 @@ directCommands:
   name: az ml environment list
   summary: List environments in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment list [--output-metadata-file]
                            [--path]
@@ -86,6 +92,8 @@ directCommands:
   name: az ml environment register
   summary: Register an environment definition from a specified directory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment register --directory
                                [--output-metadata-file]
@@ -119,6 +127,8 @@ directCommands:
   name: az ml environment scaffold
   summary: Scaffold the files for a default environment definition in the specified directory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment scaffold --directory
                                --name
@@ -157,6 +167,8 @@ directCommands:
   name: az ml environment show
   summary: Show an environment by name and optionally version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment show --name
                            [--output-metadata-file]

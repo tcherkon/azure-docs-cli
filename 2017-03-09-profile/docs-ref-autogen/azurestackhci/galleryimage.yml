@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azurestackhci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az azurestackhci galleryimage** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Please use 'az azurestackhci image' instead of 'az azurestackhci galleryimage'.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_azurestackhci_galleryimage_create
   name: az azurestackhci galleryimage create
   summary: Please use 'az azurestackhci image create' instead of 'az azurestackhci galleryimage create'.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci galleryimage create --name
                                          --resource-group
@@ -75,6 +83,10 @@ directCommands:
   name: az azurestackhci galleryimage delete
   summary: Please use 'az azurestackhci image delete' instead of 'az azurestackhci galleryimage delete'.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci galleryimage delete [--ids]
                                          [--name]
@@ -102,6 +114,10 @@ directCommands:
   name: az azurestackhci galleryimage list
   summary: Please use 'az azurestackhci image list' instead of 'az azurestackhci galleryimage list'.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az azurestackhci galleryimage list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -111,6 +127,10 @@ directCommands:
   name: az azurestackhci galleryimage show
   summary: Please use 'az azurestackhci image show' instead of 'az azurestackhci galleryimage show'.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci galleryimage show [--ids]
                                        [--name]
@@ -133,6 +153,10 @@ directCommands:
   name: az azurestackhci galleryimage update
   summary: Please use 'az azurestackhci image update' instead of 'az azurestackhci galleryimage update'.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci galleryimage update [--ids]
                                          [--name]

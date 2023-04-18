@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto data-connection event-grid** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage data connection with kusto sub group event-grid.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_data-connection_event-grid_create
   name: az kusto data-connection event-grid create
   summary: Create a data connection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection event-grid create --cluster-name
                                                --data-connection-name
@@ -96,6 +104,10 @@ directCommands:
   name: az kusto data-connection event-grid data-connection-validation
   summary: Checks that the data connection parameters are valid.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection event-grid data-connection-validation [--blob-storage-event-type {Microsoft.Storage.BlobCreated, Microsoft.Storage.BlobRenamed}]
                                                                    [--cluster-name]
@@ -183,6 +195,10 @@ directCommands:
   name: az kusto data-connection event-grid update
   summary: Updates a data connection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection event-grid update [--blob-storage-event-type {Microsoft.Storage.BlobCreated, Microsoft.Storage.BlobRenamed}]
                                                [--cluster-name]

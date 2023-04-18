@@ -3,6 +3,8 @@ uid: az_eventhubs
 name: az eventhubs
 summary: Manage Azure Event Hubs namespaces, eventhubs, consumergroups and geo recovery configurations - Alias.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_eventhubs_cluster
 - az_eventhubs_cluster_available-region

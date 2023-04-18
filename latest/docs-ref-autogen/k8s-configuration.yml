@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **k8s-configuration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az k8s-configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage resources from Microsoft.KubernetesConfiguration.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_k8s-configuration_create
   name: az k8s-configuration create
   summary: Create a Flux v1 Kubernetes configuration (This command is for Flux v1, to use the newer Flux v2, run "az k8s-configuration flux create").
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'k8s-configuration flux create' instead.
+  sourceType: Extension
   syntax: >-
     az k8s-configuration create --cluster-name
                                 --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -123,6 +129,10 @@ directCommands:
   name: az k8s-configuration delete
   summary: Delete a Flux v1 Kubernetes configuration (This command is for Flux v1, to use the newer Flux v2, run "az k8s-configuration flux delete").
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'k8s-configuration flux delete' instead.
+  sourceType: Extension
   syntax: >-
     az k8s-configuration delete --cluster-name
                                 --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -162,6 +172,10 @@ directCommands:
   name: az k8s-configuration list
   summary: List Flux v1 Kubernetes configurations (This command is for Flux v1, to use the newer Flux v2, run "az k8s-configuration flux list").
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'k8s-configuration flux list' instead.
+  sourceType: Extension
   syntax: >-
     az k8s-configuration list --cluster-name
                               --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -190,6 +204,10 @@ directCommands:
   name: az k8s-configuration show
   summary: Show details of a Flux v1 Kubernetes configuration (This command is for Flux v1, to use the newer Flux v2, run "az k8s-configuration flux show").
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'k8s-configuration flux show' instead.
+  sourceType: Extension
   syntax: >-
     az k8s-configuration show --cluster-name
                               --cluster-type {connectedClusters, managedClusters, provisionedClusters}

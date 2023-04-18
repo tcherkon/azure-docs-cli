@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub device-identity children** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage children device relationships for IoT edge devices.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_device-identity_children_add
   name: az iot hub device-identity children add
   summary: Add devices as children to a target edge device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity children add --child-list
                                             --device-id
@@ -57,6 +61,8 @@ directCommands:
   name: az iot hub device-identity children list
   summary: Outputs the collection of assigned child devices.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity children list --device-id
                                              [--auth-type {key, login}]
@@ -92,6 +98,8 @@ directCommands:
   name: az iot hub device-identity children remove
   summary: Remove child devices from a target edge device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity children remove --device-id
                                                [--auth-type {key, login}]

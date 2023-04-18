@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection backup-policy retention-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Create lifecycles and add or remove retention rules in a backup policy.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_backup-policy_retention-rule_create-lifecycle
   name: az dataprotection backup-policy retention-rule create-lifecycle
   summary: Create lifecycle for Azure Retention rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy retention-rule create-lifecycle --count
                                                                     --retention-duration-type {Days, Months, Weeks, Years}
@@ -49,6 +57,10 @@ directCommands:
   name: az dataprotection backup-policy retention-rule remove
   summary: Remove existing retention rule in a backup policy.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy retention-rule remove --name {Daily, Default, Monthly, Weekly, Yearly}
                                                           --policy
@@ -69,6 +81,10 @@ directCommands:
   name: az dataprotection backup-policy retention-rule set
   summary: Add new retention rule or update existing retention rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy retention-rule set --lifecycles
                                                        --name {Daily, Default, Monthly, Weekly, Yearly}

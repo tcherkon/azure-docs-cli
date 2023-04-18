@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **cosmosdb-preview** extension for the Azure CLI  (version 2.17.1 or higher).  The extension will automatically install the first time you run an **az cosmosdb service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to perform operations on Service.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_cosmosdb_service_create
   name: az cosmosdb service create
   summary: Create a cosmosdb service resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb service' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb service create --account-name
                                --kind
@@ -59,6 +67,10 @@ directCommands:
   name: az cosmosdb service delete
   summary: Delete the given cosmosdb service resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb service' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb service delete --account-name
                                --name
@@ -96,6 +108,10 @@ directCommands:
   name: az cosmosdb service list
   summary: List all cosmosdb service resource under an account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb service' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb service list --account-name
                              --resource-group-name
@@ -115,6 +131,10 @@ directCommands:
   name: az cosmosdb service show
   summary: Get cosmosdb service resource under an account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb service' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb service show --account-name
                              --name
@@ -139,6 +159,10 @@ directCommands:
   name: az cosmosdb service update
   summary: Update a cosmosdb service resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb service' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb service update --account-name
                                --count

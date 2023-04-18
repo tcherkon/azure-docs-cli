@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **stream-analytics** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az stream-analytics cluster** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cluster with stream analytics.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_stream-analytics_cluster_create
   name: az stream-analytics cluster create
   summary: Create a Stream Analytics Cluster or replaces an already existing cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics cluster create --cluster-name
                                        --resource-group
@@ -63,6 +71,10 @@ directCommands:
   name: az stream-analytics cluster delete
   summary: Delete the specified cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics cluster delete [--cluster-name]
                                        [--ids]
@@ -98,6 +110,10 @@ directCommands:
   name: az stream-analytics cluster list
   summary: List all of the clusters in the given resource group. And Lists all of the clusters in the given subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az stream-analytics cluster list [--resource-group]
   examples:
   - summary: List clusters in resource group
@@ -112,6 +128,10 @@ directCommands:
   name: az stream-analytics cluster list-streaming-job
   summary: List all of the streaming jobs in the given cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics cluster list-streaming-job --cluster-name
                                                    --resource-group
@@ -131,6 +151,10 @@ directCommands:
   name: az stream-analytics cluster show
   summary: Get information about the specified cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics cluster show [--cluster-name]
                                      [--ids]
@@ -156,6 +180,10 @@ directCommands:
   name: az stream-analytics cluster update
   summary: Update an existing cluster. This can be used to partially update (ie. update one or two properties) a cluster without affecting the rest of the cluster definition.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics cluster update [--cluster-name]
                                        [--ids]
@@ -208,6 +236,10 @@ directCommands:
   name: az stream-analytics cluster wait
   summary: Place the CLI in a waiting state until a condition of the stream-analytics cluster is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics cluster wait [--cluster-name]
                                      [--created]

@@ -3,11 +3,15 @@ uid: az_mysql_server_private-link-resource
 name: az mysql server private-link-resource
 summary: Manage MySQL server private link resources.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_server_private-link-resource_list
   name: az mysql server private-link-resource list
   summary: List the private link resources supported for a MySQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server private-link-resource list [--ids]
                                                [--resource-group]

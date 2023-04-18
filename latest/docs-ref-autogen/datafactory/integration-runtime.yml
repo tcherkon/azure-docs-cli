@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory integration-runtime** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage integration runtime with datafactory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_integration-runtime_delete
   name: az datafactory integration-runtime delete
   summary: Deletes an integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime delete [--factory-name]
                                               [--ids]
@@ -46,6 +50,8 @@ directCommands:
   name: az datafactory integration-runtime get-connection-info
   summary: Gets the on-premises integration runtime connection information for encrypting the on-premises data source credentials.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime get-connection-info [--factory-name]
                                                            [--ids]
@@ -75,6 +81,8 @@ directCommands:
   name: az datafactory integration-runtime get-monitoring-data
   summary: Get the integration runtime monitoring data, which includes the monitor data for all the nodes under this integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime get-monitoring-data [--factory-name]
                                                            [--ids]
@@ -104,6 +112,8 @@ directCommands:
   name: az datafactory integration-runtime get-status
   summary: Gets detailed status information for an integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime get-status [--factory-name]
                                                   [--ids]
@@ -133,6 +143,8 @@ directCommands:
   name: az datafactory integration-runtime list
   summary: Lists integration runtimes.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime list --factory-name
                                             --resource-group
@@ -152,6 +164,8 @@ directCommands:
   name: az datafactory integration-runtime list-auth-key
   summary: Retrieves the authentication keys for an integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime list-auth-key --factory-name
                                                      --integration-runtime-name
@@ -176,6 +190,8 @@ directCommands:
   name: az datafactory integration-runtime regenerate-auth-key
   summary: Regenerates the authentication key for an integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime regenerate-auth-key [--factory-name]
                                                            [--ids]
@@ -210,6 +226,8 @@ directCommands:
   name: az datafactory integration-runtime remove-link
   summary: Remove all linked integration runtimes under specific data factory in a self-hosted integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime remove-link --linked-factory-name
                                                    [--factory-name]
@@ -245,6 +263,8 @@ directCommands:
   name: az datafactory integration-runtime show
   summary: Gets an integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime show [--factory-name]
                                             [--ids]
@@ -278,6 +298,8 @@ directCommands:
   name: az datafactory integration-runtime start
   summary: Starts a ManagedReserved type integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime start [--factory-name]
                                              [--ids]
@@ -312,6 +334,8 @@ directCommands:
   name: az datafactory integration-runtime stop
   summary: Stops a ManagedReserved type integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime stop [--factory-name]
                                             [--ids]
@@ -346,6 +370,8 @@ directCommands:
   name: az datafactory integration-runtime sync-credentials
   summary: Force the integration runtime to synchronize credentials across integration runtime nodes, and this will override the credentials across all worker nodes with those available on the dispatcher node. If you already have the latest credential backup file, you should manually import it (preferred) on any self-hosted integration runtime node than using this API directly.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime sync-credentials [--factory-name]
                                                         [--ids]
@@ -375,6 +401,8 @@ directCommands:
   name: az datafactory integration-runtime update
   summary: Updates an integration runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime update [--auto-update {Off, On}]
                                               [--factory-name]
@@ -413,6 +441,8 @@ directCommands:
   name: az datafactory integration-runtime upgrade
   summary: Upgrade self-hosted integration runtime to latest version if availability.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime upgrade [--factory-name]
                                                [--ids]
@@ -442,6 +472,8 @@ directCommands:
   name: az datafactory integration-runtime wait
   summary: Place the CLI in a waiting state until a condition of the datafactory integration-runtime is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory integration-runtime wait [--created]
                                             [--custom]

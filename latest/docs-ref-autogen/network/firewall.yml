@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-firewall** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az network firewall** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Azure Firewalls.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_create
   name: az network firewall create
   summary: Create an Azure Firewall.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall create --name
                                --resource-group
@@ -127,6 +131,8 @@ directCommands:
   name: az network firewall delete
   summary: Delete an Azure Firewall.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall delete [--ids]
                                [--name]
@@ -149,6 +155,8 @@ directCommands:
   name: az network firewall list
   summary: List Azure Firewalls.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network firewall list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -158,11 +166,15 @@ directCommands:
   name: az network firewall list-fqdn-tags
   summary: Gets all the Azure Firewall FQDN Tags in a subscription.
   description: ':keyword api_version: Api Version. Default value is "2021-08-01". Note that overriding this  default value may result in unsupported behavior. :paramtype api_version: str :keyword callable cls: A custom type or function that will be passed the direct response :return: An iterator like instance of either AzureFirewallFqdnTagListResult or the result of  cls(response) :rtype:  ~azure.core.paging.ItemPaged[~azure.mgmt.network.v2021_08_01.models.AzureFirewallFqdnTagListResult] :raises: ~azure.core.exceptions.HttpResponseError.'
+  status: GA
+  sourceType: Extension
   syntax: az network firewall list-fqdn-tags
 - uid: az_network_firewall_show
   name: az network firewall show
   summary: Get the details of an Azure Firewall.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall show [--ids]
                              [--name]
@@ -185,6 +197,8 @@ directCommands:
   name: az network firewall update
   summary: Update an Azure Firewall.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall update [--add]
                                [--allow-active-ftp {false, true}]

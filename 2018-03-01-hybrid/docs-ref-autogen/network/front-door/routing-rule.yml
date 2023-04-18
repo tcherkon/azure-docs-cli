@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door routing-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Front Door routing rules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_routing-rule_create
   name: az network front-door routing-rule create
@@ -19,6 +21,8 @@ directCommands:
 
 
     Example 2: az network front-door routing-rule create -f frontdoor1 -g rg1 --frontend-endpoints DefaultFrontendEndpoint --route-type Redirect --custom-host redirecthost.com -n redirectRouteRule1 --patterns /redirect1 --custom-query-string querystring.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door routing-rule create --front-door-name
                                               --frontend-endpoints
@@ -133,6 +137,8 @@ directCommands:
   name: az network front-door routing-rule delete
   summary: Delete a Front Door routing rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door routing-rule delete --front-door-name
                                               --name
@@ -154,6 +160,8 @@ directCommands:
   name: az network front-door routing-rule list
   summary: List Front Door routing rules.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door routing-rule list --front-door-name
                                             --resource-group
@@ -170,6 +178,8 @@ directCommands:
   name: az network front-door routing-rule show
   summary: Get the details of a Front Door routing rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door routing-rule show --front-door-name
                                             --name
@@ -191,6 +201,8 @@ directCommands:
   name: az network front-door routing-rule update
   summary: Update a Front Door routing rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door routing-rule update --front-door-name
                                               --name

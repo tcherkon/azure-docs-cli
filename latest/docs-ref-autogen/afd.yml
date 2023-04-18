@@ -3,6 +3,10 @@ uid: az_afd
 name: az afd
 summary: Manage Azure Front Door Standard/Premium. For classical Azure Front Door, please refer https://docs.microsoft.com/en-us/cli/azure/network/front-door?view=azure-cli-latest.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Core
 commands:
 - az_afd_custom-domain
 - az_afd_custom-domain_create

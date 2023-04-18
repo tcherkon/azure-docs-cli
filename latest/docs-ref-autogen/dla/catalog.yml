@@ -3,6 +3,10 @@ uid: az_dla_catalog
 name: az dla catalog
 summary: Manage Data Lake Analytics catalogs.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'dla' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Core
 commands:
 - az_dla_catalog_assembly
 - az_dla_catalog_assembly_list

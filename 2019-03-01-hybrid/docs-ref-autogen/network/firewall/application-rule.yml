@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-firewall** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az network firewall application-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Azure Firewall application rules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_application-rule_create
   name: az network firewall application-rule create
   summary: Create an Azure Firewall application rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall application-rule create --collection-name
                                                 --firewall-name
@@ -73,6 +77,8 @@ directCommands:
   name: az network firewall application-rule delete
   summary: Delete an Azure Firewall application rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall application-rule delete [--collection-name]
                                                 [--firewall-name]
@@ -103,6 +109,8 @@ directCommands:
   name: az network firewall application-rule list
   summary: List Azure Firewall application rules.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall application-rule list --collection-name
                                               --firewall-name
@@ -124,6 +132,8 @@ directCommands:
   name: az network firewall application-rule show
   summary: Get the details of an Azure Firewall application rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall application-rule show [--collection-name]
                                               [--firewall-name]

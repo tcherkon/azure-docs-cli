@@ -3,11 +3,15 @@ uid: az_image
 name: az image
 summary: Manage custom virtual machine images.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_image_copy
   name: az image copy
   summary: Copy a managed image (or vm) to other regions. It requires the source disk to be available.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az image copy --source-object-name
                   --source-resource-group
@@ -87,6 +91,8 @@ directCommands:
   name: az image create
   summary: Create a custom Virtual Machine Image from managed disks or snapshots.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az image create --name
                     --resource-group
@@ -153,6 +159,8 @@ directCommands:
   name: az image delete
   summary: Deletes an Image.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az image delete [--ids]
                     [--name]
@@ -175,6 +183,8 @@ directCommands:
   name: az image list
   summary: List custom VM images.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az image list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -184,6 +194,8 @@ directCommands:
   name: az image show
   summary: Gets an image.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az image show [--expand]
                   [--ids]
@@ -210,6 +222,8 @@ directCommands:
   name: az image update
   summary: Update custom VM images.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az image update [--add]
                     [--force-string]

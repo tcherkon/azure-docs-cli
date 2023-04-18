@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datamigration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datamigration sql-db** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage database migrations to SQL DB.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datamigration_sql-db_cancel
   name: az datamigration sql-db cancel
   summary: Stop in-progress database migration to SQL DB.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-db cancel --migration-operation-id
                                    [--ids]
@@ -52,6 +56,8 @@ directCommands:
   name: az datamigration sql-db create
   summary: Create a new database migration to a given SQL DB.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-db create --resource-group
                                    --sqldb-instance-name
@@ -140,6 +146,8 @@ directCommands:
   name: az datamigration sql-db delete
   summary: Delete an in-progress or completed database migration to SQL DB.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-db delete [--force {false, true}]
                                    [--ids]
@@ -184,6 +192,8 @@ directCommands:
   name: az datamigration sql-db show
   summary: Retrieve the specified database migration for a given SQL DB.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-db show [--expand]
                                  [--ids]
@@ -223,6 +233,8 @@ directCommands:
   name: az datamigration sql-db wait
   summary: Place the CLI in a waiting state until a condition of the datamigration sql-db is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-db wait [--created]
                                  [--custom]

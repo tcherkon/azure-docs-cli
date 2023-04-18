@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **arcdata** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az sql server-arc backups-policy** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Backups Policy.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sql_server-arc_backups-policy_set
   name: az sql server-arc backups-policy set
   summary: Set your Backups Policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql server-arc backups-policy set --name
                                          --resource-group
@@ -36,6 +40,8 @@ directCommands:
   name: az sql server-arc backups-policy show
   summary: See your current Backups Policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql server-arc backups-policy show --name
                                           --resource-group

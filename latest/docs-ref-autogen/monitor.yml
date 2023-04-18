@@ -3,11 +3,18 @@ uid: az_monitor
 name: az monitor
 summary: Manage the Azure Monitor Service.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_monitor_clone
   name: az monitor clone
   summary: Clone metrics alert rules from one resource to another resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/monitor/_help.py
   syntax: >-
     az monitor clone --source-resource
                      --target-resource
@@ -35,7 +42,6 @@ directCommands:
     parameterValueGroup: "metricsAlert"
     summary: List of types of monitor settings which would be cloned.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/monitor/_help.py
 commands:
 - az_monitor_action-group
 - az_monitor_action-group_create

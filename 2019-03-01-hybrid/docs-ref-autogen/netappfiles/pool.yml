@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **netappfiles-preview** extension for the Azure CLI  (version 2.0.56 or higher).  The extension will automatically install the first time you run an **az netappfiles pool** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure NetApp Files (ANF) Pool Resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_netappfiles_pool_create
   name: az netappfiles pool create
   summary: Create a new Azure NetApp Files (ANF) pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles pool create --account-name
                                --location
@@ -56,6 +60,8 @@ directCommands:
   name: az netappfiles pool delete
   summary: Delete the specified ANF pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles pool delete [--account-name]
                                [--ids]
@@ -85,6 +91,8 @@ directCommands:
   name: az netappfiles pool list
   summary: L:ist the ANF pools for the specified account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles pool list --account-name
                              --resource-group
@@ -104,6 +112,8 @@ directCommands:
   name: az netappfiles pool show
   summary: Get the specified ANF pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles pool show [--account-name]
                              [--ids]
@@ -133,6 +143,8 @@ directCommands:
   name: az netappfiles pool update
   summary: Update the tags of the specified ANF pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles pool update [--account-name]
                                [--add]

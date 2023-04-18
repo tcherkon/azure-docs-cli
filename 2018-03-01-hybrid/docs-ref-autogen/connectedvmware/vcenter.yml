@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedvmware** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az connectedvmware vcenter** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Vcenter resource.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedvmware_vcenter_connect
   name: az connectedvmware vcenter connect
   summary: Create vcenter resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vcenter connect --custom-location
                                        --location
@@ -73,6 +77,8 @@ directCommands:
   name: az connectedvmware vcenter delete
   summary: Delete vcenter resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vcenter delete [--force]
                                       [--ids]
@@ -113,6 +119,8 @@ directCommands:
   name: az connectedvmware vcenter list
   summary: Retrieve a list of vcenter resource of given resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az connectedvmware vcenter list [--resource-group]
   examples:
   - summary: Retrieve a list of vcenter resource
@@ -125,6 +133,8 @@ directCommands:
   name: az connectedvmware vcenter show
   summary: Get details of a vcenter resource by id, resource-group, vcenter name or subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vcenter show [--ids]
                                     [--name]

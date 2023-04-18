@@ -3,6 +3,8 @@ uid: az_network_dns
 name: az network dns
 summary: Manage DNS domains in Azure.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_network_dns_record-set
 - az_network_dns_record-set_a

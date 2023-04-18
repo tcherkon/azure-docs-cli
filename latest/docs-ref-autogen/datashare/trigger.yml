@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datashare** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datashare trigger** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage trigger with datashare.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_datashare_trigger_create
   name: az datashare trigger create
   summary: Create a Trigger.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare trigger create --account-name
                                 --name
@@ -61,6 +69,10 @@ directCommands:
   name: az datashare trigger delete
   summary: Delete a Trigger in a shareSubscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare trigger delete [--account-name]
                                 [--ids]
@@ -104,6 +116,10 @@ directCommands:
   name: az datashare trigger list
   summary: List Triggers in a share subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare trigger list --account-name
                               --resource-group
@@ -133,6 +149,10 @@ directCommands:
   name: az datashare trigger show
   summary: Get a Trigger in a shareSubscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare trigger show [--account-name]
                               [--ids]
@@ -166,6 +186,10 @@ directCommands:
   name: az datashare trigger wait
   summary: Place the CLI in a waiting state until a condition of the datashare trigger is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare trigger wait [--account-name]
                               [--created]

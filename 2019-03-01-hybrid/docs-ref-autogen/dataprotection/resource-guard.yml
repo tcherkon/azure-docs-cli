@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection resource-guard** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage resource guard with dataprotection.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_resource-guard_create
   name: az dataprotection resource-guard create
   summary: Creates or updates a ResourceGuard resource belonging to a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection resource-guard create --name
                                             --resource-group
@@ -48,6 +56,10 @@ directCommands:
   name: az dataprotection resource-guard delete
   summary: Deletes a ResourceGuard resource from the resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection resource-guard delete [--ids]
                                             [--name]
@@ -78,6 +90,10 @@ directCommands:
   name: az dataprotection resource-guard list
   summary: Gets list of ResourceGuards in a subscription or in a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az dataprotection resource-guard list [--resource-group]
   examples:
   - summary: List ResourceGuards in a subscription
@@ -92,6 +108,10 @@ directCommands:
   name: az dataprotection resource-guard list-protected-operations
   summary: Lists protected operations associated with a ResourceGuard .
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection resource-guard list-protected-operations --resource-type {Microsoft.RecoveryServices/vaults}
                                                                [--ids]
@@ -124,6 +144,10 @@ directCommands:
   name: az dataprotection resource-guard show
   summary: Returns a ResourceGuard belonging to a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection resource-guard show [--ids]
                                           [--name]
@@ -149,6 +173,10 @@ directCommands:
   name: az dataprotection resource-guard update
   summary: Updates protected operations associated with a ResourceGuard .
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection resource-guard update [--critical-operation-exclusion-list {deleteProtection, getSecurityPIN, updatePolicy, updateProtection}]
                                             [--ids]

@@ -3,6 +3,8 @@ uid: az_synapse_kusto
 name: az synapse kusto
 summary: Manage synapse kusto.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_synapse_kusto_attached-database-configuration
 - az_synapse_kusto_attached-database-configuration_create

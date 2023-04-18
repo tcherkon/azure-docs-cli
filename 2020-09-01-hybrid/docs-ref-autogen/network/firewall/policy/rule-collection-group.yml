@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-firewall** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az network firewall policy rule-collection-group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Azure firewall policy rule collection group.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_policy_rule-collection-group_create
   name: az network firewall policy rule-collection-group create
   summary: Create an Azure firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group create --name
                                                             --policy-name
@@ -38,6 +46,10 @@ directCommands:
   name: az network firewall policy rule-collection-group delete
   summary: Delete an Azure Firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group delete --name
                                                             --policy-name
@@ -59,6 +71,10 @@ directCommands:
   name: az network firewall policy rule-collection-group list
   summary: List all Azure firewall policy rule collection groups.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group list --policy-name
                                                           --resource-group
@@ -75,6 +91,10 @@ directCommands:
   name: az network firewall policy rule-collection-group show
   summary: Show an Azure firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group show --name
                                                           --policy-name
@@ -96,6 +116,10 @@ directCommands:
   name: az network firewall policy rule-collection-group update
   summary: Update an Azure firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group update --name
                                                             --policy-name

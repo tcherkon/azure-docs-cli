@@ -3,11 +3,15 @@ uid: az_postgres_server_configuration
 name: az postgres server configuration
 summary: Manage configuration values for a server.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_postgres_server_configuration_list
   name: az postgres server configuration list
   summary: List the configuration values for a server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres server configuration list [--ids]
                                           [--resource-group]
@@ -33,6 +37,8 @@ directCommands:
   name: az postgres server configuration set
   summary: Update the configuration of a server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres server configuration set [--ids]
                                          [--name]
@@ -68,6 +74,8 @@ directCommands:
   name: az postgres server configuration show
   summary: Get the configuration for a server.".
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres server configuration show [--ids]
                                           [--name]

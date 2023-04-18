@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **authV2** extension for the Azure CLI  (version 2.23.0 or higher).  The extension will automatically install the first time you run an **az webapp auth twitter** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage webapp authentication and authorization of the Twitter identity provider.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_webapp_auth_twitter_show
   name: az webapp auth twitter show
   summary: Show the authentication settings for the Twitter identity provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth twitter show [--ids]
                                 [--name]
@@ -41,6 +45,8 @@ directCommands:
   name: az webapp auth twitter update
   summary: Update the consumer key and consumer secret for the Twitter identity provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth twitter update [--consumer-key]
                                   [--consumer-secret]

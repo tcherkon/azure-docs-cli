@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub message-endpoint create** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Add an endpoint to an IoT Hub.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'iot hub message-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_message-endpoint_create_cosmosdb-container
   name: az iot hub message-endpoint create cosmosdb-container
   summary: Add a Cosmos DB Container endpoint for an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-endpoint create cosmosdb-container --container
                                                           --database-name
@@ -94,6 +102,10 @@ directCommands:
   name: az iot hub message-endpoint create eventhub
   summary: Add an Event Hub endpoint for an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-endpoint create eventhub --en
                                                 --hub-name
@@ -156,6 +168,10 @@ directCommands:
   name: az iot hub message-endpoint create servicebus-queue
   summary: Add a Service Bus Queue endpoint for an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-endpoint create servicebus-queue --en
                                                         --hub-name
@@ -218,6 +234,10 @@ directCommands:
   name: az iot hub message-endpoint create servicebus-topic
   summary: Add a Service Bus Topic endpoint for an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-endpoint create servicebus-topic --en
                                                         --hub-name
@@ -280,6 +300,10 @@ directCommands:
   name: az iot hub message-endpoint create storage-container
   summary: Add a Storage Container endpoint for an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-endpoint create storage-container --container
                                                          --en

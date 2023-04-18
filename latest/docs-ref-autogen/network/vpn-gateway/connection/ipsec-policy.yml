@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-wan** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network vpn-gateway connection ipsec-policy** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage site-to-site VPN gateway connection IPSec policies.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_vpn-gateway_connection_ipsec-policy_add
   name: az network vpn-gateway connection ipsec-policy add
   summary: Add an IPSec policy to a site-to-site VPN gateway connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-gateway connection ipsec-policy add --connection-name
                                                        --dh-group {DHGroup1, DHGroup14, DHGroup2, DHGroup2048, DHGroup24, ECP256, ECP384, None}
@@ -85,6 +89,8 @@ directCommands:
   name: az network vpn-gateway connection ipsec-policy list
   summary: List site-to-site VPN gateway connection IPSec policies.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-gateway connection ipsec-policy list --connection-name
                                                         --gateway-name
@@ -106,6 +112,8 @@ directCommands:
   name: az network vpn-gateway connection ipsec-policy remove
   summary: Remove an IPSec policy from a site-to-site VPN gateway connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-gateway connection ipsec-policy remove --connection-name
                                                           --gateway-name

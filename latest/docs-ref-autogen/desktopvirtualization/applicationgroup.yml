@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **desktopvirtualization** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az desktopvirtualization applicationgroup** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Desktopvirtualization applicationgroup.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_desktopvirtualization_applicationgroup_create
   name: az desktopvirtualization applicationgroup create
   summary: Create an applicationGroup.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization applicationgroup create --application-group-type {Desktop, RemoteApp}
                                                      --host-pool-arm-path
@@ -59,6 +63,8 @@ directCommands:
   name: az desktopvirtualization applicationgroup delete
   summary: Remove an applicationGroup.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization applicationgroup delete [--ids]
                                                      [--name]
@@ -84,6 +90,8 @@ directCommands:
   name: az desktopvirtualization applicationgroup list
   summary: List applicationGroups in subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization applicationgroup list [--filter]
                                                    [--resource-group]
@@ -101,6 +109,8 @@ directCommands:
   name: az desktopvirtualization applicationgroup show
   summary: Get an application group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization applicationgroup show [--ids]
                                                    [--name]
@@ -126,6 +136,8 @@ directCommands:
   name: az desktopvirtualization applicationgroup update
   summary: Update an applicationGroup.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization applicationgroup update [--description]
                                                      [--friendly-name]

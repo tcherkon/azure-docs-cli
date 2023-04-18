@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **cosmosdb-preview** extension for the Azure CLI  (version 2.17.1 or higher).  The extension will automatically install the first time you run an **az cosmosdb dts** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage data transfer job with cosmosdb.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_cosmosdb_dts_cancel
   name: az cosmosdb dts cancel
   summary: Cancels a Data Transfer Job.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb dts' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb dts cancel --account-name
                            --job-name
@@ -36,6 +44,10 @@ directCommands:
   name: az cosmosdb dts copy
   summary: Creates a Data Transfer Copy Job.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb dts' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb dts copy --account-name
                          --resource-group
@@ -123,6 +135,10 @@ directCommands:
   name: az cosmosdb dts list
   summary: Get a list of Data Transfer Jobs.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb dts' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb dts list --account-name
                          --resource-group
@@ -142,6 +158,10 @@ directCommands:
   name: az cosmosdb dts pause
   summary: Pause a Data Transfer Job.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb dts' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb dts pause --account-name
                           --job-name
@@ -166,6 +186,10 @@ directCommands:
   name: az cosmosdb dts resume
   summary: Resumes a Data Transfer Job.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb dts' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb dts resume --account-name
                            --job-name
@@ -190,6 +214,10 @@ directCommands:
   name: az cosmosdb dts show
   summary: Get a Data Transfer Job.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'cosmosdb dts' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cosmosdb dts show --account-name
                          --job-name

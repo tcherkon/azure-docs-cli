@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **fleet** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az fleet member** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage a fleet member.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_fleet_member_create
   name: az fleet member create
   summary: Creates or updates a fleet member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet member create --fleet-name
                            --member-cluster-id
@@ -44,6 +48,8 @@ directCommands:
   name: az fleet member delete
   summary: Deletes a fleet member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet member delete --fleet-name
                            --name
@@ -71,6 +77,8 @@ directCommands:
   name: az fleet member list
   summary: Lists the members of a fleet.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet member list --fleet-name
                          --resource-group
@@ -87,6 +95,8 @@ directCommands:
   name: az fleet member show
   summary: Gets a Fleet member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet member show --fleet-name
                          --name
@@ -108,6 +118,8 @@ directCommands:
   name: az fleet member wait
   summary: Wait for a fleet member resouce to reach a desired state.
   description: If an operation on fleet member was interrupted or was started with `--no-wait`, use this command to wait for it to complete.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet member wait --fleet-member-name
                          --fleet-name

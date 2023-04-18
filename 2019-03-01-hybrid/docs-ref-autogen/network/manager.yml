@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage network-manager with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_create
   name: az network manager create
   summary: Create a Network Manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager create --location
                               --name
@@ -65,6 +69,8 @@ directCommands:
   name: az network manager delete
   summary: Deletes a network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager delete [--force {false, true}]
                               [--ids]
@@ -101,6 +107,8 @@ directCommands:
   name: az network manager list
   summary: List network managers in a resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager list --resource-group
                             [--skip-token]
@@ -124,6 +132,8 @@ directCommands:
   name: az network manager list-active-connectivity-config
   summary: Lists active configurations in a network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager list-active-connectivity-config --name
                                                        --resource-group
@@ -152,6 +162,8 @@ directCommands:
   name: az network manager list-active-security-admin-rule
   summary: List all security admin rules that have been deployed by this network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager list-active-security-admin-rule --name
                                                        --resource-group
@@ -180,6 +192,8 @@ directCommands:
   name: az network manager list-deploy-status
   summary: Post List of Network Manager Deployment Status.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager list-deploy-status --name
                                           --resource-group
@@ -212,6 +226,8 @@ directCommands:
   name: az network manager list-effective-connectivity-config
   summary: Lists effective configuration in a network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager list-effective-connectivity-config --resource-group
                                                           --virtual-network-name
@@ -236,6 +252,8 @@ directCommands:
   name: az network manager list-effective-security-admin-rule
   summary: Lists effective configuration in a network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager list-effective-security-admin-rule --resource-group
                                                           --virtual-network-name
@@ -260,6 +278,8 @@ directCommands:
   name: az network manager post-commit
   summary: Post a Network Manager Commit.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager post-commit --commit-type {Connectivity, SecurityAdmin}
                                    --target-locations
@@ -301,6 +321,8 @@ directCommands:
   name: az network manager show
   summary: Gets the specified Network Manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager show [--ids]
                             [--name]
@@ -326,6 +348,8 @@ directCommands:
   name: az network manager update
   summary: Update a Network Manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager update [--add]
                               [--description]

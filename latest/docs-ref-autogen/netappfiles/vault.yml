@@ -3,11 +3,16 @@ uid: az_netappfiles_vault
 name: az netappfiles vault
 summary: Manage Azure NetApp Files (ANF) Vault Resources.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_netappfiles_vault_list
   name: az netappfiles vault list
   summary: List the ANF vaults for NetApp Account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles vault list --account-name
                               --resource-group
@@ -23,7 +28,6 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 commands:
 - az_netappfiles_vault_list
 globalParameters:

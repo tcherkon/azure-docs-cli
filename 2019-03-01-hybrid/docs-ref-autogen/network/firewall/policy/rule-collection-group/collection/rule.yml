@@ -10,6 +10,10 @@ description: >-
   Filter collection supports having a list of network rules or application rules.
 
   NatRule collection supports including a list of nat rules.
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_policy_rule-collection-group_collection_rule_add
   name: az network firewall policy rule-collection-group collection rule add
@@ -18,6 +22,10 @@ directCommands:
     Filter collection supports having a list of network rules or application rules.
 
     NatRule collection supports including a list of nat rules.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection rule add --collection-name
                                                                          --name
@@ -89,6 +97,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable flag to terminate TLS connection for this rule.
     description: ''
+    isPreview: true
   - name: --fqdn-tags
     summary: Space-separated list of FQDN tags for this rule.
     description: ''
@@ -111,6 +120,7 @@ directCommands:
   - name: --target-urls
     summary: Space-separated list of target urls for this rule.
     description: ''
+    isPreview: true
   - name: --translated-address
     summary: Translated address for this NAT rule collection.
     description: ''
@@ -130,6 +140,10 @@ directCommands:
     Filter collection supports having a list of network rules or application rules.
 
     NatRule collection supports including a list of nat rules.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection rule remove --collection-name
                                                                             --name
@@ -164,6 +178,10 @@ directCommands:
     Filter collection supports having a list of network rules or application rules.
 
     NatRule collection supports including a list of nat rules.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection rule update --collection-name
                                                                             --name
@@ -239,6 +257,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable flag to terminate TLS connection for this rule.
     description: ''
+    isPreview: true
   - name: --force-string
     defaultValue: "False"
     summary: When using 'set' or 'add', preserve string literals instead of attempting to convert to JSON.
@@ -273,6 +292,7 @@ directCommands:
   - name: --target-urls
     summary: Space-separated list of target urls for this rule.
     description: ''
+    isPreview: true
   - name: --translated-address
     summary: Translated address for this NAT rule collection.
     description: ''

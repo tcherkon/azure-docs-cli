@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **eventgrid** extension for the Azure CLI  (version 2.0.49 or higher).  The extension will automatically install the first time you run an **az eventgrid partner namespace** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage partner namespaces.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_eventgrid_partner_namespace_create
   name: az eventgrid partner namespace create
   summary: Create a partner namespace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner namespace create --location
                                           --name
@@ -46,6 +50,8 @@ directCommands:
   name: az eventgrid partner namespace delete
   summary: Delete a partner namespace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner namespace delete [--ids]
                                           [--name]
@@ -71,6 +77,8 @@ directCommands:
   name: az eventgrid partner namespace list
   summary: List available partner namespaces.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner namespace list [--odata-query]
                                         [--resource-group]
@@ -94,6 +102,8 @@ directCommands:
   name: az eventgrid partner namespace show
   summary: Get the details of a partner namespace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner namespace show [--ids]
                                         [--name]

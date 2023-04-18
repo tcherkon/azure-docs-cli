@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory managed-private-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage managed private endpoint with datafactory.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_managed-private-endpoint_create
   name: az datafactory managed-private-endpoint create
   summary: Create a managed private endpoint.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'datafactory managed-private-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datafactory managed-private-endpoint create --factory-name
                                                    --managed-private-endpoint-name
@@ -58,6 +66,10 @@ directCommands:
   name: az datafactory managed-private-endpoint delete
   summary: Deletes a managed private endpoint.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'datafactory managed-private-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datafactory managed-private-endpoint delete [--factory-name]
                                                    [--ids]
@@ -96,6 +108,10 @@ directCommands:
   name: az datafactory managed-private-endpoint list
   summary: Lists managed private endpoints.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'datafactory managed-private-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datafactory managed-private-endpoint list --factory-name
                                                  --managed-virtual-network-name
@@ -120,6 +136,10 @@ directCommands:
   name: az datafactory managed-private-endpoint show
   summary: Gets a managed private endpoint.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'datafactory managed-private-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datafactory managed-private-endpoint show [--factory-name]
                                                  [--ids]
@@ -157,6 +177,10 @@ directCommands:
   name: az datafactory managed-private-endpoint update
   summary: Update a managed private endpoint.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'datafactory managed-private-endpoint' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datafactory managed-private-endpoint update [--add]
                                                    [--factory-name]

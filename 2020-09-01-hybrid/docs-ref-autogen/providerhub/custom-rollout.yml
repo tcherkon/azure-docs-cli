@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **providerhub** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az providerhub custom-rollout** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage custom rollout with providerhub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_providerhub_custom-rollout_create
   name: az providerhub custom-rollout create
   summary: Create the rollout details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub custom-rollout create --canary
                                          --provider-namespace
@@ -40,6 +44,8 @@ directCommands:
   name: az providerhub custom-rollout list
   summary: Gets the list of the custom rollouts for the given provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az providerhub custom-rollout list --provider-namespace
   examples:
   - summary: CustomRollouts_ListByProviderRegistration
@@ -53,6 +59,8 @@ directCommands:
   name: az providerhub custom-rollout show
   summary: Gets the custom rollout details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub custom-rollout show [--ids]
                                        [--provider-namespace]

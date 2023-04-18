@@ -3,11 +3,15 @@ uid: az_mysql_flexible-server_deploy
 name: az mysql flexible-server deploy
 summary: Enable and run GitHub Actions workflow for MySQL server.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_flexible-server_deploy_run
   name: az mysql flexible-server deploy run
   summary: Run an existing workflow in your github repository.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server deploy run --action-name
                                         --branch
@@ -27,6 +31,8 @@ directCommands:
   name: az mysql flexible-server deploy setup
   summary: Create GitHub Actions workflow file for MySQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server deploy setup --admin-password
                                           --admin-user

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **portal** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az portal dashboard** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage portal dashboards.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_portal_dashboard_create
   name: az portal dashboard create
   summary: Creates or updates a dashboard.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az portal dashboard create --input-path
                                --name
@@ -50,6 +58,10 @@ directCommands:
   name: az portal dashboard delete
   summary: Deletes a dashboard.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az portal dashboard delete --name
                                --resource-group
@@ -75,6 +87,10 @@ directCommands:
   name: az portal dashboard import
   summary: Imports a dashboard from a JSON file.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az portal dashboard import --input-path
                                --resource-group
@@ -102,6 +118,10 @@ directCommands:
   name: az portal dashboard list
   summary: Lists the dashboards within a subscription or resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az portal dashboard list [--resource-group]
   examples:
   - summary: List all dashboards in a resourceGroup
@@ -116,6 +136,10 @@ directCommands:
   name: az portal dashboard show
   summary: Gets details for a single dashboard.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az portal dashboard show --name
                              --resource-group
@@ -135,6 +159,10 @@ directCommands:
   name: az portal dashboard update
   summary: Updates an existing dashboard.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'portal' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az portal dashboard update --input-path
                                --name

@@ -3,6 +3,8 @@ uid: az_policy
 name: az policy
 summary: Manage resource policies.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_policy_assignment
 - az_policy_assignment_create

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **peering** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az peering peering** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Peering peering.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_peering_peering_create
   name: az peering peering create
   summary: Creates a new peering or updates an existing peering with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering peering create --kind {Direct, Exchange}
                               --location
@@ -68,6 +72,8 @@ directCommands:
   name: az peering peering delete
   summary: Deletes an existing peering with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering peering delete --peering-name
                               --resource-group
@@ -87,6 +93,8 @@ directCommands:
   name: az peering peering list
   summary: Lists all of the peerings under the given subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az peering peering list [--resource-group]
   examples:
   - summary: List peerings in a resource group
@@ -99,6 +107,8 @@ directCommands:
   name: az peering peering show
   summary: Gets an existing peering with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering peering show --peering-name
                             --resource-group
@@ -118,6 +128,8 @@ directCommands:
   name: az peering peering update
   summary: Updates tags for a peering with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering peering update --peering-name
                               --resource-group

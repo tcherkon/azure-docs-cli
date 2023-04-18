@@ -3,6 +3,8 @@ uid: az_acr_config
 name: az acr config
 summary: Configure policies for Azure Container Registries.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_acr_config_authentication-as-arm
 - az_acr_config_authentication-as-arm_show

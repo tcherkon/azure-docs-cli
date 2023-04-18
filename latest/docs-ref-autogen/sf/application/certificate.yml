@@ -3,11 +3,15 @@ uid: az_sf_application_certificate
 name: az sf application certificate
 summary: Manage the certificate of an application.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sf_application_certificate_add
   name: az sf application certificate add
   summary: Add a new certificate to the Virtual Machine Scale Sets that make up the cluster to be used by hosted applications.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sf application certificate add --cluster-name
                                       --resource-group

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **reservation** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az reservations reservation** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Reservations reservation.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_reservations_reservation_archive
   name: az reservations reservation archive
   summary: Archiving a `Reservation` which is in cancelled/expired state and move it to `Archived` state.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation archive --reservation-id
                                         --reservation-order-id
@@ -31,6 +39,10 @@ directCommands:
   name: az reservations reservation list
   summary: List Reservations within a single `ReservationOrder`.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az reservations reservation list --reservation-order-id
   examples:
   - summary: List all reservations within a reservation order.
@@ -44,6 +56,10 @@ directCommands:
   name: az reservations reservation list-available-scope
   summary: List Available Scopes for `Reservation`.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation list-available-scope --reservation-id
                                                      --reservation-order-id
@@ -73,6 +89,10 @@ directCommands:
   name: az reservations reservation list-history
   summary: List of all the revisions for the `Reservation`.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation list-history --reservation-id
                                              --reservation-order-id
@@ -92,6 +112,10 @@ directCommands:
   name: az reservations reservation merge
   summary: Merge the specified `Reservation`s into a new `Reservation`. The two `Reservation`s being merged must have same properties.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation merge --reservation-order-id
                                       [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
@@ -116,6 +140,10 @@ directCommands:
   name: az reservations reservation show
   summary: Get specific `Reservation` details.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation show --reservation-id
                                      --reservation-order-id
@@ -140,6 +168,10 @@ directCommands:
   name: az reservations reservation split
   summary: Split a `Reservation` into two `Reservation`s with specified quantity distribution.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation split --reservation-order-id
                                       [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
@@ -168,6 +200,10 @@ directCommands:
   name: az reservations reservation unarchive
   summary: Unarchiving a `Reservation` moves it to the state it was before archiving.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation unarchive --reservation-id
                                           --reservation-order-id
@@ -187,6 +223,10 @@ directCommands:
   name: az reservations reservation update
   summary: Update the applied scopes, renewal, name, instance-flexibility of the `Reservation`.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation update --reservation-id
                                        --reservation-order-id
@@ -252,6 +292,10 @@ directCommands:
   name: az reservations reservation wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations reservation wait --reservation-id
                                      --reservation-order-id

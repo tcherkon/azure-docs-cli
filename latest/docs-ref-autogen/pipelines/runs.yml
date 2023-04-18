@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines runs** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pipeline runs.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_runs_list
   name: az pipelines runs list
   summary: List the pipeline runs in a project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines runs list [--branch]
                            [--detect {false, true}]
@@ -71,6 +75,8 @@ directCommands:
   name: az pipelines runs show
   summary: Show details of a pipeline run.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines runs show --id
                            [--detect {false, true}]

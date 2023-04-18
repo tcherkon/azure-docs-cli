@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter admin environment-type** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage environment type with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_admin_environment-type_create
   name: az devcenter admin environment-type create
   summary: Create an environment type.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin environment-type' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin environment-type create --dev-center
                                                --environment-type-name
@@ -41,6 +49,10 @@ directCommands:
   name: az devcenter admin environment-type delete
   summary: Delete an environment type.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin environment-type' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin environment-type delete [--dev-center]
                                                [--environment-type-name]
@@ -75,6 +87,10 @@ directCommands:
   name: az devcenter admin environment-type list
   summary: List environment types for the devcenter.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin environment-type' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin environment-type list --dev-center
                                              --resource-group
@@ -94,6 +110,10 @@ directCommands:
   name: az devcenter admin environment-type show
   summary: Get an environment type.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin environment-type' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin environment-type show [--dev-center]
                                              [--environment-type-name]
@@ -123,6 +143,10 @@ directCommands:
   name: az devcenter admin environment-type update
   summary: Update an environment type.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin environment-type' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin environment-type update [--add]
                                                [--dev-center]

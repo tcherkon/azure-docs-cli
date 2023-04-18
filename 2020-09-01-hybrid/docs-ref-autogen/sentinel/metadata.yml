@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **sentinel** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az sentinel metadata** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage metadata with sentinel.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sentinel_metadata_create
   name: az sentinel metadata create
   summary: Create a Metadata.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel metadata create --metadata-name
                                 --resource-group
@@ -49,6 +55,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --author
     summary: The creator of the content item.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
@@ -115,6 +122,10 @@ directCommands:
   name: az sentinel metadata delete
   summary: Delete a Metadata.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel metadata delete [--ids]
                                 [--metadata-name]
@@ -138,6 +149,7 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   - name: --yes -y
     defaultValue: "False"
     summary: Do not prompt for confirmation.
@@ -146,6 +158,10 @@ directCommands:
   name: az sentinel metadata list
   summary: List of all metadata.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel metadata list --resource-group
                               --workspace-name
@@ -162,6 +178,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --filter
     summary: Filters the results, based on a Boolean condition. Optional.
@@ -179,6 +196,10 @@ directCommands:
   name: az sentinel metadata show
   summary: Get a Metadata.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel metadata show [--ids]
                               [--metadata-name]
@@ -201,10 +222,15 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 - uid: az_sentinel_metadata_update
   name: az sentinel metadata update
   summary: Update a Metadata.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel metadata update [--add]
                                 [--author]
@@ -325,6 +351,7 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 commands:
 - az_sentinel_metadata_create
 - az_sentinel_metadata_delete

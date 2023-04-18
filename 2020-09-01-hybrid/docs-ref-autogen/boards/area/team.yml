@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az boards area team** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage areas for a team.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_boards_area_team_add
   name: az boards area team add
   summary: Add area to a team.
   description: Every team needs to have a default area configured which can't be empty. Hence, you need to pass --set-as-default while adding first area to your team. You can later configure any other area which already added to team as default by using `az boards area team update -h` command.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area team add --path
                             --team
@@ -55,6 +59,8 @@ directCommands:
   name: az boards area team list
   summary: List areas for a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area team list --team
                              [--detect {false, true}]
@@ -80,6 +86,8 @@ directCommands:
   name: az boards area team remove
   summary: Remove area from a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area team remove --path
                                --team
@@ -110,6 +118,8 @@ directCommands:
   name: az boards area team update
   summary: Update team area.
   description: Update any area to include/exclude sub areas OR Set already added area as default.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area team update --path
                                --team

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door rules-engine rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Rules Engine rules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_rules-engine_rule_create
   name: az network front-door rules-engine rule create
   summary: Create a Rules Engine rule for a Front Door.
   description: This command allows creating Rules Engine configuration with Header action type. To add additional actions like Route overrides, use the `az network front-door rules-engine rule action add` command.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule create --action-type {RequestHeader, ResponseHeader}
                                                    --front-door-name
@@ -96,6 +100,8 @@ directCommands:
   name: az network front-door rules-engine rule delete
   summary: Delete a Rules Engine rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule delete --front-door-name
                                                    --name
@@ -122,6 +128,8 @@ directCommands:
   name: az network front-door rules-engine rule list
   summary: List rules of a Rules Engine configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule list --front-door-name
                                                  --name
@@ -143,6 +151,8 @@ directCommands:
   name: az network front-door rules-engine rule show
   summary: Get the details of a Rules Engine rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule show --front-door-name
                                                  --name
@@ -169,6 +179,8 @@ directCommands:
   name: az network front-door rules-engine rule update
   summary: Update Rules Engine configuration of a rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule update --front-door-name
                                                    --name

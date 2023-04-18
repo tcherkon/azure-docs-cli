@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **timeseriesinsights** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az tsi event-source** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage event source with timeseriesinsights.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_tsi_event-source_delete
   name: az tsi event-source delete
   summary: Delete the event source with the specified name in the specified subscription, resource group, and environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi event-source delete [--environment-name]
                                [--event-source-name]
@@ -46,6 +50,8 @@ directCommands:
   name: az tsi event-source list
   summary: List all the available event sources associated with the subscription and within the specified resource group and environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi event-source list --environment-name
                              --resource-group
@@ -65,6 +71,8 @@ directCommands:
   name: az tsi event-source show
   summary: Show the event source with the specified name in the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi event-source show [--environment-name]
                              [--event-source-name]

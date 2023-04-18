@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **resource-mover** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az resource-mover move-collection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage move-collection.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_resource-mover_move-collection_bulk-remove
   name: az resource-mover move-collection bulk-remove
   summary: Remove the set of move-resources from move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection bulk-remove [--ids]
                                                   [--input-type {MoveResourceId, MoveResourceSourceId}]
@@ -56,6 +64,10 @@ directCommands:
   name: az resource-mover move-collection commit
   summary: Commit the set of resources. The commit operation is triggered on the move-resources in the move-state 'CommitPending' or 'CommitFailed', on a successful completion the move-resource's move-state do a transition to Committed.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection commit --move-resources
                                              [--ids]
@@ -102,6 +114,10 @@ directCommands:
   name: az resource-mover move-collection create
   summary: Create a move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection create --move-collection-name
                                              --resource-group
@@ -150,6 +166,10 @@ directCommands:
   name: az resource-mover move-collection delete
   summary: Delete a move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection delete [--ids]
                                              [--move-collection-name]
@@ -185,6 +205,10 @@ directCommands:
   name: az resource-mover move-collection discard
   summary: Discard the set of resources. The discard operation is triggered on the move-resources in the move-state 'CommitPending' or 'DiscardFailed', on a successful completion the move-resource's move-state do a transition to MovePending.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection discard --move-resources
                                               [--ids]
@@ -231,6 +255,10 @@ directCommands:
   name: az resource-mover move-collection initiate-move
   summary: Move the set of resources. The move operation is triggered after the move-resources are in the move-state 'MovePending' or 'MoveFailed', on a successful completion the move-resource's move-state do a transition to CommitPending.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection initiate-move --move-resources
                                                     [--ids]
@@ -277,6 +305,10 @@ directCommands:
   name: az resource-mover move-collection list
   summary: List details of the move-collections.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az resource-mover move-collection list [--resource-group]
   examples:
   - summary: List all move-collections.
@@ -291,6 +323,10 @@ directCommands:
   name: az resource-mover move-collection list-required-for
   summary: List the move-resources for which an arm resource is required for.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection list-required-for --move-collection-name
                                                         --resource-group
@@ -315,6 +351,10 @@ directCommands:
   name: az resource-mover move-collection list-unresolved-dependency
   summary: List the details of the unresolved dependencies in a move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection list-unresolved-dependency --move-collection-name
                                                                  --resource-group
@@ -340,6 +380,10 @@ directCommands:
   name: az resource-mover move-collection prepare
   summary: Prepare the set of resources. The prepare operation is on the move-resources that are in the move-state 'PreparePending' or 'PrepareFailed', on a successful completion the move-resource's move-state do a transition to MovePending.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection prepare --move-resources
                                               [--ids]
@@ -386,6 +430,10 @@ directCommands:
   name: az resource-mover move-collection resolve-dependency
   summary: Compute, resolve and validate the dependencies of the move-resources in the move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection resolve-dependency [--ids]
                                                          [--move-collection-name]
@@ -416,6 +464,10 @@ directCommands:
   name: az resource-mover move-collection show
   summary: Get the details of a move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection show [--ids]
                                            [--move-collection-name]
@@ -441,6 +493,10 @@ directCommands:
   name: az resource-mover move-collection update
   summary: Update a move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection update [--identity]
                                              [--ids]
@@ -482,6 +538,10 @@ directCommands:
   name: az resource-mover move-collection wait
   summary: Place the CLI in a waiting state until a condition of the move-collection is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-collection wait [--created]
                                            [--custom]

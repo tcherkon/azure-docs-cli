@@ -3,6 +3,8 @@ uid: az_monitor
 name: az monitor
 summary: Manage the Azure Monitor Service.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 commands:
 - az_monitor_alert-processing-rule
 - az_monitor_alert-processing-rule_create

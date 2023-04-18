@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager security-admin-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage security admin configuration with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_security-admin-config_create
   name: az network manager security-admin-config create
   summary: Create a network manager security admin configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config create --configuration-name
                                                     --name
@@ -45,6 +49,8 @@ directCommands:
   name: az network manager security-admin-config delete
   summary: Delete a network manager security admin configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config delete [--configuration-name]
                                                     [--force {0, 1, f, false, n, no, t, true, y, yes}]
@@ -89,6 +95,8 @@ directCommands:
   name: az network manager security-admin-config list
   summary: List all the network manager security admin configurations in a network manager, in a paginated format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config list --name
                                                   --resource-group
@@ -117,6 +125,8 @@ directCommands:
   name: az network manager security-admin-config show
   summary: Get a network manager security admin configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config show [--configuration-name]
                                                   [--ids]
@@ -146,6 +156,8 @@ directCommands:
   name: az network manager security-admin-config update
   summary: Update a network manager security admin configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config update [--add]
                                                     [--apply-on]
@@ -200,6 +212,8 @@ directCommands:
   name: az network manager security-admin-config wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config wait [--configuration-name]
                                                   [--created]

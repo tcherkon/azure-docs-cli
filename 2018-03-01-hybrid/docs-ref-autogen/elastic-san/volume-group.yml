@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **elastic-san** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az elastic-san volume-group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Elastic SAN Volume Group.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_elastic-san_volume-group_create
   name: az elastic-san volume-group create
   summary: Create a Volume Group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san volume-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san volume-group create --elastic-san-name
                                        --name
@@ -60,6 +68,10 @@ directCommands:
   name: az elastic-san volume-group delete
   summary: Delete a Volume Group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san volume-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san volume-group delete [--elastic-san-name]
                                        [--ids]
@@ -99,6 +111,10 @@ directCommands:
   name: az elastic-san volume-group list
   summary: List Volume Groups.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san volume-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san volume-group list --elastic-san-name
                                      --resource-group
@@ -118,6 +134,10 @@ directCommands:
   name: az elastic-san volume-group show
   summary: Get a Volume Group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san volume-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san volume-group show [--elastic-san-name]
                                      [--ids]
@@ -147,6 +167,10 @@ directCommands:
   name: az elastic-san volume-group update
   summary: Update a Volume Group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san volume-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san volume-group update [--add]
                                        [--elastic-san-name]
@@ -216,6 +240,10 @@ directCommands:
   name: az elastic-san volume-group wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san volume-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san volume-group wait [--created]
                                      [--custom]

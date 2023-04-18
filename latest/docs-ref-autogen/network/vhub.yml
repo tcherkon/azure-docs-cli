@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-wan** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network vhub** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtual hubs.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_vhub_create
   name: az network vhub create
   summary: Create a virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub create --name
                            --resource-group
@@ -66,6 +70,8 @@ directCommands:
   name: az network vhub delete
   summary: Delete a virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub delete [--ids]
                            [--name]
@@ -96,6 +102,8 @@ directCommands:
   name: az network vhub get-effective-routes
   summary: Get the effective routes configured for the Virtual Hub resource or the specified resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub get-effective-routes [--ids]
                                          [--name]
@@ -136,6 +144,8 @@ directCommands:
   name: az network vhub list
   summary: List virtual hubs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network vhub list [--resource-group]
   examples:
   - summary: List virtual hubs.
@@ -148,6 +158,8 @@ directCommands:
   name: az network vhub show
   summary: Get the details of a virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub show [--ids]
                          [--name]
@@ -173,6 +185,8 @@ directCommands:
   name: az network vhub update
   summary: Update settings of a virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub update [--add]
                            [--address-prefix]
@@ -245,6 +259,8 @@ directCommands:
   name: az network vhub wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub wait [--created]
                          [--custom]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **arcdata** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az sql mi-arc config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Configuration commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sql_mi-arc_config_add
   name: az sql mi-arc config add
   summary: Add a value for a json path in a config file.
   description: Add the value at the json path in the config file.  All examples below are given in Bash.  If using another command line, you may need to escape quotations appropriately.  Alternatively, you may use the patch file functionality.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql mi-arc config add --json-values
                              --path
@@ -31,6 +35,8 @@ directCommands:
   name: az sql mi-arc config init
   summary: Initialize the CRD and specification files for a SQL managed instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az sql mi-arc config init --path
   examples:
   - summary: Initialize the CRD and specification files for a SQL managed instance.
@@ -44,6 +50,8 @@ directCommands:
   name: az sql mi-arc config patch
   summary: Patch a config file based on a json patch file.
   description: Patch the config file according to the given patch file. Consult http://jsonpatch.com/ for a better understanding of how the paths should be composed. The replace operation can use conditionals in its path due to the jsonpath library https://jsonpath.com/. All patch json files must start with a key of `patch` that has an array of patches with their corresponding op (add, replace, remove), path, and value. The `remove` op does not require a value, just a path. See the examples below.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql mi-arc config patch --patch-file
                                --path
@@ -73,6 +81,8 @@ directCommands:
   name: az sql mi-arc config remove
   summary: Remove a value for a json path in a config file.
   description: Remove the value at the json path in the config file. All examples below are given in Bash. If using another command line, you may need to escape quotations appropriately. Alternatively, you may use the patch file functionality.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql mi-arc config remove --json-path
                                 --path
@@ -92,6 +102,8 @@ directCommands:
   name: az sql mi-arc config replace
   summary: Replace a value for a json path in a config file.
   description: Replace the value at the json path in the config file.  All examples below are given in Bash.  If using another command line, you may need to escape quotations appropriately.  Alternatively, you may use the patch file functionality.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql mi-arc config replace --json-values
                                  --path

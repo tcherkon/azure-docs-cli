@@ -3,11 +3,16 @@ uid: az_cosmosdb_sql_container
 name: az cosmosdb sql container
 summary: Manage Azure Cosmos DB SQL containers.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_cosmosdb_sql_container_create
   name: az cosmosdb sql container create
   summary: Create an SQL container under an Azure Cosmos DB SQL database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb sql container create --account-name
                                      --database-name
@@ -76,11 +81,13 @@ directCommands:
   - name: --unique-key-policy -u
     summary: 'Unique Key Policy, you can enter it as a string or as a file, e.g., --unique-key-policy @policy-file.json or --unique-key-policy "{\"uniqueKeys\": [{\"paths\": [\"/path/to/key1\"]}, {\"paths\": [\"/path/to/key2\"]}]}".'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_sql_container_delete
   name: az cosmosdb sql container delete
   summary: Delete the SQL container under an Azure Cosmos DB SQL database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb sql container delete --account-name
                                      --database-name
@@ -109,11 +116,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_sql_container_exists
   name: az cosmosdb sql container exists
   summary: Checks if an Azure Cosmos DB SQL container exists.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb sql container exists --account-name
                                      --database-name
@@ -136,11 +145,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_sql_container_list
   name: az cosmosdb sql container list
   summary: List the SQL containers under an Azure Cosmos DB SQL database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb sql container list --account-name
                                    --database-name
@@ -158,11 +169,14 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_sql_container_merge
   name: az cosmosdb sql container merge
   summary: Merges the partitions of a sql container.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container merge --account-name
                                     --database-name
@@ -192,6 +206,10 @@ directCommands:
   name: az cosmosdb sql container redistribute-partition-throughput
   summary: Redistributes the partition throughput of a sql container.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container redistribute-partition-throughput --account-name
                                                                 --database-name
@@ -240,6 +258,10 @@ directCommands:
   name: az cosmosdb sql container restore
   summary: Restore a deleted sql container within the same account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container restore --account-name
                                       --database-name
@@ -274,6 +296,10 @@ directCommands:
   name: az cosmosdb sql container retrieve-partition-throughput
   summary: Retrieve  the partition throughput of a sql container.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container retrieve-partition-throughput --account-name
                                                             --database-name
@@ -317,6 +343,9 @@ directCommands:
   name: az cosmosdb sql container show
   summary: Show the details of a SQL container under an Azure Cosmos DB SQL database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb sql container show --account-name
                                    --database-name
@@ -339,11 +368,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_sql_container_update
   name: az cosmosdb sql container update
   summary: Update an SQL container under an Azure Cosmos DB SQL database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb sql container update --account-name
                                      --database-name
@@ -379,7 +410,6 @@ directCommands:
   - name: --ttl
     summary: Default TTL. If the value is missing or set to "-1", items don’t expire. If the value is set to "n", items will expire "n" seconds after last modified time.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 commands:
 - az_cosmosdb_sql_container_create
 - az_cosmosdb_sql_container_delete

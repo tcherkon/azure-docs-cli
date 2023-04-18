@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp env dapr-component** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Dapr components for the Container Apps environment.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_env_dapr-component_list
   name: az containerapp env dapr-component list
   summary: List Dapr components for an environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp env dapr-component list --name
                                             --resource-group
@@ -31,6 +35,8 @@ directCommands:
   name: az containerapp env dapr-component remove
   summary: Remove a Dapr component from an environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp env dapr-component remove --dapr-component-name
                                               --name
@@ -55,6 +61,8 @@ directCommands:
   name: az containerapp env dapr-component set
   summary: Create or update a Dapr component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp env dapr-component set --dapr-component-name
                                            --name
@@ -84,6 +92,8 @@ directCommands:
   name: az containerapp env dapr-component show
   summary: Show the details of a Dapr component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp env dapr-component show --dapr-component-name
                                             --name

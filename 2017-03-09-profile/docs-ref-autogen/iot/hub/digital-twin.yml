@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub digital-twin** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manipulate and interact with the digital twin of an IoT Hub device.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_digital-twin_invoke-command
   name: az iot hub digital-twin invoke-command
   summary: Invoke a root or component level command of a digital twin device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub digital-twin invoke-command --cn
                                            --device-id
@@ -68,6 +72,8 @@ directCommands:
   name: az iot hub digital-twin show
   summary: Show the digital twin of an IoT Hub device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub digital-twin show --device-id
                                  [--hub-name]
@@ -95,6 +101,8 @@ directCommands:
   name: az iot hub digital-twin update
   summary: Update the read-write properties of a digital twin device via JSON patch specification.
   description: Currently operations are limited to add, replace and remove.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub digital-twin update --device-id
                                    --json-patch

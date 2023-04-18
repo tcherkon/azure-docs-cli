@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mesh** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az mesh generate** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Generate Service Fabric Mesh deployment template.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mesh_generate_armtemplate
   name: az mesh generate armtemplate
   summary: Generate a Service Fabric Mesh ARM deployment template from input yaml.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh generate armtemplate --input-yaml-files
                                  [--parameters]

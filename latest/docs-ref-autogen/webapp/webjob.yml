@@ -3,6 +3,8 @@ uid: az_webapp_webjob
 name: az webapp webjob
 summary: Allows management operations for webjobs on a web app.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_webapp_webjob_continuous
 - az_webapp_webjob_continuous_list

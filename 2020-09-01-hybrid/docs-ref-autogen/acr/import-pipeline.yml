@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **acrtransfer** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az acr import-pipeline** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage ACR import pipelines.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_acr_import-pipeline_create
   name: az acr import-pipeline create
   summary: Create an import pipeline.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'acr import-pipeline' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az acr import-pipeline create --name
                                   --registry
@@ -63,6 +71,10 @@ directCommands:
   name: az acr import-pipeline delete
   summary: Delete an import pipeline.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'acr import-pipeline' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az acr import-pipeline delete --name
                                   --registry
@@ -87,6 +99,10 @@ directCommands:
   name: az acr import-pipeline list
   summary: List import pipelines on a Container Registry.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'acr import-pipeline' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az acr import-pipeline list --registry
                                 --resource-group
@@ -106,6 +122,10 @@ directCommands:
   name: az acr import-pipeline show
   summary: Show an import pipeline in detail.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'acr import-pipeline' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az acr import-pipeline show --name
                                 --registry

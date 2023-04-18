@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot device** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Leverage device simulation and other device-centric operations such as device-to-cloud or cloud-to-device messaging capabilities.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_device_send-d2c-message
   name: az iot device send-d2c-message
@@ -15,6 +17,8 @@ directCommands:
     The command supports sending messages with application and system properties.
 
     Note: If using x509 authentication methods, the certificate and key files (and passphrase if needed) must be provided.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device send-d2c-message --device-id
                                    [--certificate-file-path]
@@ -103,6 +107,10 @@ directCommands:
     to utf-8. This can be overriden.
 
     Note: If using x509 authentication methods, the certificate and key files (and passphrase if needed) must be provided.
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az iot device simulate --device-id
                            [--certificate-file-path]
@@ -219,6 +227,8 @@ directCommands:
   name: az iot device upload-file
   summary: Upload a local file as a device to a pre-configured blob storage container.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device upload-file --content-type
                               --device-id

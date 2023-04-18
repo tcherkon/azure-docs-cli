@@ -3,6 +3,8 @@ uid: az_deployment_operation
 name: az deployment operation
 summary: Manage deployment operations at subscription scope.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_deployment_operation_group
 - az_deployment_operation_group_list

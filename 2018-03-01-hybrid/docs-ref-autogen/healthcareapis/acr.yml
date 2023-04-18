@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **healthcareapis** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az healthcareapis acr** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Healthcareapis acr.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_healthcareapis_acr_add
   name: az healthcareapis acr add
   summary: Add a list of registries to the service, repeated ones will be ignored.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis acr add [--ids]
                               [--login-servers]
@@ -41,6 +45,8 @@ directCommands:
   name: az healthcareapis acr list
   summary: Lists all container registries associated with the service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis acr list --resource-group
                                --resource-name
@@ -60,6 +66,8 @@ directCommands:
   name: az healthcareapis acr remove
   summary: Remove a list of registries from the service, non-existing ones will be ignored.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis acr remove [--ids]
                                  [--login-servers]
@@ -89,6 +97,8 @@ directCommands:
   name: az healthcareapis acr reset
   summary: Reset the container registries associated with the service to a new list.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis acr reset [--ids]
                                 [--login-servers]

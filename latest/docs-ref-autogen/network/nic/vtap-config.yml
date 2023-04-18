@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-tap** extension for the Azure CLI  (version 2.0.46 or higher).  The extension will automatically install the first time you run an **az network nic vtap-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtual network tap configurations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_nic_vtap-config_create
   name: az network nic vtap-config create
   summary: Create a virtual network tap configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network nic vtap-config create --name
                                       --nic-name
@@ -38,6 +42,8 @@ directCommands:
   name: az network nic vtap-config delete
   summary: Delete a virtual network tap configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network nic vtap-config delete [--ids]
                                       [--name]
@@ -64,6 +70,8 @@ directCommands:
   name: az network nic vtap-config list
   summary: List virtual network tap configurations.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network nic vtap-config list --nic-name
                                     --resource-group
@@ -80,6 +88,8 @@ directCommands:
   name: az network nic vtap-config show
   summary: Get details of a virtual network tap configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network nic vtap-config show [--ids]
                                     [--name]

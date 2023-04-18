@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door backend-pool backend** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage backends of Front Door backend pools.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_backend-pool_backend_add
   name: az network front-door backend-pool backend add
   summary: Add a backend to a Front Door backend pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door backend-pool backend add --address
                                                    --front-door-name
@@ -84,6 +88,8 @@ directCommands:
   name: az network front-door backend-pool backend list
   summary: List backends of a Front Door backend pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door backend-pool backend list --front-door-name
                                                     --pool-name
@@ -105,6 +111,8 @@ directCommands:
   name: az network front-door backend-pool backend remove
   summary: Remove a backend from a Front Door backend pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door backend-pool backend remove --front-door-name
                                                       --index
@@ -131,6 +139,8 @@ directCommands:
   name: az network front-door backend-pool backend update
   summary: Update a backend to a Front Door backend pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door backend-pool backend update --front-door-name
                                                       --index

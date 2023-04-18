@@ -3,11 +3,15 @@ uid: az_webapp_connection
 name: az webapp connection
 summary: Commands to manage webapp connections.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_webapp_connection_delete
   name: az webapp connection delete
   summary: Delete a webapp connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection delete [--connection]
                                 [--id]
@@ -47,6 +51,8 @@ directCommands:
   name: az webapp connection list
   summary: List connections of a webapp.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection list [--name]
                               [--resource-group]
@@ -72,6 +78,8 @@ directCommands:
   name: az webapp connection list-configuration
   summary: List source configurations of a webapp connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection list-configuration [--connection]
                                             [--id]
@@ -101,6 +109,8 @@ directCommands:
   name: az webapp connection list-support-types
   summary: List client types and auth types supported by webapp connections.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az webapp connection list-support-types [--target-type {appconfig, confluent-cloud, cosmos-cassandra, cosmos-gremlin, cosmos-mongo, cosmos-sql, cosmos-table, eventhub, keyvault, mysql, mysql-flexible, postgres, postgres-flexible, redis, redis-enterprise, servicebus, signalr, sql, storage-blob, storage-file, storage-queue, storage-table, webpubsub}]
   examples:
   - summary: List all webapp supported target resource types and auth types
@@ -116,6 +126,8 @@ directCommands:
   name: az webapp connection show
   summary: Get the details of a webapp connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection show [--connection]
                               [--id]
@@ -145,6 +157,8 @@ directCommands:
   name: az webapp connection validate
   summary: Validate a webapp connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection validate [--connection]
                                   [--id]
@@ -174,6 +188,8 @@ directCommands:
   name: az webapp connection wait
   summary: Place the CLI in a waiting state until a condition of the connection is met.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection wait [--connection]
                               [--created]

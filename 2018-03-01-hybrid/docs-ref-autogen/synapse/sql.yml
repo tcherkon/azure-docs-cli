@@ -3,6 +3,8 @@ uid: az_synapse_sql
 name: az synapse sql
 summary: Manage SQL pools.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_synapse_sql_ad-admin
 - az_synapse_sql_ad-admin_create

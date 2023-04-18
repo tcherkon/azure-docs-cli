@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcdata** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az postgres server-arc** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Arc enabled PostgreSQL servers.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_postgres_server-arc_create
   name: az postgres server-arc create
   summary: Create an Azure Arc enabled PostgreSQL server.
   description: To set the password of the server, please set the environment variable AZDATA_PASSWORD.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'postgres server-arc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az postgres server-arc create --name
                                   [--ad-account-name]
@@ -152,6 +160,10 @@ directCommands:
   name: az postgres server-arc delete
   summary: Delete an Azure Arc enabled PostgreSQL server.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'postgres server-arc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az postgres server-arc delete --name
                                   [--force]
@@ -180,6 +192,10 @@ directCommands:
   name: az postgres server-arc list
   summary: List Azure Arc enabled PostgreSQL server.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'postgres server-arc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az postgres server-arc list [--k8s-namespace]
                                 [--use-k8s]
@@ -197,6 +213,10 @@ directCommands:
   name: az postgres server-arc restore
   summary: Restore an Azure Arc enabled PostgreSQL server from backup from another server.
   description: To set the password of the server, please set the environment variable AZDATA_PASSWORD.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'postgres server-arc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az postgres server-arc restore --k8s-namespace
                                    --name
@@ -264,6 +284,10 @@ directCommands:
   name: az postgres server-arc show
   summary: Show the details of an Azure Arc enabled PostgreSQL server.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'postgres server-arc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az postgres server-arc show --name
                                 [--k8s-namespace]
@@ -291,6 +315,10 @@ directCommands:
   name: az postgres server-arc update
   summary: Update the configuration of an Azure Arc enabled PostgreSQL server.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'postgres server-arc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az postgres server-arc update --name
                                   [--cert-private-key-file]

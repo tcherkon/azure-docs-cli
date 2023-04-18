@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot product test case** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage product testing certification test cases.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_iot_product_test_case_list
   name: az iot product test case list
   summary: List the test cases of a product certification test.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test case list --test-id
                                   [--base-url]
@@ -31,6 +39,10 @@ directCommands:
   name: az iot product test case update
   summary: Update the product certification test case data.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test case update --cf
                                     --test-id

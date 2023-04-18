@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **change-analysis** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az change-analysis** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: List changes for resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_change-analysis_list
   name: az change-analysis list
   summary: List the changes of resources in the subscription within the specified time range. Customer data will always be masked.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az change-analysis list --end-time
                             --start-time
@@ -42,6 +48,10 @@ directCommands:
   name: az change-analysis list-by-resource
   summary: List the changes of a resource within the specified time range. Customer data will be masked if the user doesn't have access.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az change-analysis list-by-resource --end-time
                                         --resource

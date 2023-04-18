@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedvmware** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az connectedvmware vm nic** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Vm nic.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedvmware_vm_nic_add
   name: az connectedvmware vm nic add
   summary: Add virtual nic to a virtual machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm nic add --name
                                   --network
@@ -57,6 +61,8 @@ directCommands:
   name: az connectedvmware vm nic delete
   summary: Delete virtual nic to a virtual machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm nic delete --nics
                                      --resource-group
@@ -92,6 +98,8 @@ directCommands:
   name: az connectedvmware vm nic list
   summary: Retrieve a list of vm nic from given resource group name and vm name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm nic list --resource-group
                                    --vm-name
@@ -111,6 +119,8 @@ directCommands:
   name: az connectedvmware vm nic show
   summary: Get details of a vm nic by it's name, resource-group and vm name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm nic show --name
                                    --resource-group
@@ -135,6 +145,8 @@ directCommands:
   name: az connectedvmware vm nic update
   summary: Update virtual network interface of a virtual machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm nic update --resource-group
                                      --vm-name

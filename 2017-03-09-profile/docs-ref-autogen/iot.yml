@@ -10,6 +10,8 @@ description: >-
   Review the extension wiki tips to maximize usage
 
   https://github.com/Azure/azure-iot-cli-extension/wiki/Tips.
+status: GA
+sourceType: Extension
 commands:
 - az_iot_central
 - az_iot_central_api-token

@@ -3,11 +3,15 @@ uid: az_account
 name: az account
 summary: Manage Azure subscription information.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_account_accept-ownership-status
   name: az account accept-ownership-status
   summary: Accept subscription ownership status.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az account accept-ownership-status --subscription-id
   requiredParameters:
   - isRequired: true
@@ -18,12 +22,16 @@ directCommands:
   name: az account clear
   summary: Clear all subscriptions from the CLI's local cache.
   description: To clear the current subscription, use 'az logout'.
-  syntax: az account clear
+  status: GA
+  sourceType: Core
   editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
+  syntax: az account clear
 - uid: az_account_create
   name: az account create
   summary: Create a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az account create --enrollment-account-name
                       --offer-type {MS-AZR-0017P, MS-AZR-0148P, MS-AZR-USGOV-0015P, MS-AZR-USGOV-0017P, MS-AZR-USGOV-0148P}
@@ -58,6 +66,9 @@ directCommands:
   name: az account get-access-token
   summary: Get a token for utilities to access Azure.
   description: The token will be valid for at least 5 minutes with the maximum at 60 minutes. If the subscription argument isn't specified, the current account is used.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
   syntax: >-
     az account get-access-token [--name]
                                 [--resource]
@@ -90,11 +101,13 @@ directCommands:
   - name: --tenant -t
     summary: Tenant ID for which the token is acquired. Only available for user and service principal account, not for MSI or Cloud Shell account.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
 - uid: az_account_list
   name: az account list
   summary: Get a list of subscriptions for the logged in account. By default, only 'Enabled' subscriptions from the current cloud is shown.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
   syntax: >-
     az account list [--all]
                     [--refresh]
@@ -107,34 +120,39 @@ directCommands:
     defaultValue: "False"
     summary: Retrieve up-to-date subscriptions from server.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
 - uid: az_account_list-locations
   name: az account list-locations
   summary: List supported regions for the current subscription.
   description: ''
-  syntax: az account list-locations
+  status: GA
+  sourceType: Core
   editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
+  syntax: az account list-locations
 - uid: az_account_set
   name: az account set
   summary: Set a subscription to be the current active subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
   syntax: az account set --name
   requiredParameters:
   - isRequired: true
     name: --name --subscription -n -s
     summary: Name or ID of subscription.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
 - uid: az_account_show
   name: az account show
   summary: Get the details of a subscription.
   description: If the subscription isn't specified, shows the details of the default subscription.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
   syntax: az account show [--name]
   optionalParameters:
   - name: --name --subscription -n -s
     summary: Name or ID of subscription.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
 commands:
 - az_account_accept-ownership-status
 - az_account_alias

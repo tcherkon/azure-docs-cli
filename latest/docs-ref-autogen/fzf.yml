@@ -33,11 +33,15 @@ description: >-
 
 
   More information about search syntax or fzf in general can be found on the fzf project page: https://github.com/junegunn/fzf#search-syntax.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_fzf_group
   name: az fzf group
   summary: Select default resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fzf group [--filter]
                  [--no-default]
@@ -53,6 +57,8 @@ directCommands:
   name: az fzf install
   summary: Download and install the fzf command.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fzf install [--install-dir]
                    [--version]
@@ -68,6 +74,8 @@ directCommands:
   name: az fzf location
   summary: Select default location.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fzf location [--filter]
                     [--no-default]
@@ -83,6 +91,8 @@ directCommands:
   name: az fzf subscription
   summary: Select default subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fzf subscription [--filter]
                         [--no-default]

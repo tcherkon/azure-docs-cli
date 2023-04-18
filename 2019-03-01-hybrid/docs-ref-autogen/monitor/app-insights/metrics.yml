@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **application-insights** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az monitor app-insights metrics** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Retrieve metrics from an application.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_app-insights_metrics_get-metadata
   name: az monitor app-insights metrics get-metadata
   summary: Get the metadata for metrics on a particular application.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights metrics get-metadata [--app]
                                                  [--ids]
@@ -37,6 +41,8 @@ directCommands:
   name: az monitor app-insights metrics show
   summary: View the value of a single metric.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights metrics show --metrics
                                          [--aggregation]

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud app** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage apps in Azure Spring Cloud.
 description: ''
+status: Deprecated
+isDeprecated: true
+deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud' is deprecated and will be removed in a future release. Use 'spring' instead.
+sourceType: Extension
 directCommands:
 - uid: az_spring-cloud_app_append-loaded-public-certificate
   name: az spring-cloud app append-loaded-public-certificate
   summary: Append a new loaded public certificate to an app in the Azure Spring Cloud.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app append-loaded-public-certificate --certificate-name
                                                          --load-trust-store {false, true}
@@ -48,6 +56,10 @@ directCommands:
   name: az spring-cloud app append-persistent-storage
   summary: Append a new persistent storage to an app in the Azure Spring Cloud.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app append-persistent-storage --mount-path
                                                   --name
@@ -103,6 +115,10 @@ directCommands:
   name: az spring-cloud app create
   summary: Create a new app with a default deployment in the Azure Spring Cloud.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app create --name
                                --resource-group
@@ -187,10 +203,15 @@ directCommands:
   - name: --user-assigned
     summary: Space-separated user-assigned managed identity resource IDs to assgin to an app.
     description: ''
+    isPreview: true
 - uid: az_spring-cloud_app_delete
   name: az spring-cloud app delete
   summary: Delete an app in the Azure Spring Cloud.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app delete --name
                                --resource-group
@@ -212,6 +233,10 @@ directCommands:
   name: az spring-cloud app deploy
   summary: Deploy source code or pre-built binary to an app and update related configurations.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app deploy --name
                                --resource-group
@@ -274,9 +299,11 @@ directCommands:
     defaultValue: "default"
     summary: (Enterprise Tier Only) Build service builder used to build the executable.
     description: ''
+    isPreview: true
   - name: --config-file-patterns
     summary: (Enterprise Tier Only) Config file patterns separated with ',' to decide which patterns of Application Configuration Service will be used. Use '""' to clear existing configurations.
     description: ''
+    isPreview: true
   - name: --container-args
     summary: The arguments of the container image.
     description: ''
@@ -337,6 +364,10 @@ directCommands:
   name: az spring-cloud app list
   summary: List all apps in the Azure Spring Cloud.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app list --resource-group
                              --service
@@ -356,6 +387,10 @@ directCommands:
   name: az spring-cloud app logs
   summary: Show logs of an app instance, logs will be streamed when setting '-f/--follow'.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app logs --name
                              --resource-group
@@ -409,6 +444,10 @@ directCommands:
   name: az spring-cloud app restart
   summary: Restart instances of the app, default to production deployment.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app restart --name
                                 --resource-group
@@ -440,6 +479,10 @@ directCommands:
   name: az spring-cloud app scale
   summary: Manually scale an app or its deployments.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app scale --name
                               --resource-group
@@ -488,6 +531,10 @@ directCommands:
   name: az spring-cloud app set-deployment
   summary: Set production deployment of an app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app set-deployment --deployment
                                        --name
@@ -523,6 +570,10 @@ directCommands:
   name: az spring-cloud app show
   summary: Show the details of an app in the Azure Spring Cloud.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app show --name
                              --resource-group
@@ -544,6 +595,10 @@ directCommands:
   name: az spring-cloud app show-deploy-log
   summary: Show build log of the last deploy, only apply to source code deploy, default to production deployment.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app show-deploy-log --name
                                         --resource-group
@@ -570,6 +625,10 @@ directCommands:
   name: az spring-cloud app start
   summary: Start instances of the app, default to production deployment.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app start --name
                               --resource-group
@@ -601,6 +660,10 @@ directCommands:
   name: az spring-cloud app stop
   summary: Stop instances of the app, default to production deployment.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app stop --name
                              --resource-group
@@ -632,6 +695,10 @@ directCommands:
   name: az spring-cloud app unset-deployment
   summary: Unset production deployment of an app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app unset-deployment --name
                                          --resource-group
@@ -662,6 +729,10 @@ directCommands:
   name: az spring-cloud app update
   summary: Update configurations of an app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app update --name
                                --resource-group
@@ -704,6 +775,7 @@ directCommands:
   - name: --config-file-patterns
     summary: (Enterprise Tier Only) Config file patterns separated with ',' to decide which patterns of Application Configuration Service will be used. Use '""' to clear existing configurations.
     description: ''
+    isPreview: true
   - name: --deployment -d
     summary: Name of an existing deployment of the app. Default to the production deployment if not specified.
     description: ''

@@ -3,6 +3,8 @@ uid: az_synapse_spark
 name: az synapse spark
 summary: Manage Spark pools and Spark jobs.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_synapse_spark_job
 - az_synapse_spark_job_cancel

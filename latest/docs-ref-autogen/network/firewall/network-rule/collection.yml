@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-firewall** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az network firewall network-rule collection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Azure Firewall network rule collections.
 description: Collections are created as part of the `az network firewall network-rule create` command.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_network-rule_collection_delete
   name: az network firewall network-rule collection delete
   summary: Delete an Azure Firewall network rule collection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall network-rule collection delete [--collection-name]
                                                        [--firewall-name]
@@ -38,6 +42,8 @@ directCommands:
   name: az network firewall network-rule collection list
   summary: List Azure Firewall network rule collections.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall network-rule collection list --firewall-name
                                                      --resource-group
@@ -54,6 +60,8 @@ directCommands:
   name: az network firewall network-rule collection show
   summary: Get the details of an Azure Firewall network rule collection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall network-rule collection show [--collection-name]
                                                      [--firewall-name]

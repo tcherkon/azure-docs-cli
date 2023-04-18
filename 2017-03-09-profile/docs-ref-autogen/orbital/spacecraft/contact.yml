@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **orbital** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az orbital spacecraft contact** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: At the scheduled time, the selected ground station will contact the spacecraft and start data retrieval/delivery using the contact profile.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_orbital_spacecraft_contact_create
   name: az orbital spacecraft contact create
   summary: Create a contact.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft contact create --contact-name
                                          --resource-group
@@ -58,6 +62,8 @@ directCommands:
   name: az orbital spacecraft contact delete
   summary: Delete a specified contact.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft contact delete [--contact-name]
                                          [--ids]
@@ -97,6 +103,8 @@ directCommands:
   name: az orbital spacecraft contact list
   summary: List contacts by spacecraft.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft contact list --resource-group
                                        --spacecraft-name
@@ -121,6 +129,8 @@ directCommands:
   name: az orbital spacecraft contact show
   summary: Get the specified contact in a specified resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft contact show [--contact-name]
                                        [--ids]
@@ -150,6 +160,8 @@ directCommands:
   name: az orbital spacecraft contact wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft contact wait [--contact-name]
                                        [--created]

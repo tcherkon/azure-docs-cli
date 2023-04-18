@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage entities in an Azure IoT Hub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_generate-sas-token
   name: az iot hub generate-sas-token
   summary: Generate a SAS token for a target IoT Hub, device or module.
   description: For device SAS tokens, the policy parameter is used to access the the device registry only. Therefore the policy should have read access to the registry. For IoT Hub tokens the policy is part of the SAS.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub generate-sas-token [--auth-type {key, login}]
                                   [--connection-string]
@@ -79,6 +83,8 @@ directCommands:
   name: az iot hub invoke-device-method
   summary: Invoke a device method.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub invoke-device-method --device-id
                                     --method-name
@@ -127,6 +133,8 @@ directCommands:
   name: az iot hub invoke-module-method
   summary: Invoke a module method.
   description: This command supports both edge and non-edge device modules.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub invoke-module-method --device-id
                                     --method-name
@@ -183,6 +191,8 @@ directCommands:
     This command relies on and may install dependent Cython package (uamqp) upon first execution.
 
     https://github.com/Azure/azure-uamqp-python.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub monitor-events [--cg]
                               [--content-type]
@@ -282,6 +292,8 @@ directCommands:
     This command relies on and may install dependent Cython package (uamqp) upon first execution.
 
     https://github.com/Azure/azure-uamqp-python.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub monitor-feedback [--auth-type {key, login}]
                                 [--device-id]
@@ -335,6 +347,8 @@ directCommands:
   name: az iot hub query
   summary: Query an IoT Hub using a powerful SQL-like language.
   description: Retrieve information regarding device and module twins, jobs and message routing. See https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-query-language for more information.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub query --query-command
                      [--auth-type {key, login}]

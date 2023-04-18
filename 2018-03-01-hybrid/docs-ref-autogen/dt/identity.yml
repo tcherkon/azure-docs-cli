@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt identity** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage identites of a Digital Twins instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_identity_assign
   name: az dt identity assign
   summary: Assign managed identities to a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt identity assign --dt-name
                           [--mi-system-assigned {false, true}]
@@ -50,6 +54,8 @@ directCommands:
   name: az dt identity remove
   summary: Remove managed identities from a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt identity remove --dt-name
                           [--mi-system-assigned {false, true}]
@@ -82,6 +88,8 @@ directCommands:
   name: az dt identity show
   summary: Show the identity properties of a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt identity show --dt-name
                         [--resource-group]

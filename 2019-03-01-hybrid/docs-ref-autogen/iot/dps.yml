@@ -3,11 +3,17 @@ uid: az_iot_dps
 name: az iot dps
 summary: Manage Azure IoT Hub Device Provisioning Service.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_iot_dps_compute-device-key
   name: az iot dps compute-device-key
   summary: Generate a derived device SAS key.
   description: Generate a derived device key for a DPS enrollment group.
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'iot dps enrollment-group compute-device-key' instead.
+  sourceType: Extension
   syntax: >-
     az iot dps compute-device-key --registration-id
                                   [--auth-type {key, login}]
@@ -51,6 +57,9 @@ directCommands:
   name: az iot dps create
   summary: Create an Azure IoT Hub Device Provisioning Service instance.
   description: For an introduction to Azure IoT Hub Device Provisioning Service, see https://docs.microsoft.com/azure/iot-dps/about-iot-dps.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot dps create --name
                       --resource-group
@@ -95,11 +104,13 @@ directCommands:
     defaultValue: "1"
     summary: Units in your IoT Hub Device Provisioning Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_dps_delete
   name: az iot dps delete
   summary: Delete an Azure IoT Hub Device Provisioning Service instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot dps delete [--ids]
                       [--name]
@@ -121,11 +132,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_dps_list
   name: az iot dps list
   summary: List Azure IoT Hub Device Provisioning Service instances.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: az iot dps list [--resource-group]
   examples:
   - summary: List all Azure IoT Hub Device Provisioning Services in a subscription.
@@ -136,11 +149,13 @@ directCommands:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_dps_show
   name: az iot dps show
   summary: Get the details of an Azure IoT Hub Device Provisioning Service instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot dps show [--ids]
                     [--name]
@@ -162,11 +177,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_dps_update
   name: az iot dps update
   summary: Update an Azure IoT Hub Device Provisioning Service instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot dps update [--add]
                       [--force-string]
@@ -212,7 +229,6 @@ directCommands:
   - name: --tags
     summary: 'Space-separated tags: key[=value] [key[=value] ...]. Use "" to clear existing tags.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 commands:
 - az_iot_dps_certificate
 - az_iot_dps_certificate_create

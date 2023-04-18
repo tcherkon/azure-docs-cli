@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage operationalized services.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_service_delete
   name: az ml service delete
   summary: Delete a service from the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service delete --name
                          [--path]
@@ -44,6 +48,8 @@ directCommands:
   name: az ml service get-access-token
   summary: Get a token to issue requests a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service get-access-token --name
                                    [--path]
@@ -76,6 +82,8 @@ directCommands:
   name: az ml service get-keys
   summary: Get keys to issue requests against a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service get-keys --name
                            [--path]
@@ -108,6 +116,8 @@ directCommands:
   name: az ml service get-logs
   summary: Get logs for a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service get-logs --name
                            [--init]
@@ -150,6 +160,8 @@ directCommands:
   name: az ml service list
   summary: List services in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service list [--compute-type]
                        [--image-digest]
@@ -202,6 +214,8 @@ directCommands:
   name: az ml service regen-key
   summary: Regenerate keys for a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service regen-key --key
                             --name
@@ -243,6 +257,8 @@ directCommands:
   name: az ml service run
   summary: Run a service in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service run --name
                       [--input-data]
@@ -279,6 +295,8 @@ directCommands:
   name: az ml service show
   summary: Show details for a service in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service show --name
                        [--path]
@@ -311,6 +329,8 @@ directCommands:
   name: az ml service update
   summary: Update a service in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml service update --name
                          [--add-property]

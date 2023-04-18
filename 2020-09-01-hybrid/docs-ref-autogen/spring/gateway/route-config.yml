@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring gateway route-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage gateway route configs in Azure Spring Apps.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_gateway_route-config_create
   name: az spring gateway route-config create
   summary: Create a gateway route config with routing rules of Json array format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway route-config create --name
                                           --resource-group
@@ -49,6 +53,8 @@ directCommands:
   name: az spring gateway route-config list
   summary: List all existing gateway route configs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway route-config list --resource-group
                                         --service
@@ -68,6 +74,8 @@ directCommands:
   name: az spring gateway route-config remove
   summary: Delete an existing gateway route config.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway route-config remove --name
                                           --resource-group
@@ -92,6 +100,8 @@ directCommands:
   name: az spring gateway route-config show
   summary: Get an existing gateway route config.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway route-config show --name
                                         --resource-group
@@ -116,6 +126,8 @@ directCommands:
   name: az spring gateway route-config update
   summary: Update an existing gateway route config with routing rules of Json array format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway route-config update --name
                                           --resource-group

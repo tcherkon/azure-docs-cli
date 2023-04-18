@@ -3,11 +3,15 @@ uid: az_connection_create
 name: az connection create
 summary: Create a connection from local to a target resource.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_connection_create_appconfig
   name: az connection create appconfig
   summary: Create a Service Connector local connection to appconfig.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create appconfig --resource-group
                                    [--app-config]
@@ -85,6 +89,8 @@ directCommands:
   name: az connection create confluent-cloud
   summary: Create a local connection to confluent-cloud.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create confluent-cloud --bootstrap-server
                                          --kafka-key
@@ -152,6 +158,8 @@ directCommands:
   name: az connection create cosmos-cassandra
   summary: Create a Service Connector local connection to cosmos-cassandra.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create cosmos-cassandra --resource-group
                                           [--account]
@@ -233,6 +241,8 @@ directCommands:
   name: az connection create cosmos-gremlin
   summary: Create a Service Connector local connection to cosmos-gremlin.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create cosmos-gremlin --resource-group
                                         [--account]
@@ -318,6 +328,8 @@ directCommands:
   name: az connection create cosmos-mongo
   summary: Create a Service Connector local connection to cosmos-mongo.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create cosmos-mongo --resource-group
                                       [--account]
@@ -399,6 +411,8 @@ directCommands:
   name: az connection create cosmos-sql
   summary: Create a Service Connector local connection to cosmos-sql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create cosmos-sql --resource-group
                                     [--account]
@@ -480,6 +494,8 @@ directCommands:
   name: az connection create cosmos-table
   summary: Create a Service Connector local connection to cosmos-table.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create cosmos-table --resource-group
                                       [--account]
@@ -561,6 +577,8 @@ directCommands:
   name: az connection create eventhub
   summary: Create a Service Connector local connection to eventhub.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create eventhub --resource-group
                                   [--client-type {dotnet, go, java, kafka-springBoot, nodejs, none, python, springBoot}]
@@ -638,6 +656,8 @@ directCommands:
   name: az connection create keyvault
   summary: Create a Service Connector local connection to keyvault.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create keyvault --resource-group
                                   [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -711,6 +731,8 @@ directCommands:
   name: az connection create mysql
   summary: Create a Service Connector local connection to mysql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create mysql --resource-group
                                [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -779,6 +801,8 @@ directCommands:
   name: az connection create mysql-flexible
   summary: Create a Service Connector local connection to mysql-flexible.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create mysql-flexible --resource-group
                                         [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -857,6 +881,8 @@ directCommands:
   name: az connection create postgres
   summary: Create a Service Connector local connection to postgres.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create postgres --resource-group
                                   [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -933,6 +959,8 @@ directCommands:
   name: az connection create postgres-flexible
   summary: Create a Service Connector local connection to postgres-flexible.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create postgres-flexible --resource-group
                                            [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1009,6 +1037,8 @@ directCommands:
   name: az connection create redis
   summary: Create a Service Connector local connection to redis.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create redis --resource-group
                                [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1070,6 +1100,8 @@ directCommands:
   name: az connection create redis-enterprise
   summary: Create a Service Connector local connection to redis-enterprise.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create redis-enterprise --resource-group
                                           [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1131,6 +1163,8 @@ directCommands:
   name: az connection create servicebus
   summary: Create a Service Connector local connection to servicebus.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create servicebus --resource-group
                                     [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1208,6 +1242,8 @@ directCommands:
   name: az connection create signalr
   summary: Create a Service Connector local connection to signalr.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create signalr --resource-group
                                  [--client-type {dotnet, none}]
@@ -1285,6 +1321,8 @@ directCommands:
   name: az connection create sql
   summary: Create a Service Connector local connection to sql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create sql --resource-group
                              [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1361,6 +1399,8 @@ directCommands:
   name: az connection create storage-blob
   summary: Create a Service Connector local connection to storage-blob.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create storage-blob --resource-group
                                       [--account]
@@ -1438,6 +1478,8 @@ directCommands:
   name: az connection create storage-file
   summary: Create a Service Connector local connection to storage-file.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create storage-file --resource-group
                                       [--account]
@@ -1495,6 +1537,8 @@ directCommands:
   name: az connection create storage-queue
   summary: Create a Service Connector local connection to storage-queue.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create storage-queue --resource-group
                                        [--account]
@@ -1572,6 +1616,8 @@ directCommands:
   name: az connection create storage-table
   summary: Create a Service Connector local connection to storage-table.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create storage-table --resource-group
                                        [--account]
@@ -1629,6 +1675,8 @@ directCommands:
   name: az connection create webpubsub
   summary: Create a Service Connector local connection to webpubsub.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az connection create webpubsub --resource-group
                                    [--client-type {dotnet, java, nodejs, none, python}]

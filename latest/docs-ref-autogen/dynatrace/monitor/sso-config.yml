@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **dynatrace** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az dynatrace monitor sso-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage monitor sso-config.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dynatrace_monitor_sso-config_create
   name: az dynatrace monitor sso-config create
   summary: Create a dynatrace sso-config resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor sso-config create --configuration-name
                                            --monitor-name
@@ -59,6 +63,8 @@ directCommands:
   name: az dynatrace monitor sso-config list
   summary: List all dynatrace sso-config by monitor name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor sso-config list --monitor-name
                                          --resource-group
@@ -78,6 +84,8 @@ directCommands:
   name: az dynatrace monitor sso-config show
   summary: Show a dynatrace sso-config.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor sso-config show [--configuration-name]
                                          [--ids]
@@ -107,6 +115,8 @@ directCommands:
   name: az dynatrace monitor sso-config wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor sso-config wait [--configuration-name]
                                          [--created]

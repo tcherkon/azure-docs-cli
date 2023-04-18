@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du device log** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Instance log collection management.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_device_log_collect
   name: az iot du device log collect
   summary: Configure a device diagnostics log collection operation on specified devices.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device log collect --account
                                  --agent-id
@@ -52,6 +56,8 @@ directCommands:
   name: az iot du device log list
   summary: List instance diagnostic log collection operations.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device log list --account
                               --instance
@@ -76,6 +82,8 @@ directCommands:
   name: az iot du device log show
   summary: Show a specific instance diagnostic log collection operation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device log show --account
                               --instance

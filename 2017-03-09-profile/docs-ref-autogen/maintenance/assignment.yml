@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **maintenance** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az maintenance assignment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage configuration assignment with maintenance.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_maintenance_assignment_create
   name: az maintenance assignment create
   summary: Register configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment create --configuration-assignment-name
                                      --provider-name
@@ -59,6 +67,10 @@ directCommands:
   name: az maintenance assignment create-or-update-parent
   summary: Register configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment create-or-update-parent --configuration-assignment-name
                                                       --provider-name
@@ -116,6 +128,10 @@ directCommands:
   name: az maintenance assignment delete
   summary: Unregister configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment delete --configuration-assignment-name
                                      --provider-name
@@ -156,6 +172,10 @@ directCommands:
   name: az maintenance assignment delete-parent
   summary: Unregister configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment delete-parent --configuration-assignment-name
                                             --provider-name
@@ -200,6 +220,10 @@ directCommands:
   name: az maintenance assignment list
   summary: List configurationAssignments for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment list --provider-name
                                    --resource-group
@@ -229,6 +253,10 @@ directCommands:
   name: az maintenance assignment list-parent
   summary: List configurationAssignments for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment list-parent --provider-name
                                           --resource-group
@@ -268,6 +296,10 @@ directCommands:
   name: az maintenance assignment show
   summary: Get configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment show --configuration-assignment-name
                                    --provider-name
@@ -302,6 +334,10 @@ directCommands:
   name: az maintenance assignment show-parent
   summary: Get configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment show-parent --configuration-assignment-name
                                           --provider-name
@@ -346,6 +382,10 @@ directCommands:
   name: az maintenance assignment update
   summary: Register configuration for resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance assignment update --configuration-assignment-name
                                      --provider-name

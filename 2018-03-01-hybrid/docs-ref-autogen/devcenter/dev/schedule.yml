@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter dev schedule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage schedule with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_dev_schedule_list
   name: az devcenter dev schedule list
   summary: Lists available schedules for a pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev schedule list --dev-center
                                    --pool
@@ -36,6 +44,10 @@ directCommands:
   name: az devcenter dev schedule show
   summary: Gets a schedule.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev schedule show --dev-center
                                    --name

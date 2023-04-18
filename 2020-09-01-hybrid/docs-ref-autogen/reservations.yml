@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **reservation** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az reservations** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure Reservations.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_reservations_calculate-exchange
   name: az reservations calculate-exchange
   summary: Calculates price for exchanging `Reservations` if there are no policy errors.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations calculate-exchange [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                                        [--ris-to-exchange]
@@ -38,6 +46,10 @@ directCommands:
   name: az reservations exchange
   summary: Returns one or more `Reservations` in exchange for one or more `Reservation` purchases.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations exchange [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                              [--session-id]
@@ -56,6 +68,10 @@ directCommands:
   name: az reservations list
   summary: List the reservations that the user has access to in the current tenant.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'reservations' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az reservations list [--filter]
                          [--orderby]

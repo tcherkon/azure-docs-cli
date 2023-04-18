@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops admin banner** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage organization banner.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_admin_banner_add
   name: az devops admin banner add
   summary: Add a new banner and immediately show it.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops admin banner add --message
                                [--detect {false, true}]
@@ -46,6 +50,8 @@ directCommands:
   name: az devops admin banner list
   summary: List banners.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops admin banner list [--detect {false, true}]
                                 [--org]
@@ -61,6 +67,8 @@ directCommands:
   name: az devops admin banner remove
   summary: Remove a banner.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops admin banner remove --id
                                   [--detect {false, true}]
@@ -82,6 +90,8 @@ directCommands:
   name: az devops admin banner show
   summary: Show details for a banner.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops admin banner show --id
                                 [--detect {false, true}]
@@ -103,6 +113,8 @@ directCommands:
   name: az devops admin banner update
   summary: Update the message, level, or expiration date for a banner.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops admin banner update --id
                                   [--detect {false, true}]

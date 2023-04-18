@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot product test run** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage product testing certification test runs.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_iot_product_test_run_show
   name: az iot product test run show
   summary: Show the status of a testing run.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test run show --test-id
                                  [--base-url]
@@ -48,6 +56,10 @@ directCommands:
   name: az iot product test run submit
   summary: Submit a completed test run to the partner/product service.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test run submit --run-id
                                    --test-id

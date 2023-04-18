@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub device-twin** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT device twin configuration.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_device-twin_list
   name: az iot hub device-twin list
@@ -15,6 +17,8 @@ directCommands:
     This command is the same as iot hub query with the query "select * from devices" for
 
     all devices and "select * from devices where capabilities.iotEdge = true" for edge devices.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-twin list [--auth-type {key, login}]
                                 [--edge-enabled {false, true}]
@@ -50,6 +54,8 @@ directCommands:
   name: az iot hub device-twin replace
   summary: Replace device twin definition with target json.
   description: Input json directly or use a file path.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-twin replace --device-id
                                    --json
@@ -92,6 +98,8 @@ directCommands:
   name: az iot hub device-twin show
   summary: Get a device twin definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-twin show --device-id
                                 [--auth-type {key, login}]
@@ -125,6 +133,8 @@ directCommands:
     Provide --desired or --tags arguments for PATCH behavior. Both parameters support inline json or a file path to json content.
 
     Usage of generic update args (i.e. --set) will reflect PUT behavior and are deprecated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-twin update --device-id
                                   [--add]

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection backup-vault** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage backup vault with dataprotection.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_backup-vault_create
   name: az dataprotection backup-vault create
   summary: Create a BackupVault resource belonging to a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'az dataprotection backup-vault' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-vault create --resource-group
                                           --storage-setting
@@ -79,6 +87,10 @@ directCommands:
   name: az dataprotection backup-vault delete
   summary: Delete a BackupVault resource from the resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'az dataprotection backup-vault' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-vault delete [--ids]
                                           [--resource-group]
@@ -109,6 +121,10 @@ directCommands:
   name: az dataprotection backup-vault list
   summary: Gets list of backup vault in a subscription or in a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'az dataprotection backup-vault' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az dataprotection backup-vault list [--resource-group]
   examples:
   - summary: List backup vault in a subscription
@@ -123,6 +139,10 @@ directCommands:
   name: az dataprotection backup-vault show
   summary: Get a resource belonging to a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'az dataprotection backup-vault' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-vault show [--ids]
                                         [--resource-group]
@@ -150,6 +170,10 @@ directCommands:
   name: az dataprotection backup-vault update
   summary: Updates a BackupVault resource belonging to a resource group. For example, updating tags for a resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'az dataprotection backup-vault' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-vault update [--add]
                                           [--azure-monitor-alerts-for-job-failures {Disabled, Enabled}]
@@ -224,6 +248,10 @@ directCommands:
   name: az dataprotection backup-vault wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'az dataprotection backup-vault' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-vault wait [--created]
                                         [--custom]

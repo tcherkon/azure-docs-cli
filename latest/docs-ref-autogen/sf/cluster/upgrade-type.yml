@@ -3,11 +3,15 @@ uid: az_sf_cluster_upgrade-type
 name: az sf cluster upgrade-type
 summary: Manage the upgrade type of a cluster.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sf_cluster_upgrade-type_set
   name: az sf cluster upgrade-type set
   summary: Change the  upgrade type for a cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sf cluster upgrade-type set --cluster-name
                                    --resource-group

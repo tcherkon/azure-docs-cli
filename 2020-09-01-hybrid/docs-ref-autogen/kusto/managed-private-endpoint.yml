@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto managed-private-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage managed private endpoint with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_managed-private-endpoint_create
   name: az kusto managed-private-endpoint create
   summary: Creates a managed private endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto managed-private-endpoint create --cluster-name
                                              --managed-private-endpoint-name
@@ -58,6 +66,10 @@ directCommands:
   name: az kusto managed-private-endpoint delete
   summary: Deletes a managed private endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto managed-private-endpoint delete [--cluster-name]
                                              [--ids]
@@ -97,6 +109,10 @@ directCommands:
   name: az kusto managed-private-endpoint list
   summary: Returns the list of managed private endpoints.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto managed-private-endpoint list --cluster-name
                                            --resource-group
@@ -116,6 +132,10 @@ directCommands:
   name: az kusto managed-private-endpoint show
   summary: Gets a managed private endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto managed-private-endpoint show [--cluster-name]
                                            [--ids]
@@ -145,6 +165,10 @@ directCommands:
   name: az kusto managed-private-endpoint update
   summary: Updates a managed private endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto managed-private-endpoint update [--cluster-name]
                                              [--group-id]
@@ -195,6 +219,10 @@ directCommands:
   name: az kusto managed-private-endpoint wait
   summary: Place the CLI in a waiting state until a condition of the kusto managed-private-endpoint is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto managed-private-endpoint wait [--cluster-name]
                                            [--created]

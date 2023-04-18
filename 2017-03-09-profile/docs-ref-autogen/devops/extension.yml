@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops extension** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage extensions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_extension_disable
   name: az devops extension disable
   summary: Disable an extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops extension disable --extension-id
                                 --publisher-id
@@ -38,6 +42,8 @@ directCommands:
   name: az devops extension enable
   summary: Enable an extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops extension enable --extension-id
                                --publisher-id
@@ -64,6 +70,8 @@ directCommands:
   name: az devops extension install
   summary: Install an extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops extension install --extension-id
                                 --publisher-id
@@ -90,6 +98,8 @@ directCommands:
   name: az devops extension list
   summary: List extensions installed in an organization.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops extension list [--detect {false, true}]
                              [--include-built-in {false, true}]
@@ -115,6 +125,8 @@ directCommands:
   name: az devops extension search
   summary: Search extensions from marketplace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az devops extension search --search-query
   requiredParameters:
   - isRequired: true
@@ -125,6 +137,8 @@ directCommands:
   name: az devops extension show
   summary: Get detail of single extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops extension show --extension-id
                              --publisher-id
@@ -151,6 +165,8 @@ directCommands:
   name: az devops extension uninstall
   summary: Uninstall an extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops extension uninstall --extension-id
                                   --publisher-id

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storage-mover** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az storage-mover agent** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Agent resource, which references a hybrid compute machine that can run jobs.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storage-mover_agent_list
   name: az storage-mover agent list
   summary: Lists all Agents in a Storage Mover.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover agent list --resource-group
                                 --storage-mover-name
@@ -31,6 +35,8 @@ directCommands:
   name: az storage-mover agent show
   summary: Gets an Agent resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover agent show [--agent-name]
                                 [--ids]
@@ -60,6 +66,8 @@ directCommands:
   name: az storage-mover agent unregister
   summary: Unregisters an Agent resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover agent unregister [--agent-name]
                                       [--ids]
@@ -99,6 +107,8 @@ directCommands:
   name: az storage-mover agent update
   summary: Updates an Agent resource, which references a hybrid compute machine that can run jobs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover agent update [--add]
                                   [--agent-name]
@@ -149,6 +159,8 @@ directCommands:
   name: az storage-mover agent wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover agent wait [--agent-name]
                                 [--created]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **orbital** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az orbital spacecraft** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Satellites must be registered as a spacecraft with Azure Orbital to establish contacts with the satellite.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_orbital_spacecraft_create
   name: az orbital spacecraft create
   summary: Create a spacecraft resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft create --name
                                  --resource-group
@@ -65,6 +69,8 @@ directCommands:
   name: az orbital spacecraft delete
   summary: Delete a specified spacecraft resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft delete [--ids]
                                  [--name]
@@ -100,6 +106,8 @@ directCommands:
   name: az orbital spacecraft list
   summary: List spacecrafts.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft list [--resource-group]
                                [--skiptoken]
@@ -119,6 +127,8 @@ directCommands:
   name: az orbital spacecraft list-available-contact
   summary: List available contacts. A contact is available if the spacecraft is visible from the ground station for more than the minimum viable contact duration provided in the contact profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft list-available-contact --contact-profile
                                                  --end-time
@@ -164,6 +174,8 @@ directCommands:
   name: az orbital spacecraft show
   summary: Get the specified spacecraft in a specified resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft show [--ids]
                                [--name]
@@ -189,6 +201,8 @@ directCommands:
   name: az orbital spacecraft update
   summary: Update spacecraft.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft update [--add]
                                  [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
@@ -260,6 +274,8 @@ directCommands:
   name: az orbital spacecraft wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital spacecraft wait [--created]
                                [--custom]

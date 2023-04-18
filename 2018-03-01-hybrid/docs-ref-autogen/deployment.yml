@@ -3,6 +3,8 @@ uid: az_deployment
 name: az deployment
 summary: Manage Azure Resource Manager template deployment at subscription scope.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_deployment_group
 - az_deployment_group_cancel

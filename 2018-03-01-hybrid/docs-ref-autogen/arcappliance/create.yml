@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcappliance** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az arcappliance create** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Command group for creation of Appliance.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_arcappliance_create_hci
   name: az arcappliance create hci
   summary: Command to create HCI Appliance - must be done after Appliance has been deployed.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance create' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance create hci --config-file
                                --kubeconfig
@@ -48,6 +56,10 @@ directCommands:
   name: az arcappliance create kubevirt
   summary: Command to create KubeVirt Appliance - must be done after Appliance has been deployed.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance create' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance create kubevirt --config-file
                                     --kubeconfig
@@ -84,6 +96,10 @@ directCommands:
   name: az arcappliance create scvmm
   summary: Command to create SCVMM Appliance - must be done Appliance has been deployed. e.g az arcappliance create scvmm --resource-group [REQUIRED] --config-file [REQUIRED] --kubeconfig [REQUIRED].
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance create' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance create scvmm --config-file
                                  --kubeconfig
@@ -120,6 +136,10 @@ directCommands:
   name: az arcappliance create vmware
   summary: Command to create VMware Appliance - must be done Appliance has been deployed.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance create' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance create vmware --config-file
                                   --kubeconfig

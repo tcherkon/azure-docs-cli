@@ -3,11 +3,15 @@ uid: az_sf_cluster_node-type
 name: az sf cluster node-type
 summary: Manage the node-type of a cluster.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sf_cluster_node-type_add
   name: az sf cluster node-type add
   summary: Add a new node type to a cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sf cluster node-type add --capacity
                                 --cluster-name

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **footprint** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az footprint profile** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Footprint profiles.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_footprint_profile_create
   name: az footprint profile create
   summary: Creates or updates a Footprint profile with the specified properties.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint profile' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint profile create --measurement-count
                                 --name
@@ -62,6 +70,10 @@ directCommands:
   name: az footprint profile delete
   summary: Deletes an existing Footprint profile.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint profile' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint profile delete [--ids]
                                 [--name]
@@ -92,6 +104,10 @@ directCommands:
   name: az footprint profile list
   summary: Retrieves the information about all Footprint profiles under a subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint profile' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az footprint profile list [--resource-group]
   examples:
   - summary: List all Footprint profiles under a Resource Group.
@@ -104,6 +120,10 @@ directCommands:
   name: az footprint profile show
   summary: Retrieves the information about a single Footprint profile.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint profile' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint profile show [--ids]
                               [--name]
@@ -129,6 +149,10 @@ directCommands:
   name: az footprint profile update
   summary: Updates an existing Footprint profile resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint profile' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint profile update [--ids]
                                 [--name]

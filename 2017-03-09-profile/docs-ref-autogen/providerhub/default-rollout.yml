@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **providerhub** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az providerhub default-rollout** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage default rollout with providerhub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_providerhub_default-rollout_create
   name: az providerhub default-rollout create
   summary: Create the rollout details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub default-rollout create --provider-namespace
                                           --rollout-name
@@ -53,6 +57,8 @@ directCommands:
   name: az providerhub default-rollout delete
   summary: Deletes the rollout resource. Rollout must be in terminal state.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub default-rollout delete [--ids]
                                           [--provider-namespace]
@@ -83,6 +89,8 @@ directCommands:
   name: az providerhub default-rollout list
   summary: Gets the list of the rollouts for the given provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az providerhub default-rollout list --provider-namespace
   examples:
   - summary: DefaultRollouts_ListByProviderRegistration
@@ -96,6 +104,8 @@ directCommands:
   name: az providerhub default-rollout show
   summary: Gets the default rollout details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub default-rollout show [--ids]
                                         [--provider-namespace]
@@ -121,6 +131,8 @@ directCommands:
   name: az providerhub default-rollout stop
   summary: Stops or cancels the rollout, if in progress.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub default-rollout stop [--ids]
                                         [--provider-namespace]

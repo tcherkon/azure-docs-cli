@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **traffic-controller** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az service-networking traffic-controller** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and Configure Azure Traffic Controller Resource.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'az service-networking' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_service-networking_traffic-controller_create
   name: az service-networking traffic-controller create
   summary: Create a Traffic Controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller create --name
                                                     --resource-group
@@ -45,6 +53,10 @@ directCommands:
   name: az service-networking traffic-controller delete
   summary: Delete a Traffic Controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller delete [--ids]
                                                     [--name]
@@ -80,6 +92,10 @@ directCommands:
   name: az service-networking traffic-controller list
   summary: List Traffic Controllers.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az service-networking traffic-controller list [--resource-group]
   examples:
   - summary: List Traffic Controllers in resource group
@@ -94,6 +110,10 @@ directCommands:
   name: az service-networking traffic-controller show
   summary: Get a Traffic Controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller show [--ids]
                                                   [--name]
@@ -119,6 +139,10 @@ directCommands:
   name: az service-networking traffic-controller update
   summary: Update a Traffic Controller.
   description: This command can only be used to update the tags for a traffic controller. Name and resource group are immutable and cannot be updated.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller update [--add]
                                                     [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
@@ -170,6 +194,10 @@ directCommands:
   name: az service-networking traffic-controller wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller wait [--created]
                                                   [--custom]

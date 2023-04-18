@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt twin component** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Show and update the digital twin components of a Digital Twins instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_twin_component_show
   name: az dt twin component show
   summary: Show details of a digital twin component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin component show --component
                               --dt-name
@@ -41,6 +45,8 @@ directCommands:
   name: az dt twin component update
   summary: Update a digital twin component via JSON patch specification.
   description: Updates to property values and $model elements may happen in the same request. Operations are limited to add, replace and remove.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin component update --component
                                 --dt-name

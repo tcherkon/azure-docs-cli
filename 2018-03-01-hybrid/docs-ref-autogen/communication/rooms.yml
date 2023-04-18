@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **communication** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az communication rooms** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to interact with Azure Communication Services Rooms gateway.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_communication_rooms_create
   name: az communication rooms create
   summary: Create a new room.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication rooms' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication rooms create [--attendee-participants]
                                   [--connection-string]
@@ -59,6 +67,10 @@ directCommands:
   name: az communication rooms delete
   summary: Delete an existing room.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication rooms' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication rooms delete --room
                                   [--connection-string]
@@ -83,6 +95,10 @@ directCommands:
   name: az communication rooms get
   summary: Return attributes of an existing room.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication rooms' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication rooms get --room
                                [--connection-string]
@@ -102,6 +118,10 @@ directCommands:
   name: az communication rooms update
   summary: Update attributes of an existing room.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication rooms' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication rooms update --room
                                   [--attendee-participants]

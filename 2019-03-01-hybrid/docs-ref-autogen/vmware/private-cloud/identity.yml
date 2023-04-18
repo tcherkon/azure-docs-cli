@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **vmware** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az vmware private-cloud identity** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands for Managed Identity in a private cloud.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_vmware_private-cloud_identity_assign
   name: az vmware private-cloud identity assign
   summary: Assign a Managed Identity in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware private-cloud identity assign --private-cloud
                                             --resource-group
@@ -34,6 +38,8 @@ directCommands:
   name: az vmware private-cloud identity remove
   summary: Remove a Managed Identity in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware private-cloud identity remove --private-cloud
                                             --resource-group
@@ -56,6 +62,8 @@ directCommands:
   name: az vmware private-cloud identity show
   summary: Show Managed Identities in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware private-cloud identity show --private-cloud
                                           --resource-group

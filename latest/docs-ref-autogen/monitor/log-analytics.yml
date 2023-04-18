@@ -3,11 +3,15 @@ uid: az_monitor_log-analytics
 name: az monitor log-analytics
 summary: Manage Azure log analytics.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_monitor_log-analytics_query
   name: az monitor log-analytics query
   summary: Query a Log Analytics workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor log-analytics query --analytics-query
                                    --workspace

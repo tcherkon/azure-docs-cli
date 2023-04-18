@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **webpubsub** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az webpubsub service permission** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Webpubsub service permissions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_webpubsub_service_permission_check
   name: az webpubsub service permission check
   summary: Check if a connection has permission to the specified group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub service permission check --connection-id
                                           --group-name
@@ -56,6 +60,8 @@ directCommands:
   name: az webpubsub service permission grant
   summary: Grant a group permission to the connection. Error throws if operation fails.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub service permission grant --connection-id
                                           --group-name
@@ -100,6 +106,8 @@ directCommands:
   name: az webpubsub service permission revoke
   summary: Revoke a group permission from the connection. Error throws if operation fails.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub service permission revoke --connection-id
                                            --group-name

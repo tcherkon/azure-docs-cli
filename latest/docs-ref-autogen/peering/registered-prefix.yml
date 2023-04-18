@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **peering** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az peering registered-prefix** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Peering registered-prefix.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_peering_registered-prefix_create
   name: az peering registered-prefix create
   summary: Creates a new registered prefix with the specified name under the given subscription, resource group and peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering registered-prefix create --peering-name
                                         --registered-prefix-name
@@ -41,6 +45,8 @@ directCommands:
   name: az peering registered-prefix delete
   summary: Deletes an existing registered prefix with the specified name under the given subscription, resource group and peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering registered-prefix delete --peering-name
                                         --registered-prefix-name
@@ -65,6 +71,8 @@ directCommands:
   name: az peering registered-prefix list
   summary: Lists all registered prefixes under the given subscription, resource group and peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering registered-prefix list --peering-name
                                       --resource-group
@@ -84,6 +92,8 @@ directCommands:
   name: az peering registered-prefix show
   summary: Gets an existing registered prefix with the specified name under the given subscription, resource group and peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering registered-prefix show --peering-name
                                       --registered-prefix-name
@@ -108,6 +118,8 @@ directCommands:
   name: az peering registered-prefix update
   summary: Creates a new registered prefix with the specified name under the given subscription, resource group and peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering registered-prefix update --peering-name
                                         --registered-prefix-name

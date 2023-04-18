@@ -3,6 +3,8 @@ uid: az_mariadb
 name: az mariadb
 summary: Manage Azure Database for MariaDB servers.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_mariadb_db
 - az_mariadb_db_create

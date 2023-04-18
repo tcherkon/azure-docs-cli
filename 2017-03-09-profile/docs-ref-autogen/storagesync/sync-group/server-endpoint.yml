@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storagesync** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az storagesync sync-group server-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage server endpoint.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storagesync_sync-group_server-endpoint_create
   name: az storagesync sync-group server-endpoint create
   summary: Create a new server endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group server-endpoint create --name
                                                      --registered-server-id
@@ -87,6 +91,8 @@ directCommands:
   name: az storagesync sync-group server-endpoint delete
   summary: Delete a given server endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group server-endpoint delete --name
                                                      --storage-sync-service
@@ -131,6 +137,8 @@ directCommands:
   name: az storagesync sync-group server-endpoint list
   summary: List all server endpoints in a sync group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group server-endpoint list --storage-sync-service
                                                    --sync-group-name
@@ -160,6 +168,8 @@ directCommands:
   name: az storagesync sync-group server-endpoint show
   summary: Show the properties for a given server endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group server-endpoint show --name
                                                    --storage-sync-service
@@ -194,6 +204,8 @@ directCommands:
   name: az storagesync sync-group server-endpoint update
   summary: Update the properties for a given server endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group server-endpoint update --name
                                                      --storage-sync-service
@@ -259,6 +271,8 @@ directCommands:
   name: az storagesync sync-group server-endpoint wait
   summary: Place the CLI in a waiting state until a condition of a server endpoint is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group server-endpoint wait --name
                                                    --resource-group

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp revision** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage revisions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_revision_activate
   name: az containerapp revision activate
   summary: Activate a revision.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision activate --revision
                                       [--ids]
@@ -43,6 +47,8 @@ directCommands:
   name: az containerapp revision copy
   summary: Create a revision based on a previous revision.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision copy [--args]
                                   [--command]
@@ -150,6 +156,7 @@ directCommands:
   - name: --workload-profile-name -w
     summary: The friendly name for the workload profile.
     description: ''
+    isPreview: true
   - name: --yaml
     summary: Path to a .yaml file with the configuration of a container app. All other parameters will be ignored. For an example, see  https://docs.microsoft.com/azure/container-apps/azure-resource-manager-api-spec#examples.
     description: ''
@@ -157,6 +164,8 @@ directCommands:
   name: az containerapp revision deactivate
   summary: Deactivate a revision.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision deactivate --revision
                                         [--ids]
@@ -188,6 +197,8 @@ directCommands:
   name: az containerapp revision list
   summary: List a container app's revisions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision list --name
                                   --resource-group
@@ -213,6 +224,8 @@ directCommands:
   name: az containerapp revision restart
   summary: Restart a revision.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision restart --revision
                                      [--ids]
@@ -244,6 +257,8 @@ directCommands:
   name: az containerapp revision set-mode
   summary: Set the revision mode of a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision set-mode --mode {multiple, single}
                                       [--ids]
@@ -276,6 +291,8 @@ directCommands:
   name: az containerapp revision show
   summary: Show details of a revision.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision show --revision
                                   [--ids]

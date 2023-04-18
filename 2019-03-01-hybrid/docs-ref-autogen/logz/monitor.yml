@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **logz** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az logz monitor** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage monitor with logz.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_logz_monitor_create
   name: az logz monitor create
   summary: Create a monitor resource. This create operation can take Get to complete.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor create --monitor-name
                            --resource-group
@@ -100,6 +108,10 @@ directCommands:
   name: az logz monitor delete
   summary: Delete a monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor delete [--ids]
                            [--monitor-name]
@@ -135,6 +147,10 @@ directCommands:
   name: az logz monitor list
   summary: List all monitors under the specified resource group. And List all monitors under the specified subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az logz monitor list [--resource-group]
   examples:
   - summary: Monitors_ListByResourceGroup
@@ -149,6 +165,10 @@ directCommands:
   name: az logz monitor list-payload
   summary: List the payload that needs to be passed in the request body for installing Logz.io agent on a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor list-payload --monitor-name
                                  --resource-group
@@ -168,6 +188,10 @@ directCommands:
   name: az logz monitor list-resource
   summary: List the resources currently being monitored by the Logz monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor list-resource --monitor-name
                                   --resource-group
@@ -187,6 +211,10 @@ directCommands:
   name: az logz monitor list-role
   summary: List the user's roles configured on Logz.io side for the account corresponding to the monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor list-role --monitor-name
                               --resource-group
@@ -211,6 +239,10 @@ directCommands:
   name: az logz monitor list-vm
   summary: List the compute resources currently being monitored by the Logz main account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor list-vm --monitor-name
                             --resource-group
@@ -230,6 +262,10 @@ directCommands:
   name: az logz monitor show
   summary: Get the properties of a specific monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor show [--ids]
                          [--monitor-name]
@@ -255,6 +291,10 @@ directCommands:
   name: az logz monitor update
   summary: Update a monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor update [--ids]
                            [--monitor-name]
@@ -289,6 +329,10 @@ directCommands:
   name: az logz monitor update-vm
   summary: Update the collection when Logz.io agent has been installed on a VM for a given monitor.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor update-vm [--ids]
                               [--monitor-name]
@@ -332,6 +376,10 @@ directCommands:
   name: az logz monitor wait
   summary: Place the CLI in a waiting state until a condition of the logz monitor is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz monitor wait [--created]
                          [--custom]

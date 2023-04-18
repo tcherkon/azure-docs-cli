@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du instance** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Device Update instance management.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_instance_create
   name: az iot du instance create
   summary: Create a Device Update instance.
   description: This command may also be used to update the state of an existing instance.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du instance create --account
                               --instance
@@ -61,6 +65,8 @@ directCommands:
   name: az iot du instance delete
   summary: Delete a Device Update instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du instance delete --account
                               --instance
@@ -97,6 +103,8 @@ directCommands:
   name: az iot du instance list
   summary: List Device Update instances.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du instance list --account
                             [--resource-group]
@@ -116,6 +124,8 @@ directCommands:
   name: az iot du instance show
   summary: Show a Device Update instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du instance show --account
                             --instance
@@ -140,6 +150,8 @@ directCommands:
   name: az iot du instance update
   summary: Update a Device Update instance.
   description: Currently the following instance properties can be updated - iotHubs, enableDiagnostics, diagnosticStorageProperties and tags.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du instance update --account
                               --instance
@@ -191,6 +203,8 @@ directCommands:
   name: az iot du instance wait
   summary: Block until a desired instance resource state has been met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du instance wait --account
                             --instance

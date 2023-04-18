@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **quantum** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az quantum** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Quantum Workspaces and submit jobs to Azure Quantum Providers.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_quantum_execute
   name: az quantum execute
   summary: Submit a job to run on Azure Quantum, and waits for the result.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum execute --location
                        --resource-group
@@ -99,6 +107,10 @@ directCommands:
   name: az quantum run
   summary: Equivalent to `az quantum execute`.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum run --location
                    --resource-group

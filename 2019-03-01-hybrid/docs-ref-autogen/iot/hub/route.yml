@@ -3,11 +3,16 @@ uid: az_iot_hub_route
 name: az iot hub route
 summary: Manage routes of an IoT hub.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_iot_hub_route_create
   name: az iot hub route create
   summary: Create a route in IoT Hub.
   description: Create a route to send specific data source and condition to a desired endpoint.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub route create --en
                             --hub-name
@@ -50,11 +55,13 @@ directCommands:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_route_delete
   name: az iot hub route delete
   summary: Delete all or mentioned route for your IoT Hub.
   description: Delete a route or all routes for your IoT Hub.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub route delete [--hub-name]
                             [--ids]
@@ -89,11 +96,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_route_list
   name: az iot hub route list
   summary: Get all the routes in IoT Hub.
   description: Get information on all routes from an IoT Hub.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub route list [--hub-name]
                           [--ids]
@@ -122,11 +131,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_route_show
   name: az iot hub route show
   summary: Get information about the route in IoT Hub.
   description: Get information on a specific route in your IoT Hub.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub route show --name
                           [--hub-name]
@@ -154,11 +165,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_route_test
   name: az iot hub route test
   summary: Test all routes or mentioned route in IoT Hub.
   description: Test all existing routes or mentioned route in your IoT Hub. You can provide a sample message to test your routes.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub route test [--ap]
                           [--body]
@@ -203,11 +216,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_route_update
   name: az iot hub route update
   summary: Update a route in IoT Hub.
   description: Updates a route in IoT Hub. You can change the source, endpoint or query on the route.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub route update --name
                             [--condition]
@@ -253,7 +268,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 commands:
 - az_iot_hub_route_create
 - az_iot_hub_route_delete

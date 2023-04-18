@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storage-preview** extension for the Azure CLI  (version 2.25.0 or higher).  The extension will automatically install the first time you run an **az storage account network-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage network rules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storage_account_network-rule_add
   name: az storage account network-rule add
   summary: Add a network rule.
   description: Rules can be created for an IPv4 address, address range (CIDR format), or a virtual network subnet.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage account network-rule add --account-name
                                         [--action]
@@ -60,6 +64,8 @@ directCommands:
   name: az storage account network-rule list
   summary: List network rules.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage account network-rule list --account-name
                                          [--resource-group]
@@ -79,6 +85,8 @@ directCommands:
   name: az storage account network-rule remove
   summary: Remove a network rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage account network-rule remove --account-name
                                            [--ip-address]

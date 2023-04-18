@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **support** extension for the Azure CLI  (version 2.0.81 or higher).  The extension will automatically install the first time you run an **az support tickets communications** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage support ticket communications.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_support_tickets_communications_create
   name: az support tickets communications create
   summary: Adds a new customer communication to an Azure support ticket.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az support tickets communications create --communication-body
                                              --communication-name
@@ -51,6 +55,8 @@ directCommands:
   name: az support tickets communications list
   summary: Lists all communications (attachments not included) for a support ticket.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az support tickets communications list --ticket-name
                                            [--filters]
@@ -80,6 +86,8 @@ directCommands:
   name: az support tickets communications show
   summary: Gets communication details for a support ticket.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az support tickets communications show --communication-name
                                            --ticket-name

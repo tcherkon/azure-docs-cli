@@ -3,6 +3,8 @@ uid: az_servicebus
 name: az servicebus
 summary: Servicebus.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_servicebus_georecovery-alias
 - az_servicebus_georecovery-alias_authorization-rule

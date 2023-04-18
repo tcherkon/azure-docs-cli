@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du update** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Device Update update management.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_update_calculate-hash
   name: az iot du update calculate-hash
   summary: Calculate the base64 hashed representation of a file.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update calculate-hash --file-path
                                     [--hash-algo {sha256}]
@@ -35,6 +39,8 @@ directCommands:
   name: az iot du update delete
   summary: Delete a specific update version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update delete --account
                             --instance
@@ -99,6 +105,8 @@ directCommands:
     Defer support is intended primarily for updates with multiple reference steps, such that
 
     parent and child updates can be submitted together.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update import --account
                             --instance
@@ -164,6 +172,8 @@ directCommands:
   name: az iot du update list
   summary: List updates that have been imported to the Device Update instance.
   description: When listing update providers only the --by-provider flag needs to be supplied in addition to the common instance look up arguments. When listing update names the update provider must be supplied. When listing update versions the update provider and update name must be supplied.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update list --account
                           --instance
@@ -219,6 +229,8 @@ directCommands:
   name: az iot du update show
   summary: Show a specific update version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update show --account
                           --instance
@@ -281,6 +293,10 @@ directCommands:
 
 
     This command will purge and refresh any local cache entry for the target instance.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az iot du update stage --account
                            --instance

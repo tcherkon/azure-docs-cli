@@ -3,6 +3,8 @@ uid: az_cosmosdb_cassandra
 name: az cosmosdb cassandra
 summary: Manage Cassandra resources of Azure Cosmos DB account.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_cosmosdb_cassandra_keyspace
 - az_cosmosdb_cassandra_keyspace_create

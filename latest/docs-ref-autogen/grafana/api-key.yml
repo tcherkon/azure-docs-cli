@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **amg** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az grafana api-key** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage api keys.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_grafana_api-key_create
   name: az grafana api-key create
   summary: Create a new api key.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana api-key create --key
                               --name
@@ -44,6 +48,8 @@ directCommands:
   name: az grafana api-key delete
   summary: Delete an api key.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana api-key delete --key
                               --name
@@ -65,6 +71,8 @@ directCommands:
   name: az grafana api-key list
   summary: List existing api keys.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana api-key list --name
                             [--resource-group]

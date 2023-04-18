@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto data-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage data connection with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_data-connection_delete
   name: az kusto data-connection delete
   summary: Deletes the data connection with the given name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection delete [--cluster-name]
                                     [--data-connection-name]
@@ -55,6 +63,10 @@ directCommands:
   name: az kusto data-connection list
   summary: Returns the list of data connections of the given Kusto database.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection list --cluster-name
                                   --database-name
@@ -79,6 +91,10 @@ directCommands:
   name: az kusto data-connection show
   summary: Returns a data connection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection show [--cluster-name]
                                   [--data-connection-name]
@@ -112,6 +128,10 @@ directCommands:
   name: az kusto data-connection wait
   summary: Place the CLI in a waiting state until a condition of the kusto data-connection is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection wait [--cluster-name]
                                   [--created]

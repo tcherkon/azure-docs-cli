@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection restorable-time-range** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage restorable time range with dataprotection.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_restorable-time-range_find
   name: az dataprotection restorable-time-range find
   summary: .
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection restorable-time-range find --source-data-store-type {ArchiveStore, OperationalStore, VaultStore}
                                                  [--backup-instance-name]

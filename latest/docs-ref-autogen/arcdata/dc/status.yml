@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **arcdata** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az arcdata dc status** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Status commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_arcdata_dc_status_show
   name: az arcdata dc status show
   summary: Show the status of the data controller.
   description: Show the status of the data controller.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc status show [--k8s-namespace]
                               [--name]

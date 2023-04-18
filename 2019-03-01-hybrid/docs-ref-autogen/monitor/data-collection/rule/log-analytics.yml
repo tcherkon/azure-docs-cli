@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **monitor-control-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az monitor data-collection rule log-analytics** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Log Analytics destinations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_data-collection_rule_log-analytics_add
   name: az monitor data-collection rule log-analytics add
   summary: Add Log Analytics destinations of a data collection rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule log-analytics add --name
                                                       --resource-id
@@ -48,6 +52,8 @@ directCommands:
   name: az monitor data-collection rule log-analytics delete
   summary: Delete a Log Analytics destinations of a data collection rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule log-analytics delete --name
                                                          [--ids]
@@ -79,6 +85,8 @@ directCommands:
   name: az monitor data-collection rule log-analytics list
   summary: List Log Analytics destinations of a data collection rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule log-analytics list --resource-group
                                                        --rule-name
@@ -98,6 +106,8 @@ directCommands:
   name: az monitor data-collection rule log-analytics show
   summary: Show a Log Analytics destination of a data collection rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule log-analytics show --name
                                                        [--ids]
@@ -129,6 +139,8 @@ directCommands:
   name: az monitor data-collection rule log-analytics update
   summary: Update a Log Analytics destination of a data collection rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule log-analytics update --name
                                                          [--ids]

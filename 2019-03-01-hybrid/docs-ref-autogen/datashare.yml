@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datashare** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datashare** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Data Share.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_datashare_create
   name: az datashare create
   summary: Create a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare create --account-name
                         --name
@@ -50,6 +58,10 @@ directCommands:
   name: az datashare delete
   summary: Delete a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare delete [--account-name]
                         [--ids]
@@ -89,6 +101,10 @@ directCommands:
   name: az datashare list
   summary: List shares in an account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare list --account-name
                       --resource-group
@@ -121,6 +137,10 @@ directCommands:
   name: az datashare list-synchronization
   summary: List synchronizations of a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare list-synchronization --account-name
                                       --name
@@ -158,6 +178,10 @@ directCommands:
   name: az datashare list-synchronization-detail
   summary: List synchronization details.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare list-synchronization-detail --account-name
                                              --name
@@ -231,6 +255,10 @@ directCommands:
   name: az datashare show
   summary: Get a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare show [--account-name]
                       [--ids]
@@ -260,6 +288,10 @@ directCommands:
   name: az datashare wait
   summary: Place the CLI in a waiting state until a condition of the datashare is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare wait [--account-name]
                       [--created]

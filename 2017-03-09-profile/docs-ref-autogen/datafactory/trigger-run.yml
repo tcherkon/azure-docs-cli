@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory trigger-run** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage trigger run with datafactory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_trigger-run_cancel
   name: az datafactory trigger-run cancel
   summary: Cancel a single trigger instance by runId.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger-run cancel [--factory-name]
                                       [--ids]
@@ -45,6 +49,8 @@ directCommands:
   name: az datafactory trigger-run query-by-factory
   summary: Query trigger runs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger-run query-by-factory --last-updated-after
                                                 --last-updated-before
@@ -113,6 +119,8 @@ directCommands:
   name: az datafactory trigger-run rerun
   summary: Rerun single trigger instance by runId.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger-run rerun [--factory-name]
                                      [--ids]

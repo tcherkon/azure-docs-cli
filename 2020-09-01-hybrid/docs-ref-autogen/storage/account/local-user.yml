@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **storage-preview** extension for the Azure CLI  (version 2.25.0 or higher).  The extension will automatically install the first time you run an **az storage account local-user** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage storage account local users.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_storage_account_local-user_create
   name: az storage account local-user create
   summary: Create a local user for a given storage account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user create --account-name
                                          --name
@@ -64,6 +72,10 @@ directCommands:
   name: az storage account local-user delete
   summary: Delete a local user.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user delete --account-name
                                          --name
@@ -88,6 +100,10 @@ directCommands:
   name: az storage account local-user list
   summary: List local users for a storage account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user list --account-name
                                        --resource-group
@@ -107,6 +123,10 @@ directCommands:
   name: az storage account local-user list-keys
   summary: List sharedkeys and sshAuthorizedKeys for a local user.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user list-keys --account-name
                                             --name
@@ -131,6 +151,10 @@ directCommands:
   name: az storage account local-user regenerate-password
   summary: Regenerate sshPassword for a local user.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user regenerate-password --account-name
                                                       --name
@@ -155,6 +179,10 @@ directCommands:
   name: az storage account local-user show
   summary: Show info for a local user.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user show --account-name
                                        --name
@@ -179,6 +207,10 @@ directCommands:
   name: az storage account local-user update
   summary: Update properties for a local user.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage account local-user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage account local-user update --account-name
                                          --name

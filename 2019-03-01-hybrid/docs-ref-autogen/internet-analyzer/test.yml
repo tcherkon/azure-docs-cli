@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **internet-analyzer** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az internet-analyzer test** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage tests.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_internet-analyzer_test_create
   name: az internet-analyzer test create
   summary: Create test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer test create --name
                                      --profile-name
@@ -77,6 +81,8 @@ directCommands:
   name: az internet-analyzer test delete
   summary: Delete test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer test delete --name
                                      --profile-name
@@ -104,6 +110,8 @@ directCommands:
   name: az internet-analyzer test list
   summary: List tests.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer test list --profile-name
                                    --resource-group
@@ -126,6 +134,8 @@ directCommands:
   name: az internet-analyzer test show
   summary: Show test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer test show --name
                                    --profile-name
@@ -153,6 +163,8 @@ directCommands:
   name: az internet-analyzer test update
   summary: Update test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer test update --name
                                      --profile-name

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azurestackhci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az azurestackhci virtualnetwork** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtualnetwork with azurestackhci.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_azurestackhci_virtualnetwork_create
   name: az azurestackhci virtualnetwork create
   summary: Create a virtual network.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualnetwork create --name
                                            --resource-group
@@ -86,6 +94,10 @@ directCommands:
   name: az azurestackhci virtualnetwork delete
   summary: Delete a virtual network.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualnetwork delete [--ids]
                                            [--name]
@@ -116,6 +128,10 @@ directCommands:
   name: az azurestackhci virtualnetwork list
   summary: List all the virtual networks.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az azurestackhci virtualnetwork list [--resource-group]
   examples:
   - summary: ListVirtualNetworkByResourceGroup
@@ -130,6 +146,10 @@ directCommands:
   name: az azurestackhci virtualnetwork show
   summary: Get the details of a virtual network.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualnetwork show [--ids]
                                          [--name]
@@ -155,6 +175,10 @@ directCommands:
   name: az azurestackhci virtualnetwork update
   summary: Update a virtual network.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualnetwork update [--ids]
                                            [--name]

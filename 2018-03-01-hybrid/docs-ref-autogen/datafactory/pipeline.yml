@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory pipeline** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pipeline with datafactory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_pipeline_create
   name: az datafactory pipeline create
   summary: Create a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline create --factory-name
                                    --name
@@ -46,6 +50,8 @@ directCommands:
   name: az datafactory pipeline create-run
   summary: Creates a run of a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline create-run --factory-name
                                        --name
@@ -93,6 +99,8 @@ directCommands:
   name: az datafactory pipeline delete
   summary: Deletes a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline delete [--factory-name]
                                    [--ids]
@@ -127,6 +135,8 @@ directCommands:
   name: az datafactory pipeline list
   summary: Lists pipelines.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline list --factory-name
                                  --resource-group
@@ -146,6 +156,8 @@ directCommands:
   name: az datafactory pipeline show
   summary: Gets a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline show [--factory-name]
                                  [--ids]
@@ -179,6 +191,8 @@ directCommands:
   name: az datafactory pipeline update
   summary: Update a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline update [--activities]
                                    [--add]

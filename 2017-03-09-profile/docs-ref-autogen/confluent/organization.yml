@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **confluent** extension for the Azure CLI  (version 2.25.0 or higher).  The extension will automatically install the first time you run an **az confluent organization** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage organization with confluent.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_confluent_organization_create
   name: az confluent organization create
   summary: Create Organization resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az confluent organization create --name
                                      --plan-id
@@ -70,6 +78,10 @@ directCommands:
   name: az confluent organization delete
   summary: Delete Organization resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az confluent organization delete [--ids]
                                      [--name]
@@ -106,6 +118,10 @@ directCommands:
   name: az confluent organization list
   summary: List all Organizations under the specified resource group. And List all organizations under the specified subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az confluent organization list [--resource-group]
   examples:
   - summary: Organization_ListByResourceGroup
@@ -120,6 +136,10 @@ directCommands:
   name: az confluent organization show
   summary: Get the properties of a specific Organization resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az confluent organization show [--ids]
                                    [--name]
@@ -147,6 +167,10 @@ directCommands:
   name: az confluent organization update
   summary: Update Organization resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az confluent organization update [--ids]
                                      [--name]
@@ -176,6 +200,10 @@ directCommands:
   name: az confluent organization wait
   summary: Place the CLI in a waiting state until a condition of the confluent organization is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'confluent' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az confluent organization wait [--created]
                                    [--custom]

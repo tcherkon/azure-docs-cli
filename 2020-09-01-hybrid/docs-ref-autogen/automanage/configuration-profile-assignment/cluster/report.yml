@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automanage** extension for the Azure CLI  (version 2.44.1 or higher).  The extension will automatically install the first time you run an **az automanage configuration-profile-assignment cluster report** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage report within a given AzureStackHCI cluster configuration profile assignment.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automanage_configuration-profile-assignment_cluster_report_list
   name: az automanage configuration-profile-assignment cluster report list
   summary: List reports within a given AzureStackHCI cluster configuration profile assignment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile-assignment cluster report list --assignment-name
                                                                        --cluster-name
@@ -36,6 +40,8 @@ directCommands:
   name: az automanage configuration-profile-assignment cluster report show
   summary: Get information about a report associated with a AzureStackHCI cluster configuration profile assignment run.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile-assignment cluster report show [--assignment-name]
                                                                        [--cluster-name]

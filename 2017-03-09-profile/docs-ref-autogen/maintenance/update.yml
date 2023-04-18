@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **maintenance** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az maintenance update** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage update with maintenance.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_maintenance_update_list
   name: az maintenance update list
   summary: Get updates to resources.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance update list --provider-name
                                --resource-group
@@ -41,6 +49,10 @@ directCommands:
   name: az maintenance update list-parent
   summary: Get updates to resources.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance update list-parent --provider-name
                                       --resource-group

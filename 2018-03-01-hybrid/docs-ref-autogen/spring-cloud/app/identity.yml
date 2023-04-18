@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud app identity** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage an app's managed identities.
 description: ''
+status: Deprecated
+isDeprecated: true
+deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud app' is deprecated and will be removed in a future release. Use 'spring app' instead.
+sourceType: Extension
 directCommands:
 - uid: az_spring-cloud_app_identity_assign
   name: az spring-cloud app identity assign
   summary: Enable system-assigned managed identity or assign user-assigned managed identities to an app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app identity' is deprecated and will be removed in a future release. Use 'spring app identity' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app identity assign --name
                                         --resource-group
@@ -54,10 +62,17 @@ directCommands:
   - name: --user-assigned
     summary: Space-separated user-assigned managed identity resource IDs to assgin to an app.
     description: ''
+    isPreview: true
 - uid: az_spring-cloud_app_identity_force-set
   name: az spring-cloud app identity force-set
   summary: Force set managed identities on an app.
   description: ''
+  status: PreviewAndDeprecated
+  isDeprecated: true
+  isPreview: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app identity' is deprecated and will be removed in a future release. Use 'spring app identity' instead.
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az spring-cloud app identity force-set --name
                                            --resource-group
@@ -96,6 +111,10 @@ directCommands:
   name: az spring-cloud app identity remove
   summary: Remove managed identity from an app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app identity' is deprecated and will be removed in a future release. Use 'spring app identity' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app identity remove --name
                                         --resource-group
@@ -130,10 +149,15 @@ directCommands:
   - name: --user-assigned
     summary: Space-separated user-assigned managed identity resource IDs to remove. If no ID is provided, remove ALL user-assigned managed identities.
     description: ''
+    isPreview: true
 - uid: az_spring-cloud_app_identity_show
   name: az spring-cloud app identity show
   summary: Display app's managed identity info.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app identity' is deprecated and will be removed in a future release. Use 'spring app identity' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app identity show --name
                                       --resource-group

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **stack-hci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az stack-hci extension** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage extension with stack hci.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_stack-hci_extension_create
   name: az stack-hci extension create
   summary: Create Extension for HCI cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci extension create --arc-setting-name
                                   --cluster-name
@@ -102,6 +106,8 @@ directCommands:
   name: az stack-hci extension delete
   summary: Delete particular Arc Extension of HCI Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci extension delete [--arc-setting-name]
                                   [--cluster-name]
@@ -145,6 +151,8 @@ directCommands:
   name: az stack-hci extension list
   summary: List all Extensions under ArcSetting resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci extension list --arc-setting-name
                                 --cluster-name
@@ -169,6 +177,8 @@ directCommands:
   name: az stack-hci extension show
   summary: Get particular Arc Extension of HCI Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci extension show [--arc-setting-name]
                                 [--cluster-name]
@@ -202,6 +212,8 @@ directCommands:
   name: az stack-hci extension wait
   summary: Place the CLI in a waiting state until a condition of the stack-hci extension is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci extension wait [--arc-setting-name]
                                 [--cluster-name]

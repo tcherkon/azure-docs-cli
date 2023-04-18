@@ -3,11 +3,15 @@ uid: az_confidentialledger
 name: az confidentialledger
 summary: Manage Confidential Ledger.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_confidentialledger_create
   name: az confidentialledger create
   summary: Creates a  Confidential Ledger with the specified ledger parameters.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az confidentialledger create --ledger-name
                                  --resource-group
@@ -74,6 +78,8 @@ directCommands:
   name: az confidentialledger delete
   summary: Deletes an existing Confidential Ledger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az confidentialledger delete [--ids]
                                  [--ledger-name]
@@ -109,6 +115,8 @@ directCommands:
   name: az confidentialledger list
   summary: Retrieves the properties of all Confidential Ledgers. And Retrieves the properties of all Confidential Ledgers.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az confidentialledger list [--filter]
                                [--resource-group]
@@ -128,6 +136,8 @@ directCommands:
   name: az confidentialledger show
   summary: Retrieves the properties of a Confidential Ledger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az confidentialledger show [--ids]
                                [--ledger-name]
@@ -153,6 +163,8 @@ directCommands:
   name: az confidentialledger update
   summary: Updates properties of Confidential Ledger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az confidentialledger update [--aad-based-security-principals]
                                  [--cert-based-security-principals]
@@ -224,6 +236,8 @@ directCommands:
   name: az confidentialledger wait
   summary: Place the CLI in a waiting state until a condition of the confidentialledger is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az confidentialledger wait [--created]
                                [--custom]

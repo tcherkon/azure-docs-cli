@@ -10,11 +10,19 @@ description: >-
   Currently, Azure Firewall policy support two kinds of rule collections which are Filter collection and NAT collection. There are three kinds of rules which are application rule, network rule and nat rule.
 
   NAT collection support having a list of nat rule. Filter collection support including a list of rules(network rule or application rule) in it. But all of rules should be the same type.
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_policy_rule-collection-group_collection_add-filter-collection
   name: az network firewall policy rule-collection-group collection add-filter-collection
   summary: Add a filter collection into an Azure firewall policy rule collection group.
   description: Common Rule Arguments are used for both Network rule and Application rule. If you want to add more rules into filter collection, please use "az network policy rule-collection-group collection rule add/remove".
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection add-filter-collection --collection-priority
                                                                                       --name
@@ -89,6 +97,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable flag to terminate TLS connection for this rule.
     description: ''
+    isPreview: true
   - name: --fqdn-tags
     summary: Space-separated list of FQDN tags for this rule.
     description: ''
@@ -118,6 +127,7 @@ directCommands:
   - name: --target-urls
     summary: Space-separated list of target urls for this rule.
     description: ''
+    isPreview: true
   - name: --web-categories
     summary: Space-separated list of web categories for this rule.
     description: ''
@@ -125,6 +135,10 @@ directCommands:
   name: az network firewall policy rule-collection-group collection add-nat-collection
   summary: Add a NAT collection into an Azure firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection add-nat-collection --collection-priority
                                                                                    --ip-protocols {Any, ICMP, TCP, UDP}
@@ -207,6 +221,10 @@ directCommands:
   name: az network firewall policy rule-collection-group collection list
   summary: List all rule collections of an Azure firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection list --policy-name
                                                                      --rcg-name
@@ -228,6 +246,10 @@ directCommands:
   name: az network firewall policy rule-collection-group collection remove
   summary: Remove a rule collection from an Azure firewall policy rule collection group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'network firewall policy rule-collection-group collection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az network firewall policy rule-collection-group collection remove --name
                                                                        --policy-name

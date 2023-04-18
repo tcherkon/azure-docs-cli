@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub job** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT Hub jobs (v2).
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_job_cancel
   name: az iot hub job cancel
   summary: Cancel an IoT Hub job.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub job cancel --job-id
                           [--auth-type {key, login}]
@@ -50,6 +54,8 @@ directCommands:
     When scheduling a device method job, the method name and payload are required arguments.
 
     PLEASE NOTE: Using a custom start time that's in the past may cause the operation to fail.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub job create --job-id
                           --job-type {scheduleDeviceMethod, scheduleUpdateTwin}
@@ -148,6 +154,8 @@ directCommands:
   name: az iot hub job list
   summary: List the historical jobs of an IoT Hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub job list [--auth-type {key, login}]
                         [--hub-name]
@@ -197,6 +205,8 @@ directCommands:
   name: az iot hub job show
   summary: Show details of an existing IoT Hub job.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub job show --job-id
                         [--auth-type {key, login}]

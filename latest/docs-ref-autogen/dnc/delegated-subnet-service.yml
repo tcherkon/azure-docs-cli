@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dnc** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az dnc delegated-subnet-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage delegated subnet service with dnc.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dnc_delegated-subnet-service_create
   name: az dnc delegated-subnet-service create
   summary: Put delegated subnet resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc delegated-subnet-service create --resource-group
                                            --resource-name
@@ -53,6 +61,10 @@ directCommands:
   name: az dnc delegated-subnet-service delete
   summary: Delete dnc DelegatedSubnet.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc delegated-subnet-service delete [--force-delete {false, true}]
                                            [--ids]
@@ -93,6 +105,10 @@ directCommands:
   name: az dnc delegated-subnet-service show
   summary: Gets details about the specified dnc DelegatedSubnet Link.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc delegated-subnet-service show [--ids]
                                          [--resource-group]
@@ -118,6 +134,10 @@ directCommands:
   name: az dnc delegated-subnet-service wait
   summary: Place the CLI in a waiting state until a condition of the dnc delegated-subnet-service is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc delegated-subnet-service wait [--created]
                                          [--custom]

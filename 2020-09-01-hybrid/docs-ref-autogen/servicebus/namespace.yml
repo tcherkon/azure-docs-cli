@@ -3,11 +3,16 @@ uid: az_servicebus_namespace
 name: az servicebus namespace
 summary: Manage Azure Service Bus Namespace.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_servicebus_namespace_create
   name: az servicebus namespace create
   summary: Create a Service Bus Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus namespace create --name
                                    --resource-group
@@ -52,6 +57,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether SAS authentication is enabled/disabled for the Service Bus.
     description: ''
+    isPreview: true
   - name: --encryption-config
     summary: List of KeyVaultProperties objects.
     description: ''
@@ -59,6 +65,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether Infrastructure Encryption (Double Encryption).
     description: ''
+    isPreview: true
   - name: --location -l
     summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
@@ -96,11 +103,14 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enabling this property creates a ServiceBus Zone Redundant Namespace in regions supported availability zones.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
+    isPreview: true
 - uid: az_servicebus_namespace_exists
   name: az servicebus namespace exists
   summary: Check for the availability of the given name for the Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: az servicebus namespace exists --name
   examples:
   - summary: check for the availability of mynamespace for the Namespace
@@ -110,7 +120,6 @@ directCommands:
     name: --name -n
     summary: Namespace name. Name can contain only letters, numbers, and hyphens. The namespace must start with a letter, and it must end with a letter or number.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 commands:
 - az_servicebus_namespace_create
 - az_servicebus_namespace_encryption

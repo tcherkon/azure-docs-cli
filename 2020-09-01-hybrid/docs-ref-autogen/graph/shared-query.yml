@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **resource-graph** extension for the Azure CLI  (version 2.22.0 or higher).  The extension will automatically install the first time you run an **az graph shared-query** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage shared query of Azure resource graph.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_graph_shared-query_create
   name: az graph shared-query create
   summary: Create a shared query.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'graph shared-query' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az graph shared-query create --description
                                  --graph-query
@@ -46,6 +54,10 @@ directCommands:
   name: az graph shared-query delete
   summary: Delete a shared query.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'graph shared-query' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az graph shared-query delete --name
                                  --resource-group
@@ -62,6 +74,10 @@ directCommands:
   name: az graph shared-query list
   summary: List all shared query in a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'graph shared-query' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az graph shared-query list --resource-group
   examples:
   - summary: List all shared query in a resource group.
@@ -75,6 +91,10 @@ directCommands:
   name: az graph shared-query show
   summary: Show the properties of a shared query.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'graph shared-query' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az graph shared-query show --name
                                --resource-group

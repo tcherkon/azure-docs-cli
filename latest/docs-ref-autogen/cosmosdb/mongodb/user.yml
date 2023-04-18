@@ -3,6 +3,8 @@ uid: az_cosmosdb_mongodb_user
 name: az cosmosdb mongodb user
 summary: Manage Azure Cosmos DB Mongo user resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_cosmosdb_mongodb_user_definition
 - az_cosmosdb_mongodb_user_definition_create

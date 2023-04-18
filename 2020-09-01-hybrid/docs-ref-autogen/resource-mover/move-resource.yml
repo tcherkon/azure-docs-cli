@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **resource-mover** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az resource-mover move-resource** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage move-resource.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_resource-mover_move-resource_add
   name: az resource-mover move-resource add
   summary: Create or update a move-resource to the move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-resource add --move-collection-name
                                         --move-resource-name
@@ -98,6 +106,10 @@ directCommands:
   name: az resource-mover move-resource delete
   summary: Delete a move-resource from the move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-resource delete [--ids]
                                            [--move-collection-name]
@@ -137,6 +149,10 @@ directCommands:
   name: az resource-mover move-resource list
   summary: List the move-resources in a move-collection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-resource list --move-collection-name
                                          --resource-group
@@ -156,6 +172,10 @@ directCommands:
   name: az resource-mover move-resource show
   summary: Get the details of a move-resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-resource show [--ids]
                                          [--move-collection-name]
@@ -185,6 +205,10 @@ directCommands:
   name: az resource-mover move-resource wait
   summary: Place the CLI in a waiting state until a condition of the move-resource is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'resource-mover' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az resource-mover move-resource wait [--created]
                                          [--custom]

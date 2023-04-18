@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datadog** extension for the Azure CLI  (version 2.17.0 or higher).  The extension will automatically install the first time you run an **az datadog monitor** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage monitor with datadog.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datadog_monitor_create
   name: az datadog monitor create
   summary: Create a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor create --monitor-name
                               --resource-group
@@ -86,6 +90,8 @@ directCommands:
   name: az datadog monitor delete
   summary: Delete a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor delete [--ids]
                               [--monitor-name]
@@ -121,6 +127,8 @@ directCommands:
   name: az datadog monitor get-default-key
   summary: Get the default api key.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor get-default-key [--ids]
                                        [--monitor-name]
@@ -146,6 +154,8 @@ directCommands:
   name: az datadog monitor list
   summary: List all monitors under the specified resource group. And List all monitors under the specified subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az datadog monitor list [--resource-group]
   examples:
   - summary: Monitors_ListByResourceGroup
@@ -160,6 +170,8 @@ directCommands:
   name: az datadog monitor list-api-key
   summary: List the api keys for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor list-api-key --monitor-name
                                     --resource-group
@@ -179,6 +191,8 @@ directCommands:
   name: az datadog monitor list-host
   summary: List the hosts for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor list-host --monitor-name
                                  --resource-group
@@ -198,6 +212,8 @@ directCommands:
   name: az datadog monitor list-linked-resource
   summary: List all Azure resources associated to the same Datadog organization as the target resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor list-linked-resource --monitor-name
                                             --resource-group
@@ -217,6 +233,8 @@ directCommands:
   name: az datadog monitor list-monitored-resource
   summary: List the resources currently being monitored by the Datadog monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor list-monitored-resource --monitor-name
                                                --resource-group
@@ -236,6 +254,8 @@ directCommands:
   name: az datadog monitor refresh-set-password-link
   summary: Refresh the set password link and return a latest one.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor refresh-set-password-link [--ids]
                                                  [--monitor-name]
@@ -261,6 +281,8 @@ directCommands:
   name: az datadog monitor set-default-key
   summary: Set the default api key.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor set-default-key [--created]
                                        [--created-by]
@@ -302,6 +324,8 @@ directCommands:
   name: az datadog monitor show
   summary: Get the properties of a specific monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor show [--ids]
                             [--monitor-name]
@@ -327,6 +351,8 @@ directCommands:
   name: az datadog monitor update
   summary: Update a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor update [--ids]
                               [--monitor-name]
@@ -369,6 +395,8 @@ directCommands:
   name: az datadog monitor wait
   summary: Place the CLI in a waiting state until a condition of the datadog monitor is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog monitor wait [--created]
                             [--custom]

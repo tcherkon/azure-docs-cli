@@ -3,6 +3,8 @@ uid: az_cosmosdb_sql_role
 name: az cosmosdb sql role
 summary: Manage Azure Cosmos DB SQL role resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_cosmosdb_sql_role_assignment
 - az_cosmosdb_sql_role_assignment_create

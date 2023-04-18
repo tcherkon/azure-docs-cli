@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring app custom-domain** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage custom domains.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_app_custom-domain_bind
   name: az spring app custom-domain bind
   summary: Bind a custom domain with the app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app custom-domain bind --app
                                      --domain-name
@@ -51,6 +55,8 @@ directCommands:
   name: az spring app custom-domain list
   summary: List all custom domains of the app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app custom-domain list --app
                                      --resource-group
@@ -75,6 +81,8 @@ directCommands:
   name: az spring app custom-domain show
   summary: Show details of a custom domain.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app custom-domain show --app
                                      --domain-name
@@ -101,6 +109,8 @@ directCommands:
   name: az spring app custom-domain unbind
   summary: Unbind a custom-domain of the app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app custom-domain unbind --app
                                        --domain-name
@@ -127,6 +137,8 @@ directCommands:
   name: az spring app custom-domain update
   summary: Update a custom domain of the app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app custom-domain update --app
                                        --domain-name

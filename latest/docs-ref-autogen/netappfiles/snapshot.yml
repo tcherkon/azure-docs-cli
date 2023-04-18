@@ -3,11 +3,16 @@ uid: az_netappfiles_snapshot
 name: az netappfiles snapshot
 summary: Manage Azure NetApp Files (ANF) Snapshot Resources.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_netappfiles_snapshot_create
   name: az netappfiles snapshot create
   summary: Create a new Azure NetApp Files (ANF) snapshot.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot create --account-name
                                    --name
@@ -48,11 +53,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 - uid: az_netappfiles_snapshot_delete
   name: az netappfiles snapshot delete
   summary: Delete the specified ANF snapshot.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot delete [--account-name]
                                    [--ids]
@@ -91,11 +98,13 @@ directCommands:
   - name: --volume-name -v
     summary: The name of the ANF volume.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 - uid: az_netappfiles_snapshot_list
   name: az netappfiles snapshot list
   summary: List the snapshots of an ANF volume.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot list --account-name
                                  --pool-name
@@ -121,11 +130,13 @@ directCommands:
     name: --volume-name -v
     summary: The name of the ANF volume.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 - uid: az_netappfiles_snapshot_restore-files
   name: az netappfiles snapshot restore-files
   summary: Restore specified files from the specified snapshot to the active filesystem.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot restore-files --file-paths
                                           [--account-name]
@@ -174,11 +185,13 @@ directCommands:
   - name: --volume-name -v
     summary: The name of the ANF volume.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 - uid: az_netappfiles_snapshot_show
   name: az netappfiles snapshot show
   summary: Get the specified ANF snapshot.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot show [--account-name]
                                  [--ids]
@@ -212,11 +225,13 @@ directCommands:
   - name: --volume-name -v
     summary: The name of the ANF volume.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 - uid: az_netappfiles_snapshot_update
   name: az netappfiles snapshot update
   summary: Update a snapshot.
   description: Patch a snapshot.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot update --body
                                    [--account-name]
@@ -258,11 +273,13 @@ directCommands:
   - name: --volume-name -v
     summary: Name of the ANF volume.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 - uid: az_netappfiles_snapshot_wait
   name: az netappfiles snapshot wait
   summary: Wait for a snapshot operation.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles snapshot wait [--account-name]
                                  [--created]
@@ -327,7 +344,6 @@ directCommands:
   - name: --volume-name -v
     summary: Name of the ANF volume.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
 commands:
 - az_netappfiles_snapshot_create
 - az_netappfiles_snapshot_delete

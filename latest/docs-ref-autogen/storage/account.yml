@@ -3,22 +3,29 @@ uid: az_storage_account
 name: az storage account
 summary: Manage storage accounts.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_storage_account_check-name
   name: az storage account check-name
   summary: Check that the storage account name is valid and is not already in use.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: az storage account check-name --name
   requiredParameters:
   - isRequired: true
     name: --name -n
     summary: The name of the storage account within the specified resource group.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_create
   name: az storage account create
   summary: Create a storage account.
   description: The SKU of the storage account defaults to 'Standard_RAGRS'.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account create --name
                               --resource-group
@@ -191,6 +198,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: NFS 3.0 protocol support enabled if sets to true.
     description: ''
+    isPreview: true
   - name: --enable-sftp
     parameterValueGroup: "false, true"
     summary: Enable Secure File Transfer Protocol.
@@ -241,6 +249,7 @@ directCommands:
   - name: --key-exp-days --key-expiration-period-in-days
     summary: Expiration period in days of the Key Policy assigned to the storage account.
     description: ''
+    isPreview: true
   - name: --key-vault-federated-client-id -f
     summary: ClientId of the multi-tenant application to be used in conjunction with the user-assigned identity for cross-tenant customer-managed-keys server-side encryption on the storage account.
     description: ''
@@ -288,6 +297,7 @@ directCommands:
   - name: --sas-exp --sas-expiration-period
     summary: Expiration period of the SAS Policy assigned to the storage account, DD.HH:MM:SS.
     description: ''
+    isPreview: true
   - name: --sku
     defaultValue: "Standard_RAGRS"
     parameterValueGroup: "Premium_LRS, Premium_ZRS, Standard_GRS, Standard_GZRS, Standard_LRS, Standard_RAGRS, Standard_RAGZRS, Standard_ZRS"
@@ -305,11 +315,13 @@ directCommands:
   - name: --vnet-name
     summary: Name of a virtual network.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_delete
   name: az storage account delete
   summary: Delete a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account delete [--ids]
                               [--name]
@@ -338,7 +350,6 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_failover
   name: az storage account failover
   summary: Failover request can be triggered for a storage account in case of availability issues.
@@ -348,6 +359,11 @@ directCommands:
     cluster will become primary after failover. For more information, please refer to
 
     https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account failover [--failover-type]
                                 [--ids]
@@ -368,6 +384,7 @@ directCommands:
   - name: --failover-type --type
     summary: The parameter is set to 'Planned' to indicate whether a Planned failover is requested.
     description: ''
+    isPreview: true
   - name: --ids
     summary: One or more resource IDs (space-delimited). It should be a complete resource ID containing all information of 'Resource Id' arguments. You should provide either --ids or other 'Resource Id' arguments.
     description: ''
@@ -387,11 +404,13 @@ directCommands:
   - name: --yes -y
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_generate-sas
   name: az storage account generate-sas
   summary: Generate a shared access signature for the storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account generate-sas --expiry
                                     --permissions
@@ -468,11 +487,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_list
   name: az storage account list
   summary: List storage accounts.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: az storage account list [--resource-group]
   examples:
   - summary: List all storage accounts in a subscription.
@@ -483,11 +504,13 @@ directCommands:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_revoke-delegation-keys
   name: az storage account revoke-delegation-keys
   summary: Revoke all user delegation keys for a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account revoke-delegation-keys [--ids]
                                               [--name]
@@ -511,11 +534,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_show
   name: az storage account show
   summary: Show storage account properties.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account show [--expand]
                             [--ids]
@@ -543,11 +568,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_show-connection-string
   name: az storage account show-connection-string
   summary: Get the connection string for a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account show-connection-string [--blob-endpoint]
                                               [--file-endpoint]
@@ -603,11 +630,13 @@ directCommands:
   - name: --table-endpoint
     summary: Custom endpoint for tables.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_show-usage
   name: az storage account show-usage
   summary: Show the current count and limit of the storage accounts under the subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: az storage account show-usage --location
   examples:
   - summary: Show the current count and limit of the storage accounts under the subscription. (autogenerated)
@@ -617,11 +646,13 @@ directCommands:
     name: --location -l
     summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_account_update
   name: az storage account update
   summary: Update the properties of a storage account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage account update [--access-tier {Cool, Hot, Premium}]
                               [--account-type]
@@ -807,6 +838,7 @@ directCommands:
   - name: --key-exp-days --key-expiration-period-in-days
     summary: Expiration period in days of the Key Policy assigned to the storage account.
     description: ''
+    isPreview: true
   - name: --key-vault-federated-client-id -f
     summary: ClientId of the multi-tenant application to be used in conjunction with the user-assigned identity for cross-tenant customer-managed-keys server-side encryption on the storage account.
     description: ''
@@ -852,6 +884,7 @@ directCommands:
   - name: --sas-exp --sas-expiration-period
     summary: Expiration period of the SAS Policy assigned to the storage account, DD.HH:MM:SS.
     description: ''
+    isPreview: true
   - name: --set
     defaultValue: "[]"
     summary: 'Update an object by specifying a property path and value to set.  Example: --set property1.property2=<value>.'
@@ -873,7 +906,6 @@ directCommands:
   - name: --user-identity-id
     summary: The key is the ARM resource identifier of the identity. Only 1 User Assigned identity is permitted here.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 commands:
 - az_storage_account_blob-inventory-policy
 - az_storage_account_blob-inventory-policy_create

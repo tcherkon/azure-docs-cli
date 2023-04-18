@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network site** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage site.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_site_create
   name: az mobile-network site create
   summary: Create a mobile network site.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network site create --mobile-network-name
                                   --name
@@ -50,6 +54,8 @@ directCommands:
   name: az mobile-network site delete
   summary: Delete the specified mobile network site.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network site delete [--ids]
                                   [--mobile-network-name]
@@ -89,6 +95,8 @@ directCommands:
   name: az mobile-network site list
   summary: List all sites in the mobile network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network site list --mobile-network-name
                                 --resource-group
@@ -108,6 +116,8 @@ directCommands:
   name: az mobile-network site show
   summary: Get information about the specified mobile network site.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network site show [--ids]
                                 [--mobile-network-name]
@@ -137,6 +147,8 @@ directCommands:
   name: az mobile-network site update
   summary: Update a mobile network site.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network site update [--add]
                                   [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
@@ -192,6 +204,8 @@ directCommands:
   name: az mobile-network site wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network site wait [--created]
                                 [--custom]

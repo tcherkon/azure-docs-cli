@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **serial-console** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az serial-console** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Connect to the Serial Console of a Linux/Windows Virtual Machine or VMSS Instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_serial-console_connect
   name: az serial-console connect
   summary: Connect to Serial Console VM or VMSS Instance.
   description: This command provides access to a text-based console for Linux and Windows virtual machines (VMs) and virtual machine scale set instances. This serial connection connects to the ttys0 serial port of the VM or virtual machine scale set instance, providing access to it independent of the network or operating system state. To exit serial console type Ctrl + ] and then q. To send an NMI/SysRq/Reset type Ctrl + ] and then n/s/r respectively.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az serial-console connect --name
                               --resource-group
@@ -38,6 +42,8 @@ directCommands:
   name: az serial-console disable
   summary: Disable the serial console service for an entire subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az serial-console disable
   examples:
   - summary: Disable Serial Console for a subscription
@@ -46,6 +52,8 @@ directCommands:
   name: az serial-console enable
   summary: Enable the serial console service for an entire subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az serial-console enable
   examples:
   - summary: Enable Serial Console for a subscription

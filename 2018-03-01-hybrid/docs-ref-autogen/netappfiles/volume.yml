@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **netappfiles-preview** extension for the Azure CLI  (version 2.0.56 or higher).  The extension will automatically install the first time you run an **az netappfiles volume** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure NetApp Files (ANF) Volume Resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_netappfiles_volume_create
   name: az netappfiles volume create
   summary: Create a new Azure NetApp Files (ANF) volume.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles volume create --account-name
                                  --creation-token
@@ -75,6 +79,8 @@ directCommands:
   name: az netappfiles volume delete
   summary: Delete the specified ANF volume.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles volume delete [--account-name]
                                  [--ids]
@@ -108,6 +114,8 @@ directCommands:
   name: az netappfiles volume list
   summary: List the ANF Pools for the specified account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles volume list --account-name
                                --pool-name
@@ -132,6 +140,8 @@ directCommands:
   name: az netappfiles volume show
   summary: Get the specified ANF volume.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles volume show [--account-name]
                                [--ids]
@@ -165,6 +175,8 @@ directCommands:
   name: az netappfiles volume update
   summary: Update the specified ANF volume with the values provided. Unspecified values will remain unchanged.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles volume update [--account-name]
                                  [--add]

@@ -3,6 +3,8 @@ uid: az_security_atp
 name: az security atp
 summary: View and manage Advanced Threat Protection settings.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_security_atp_cosmosdb
 - az_security_atp_cosmosdb_show

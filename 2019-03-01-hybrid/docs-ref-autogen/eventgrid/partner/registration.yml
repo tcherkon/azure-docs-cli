@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **eventgrid** extension for the Azure CLI  (version 2.0.49 or higher).  The extension will automatically install the first time you run an **az eventgrid partner registration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage partner registrations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_eventgrid_partner_registration_create
   name: az eventgrid partner registration create
   summary: Create a new partner registration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner registration create --name
                                              --partner-name
@@ -84,6 +88,8 @@ directCommands:
   name: az eventgrid partner registration delete
   summary: Delete a partner registration.
   description: Deletes a partner registration with the specified parameters.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner registration delete [--ids]
                                              [--name]
@@ -106,6 +112,8 @@ directCommands:
   name: az eventgrid partner registration list
   summary: List all partner registrations in specific resource group or all under the specified azure subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner registration list [--odata-query]
                                            [--resource-group]
@@ -129,6 +137,8 @@ directCommands:
   name: az eventgrid partner registration show
   summary: Get a partner registration.
   description: Gets a partner registration with the specified parameters.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az eventgrid partner registration show [--ids]
                                            [--name]

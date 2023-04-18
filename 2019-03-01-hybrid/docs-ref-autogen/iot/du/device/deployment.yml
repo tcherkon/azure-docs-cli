@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du device deployment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Device deployment management.
 description: Deployments will apply a desired compatible update against a target device group distributing the update across device classes within the group. Cloud-initiated rollback policy can be optionally configured.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_device_deployment_cancel
   name: az iot du device deployment cancel
   summary: Cancel a device class subgroup deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment cancel --account
                                        --cid
@@ -51,6 +55,8 @@ directCommands:
   name: az iot du device deployment create
   summary: Create a deployment for a device group. The deployment will be multi-cast against every device class subgroup within the target group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment create --account
                                        --deployment-id
@@ -128,6 +134,8 @@ directCommands:
   name: az iot du device deployment delete
   summary: Delete a deployment by device group or device class subgroup.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment delete --account
                                        --deployment-id
@@ -173,6 +181,8 @@ directCommands:
   name: az iot du device deployment list
   summary: List deployments for a device group or device class subgroup.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment list --account
                                      --gid
@@ -214,6 +224,8 @@ directCommands:
   name: az iot du device deployment list-devices
   summary: List devices in a device class subgroup deployment along with their state. Useful for getting a list of failed devices.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment list-devices --account
                                              --cid
@@ -259,6 +271,8 @@ directCommands:
   name: az iot du device deployment retry
   summary: Retry a device class subgroup deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment retry --account
                                       --cid
@@ -298,6 +312,8 @@ directCommands:
   name: az iot du device deployment show
   summary: Show a deployment for a device group or device class subgroup including status which details a breakdown of how many devices in the deployment are in progress, completed, or failed.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device deployment show --account
                                      --deployment-id

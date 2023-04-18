@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedmachine** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az connectedmachine extension** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage machine extension with connectedmachine.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedmachine_extension_create
   name: az connectedmachine extension create
   summary: The operation to Create the extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine extension create --machine-name
                                          --name
@@ -107,6 +111,8 @@ directCommands:
   name: az connectedmachine extension delete
   summary: The operation to delete the extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine extension delete [--ids]
                                          [--machine-name]
@@ -146,6 +152,8 @@ directCommands:
   name: az connectedmachine extension list
   summary: The operation to get all extensions of a non-Azure machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine extension list --machine-name
                                        --resource-group
@@ -170,6 +178,8 @@ directCommands:
   name: az connectedmachine extension show
   summary: The operation to get the extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine extension show [--ids]
                                        [--machine-name]
@@ -199,6 +209,8 @@ directCommands:
   name: az connectedmachine extension update
   summary: The operation to create or update the extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine extension update [--auto-upgrade-minor {false, true}]
                                          [--enable-auto-upgrade {false, true}]
@@ -271,6 +283,8 @@ directCommands:
   name: az connectedmachine extension wait
   summary: Place the CLI in a waiting state until a condition of the connectedmachine extension is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine extension wait [--created]
                                        [--custom]

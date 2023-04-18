@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **amg** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az grafana data-source** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage data sources of an instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_grafana_data-source_create
   name: az grafana data-source create
   summary: Create a data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana data-source create --definition
                                   --name
@@ -55,6 +59,8 @@ directCommands:
   name: az grafana data-source delete
   summary: Delete a data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana data-source delete --data-source
                                   --name
@@ -80,6 +86,8 @@ directCommands:
   name: az grafana data-source list
   summary: List all data sources of an instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana data-source list --name
                                 [--api-key]
@@ -100,6 +108,8 @@ directCommands:
   name: az grafana data-source query
   summary: Query a data source having backend implementation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana data-source query --data-source
                                  --name
@@ -151,6 +161,8 @@ directCommands:
   name: az grafana data-source show
   summary: Get details of a data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana data-source show --data-source
                                 --name
@@ -176,6 +188,8 @@ directCommands:
   name: az grafana data-source update
   summary: Update a data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana data-source update --data-source
                                   --definition

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp ingress access-restriction** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage IP access restrictions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_ingress_access-restriction_list
   name: az containerapp ingress access-restriction list
   summary: List IP access restrictions for a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp ingress access-restriction list --name
                                                     --resource-group
@@ -31,6 +35,8 @@ directCommands:
   name: az containerapp ingress access-restriction remove
   summary: Remove IP access restrictions from a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp ingress access-restriction remove --rule-name
                                                       [--ids]
@@ -62,6 +68,8 @@ directCommands:
   name: az containerapp ingress access-restriction set
   summary: Configure IP access restrictions for a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp ingress access-restriction set --action {Allow, Deny}
                                                    --ip-address

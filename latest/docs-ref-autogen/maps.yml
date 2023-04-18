@@ -3,6 +3,8 @@ uid: az_maps
 name: az maps
 summary: Manage Azure Maps.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_maps_account
 - az_maps_account_create

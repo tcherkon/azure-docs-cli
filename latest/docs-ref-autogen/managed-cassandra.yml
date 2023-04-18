@@ -3,6 +3,8 @@ uid: az_managed-cassandra
 name: az managed-cassandra
 summary: Azure Managed Cassandra.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 commands:
 - az_managed-cassandra_cluster
 - az_managed-cassandra_cluster_backup

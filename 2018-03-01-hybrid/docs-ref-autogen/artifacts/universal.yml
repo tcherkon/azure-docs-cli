@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az artifacts universal** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Universal Packages.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_artifacts_universal_download
   name: az artifacts universal download
   summary: Download a package.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az artifacts universal download --feed
                                     --name
@@ -62,6 +66,8 @@ directCommands:
   name: az artifacts universal publish
   summary: Publish a package to a feed.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az artifacts universal publish --feed
                                    --name

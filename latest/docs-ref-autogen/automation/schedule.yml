@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation schedule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Automation Schedule.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automation_schedule_create
   name: az automation schedule create
   summary: Create automation schedule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation schedule create --automation-account-name
                                   --frequency
@@ -63,6 +67,8 @@ directCommands:
   name: az automation schedule delete
   summary: Delete an automation schedule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation schedule delete --automation-account-name
                                   --name
@@ -93,6 +99,8 @@ directCommands:
   name: az automation schedule list
   summary: Retrieve a list of schedules.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation schedule list --automation-account-name
                                 --resource-group
@@ -112,6 +120,8 @@ directCommands:
   name: az automation schedule show
   summary: Retrieve the schedule identified by schedule name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation schedule show --automation-account-name
                                 --name
@@ -136,6 +146,8 @@ directCommands:
   name: az automation schedule update
   summary: Update an automation schedule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation schedule update --automation-account-name
                                   --name

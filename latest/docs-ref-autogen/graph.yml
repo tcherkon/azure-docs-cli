@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **resource-graph** extension for the Azure CLI  (version 2.22.0 or higher).  The extension will automatically install the first time you run an **az graph** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Query the resources managed by Azure Resource Manager.
 description: Run 'az graph query --help' for detailed help.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_graph_query
   name: az graph query
   summary: Query the resources managed by Azure Resource Manager.
   description: See https://aka.ms/AzureResourceGraph-QueryLanguage to learn more about query language and browse examples.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az graph query --graph-query
                    [--allow-partial-scopes {false, true}]

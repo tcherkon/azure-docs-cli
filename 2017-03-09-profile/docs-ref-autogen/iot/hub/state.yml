@@ -7,6 +7,10 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub state** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage the state of an IoT Hub.
 description: For more information, see aka.ms/aziotcli-iot-hub-state.
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_state_export
   name: az iot hub state export
@@ -20,6 +24,10 @@ directCommands:
 
 
     For more information, see aka.ms/aziotcli-iot-hub-state.
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'iot hub state' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub state export --state-file
                             [--aspects {arm, configurations, devices}]
@@ -86,6 +94,10 @@ directCommands:
 
 
     For more information, see aka.ms/aziotcli-iot-hub-state.
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'iot hub state' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub state import --state-file
                             [--aspects {arm, configurations, devices}]
@@ -157,6 +169,10 @@ directCommands:
 
 
     For more information, see aka.ms/aziotcli-iot-hub-state.
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'iot hub state' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub state migrate [--aspects {arm, configurations, devices}]
                              [--auth-type {key, login}]

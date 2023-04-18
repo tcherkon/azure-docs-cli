@@ -3,6 +3,8 @@ uid: az_synapse_role
 name: az synapse role
 summary: Manage Synapse's role assignments and definitions.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_synapse_role_assignment
 - az_synapse_role_assignment_create

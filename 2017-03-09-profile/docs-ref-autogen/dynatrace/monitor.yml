@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **dynatrace** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az dynatrace monitor** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dynatrace monitor.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dynatrace_monitor_create
   name: az dynatrace monitor create
   summary: Create a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor create --monitor-name
                                 --resource-group
@@ -71,6 +75,8 @@ directCommands:
   name: az dynatrace monitor delete
   summary: Delete a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor delete [--ids]
                                 [--monitor-name]
@@ -106,6 +112,8 @@ directCommands:
   name: az dynatrace monitor get-sso-detail
   summary: Get the SSO configuration details from the partner.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor get-sso-detail --monitor-name
                                         --resource-group
@@ -130,6 +138,8 @@ directCommands:
   name: az dynatrace monitor get-vm-host-payload
   summary: Return the payload that need to be passed in the request body for installing Dynatrace agent on a VM.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor get-vm-host-payload --monitor-name
                                              --resource-group
@@ -149,6 +159,8 @@ directCommands:
   name: az dynatrace monitor list
   summary: List all monitor resource by monitor name in a resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az dynatrace monitor list --resource-group
   examples:
   - summary: List monitor
@@ -162,6 +174,8 @@ directCommands:
   name: az dynatrace monitor list-app-service
   summary: Get list of app services with dynatrace PaaS OneAgent enabled.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor list-app-service --monitor-name
                                           --resource-group
@@ -181,6 +195,8 @@ directCommands:
   name: az dynatrace monitor list-host
   summary: List the compute resources currently being monitored by the dynatrace resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor list-host --monitor-name
                                    --resource-group
@@ -200,6 +216,8 @@ directCommands:
   name: az dynatrace monitor list-linkable-environment
   summary: Get all the dynatrace environments that a user can link a azure resource to.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor list-linkable-environment --monitor-name
                                                    --resource-group
@@ -232,6 +250,8 @@ directCommands:
   name: az dynatrace monitor list-monitored-resource
   summary: List the resources currently being monitored by the dynatrace monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor list-monitored-resource --monitor-name
                                                  --resource-group
@@ -251,6 +271,8 @@ directCommands:
   name: az dynatrace monitor show
   summary: Show a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor show [--ids]
                               [--monitor-name]
@@ -276,6 +298,8 @@ directCommands:
   name: az dynatrace monitor update
   summary: Update a monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor update [--ids]
                                 [--monitor-name]
@@ -305,6 +329,8 @@ directCommands:
   name: az dynatrace monitor wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor wait [--created]
                               [--custom]

@@ -3,11 +3,16 @@ uid: az_sql_mi_link
 name: az sql mi link
 summary: Instance link management commands.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sql_mi_link_create
   name: az sql mi link create
   summary: Create a distributed availability group between Sql On-Prem and Sql Managed Instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
   syntax: >-
     az sql mi link create --distributed-availability-group-name
                           --instance-name
@@ -52,11 +57,13 @@ directCommands:
   - name: --target-database --target-db
     summary: Name of the target database.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
 - uid: az_sql_mi_link_delete
   name: az sql mi link delete
   summary: Drop a distributed availability group between Sql On-Prem and Sql Managed Instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
   syntax: >-
     az sql mi link delete [--distributed-availability-group-name]
                           [--ids]
@@ -89,11 +96,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
 - uid: az_sql_mi_link_list
   name: az sql mi link list
   summary: Get a list of a distributed availability groups in instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
   syntax: >-
     az sql mi link list --instance-name
                         --resource-group
@@ -106,11 +115,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
 - uid: az_sql_mi_link_show
   name: az sql mi link show
   summary: Get a distributed availability group info.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
   syntax: >-
     az sql mi link show [--distributed-availability-group-name]
                         [--ids]
@@ -133,11 +144,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
 - uid: az_sql_mi_link_update
   name: az sql mi link update
   summary: Update a distributed availability group between Sql On-Prem and Sql Managed Instance.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
   syntax: >-
     az sql mi link update [--add]
                           [--distributed-availability-group-name]
@@ -203,7 +216,6 @@ directCommands:
   - name: --target-database --target-db
     summary: Name of the target database.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/sql/_help.py
 commands:
 - az_sql_mi_link_create
 - az_sql_mi_link_delete

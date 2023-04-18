@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation software-update-configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Automation software-update-configuration.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automation_software-update-configuration_create
   name: az automation software-update-configuration create
   summary: Create automation software-update-configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation software-update-configuration create --automation-account-name
                                                        --configuration-name
@@ -167,6 +171,8 @@ directCommands:
   name: az automation software-update-configuration delete
   summary: Delete an automation software-update-configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation software-update-configuration delete --automation-account-name
                                                        --configuration-name
@@ -197,6 +203,8 @@ directCommands:
   name: az automation software-update-configuration list
   summary: List all software-update-configurations for the account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation software-update-configuration list --automation-account-name
                                                      --resource-group
@@ -216,6 +224,8 @@ directCommands:
   name: az automation software-update-configuration show
   summary: Get a single software-update-configuration by name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation software-update-configuration show --automation-account-name
                                                      --configuration-name

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **netappfiles-preview** extension for the Azure CLI  (version 2.0.56 or higher).  The extension will automatically install the first time you run an **az netappfiles snapshot** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure NetApp Files (ANF) Snapshot Resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_netappfiles_snapshot_create
   name: az netappfiles snapshot create
   summary: Create a new Azure NetApp Files (ANF) snapshot.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles snapshot create --account-name
                                    --location
@@ -56,6 +60,8 @@ directCommands:
   name: az netappfiles snapshot delete
   summary: Delete the specified ANF snapshot.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles snapshot delete [--account-name]
                                    [--ids]
@@ -93,6 +99,8 @@ directCommands:
   name: az netappfiles snapshot list
   summary: List the snapshots of an ANF volume.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles snapshot list --account-name
                                  --pool-name
@@ -122,6 +130,8 @@ directCommands:
   name: az netappfiles snapshot show
   summary: Get the specified ANF snapshot.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles snapshot show [--account-name]
                                  [--ids]

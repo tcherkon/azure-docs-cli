@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **offazure** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az offazure vmware site** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage VMware site.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_offazure_vmware_site_create
   name: az offazure vmware site create
   summary: Create a site for VMware resources.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az offazure vmware site create --name
                                    --resource-group
@@ -76,6 +84,10 @@ directCommands:
   name: az offazure vmware site delete
   summary: Delete a VMware site.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az offazure vmware site delete [--ids]
                                    [--name]
@@ -106,6 +118,10 @@ directCommands:
   name: az offazure vmware site show
   summary: Get the details of a VMware site.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az offazure vmware site show [--ids]
                                  [--name]

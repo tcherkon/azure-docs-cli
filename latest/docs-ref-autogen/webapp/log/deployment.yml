@@ -3,11 +3,15 @@ uid: az_webapp_log_deployment
 name: az webapp log deployment
 summary: Manage web app deployment logs.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_webapp_log_deployment_list
   name: az webapp log deployment list
   summary: List deployments associated with web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp log deployment list --name
                                   --resource-group
@@ -32,6 +36,8 @@ directCommands:
   name: az webapp log deployment show
   summary: Show deployment logs of the latest deployment, or a specific deployment if deployment-id is specified.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp log deployment show --name
                                   --resource-group

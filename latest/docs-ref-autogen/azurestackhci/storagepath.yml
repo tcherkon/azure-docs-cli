@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azurestackhci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az azurestackhci storagepath** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage storagepath with azurestackhci.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_azurestackhci_storagepath_create
   name: az azurestackhci storagepath create
   summary: Create a storage path.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci storagepath create --name
                                         --resource-group
@@ -54,6 +62,10 @@ directCommands:
   name: az azurestackhci storagepath delete
   summary: Delete a storage path.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci storagepath delete [--ids]
                                         [--name]
@@ -84,6 +96,10 @@ directCommands:
   name: az azurestackhci storagepath list
   summary: List all the storage paths.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az azurestackhci storagepath list [--resource-group]
   examples:
   - summary: ListStoragePathByResourceGroup
@@ -98,6 +114,10 @@ directCommands:
   name: az azurestackhci storagepath show
   summary: Get the details of a storage path.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci storagepath show [--ids]
                                       [--name]
@@ -123,6 +143,10 @@ directCommands:
   name: az azurestackhci storagepath update
   summary: Update a storage path.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci storagepath update [--ids]
                                         [--name]

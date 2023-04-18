@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **nginx** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az nginx deployment certificate** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage NGINX certificate resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_nginx_deployment_certificate_create
   name: az nginx deployment certificate create
   summary: Create a certificate for an NGINX deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment certificate create --certificate-name
                                            --deployment-name
@@ -67,6 +71,8 @@ directCommands:
   name: az nginx deployment certificate delete
   summary: Delete an Nginx deployment certificate.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment certificate delete [--certificate-name]
                                            [--deployment-name]
@@ -106,6 +112,8 @@ directCommands:
   name: az nginx deployment certificate list
   summary: List all certificates under the specified deployment and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment certificate list --deployment-name
                                          --resource-group
@@ -125,6 +133,8 @@ directCommands:
   name: az nginx deployment certificate show
   summary: Get the properties of a specific Nginx certificate.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment certificate show [--certificate-name]
                                          [--deployment-name]
@@ -154,6 +164,8 @@ directCommands:
   name: az nginx deployment certificate update
   summary: Update an Nginx deployment certificate.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment certificate update [--add]
                                            [--certificate-name]
@@ -230,6 +242,8 @@ directCommands:
   name: az nginx deployment certificate wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment certificate wait [--certificate-name]
                                          [--created]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az boards iteration team** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage iterations for a team.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_boards_iteration_team_add
   name: az boards iteration team add
   summary: Add iteration to a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team add --id
                                  --team
@@ -42,6 +46,8 @@ directCommands:
   name: az boards iteration team list
   summary: List iterations for a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team list --team
                                   [--detect {false, true}]
@@ -71,6 +77,8 @@ directCommands:
   name: az boards iteration team list-work-items
   summary: List work-items for an iteration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team list-work-items --id
                                              --team
@@ -101,6 +109,8 @@ directCommands:
   name: az boards iteration team remove
   summary: Remove iteration from a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team remove --id
                                     --team
@@ -131,6 +141,8 @@ directCommands:
   name: az boards iteration team set-backlog-iteration
   summary: Set backlog iteration for a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team set-backlog-iteration --id
                                                    --team
@@ -161,6 +173,8 @@ directCommands:
   name: az boards iteration team set-default-iteration
   summary: Set default iteration for a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team set-default-iteration --team
                                                    [--default-iteration-macro]
@@ -194,6 +208,8 @@ directCommands:
   name: az boards iteration team show-backlog-iteration
   summary: Show backlog iteration for a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team show-backlog-iteration --team
                                                     [--detect {false, true}]
@@ -219,6 +235,8 @@ directCommands:
   name: az boards iteration team show-default-iteration
   summary: Show default iteration for a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration team show-default-iteration --team
                                                     [--detect {false, true}]

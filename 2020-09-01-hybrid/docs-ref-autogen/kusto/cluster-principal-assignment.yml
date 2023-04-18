@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto cluster-principal-assignment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cluster principal assignment with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_cluster-principal-assignment_create
   name: az kusto cluster-principal-assignment create
   summary: Create a Kusto cluster principalAssignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster-principal-assignment create --cluster-name
                                                  --principal-assignment-name
@@ -60,6 +68,10 @@ directCommands:
   name: az kusto cluster-principal-assignment delete
   summary: Deletes a Kusto cluster principalAssignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster-principal-assignment delete [--cluster-name]
                                                  [--ids]
@@ -99,6 +111,10 @@ directCommands:
   name: az kusto cluster-principal-assignment list
   summary: Lists all Kusto cluster principalAssignments.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster-principal-assignment list --cluster-name
                                                --resource-group
@@ -118,6 +134,10 @@ directCommands:
   name: az kusto cluster-principal-assignment show
   summary: Gets a Kusto cluster principalAssignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster-principal-assignment show [--cluster-name]
                                                [--ids]
@@ -147,6 +167,10 @@ directCommands:
   name: az kusto cluster-principal-assignment update
   summary: Update a Kusto cluster principalAssignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster-principal-assignment update [--add]
                                                  [--cluster-name]
@@ -216,6 +240,10 @@ directCommands:
   name: az kusto cluster-principal-assignment wait
   summary: Place the CLI in a waiting state until a condition of the kusto cluster-principal-assignment is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster-principal-assignment wait [--cluster-name]
                                                [--created]

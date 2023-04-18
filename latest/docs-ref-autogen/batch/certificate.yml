@@ -3,11 +3,16 @@ uid: az_batch_certificate
 name: az batch certificate
 summary: Manage Batch certificates.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_batch_certificate_create
   name: az batch certificate create
   summary: Add a certificate to a Batch account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
   syntax: >-
     az batch certificate create --certificate-file
                                 --thumbprint
@@ -37,11 +42,13 @@ directCommands:
   - name: --password
     summary: The password to access the certificate's private key.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
 - uid: az_batch_certificate_delete
   name: az batch certificate delete
   summary: Delete a certificate from a Batch account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
   syntax: >-
     az batch certificate delete --thumbprint
                                 [--abort]
@@ -72,11 +79,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
 - uid: az_batch_certificate_list
   name: az batch certificate list
   summary: Lists all of the Certificates that have been added to the specified Account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
   syntax: >-
     az batch certificate list [--account-endpoint]
                               [--account-key]
@@ -99,11 +108,13 @@ directCommands:
   - name: --select
     summary: An OData $select clause.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
 - uid: az_batch_certificate_show
   name: az batch certificate show
   summary: Gets information about the specified Certificate.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
   syntax: >-
     az batch certificate show --thumbprint
                               [--account-endpoint]
@@ -128,7 +139,6 @@ directCommands:
   - name: --select
     summary: An OData $select clause.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/batch/_help.py
 commands:
 - az_batch_certificate_create
 - az_batch_certificate_delete

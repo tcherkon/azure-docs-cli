@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **monitor-control-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az monitor data-collection rule performance-counter** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Log performance counter data source.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_data-collection_rule_performance-counter_add
   name: az monitor data-collection rule performance-counter add
   summary: Add a Log performance counter data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule performance-counter add --counter-specifiers
                                                             --name
@@ -59,6 +63,8 @@ directCommands:
   name: az monitor data-collection rule performance-counter delete
   summary: Delete a Log performance counter data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule performance-counter delete --name
                                                                [--ids]
@@ -90,6 +96,8 @@ directCommands:
   name: az monitor data-collection rule performance-counter list
   summary: List Log performance counter data sources.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule performance-counter list --resource-group
                                                              --rule-name
@@ -109,6 +117,8 @@ directCommands:
   name: az monitor data-collection rule performance-counter show
   summary: Show a Log performance counter data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule performance-counter show --name
                                                              [--ids]
@@ -140,6 +150,8 @@ directCommands:
   name: az monitor data-collection rule performance-counter update
   summary: Update a Log performance counter data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule performance-counter update --name
                                                                [--counter-specifiers]

@@ -3,11 +3,16 @@ uid: az_servicebus_georecovery-alias
 name: az servicebus georecovery-alias
 summary: Manage Azure Service Bus Geo-Disaster Recovery Configuration Alias.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_servicebus_georecovery-alias_break-pair
   name: az servicebus georecovery-alias break-pair
   summary: Disables Service Bus Geo-Disaster Recovery Configuration Alias and stops replicating changes from primary to secondary namespaces.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias break-pair [--alias]
                                                [--ids]
@@ -33,11 +38,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_georecovery-alias_delete
   name: az servicebus georecovery-alias delete
   summary: Deletes Service Bus Geo-Disaster Recovery Configuration Alias request accepted.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias delete [--alias]
                                            [--ids]
@@ -63,11 +70,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_georecovery-alias_exists
   name: az servicebus georecovery-alias exists
   summary: Check if Geo Recovery Alias Name is available.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias exists --alias
                                            [--ids]
@@ -95,11 +104,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_georecovery-alias_fail-over
   name: az servicebus georecovery-alias fail-over
   summary: Invokes Service Bus Geo-Disaster Recovery Configuration Alias failover and re-configure the alias to point to the secondary namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias fail-over [--alias]
                                               [--ids]
@@ -129,11 +140,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_georecovery-alias_list
   name: az servicebus georecovery-alias list
   summary: Gets all Alias(Disaster Recovery configurations).
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias list --namespace-name
                                          --resource-group
@@ -146,11 +159,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_georecovery-alias_set
   name: az servicebus georecovery-alias set
   summary: Sets Service Bus Geo-Disaster Recovery Configuration Alias for the give Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias set --partner-namespace
                                         [--alias]
@@ -188,11 +203,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_georecovery-alias_show
   name: az servicebus georecovery-alias show
   summary: Shows properties of Service Bus Geo-Disaster Recovery Configuration Alias for Primay/Secondary Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus georecovery-alias show [--alias]
                                          [--ids]
@@ -222,7 +239,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 commands:
 - az_servicebus_georecovery-alias_authorization-rule
 - az_servicebus_georecovery-alias_authorization-rule_keys

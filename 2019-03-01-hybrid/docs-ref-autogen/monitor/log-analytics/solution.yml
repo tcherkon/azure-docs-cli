@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **log-analytics-solution** extension for the Azure CLI  (version 2.3.0 or higher).  The extension will automatically install the first time you run an **az monitor log-analytics solution** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage monitor log-analytics solution.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_monitor_log-analytics_solution_create
   name: az monitor log-analytics solution create
   summary: Create a log-analytics solution.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'monitor log-analytics solution' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor log-analytics solution create --resource-group
                                              --solution-type
@@ -53,6 +61,10 @@ directCommands:
   name: az monitor log-analytics solution delete
   summary: Delete a log-analytics solution.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'monitor log-analytics solution' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor log-analytics solution delete --name
                                              --resource-group
@@ -83,6 +95,10 @@ directCommands:
   name: az monitor log-analytics solution list
   summary: List all of the log-analytics solutions in the specified subscription or resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'monitor log-analytics solution' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az monitor log-analytics solution list [--resource-group]
   examples:
   - summary: List all log-analytics solutions in the current subscription
@@ -99,6 +115,10 @@ directCommands:
   name: az monitor log-analytics solution show
   summary: Get details about the specified log-analytics solution.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'monitor log-analytics solution' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor log-analytics solution show --name
                                            --resource-group
@@ -118,6 +138,10 @@ directCommands:
   name: az monitor log-analytics solution update
   summary: Update an existing log-analytics solution.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'monitor log-analytics solution' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor log-analytics solution update --name
                                              --resource-group

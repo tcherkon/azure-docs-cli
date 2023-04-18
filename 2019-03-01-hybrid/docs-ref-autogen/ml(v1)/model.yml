@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml model** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage machine learning models.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_model_delete
   name: az ml model delete
   summary: Delete a model from the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model delete --model-id
                        [--path]
@@ -44,6 +48,8 @@ directCommands:
   name: az ml model deploy
   summary: Deploy model(s) from the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model deploy --name
                        [--ae]
@@ -336,6 +342,8 @@ directCommands:
   name: az ml model download
   summary: Download a model from the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model download --model-id
                          --target-dir
@@ -377,6 +385,8 @@ directCommands:
   name: az ml model list
   summary: List models in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model list [--dataset-id]
                      [--latest]
@@ -429,6 +439,8 @@ directCommands:
   name: az ml model package
   summary: Package a model in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model package [--cf]
                         [--ed]
@@ -513,6 +525,8 @@ directCommands:
   name: az ml model profile
   summary: Profile model(s) in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model profile --name
                         [--base-image]
@@ -607,6 +621,8 @@ directCommands:
   name: az ml model register
   summary: Register a model to the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model register --name
                          [--asset-path]
@@ -705,6 +721,8 @@ directCommands:
   name: az ml model show
   summary: Show a model in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model show [--model-id]
                      [--model-name]
@@ -747,6 +765,8 @@ directCommands:
   name: az ml model update
   summary: Update a model in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml model update --model-id
                        [--add-property]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **authV2** extension for the Azure CLI  (version 2.23.0 or higher).  The extension will automatically install the first time you run an **az webapp auth** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage webapp authentication and authorization in the v2 format.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_webapp_auth_set
   name: az webapp auth set
   summary: Sets the authentication settings for the webapp in the v2 format, overwriting any existing settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth set [--body]
                        [--ids]
@@ -45,6 +49,8 @@ directCommands:
   name: az webapp auth show
   summary: Show the authentication settings for the webapp in the v2 format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth show [--ids]
                         [--name]
@@ -74,6 +80,8 @@ directCommands:
   name: az webapp auth update
   summary: Update the authentication settings for the webapp in the v2 format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth update [--action {AllowAnonymous, RedirectToLoginPage, Return401, Return403, Return404}]
                           [--config-file-path]

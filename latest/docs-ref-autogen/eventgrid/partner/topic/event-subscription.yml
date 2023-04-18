@@ -3,11 +3,16 @@ uid: az_eventgrid_partner_topic_event-subscription
 name: az eventgrid partner topic event-subscription
 summary: Manage event subscriptions of partner topic.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventgrid_partner_topic_event-subscription_create
   name: az eventgrid partner topic event-subscription create
   summary: Create a new event subscription for a partner topic.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner topic event-subscription create --name
                                                          --partner-topic-name
@@ -217,11 +222,13 @@ directCommands:
   - name: --subject-ends-with
     summary: An optional string to filter events for an event subscription based on a suffix. Wildcard characters are not supported.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_partner_topic_event-subscription_delete
   name: az eventgrid partner topic event-subscription delete
   summary: Delete an event subscription of a partner topic.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner topic event-subscription delete --name
                                                          --partner-topic-name
@@ -250,11 +257,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_partner_topic_event-subscription_list
   name: az eventgrid partner topic event-subscription list
   summary: List event subscriptions of a specific partner topic.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner topic event-subscription list --partner-topic-name
                                                        --resource-group
@@ -275,11 +284,13 @@ directCommands:
   - name: --odata-query
     summary: 'The OData query used for filtering the list results. Filtering is currently allowed on the Name property only. The supported operations include: CONTAINS, eq (for equal), ne (for not equal), AND, OR and NOT.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_partner_topic_event-subscription_show
   name: az eventgrid partner topic event-subscription show
   summary: Get the details of an event subscription of a partner topic.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner topic event-subscription show --name
                                                        --partner-topic-name
@@ -319,11 +330,13 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Specify to indicate whether the full endpoint URL should be returned. True if flag present.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_partner_topic_event-subscription_update
   name: az eventgrid partner topic event-subscription update
   summary: Update an event subscription of a partner topic.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner topic event-subscription update --name
                                                          --partner-topic-name
@@ -484,7 +497,6 @@ directCommands:
   - name: --subject-ends-with
     summary: An optional string to filter events for an event subscription based on a suffix. Wildcard characters are not supported.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 commands:
 - az_eventgrid_partner_topic_event-subscription_create
 - az_eventgrid_partner_topic_event-subscription_delete

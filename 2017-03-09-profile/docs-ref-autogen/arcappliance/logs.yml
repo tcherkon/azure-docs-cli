@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcappliance** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az arcappliance logs** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Command group for collecting logs for an Appliance cluster.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_arcappliance_logs_hci
   name: az arcappliance logs hci
   summary: Command to collect logs for an Appliance on Azure Stack HCI.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance logs hci [--cloudagent]
                              [--ip]
@@ -45,6 +53,10 @@ directCommands:
   name: az arcappliance logs kubevirt
   summary: Command to collect logs for Appliance on KubeVirt.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance logs kubevirt [--ip]
                                   [--kubeconfig]
@@ -68,6 +80,10 @@ directCommands:
   name: az arcappliance logs scvmm
   summary: Command to collect logs for Arc Appliance on SCVMM.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance logs scvmm [--ip]
                                [--kubeconfig]
@@ -91,6 +107,10 @@ directCommands:
   name: az arcappliance logs vmware
   summary: Command to collect logs for Appliance on VMware.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance logs vmware [--address]
                                 [--ip]

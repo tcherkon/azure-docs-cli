@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **maintenance** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az maintenance applyupdate** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage apply update with maintenance.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_maintenance_applyupdate_create
   name: az maintenance applyupdate create
   summary: Apply maintenance updates to resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance applyupdate create --provider-name
                                       --resource-group
@@ -41,6 +49,10 @@ directCommands:
   name: az maintenance applyupdate create-or-update-parent
   summary: Apply maintenance updates to resource with parent.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance applyupdate create-or-update-parent --provider-name
                                                        --resource-group
@@ -80,6 +92,10 @@ directCommands:
   name: az maintenance applyupdate get-parent
   summary: Track maintenance updates to resource with parent.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance applyupdate get-parent --apply-update-name
                                           --provider-name
@@ -124,6 +140,10 @@ directCommands:
   name: az maintenance applyupdate list
   summary: Get Configuration records within a subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az maintenance applyupdate list
   examples:
   - summary: ApplyUpdates_List
@@ -132,6 +152,10 @@ directCommands:
   name: az maintenance applyupdate show
   summary: Track maintenance updates to resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance applyupdate show --apply-update-name
                                     --provider-name
@@ -166,6 +190,10 @@ directCommands:
   name: az maintenance applyupdate show-parent
   summary: Track maintenance updates to resource with parent.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance applyupdate show-parent --apply-update-name
                                            --provider-name
@@ -210,6 +238,10 @@ directCommands:
   name: az maintenance applyupdate update
   summary: Apply maintenance updates to resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance applyupdate update --provider-name
                                       --resource-group

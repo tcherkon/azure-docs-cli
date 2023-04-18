@@ -3,11 +3,16 @@ uid: az_iot_hub
 name: az iot hub
 summary: Manage Azure IoT hubs.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_iot_hub_create
   name: az iot hub create
   summary: Create an Azure IoT hub.
   description: For an introduction to Azure IoT Hub, see https://docs.microsoft.com/azure/iot-hub/.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub create --name
                       --resource-group
@@ -175,11 +180,13 @@ directCommands:
     defaultValue: "1"
     summary: Units in your IoT Hub.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_delete
   name: az iot hub delete
   summary: Delete an IoT hub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub delete [--ids]
                       [--name]
@@ -206,11 +213,12 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_generate-sas-token
   name: az iot hub generate-sas-token
   summary: Generate a SAS token for a target IoT Hub, device or module.
   description: For device SAS tokens, the policy parameter is used to access the the device registry only. Therefore the policy should have read access to the registry. For IoT Hub tokens the policy is part of the SAS.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub generate-sas-token [--auth-type {key, login}]
                                   [--connection-string]
@@ -278,6 +286,8 @@ directCommands:
   name: az iot hub invoke-device-method
   summary: Invoke a device method.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub invoke-device-method --device-id
                                     --method-name
@@ -326,6 +336,8 @@ directCommands:
   name: az iot hub invoke-module-method
   summary: Invoke a module method.
   description: This command supports both edge and non-edge device modules.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub invoke-module-method --device-id
                                     --method-name
@@ -379,6 +391,9 @@ directCommands:
   name: az iot hub list
   summary: List IoT hubs.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: az iot hub list [--resource-group]
   examples:
   - summary: List all IoT hubs in a subscription.
@@ -389,11 +404,13 @@ directCommands:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_list-skus
   name: az iot hub list-skus
   summary: List available pricing tiers.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub list-skus [--ids]
                          [--name]
@@ -415,11 +432,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_manual-failover
   name: az iot hub manual-failover
   summary: Initiate a manual failover for the IoT Hub to the geo-paired disaster recovery region.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub manual-failover [--ids]
                                [--name]
@@ -446,7 +465,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_monitor-events
   name: az iot hub monitor-events
   summary: Monitor device telemetry & messages sent to an IoT Hub.
@@ -454,6 +472,8 @@ directCommands:
     This command relies on and may install dependent Cython package (uamqp) upon first execution.
 
     https://github.com/Azure/azure-uamqp-python.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub monitor-events [--cg]
                               [--content-type]
@@ -553,6 +573,8 @@ directCommands:
     This command relies on and may install dependent Cython package (uamqp) upon first execution.
 
     https://github.com/Azure/azure-uamqp-python.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub monitor-feedback [--auth-type {key, login}]
                                 [--device-id]
@@ -606,6 +628,8 @@ directCommands:
   name: az iot hub query
   summary: Query an IoT Hub using a powerful SQL-like language.
   description: Retrieve information regarding device and module twins, jobs and message routing. See https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-query-language for more information.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub query --query-command
                      [--auth-type {key, login}]
@@ -645,6 +669,9 @@ directCommands:
   name: az iot hub show
   summary: Get the details of an IoT hub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub show [--ids]
                     [--name]
@@ -666,11 +693,15 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_show-connection-string
   name: az iot hub show-connection-string
   summary: Show the connection strings for an IoT hub.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'IoT Extension (azure-iot) connection-string command (az iot hub connection-string show)' instead.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub show-connection-string [--all]
                                       [--hub-name]
@@ -716,11 +747,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_show-quota-metrics
   name: az iot hub show-quota-metrics
   summary: Get the quota metrics for an IoT hub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub show-quota-metrics [--ids]
                                   [--name]
@@ -744,11 +777,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_show-stats
   name: az iot hub show-stats
   summary: Get the statistics for an IoT hub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub show-stats [--ids]
                           [--name]
@@ -770,11 +805,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_update
   name: az iot hub update
   summary: Update metadata for an IoT hub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub update [--add]
                       [--c2d-max-delivery-count]
@@ -926,11 +963,13 @@ directCommands:
   - name: --unit
     summary: Units in your IoT Hub.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 - uid: az_iot_hub_wait
   name: az iot hub wait
   summary: Wait until an operation on an IoT Hub instance is complete.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
   syntax: >-
     az iot hub wait [--created]
                     [--custom]
@@ -990,7 +1029,6 @@ directCommands:
     defaultValue: "False"
     summary: Wait until updated with provisioningState at 'Succeeded'.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/iot/_help.py
 commands:
 - az_iot_hub_certificate
 - az_iot_hub_certificate_create

@@ -3,11 +3,15 @@ uid: az_webapp_auth
 name: az webapp auth
 summary: Manage webapp authentication and authorization. To use v2 auth commands, run "az extension add --name authV2" to add the authV2 CLI extension.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_webapp_auth_set
   name: az webapp auth set
   summary: Sets the authentication settings for the webapp in the v2 format, overwriting any existing settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth set [--body]
                        [--ids]
@@ -41,6 +45,8 @@ directCommands:
   name: az webapp auth show
   summary: Show the authentification settings for the webapp.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp auth show [--ids]
                         [--name]
@@ -70,6 +76,8 @@ directCommands:
   name: az webapp auth update
   summary: Update the authentication settings for the webapp.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp auth update [--aad-allowed-token-audiences]
                           [--aad-client-id]

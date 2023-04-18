@@ -3,11 +3,15 @@ uid: az_webapp
 name: az webapp
 summary: Manage web apps.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_webapp_browse
   name: az webapp browse
   summary: Open a web app in a browser. This is not supported in Azure Cloud Shell.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp browse [--ids]
                      [--logs]
@@ -42,6 +46,8 @@ directCommands:
   name: az webapp create
   summary: Create a web app.
   description: The web app's name must be able to produce a unique FQDN as AppName.azurewebsites.net.
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp create --name
                      --plan
@@ -157,6 +163,8 @@ directCommands:
   name: az webapp create-remote-connection
   summary: Creates a remote connection using a tcp tunnel to your web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp create-remote-connection [--ids]
                                        [--instance]
@@ -195,6 +203,8 @@ directCommands:
   name: az webapp delete
   summary: Delete a web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp delete [--ids]
                      [--keep-dns-registration]
@@ -214,6 +224,8 @@ directCommands:
   - name: --keep-dns-registration
     summary: Keep DNS registration.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'keep_dns_registration' has been deprecated and will be removed in version '3.0.0'.
   - name: --keep-empty-plan
     summary: Keep empty app service plan.
     description: ''
@@ -236,6 +248,10 @@ directCommands:
   name: az webapp deploy
   summary: Deploys a provided artifact to Azure Web Apps.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
   syntax: >-
     az webapp deploy [--async {false, true}]
                      [--clean {false, true}]
@@ -308,6 +324,8 @@ directCommands:
   name: az webapp list
   summary: List web apps.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az webapp list [--resource-group]
   examples:
   - summary: List all web apps in MyResourceGroup.
@@ -324,6 +342,8 @@ directCommands:
   name: az webapp list-instances
   summary: List all scaled out instances of a web app or web app slot.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp list-instances --name
                              --resource-group
@@ -345,6 +365,8 @@ directCommands:
   name: az webapp list-runtimes
   summary: List available built-in stacks which can be used for web apps.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp list-runtimes [--linux]
                             [--os {linux, windows}]
@@ -353,6 +375,8 @@ directCommands:
     defaultValue: "False"
     summary: List runtime stacks for linux based web apps.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'linux' has been deprecated and will be removed in a future release. Use '--os-type' instead.
   - name: --os --os-type
     parameterValueGroup: "linux, windows"
     summary: Limit the output to just windows or linux runtimes.
@@ -361,6 +385,8 @@ directCommands:
   name: az webapp restart
   summary: Restart a web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp restart [--ids]
                       [--name]
@@ -390,6 +416,8 @@ directCommands:
   name: az webapp scale
   summary: Modify the number of instances of a webapp.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp scale --instance-count
                     [--ids]
@@ -426,6 +454,8 @@ directCommands:
   name: az webapp show
   summary: Get the details of a web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp show [--ids]
                    [--name]
@@ -455,6 +485,10 @@ directCommands:
   name: az webapp ssh
   summary: SSH command establishes a ssh session to the web container and developer would get a shell terminal remotely.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
   syntax: >-
     az webapp ssh [--ids]
                   [--instance]
@@ -496,6 +530,8 @@ directCommands:
   name: az webapp start
   summary: Start a web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp start [--ids]
                     [--name]
@@ -525,6 +561,8 @@ directCommands:
   name: az webapp stop
   summary: Stop a web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp stop [--ids]
                    [--name]
@@ -554,6 +592,8 @@ directCommands:
   name: az webapp up
   summary: Create a webapp and deploy code from a local workspace to the app. The command is required to run from the folder where the code is present. Current support includes Node, Python, .NET Core and ASP.NET. Node, Python apps are created as Linux apps. .Net Core, ASP.NET, and static HTML apps are created as Windows apps. Append the html flag to deploy as a static HTML app. Each time the command is successfully run, default argument values for resource group, sku, location, plan, and name are saved for the current directory. These defaults are then used for any arguments not provided on subsequent runs of the command in the same directory.  Use 'az configure' to manage defaults.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp up [--app-service-environment]
                  [--dryrun]
@@ -637,6 +677,8 @@ directCommands:
   name: az webapp update
   summary: Update an existing web app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp update [--add]
                      [--client-affinity-enabled {false, true}]
@@ -673,6 +715,8 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If true, web app hostname is force registered with DNS.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'force_dns_registration' has been deprecated and will be removed in version '3.0.0'.
   - name: --force-string
     defaultValue: "False"
     summary: When using 'set' or 'add', preserve string literals instead of attempting to convert to JSON.
@@ -687,12 +731,14 @@ directCommands:
   - name: --minimum-elastic-instance-count -i
     summary: Minimum number of instances. App must be in an elastic scale App Service Plan.
     description: ''
+    isPreview: true
   - name: --name -n
     summary: Name of the web app. If left unspecified, a name will be randomly generated. You can configure the default using `az configure --defaults web=<name>`.
     description: ''
   - name: --prewarmed-instance-count -w
     summary: Number of preWarmed instances. App must be in an elastic scale App Service Plan.
     description: ''
+    isPreview: true
   - name: --remove
     defaultValue: "[]"
     summary: 'Remove a property or an element from a list.  Example: --remove property.list <indexToRemove> OR --remove propertyToRemove.'
@@ -708,10 +754,14 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If true, custom (non *.azurewebsites.net) domains associated with web app are not verified.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'skip_custom_domain_verification' has been deprecated and will be removed in version '3.0.0'.
   - name: --skip-dns-registration
     parameterValueGroup: "false, true"
     summary: If true web app hostname is not registered with DNS on creation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'skip_dns_registration' has been deprecated and will be removed in version '3.0.0'.
   - name: --slot -s
     summary: The name of the slot. Default to the productions slot if not specified.
     description: ''
@@ -722,6 +772,8 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Time to live in seconds for web app's default domain name.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'ttl_in_seconds' has been deprecated and will be removed in version '3.0.0'.
 commands:
 - az_webapp_auth
 - az_webapp_auth_apple

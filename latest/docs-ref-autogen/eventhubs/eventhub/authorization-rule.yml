@@ -3,11 +3,16 @@ uid: az_eventhubs_eventhub_authorization-rule
 name: az eventhubs eventhub authorization-rule
 summary: Manage Azure Service Bus Authorizationrule for Eventhub.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventhubs_eventhub_authorization-rule_create
   name: az eventhubs eventhub authorization-rule create
   summary: Creates Authorizationrule for the given Eventhub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs eventhub authorization-rule create --eventhub-name
                                                     --name
@@ -39,11 +44,13 @@ directCommands:
     parameterValueGroup: "Listen, Manage, Send"
     summary: Space-separated list of Authorization rule rights.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_eventhub_authorization-rule_delete
   name: az eventhubs eventhub authorization-rule delete
   summary: Deletes the Authorizationrule of Eventhub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs eventhub authorization-rule delete [--eventhub-name]
                                                     [--ids]
@@ -73,11 +80,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_eventhub_authorization-rule_list
   name: az eventhubs eventhub authorization-rule list
   summary: Shows the list of Authorization-rules by Eventhub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs eventhub authorization-rule list --eventhub-name
                                                   --namespace-name
@@ -98,11 +107,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_eventhub_authorization-rule_show
   name: az eventhubs eventhub authorization-rule show
   summary: Shows the details of Authorizationrule.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs eventhub authorization-rule show [--eventhub-name]
                                                   [--ids]
@@ -132,11 +143,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_eventhub_authorization-rule_update
   name: az eventhubs eventhub authorization-rule update
   summary: Updates Authorizationrule for the given Eventhub.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs eventhub authorization-rule update --rights {Listen, Manage, Send}
                                                     [--add]
@@ -193,7 +206,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 commands:
 - az_eventhubs_eventhub_authorization-rule_create
 - az_eventhubs_eventhub_authorization-rule_delete

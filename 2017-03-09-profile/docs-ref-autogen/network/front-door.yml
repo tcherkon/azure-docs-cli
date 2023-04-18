@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Classical Azure Front Doors. For managing Azure Front Door Standard/Premium, please refer https://docs.microsoft.com/en-us/cli/azure/afd?view=azure-cli-latest.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_check-custom-domain
   name: az network front-door check-custom-domain
   summary: Validates the custom domain mapping to ensure it maps to the correct Front Door endpoint in DNS.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door check-custom-domain --host-name
                                               [--ids]
@@ -40,6 +44,8 @@ directCommands:
   name: az network front-door check-name-availability
   summary: Check the availability of a Front Door resource name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door check-name-availability --name
                                                   --resource-type {Microsoft.Network/frontDoors, Microsoft.Network/frontDoors/frontendEndpoints}
@@ -60,6 +66,8 @@ directCommands:
   name: az network front-door create
   summary: Create a Front Door.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door create --backend-address
                                  --name
@@ -154,6 +162,8 @@ directCommands:
   name: az network front-door delete
   summary: Delete a Front Door.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door delete [--ids]
                                  [--name]
@@ -181,6 +191,8 @@ directCommands:
   name: az network front-door list
   summary: List Front Doors.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network front-door list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -190,6 +202,8 @@ directCommands:
   name: az network front-door purge-endpoint
   summary: Removes a content from Front Door.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door purge-endpoint --content-paths
                                          [--ids]
@@ -218,6 +232,8 @@ directCommands:
   name: az network front-door show
   summary: Get the details of a Front Door.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door show [--ids]
                                [--name]
@@ -240,6 +256,8 @@ directCommands:
   name: az network front-door update
   summary: Update settings of a Front Door.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door update [--add]
                                  [--enforce-certificate-name-check {Disabled, Enabled}]
@@ -295,6 +313,8 @@ directCommands:
   name: az network front-door wait
   summary: Place the CLI in a waiting state until a condition of the Front Door is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door wait [--created]
                                [--custom]

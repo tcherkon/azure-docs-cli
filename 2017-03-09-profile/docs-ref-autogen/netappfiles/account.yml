@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **netappfiles-preview** extension for the Azure CLI  (version 2.0.56 or higher).  The extension will automatically install the first time you run an **az netappfiles account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure NetApp Files (ANF) Account Resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_netappfiles_account_create
   name: az netappfiles account create
   summary: Create a new Azure NetApp Files (ANF) account. Note that active directory can only be applied to an existing account (using set/update).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles account create --account-name
                                   --location
@@ -45,6 +49,8 @@ directCommands:
   name: az netappfiles account delete
   summary: Delete the specified ANF account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles account delete [--account-name]
                                   [--ids]
@@ -70,6 +76,8 @@ directCommands:
   name: az netappfiles account list
   summary: List ANF accounts.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az netappfiles account list --resource-group
   examples:
   - summary: List ANF accounts within a resource group
@@ -83,6 +91,8 @@ directCommands:
   name: az netappfiles account set
   summary: Sets the tags or the active directory details for a specified ANF account. Sets the active directory property to exactly what is provided. If none is provided then the active directory is removed, i.e. provide empty [].
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles account set --location
                                [--account-name]
@@ -124,6 +134,8 @@ directCommands:
   name: az netappfiles account show
   summary: Get the specified ANF account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles account show [--account-name]
                                 [--ids]
@@ -149,6 +161,8 @@ directCommands:
   name: az netappfiles account update
   summary: Set/modify the tags or the active directory details for a specified ANF account. Active directory settings are appended only - if none are present no change is made otherwise the active directory is replaced with that provided.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles account update --location
                                   [--account-name]

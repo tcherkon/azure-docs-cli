@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **elastic** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az elastic monitor tag-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage tag rule with elastic.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_elastic_monitor_tag-rule_create
   name: az elastic monitor tag-rule create
   summary: Create a tag rule set for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor tag-rule create --monitor-name
                                        --resource-group
@@ -72,6 +80,10 @@ directCommands:
   name: az elastic monitor tag-rule delete
   summary: Delete a tag rule set for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor tag-rule delete [--ids]
                                        [--monitor-name]
@@ -111,6 +123,10 @@ directCommands:
   name: az elastic monitor tag-rule list
   summary: List the tag rules for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor tag-rule list --monitor-name
                                      --resource-group
@@ -130,6 +146,10 @@ directCommands:
   name: az elastic monitor tag-rule show
   summary: Get a tag rule set for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor tag-rule show [--ids]
                                      [--monitor-name]
@@ -159,6 +179,10 @@ directCommands:
   name: az elastic monitor tag-rule update
   summary: Update a tag rule set for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor tag-rule update [--add]
                                        [--filtering-tags]
@@ -240,6 +264,10 @@ directCommands:
   name: az elastic monitor tag-rule wait
   summary: Place the CLI in a waiting state until a condition of the elastic monitor tag-rule is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor tag-rule wait [--created]
                                      [--custom]

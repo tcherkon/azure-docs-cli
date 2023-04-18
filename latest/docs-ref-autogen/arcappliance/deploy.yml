@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcappliance** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az arcappliance deploy** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Command group for deployment of an Appliance cluster.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_arcappliance_deploy_hci
   name: az arcappliance deploy hci
   summary: Command to deploy Appliance on Azure Stack HCI - must be done before Azure Resource creation.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance deploy' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance deploy hci --config-file
                                [--location]
@@ -46,6 +54,10 @@ directCommands:
   name: az arcappliance deploy kubevirt
   summary: Command to deploy KubeVirt Appliance - must be done before Azure Resource creation.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance deploy' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance deploy kubevirt --config-file
                                     [--location]
@@ -80,6 +92,10 @@ directCommands:
   name: az arcappliance deploy scvmm
   summary: Command to deploy Appliance on SCVMM - must be done before Azure Resource creation. e.g az arcappliance deploy scvmm --config-file [REQUIRED] --outfile [OPTIONAL].
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance deploy' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance deploy scvmm --config-file
                                  [--location]
@@ -114,6 +130,10 @@ directCommands:
   name: az arcappliance deploy vmware
   summary: Command to deploy VMware Appliance - must be done before Azure Resource creation.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance deploy' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance deploy vmware --config-file
                                   [--location]

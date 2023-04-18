@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub module-twin** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT device module twin configuration.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_module-twin_replace
   name: az iot hub module-twin replace
   summary: Replace a module twin definition with target json.
   description: Input json directly or use a file path.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-twin replace --device-id
                                    --json
@@ -59,6 +63,8 @@ directCommands:
   name: az iot hub module-twin show
   summary: Show a module twin definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-twin show --device-id
                                 --module-id
@@ -97,6 +103,8 @@ directCommands:
     Provide --desired or --tags arguments for PATCH behavior. Both parameters support inline json or a file path to json content.
 
     Usage of generic update args (i.e. --set) will reflect PUT behavior and are deprecated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-twin update --device-id
                                   --module-id

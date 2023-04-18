@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az repos pr reviewer** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pull request reviewers.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_repos_pr_reviewer_add
   name: az repos pr reviewer add
   summary: Add one or more reviewers to a pull request.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos pr reviewer add --id
                              --reviewers
@@ -38,6 +42,8 @@ directCommands:
   name: az repos pr reviewer list
   summary: List reviewers of a pull request.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos pr reviewer list --id
                               [--detect {false, true}]
@@ -59,6 +65,8 @@ directCommands:
   name: az repos pr reviewer remove
   summary: Remove one or more reviewers from a pull request.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos pr reviewer remove --id
                                 --reviewers

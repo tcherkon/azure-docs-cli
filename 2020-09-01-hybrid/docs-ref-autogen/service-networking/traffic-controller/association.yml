@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **traffic-controller** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az service-networking traffic-controller association** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and Configure Associations for Azure Traffic Controller Resource.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_service-networking_traffic-controller_association_create
   name: az service-networking traffic-controller association create
   summary: Create a Traffic Controller Association.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller association' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller association create --association-name
                                                                 --resource-group
@@ -63,6 +71,10 @@ directCommands:
   name: az service-networking traffic-controller association delete
   summary: Delete a Traffic Controller Association.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller association' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller association delete [--association-name]
                                                                 [--ids]
@@ -102,6 +114,10 @@ directCommands:
   name: az service-networking traffic-controller association list
   summary: List all Association resources by Traffic Controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller association' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller association list --resource-group
                                                               --tc-name
@@ -121,6 +137,10 @@ directCommands:
   name: az service-networking traffic-controller association show
   summary: Get a Traffic Controller Association.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller association' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller association show [--association-name]
                                                               [--ids]
@@ -150,6 +170,10 @@ directCommands:
   name: az service-networking traffic-controller association update
   summary: Update a Traffic Controller Association.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller association' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller association update [--add]
                                                                 [--association-name]
@@ -202,6 +226,10 @@ directCommands:
   name: az service-networking traffic-controller association wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az service-networking traffic-controller association' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az service-networking traffic-controller association wait [--association-name]
                                                               [--created]

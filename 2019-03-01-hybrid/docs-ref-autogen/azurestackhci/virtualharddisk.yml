@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azurestackhci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az azurestackhci virtualharddisk** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtualharddisk with azurestackhci.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_azurestackhci_virtualharddisk_create
   name: az azurestackhci virtualharddisk create
   summary: Create a virtual hard disk.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualharddisk create --name
                                             --resource-group
@@ -79,6 +87,10 @@ directCommands:
   name: az azurestackhci virtualharddisk delete
   summary: Delete a virtual hard disk.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualharddisk delete [--ids]
                                             [--name]
@@ -109,6 +121,10 @@ directCommands:
   name: az azurestackhci virtualharddisk list
   summary: List all virtual hard disks.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az azurestackhci virtualharddisk list [--resource-group]
   examples:
   - summary: ListVirtualHardDiskByResourceGroup
@@ -123,6 +139,10 @@ directCommands:
   name: az azurestackhci virtualharddisk show
   summary: Get the details of a virtual hard disk.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualharddisk show [--ids]
                                           [--name]
@@ -148,6 +168,10 @@ directCommands:
   name: az azurestackhci virtualharddisk update
   summary: Update a virtual hard disk.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualharddisk update [--ids]
                                             [--name]

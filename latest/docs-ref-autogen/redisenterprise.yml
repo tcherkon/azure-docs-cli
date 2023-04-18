@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **redisenterprise** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az redisenterprise** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dedicated Redis Enterprise caches for your Azure applications.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_redisenterprise_create
   name: az redisenterprise create
   summary: Create new Redis Enterprise cache instance.
   description: Create or update an existing (overwrite/recreate, with potential downtime) cache cluster with an associated database.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise create --cluster-name
                               --resource-group
@@ -115,6 +119,7 @@ directCommands:
 
 
       After enabling persistence, you will be unable to disable it. Support for disabling persistence after enabling will be added at a later date.
+    isPreview: true
   - name: --port
     summary: TCP port of the database endpoint. Specified at create time. Defaults to an available port.
     description: ''
@@ -128,6 +133,8 @@ directCommands:
   name: az redisenterprise delete
   summary: Delete a Redis Enterprise cache.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise delete [--cluster-name]
                               [--ids]
@@ -163,6 +170,8 @@ directCommands:
   name: az redisenterprise list
   summary: List Redis Enterprise caches.
   description: List details about all caches within current Subscription or provided Resource Group.
+  status: GA
+  sourceType: Extension
   syntax: az redisenterprise list [--resource-group]
   examples:
   - summary: List all Redis Enterprise caches in a resource group.
@@ -177,6 +186,8 @@ directCommands:
   name: az redisenterprise show
   summary: Get information about a Redis Enterprise cache.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise show [--cluster-name]
                             [--ids]
@@ -202,6 +213,8 @@ directCommands:
   name: az redisenterprise update
   summary: Update an existing Redis Enterprise cache cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise update [--capacity]
                               [--cluster-name]
@@ -250,6 +263,8 @@ directCommands:
   name: az redisenterprise wait
   summary: Place the CLI in a waiting state until a condition of the Redis Enterprise cache cluster is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise wait [--cluster-name]
                             [--created]

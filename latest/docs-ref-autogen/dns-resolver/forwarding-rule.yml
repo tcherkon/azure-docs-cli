@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **dns-resolver** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az dns-resolver forwarding-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage forwarding rule with dns resolver.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dns-resolver_forwarding-rule_create
   name: az dns-resolver forwarding-rule create
   summary: Create a forwarding rule in a DNS forwarding ruleset.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-rule create --domain-name
                                            --forwarding-rule-name
@@ -64,6 +68,8 @@ directCommands:
   name: az dns-resolver forwarding-rule delete
   summary: 'Deletes a forwarding rule in a DNS forwarding ruleset. WARNING: This operation cannot be undone.'
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-rule delete [--forwarding-rule-name]
                                            [--ids]
@@ -102,6 +108,8 @@ directCommands:
   name: az dns-resolver forwarding-rule list
   summary: Lists forwarding rules in a DNS forwarding ruleset.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-rule list --resource-group
                                          --ruleset-name
@@ -126,6 +134,8 @@ directCommands:
   name: az dns-resolver forwarding-rule show
   summary: Gets properties of a forwarding rule in a DNS forwarding ruleset.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-rule show [--forwarding-rule-name]
                                          [--ids]
@@ -155,6 +165,8 @@ directCommands:
   name: az dns-resolver forwarding-rule update
   summary: Update a forwarding rule in a DNS forwarding ruleset.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-rule update [--forwarding-rule-name]
                                            [--forwarding-rule-state {Disabled, Enabled}]

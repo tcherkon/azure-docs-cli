@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **custom-providers** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az custom-providers resource-provider** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage custom resource provider.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_custom-providers_resource-provider_create
   name: az custom-providers resource-provider create
   summary: Create or update the custom resource provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'custom-providers resource-provider' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az custom-providers resource-provider create --name
                                                  --resource-group
@@ -95,6 +103,10 @@ directCommands:
   name: az custom-providers resource-provider delete
   summary: Delete the custom resource provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'custom-providers resource-provider' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az custom-providers resource-provider delete --name
                                                  --resource-group
@@ -125,6 +137,10 @@ directCommands:
   name: az custom-providers resource-provider list
   summary: Get all the custom resource providers within a resource group or in the current subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'custom-providers resource-provider' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az custom-providers resource-provider list [--resource-group]
   examples:
   - summary: List all custom resource providers in the resource group.
@@ -139,6 +155,10 @@ directCommands:
   name: az custom-providers resource-provider show
   summary: Get the properties for the custom resource provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'custom-providers resource-provider' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az custom-providers resource-provider show --name
                                                --resource-group
@@ -158,6 +178,10 @@ directCommands:
   name: az custom-providers resource-provider update
   summary: Update the custom resource provider. Only tags can be updated.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'custom-providers resource-provider' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az custom-providers resource-provider update --name
                                                  --resource-group

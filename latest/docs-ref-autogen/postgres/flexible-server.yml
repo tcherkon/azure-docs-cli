@@ -3,11 +3,15 @@ uid: az_postgres_flexible-server
 name: az postgres flexible-server
 summary: Manage Azure Database for PostgreSQL Flexible Servers.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_postgres_flexible-server_connect
   name: az postgres flexible-server connect
   summary: Connect to a flexible server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az postgres flexible-server connect --admin-user
                                         --name
@@ -37,6 +41,8 @@ directCommands:
   - name: --querytext -q
     summary: A query to run against the flexible server.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'querytext' has been deprecated and will be removed in a future release. Use 'execute' instead.
 - uid: az_postgres_flexible-server_create
   name: az postgres flexible-server create
   summary: Create a PostgreSQL flexible server.
@@ -50,6 +56,8 @@ directCommands:
     - Configure private access
 
     https://docs.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-manage-virtual-network-cli.
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server create [--active-directory-auth {Disabled, Enabled}]
                                        [--address-prefixes]
@@ -274,6 +282,8 @@ directCommands:
   name: az postgres flexible-server delete
   summary: Delete a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server delete [--ids]
                                        [--name]
@@ -306,6 +316,8 @@ directCommands:
   name: az postgres flexible-server execute
   summary: Connect to a flexible server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az postgres flexible-server execute --admin-password
                                         --admin-user
@@ -340,6 +352,8 @@ directCommands:
   name: az postgres flexible-server geo-restore
   summary: Geo-restore a flexible server from backup.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server geo-restore --location
                                             --source-server
@@ -422,6 +436,8 @@ directCommands:
   name: az postgres flexible-server list
   summary: List available flexible servers.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az postgres flexible-server list [--resource-group]
   examples:
   - summary: List all PostgreSQL flexible servers in a subscription.
@@ -438,6 +454,8 @@ directCommands:
   name: az postgres flexible-server list-skus
   summary: Lists available sku's in the given region.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az postgres flexible-server list-skus --location
   requiredParameters:
   - isRequired: true
@@ -448,6 +466,8 @@ directCommands:
   name: az postgres flexible-server restart
   summary: Restart a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server restart [--failover]
                                         [--ids]
@@ -481,6 +501,8 @@ directCommands:
   name: az postgres flexible-server restore
   summary: Restore a flexible server from backup.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server restore --source-server
                                         [--address-prefixes]
@@ -567,6 +589,8 @@ directCommands:
   name: az postgres flexible-server show
   summary: Get the details of a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server show [--ids]
                                      [--name]
@@ -592,6 +616,8 @@ directCommands:
   name: az postgres flexible-server show-connection-string
   summary: Show the connection strings for a PostgreSQL flexible-server database.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server show-connection-string [--admin-password]
                                                        [--admin-user]
@@ -629,6 +655,8 @@ directCommands:
   name: az postgres flexible-server start
   summary: Start a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server start [--ids]
                                       [--name]
@@ -659,6 +687,8 @@ directCommands:
   name: az postgres flexible-server stop
   summary: Stop a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server stop [--ids]
                                      [--name]
@@ -689,6 +719,8 @@ directCommands:
   name: az postgres flexible-server update
   summary: Update a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server update [--active-directory-auth {Disabled, Enabled}]
                                        [--add]
@@ -807,6 +839,8 @@ directCommands:
   name: az postgres flexible-server upgrade
   summary: Upgrade the major version of a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server upgrade --version {12, 13, 14}
                                         [--ids]
@@ -843,6 +877,8 @@ directCommands:
   name: az postgres flexible-server wait
   summary: Wait for the flexible server to satisfy certain conditions.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres flexible-server wait [--created]
                                      [--custom]

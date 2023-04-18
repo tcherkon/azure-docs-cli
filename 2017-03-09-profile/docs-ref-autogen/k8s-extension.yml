@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **k8s-extension** extension for the Azure CLI  (version 2.24.0 or higher).  The extension will automatically install the first time you run an **az k8s-extension** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Kubernetes Extensions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_k8s-extension_create
   name: az k8s-extension create
   summary: Create a Kubernetes Cluster Extension, including purchasing an extension Offer from Azure Marketplace (AKS only). Please refer to the example at the end to see how to create an extension or purchase an extension offer.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-extension create --cluster-name
                             --cluster-type {appliances, connectedClusters, managedClusters, provisionedClusters}
@@ -87,15 +91,23 @@ directCommands:
   - name: --config-settings
     summary: Configuration Settings as key=value pair.  Repeat parameter for each setting.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--config-settings' has been deprecated and will be removed in a future release. Use '--configuration-settings' instead.
   - name: --configuration-protected-settings
     summary: Configuration Protected Settings as key=value pair.  Repeat parameter for each setting.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--configuration-protected-settings' has been deprecated and will be removed in a future release. Use '--config-protected-settings' instead.
   - name: --configuration-protected-settings-file
     summary: JSON file path for configuration-protected-settings.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--configuration-protected-settings-file' has been deprecated and will be removed in a future release. Use '--config-protected-file' instead.
   - name: --configuration-settings-file
     summary: JSON file path for configuration-settings.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--configuration-settings-file' has been deprecated and will be removed in a future release. Use '--config-settings-file' instead.
   - name: --no-wait
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
@@ -129,6 +141,8 @@ directCommands:
   name: az k8s-extension delete
   summary: Delete a Kubernetes Extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-extension delete --cluster-name
                             --cluster-type {appliances, connectedClusters, managedClusters, provisionedClusters}
@@ -179,6 +193,8 @@ directCommands:
   name: az k8s-extension list
   summary: List Kubernetes Extensions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-extension list --cluster-name
                           --cluster-type {appliances, connectedClusters, managedClusters, provisionedClusters}
@@ -209,6 +225,8 @@ directCommands:
   name: az k8s-extension show
   summary: Show a Kubernetes Extension.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-extension show --cluster-name
                           --cluster-type {appliances, connectedClusters, managedClusters, provisionedClusters}
@@ -244,6 +262,8 @@ directCommands:
   name: az k8s-extension update
   summary: Update mutable properties of a Kubernetes Extension.
   description: For update to ConfigSettings and ConfigProtectedSettings, please refer to documentation of the cluster extension service to check update to these properties is supported before updating these properties.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-extension update --cluster-name
                             --cluster-type {appliances, connectedClusters, managedClusters, provisionedClusters}
@@ -307,15 +327,23 @@ directCommands:
   - name: --config-settings
     summary: Configuration Settings as key=value pair.  Repeat parameter for each setting.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--config-settings' has been deprecated and will be removed in a future release. Use '--configuration-settings' instead.
   - name: --configuration-protected-settings
     summary: Configuration Protected Settings as key=value pair.  Repeat parameter for each setting.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--configuration-protected-settings' has been deprecated and will be removed in a future release. Use '--config-protected-settings' instead.
   - name: --configuration-protected-settings-file
     summary: JSON file path for configuration-protected-settings.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--configuration-protected-settings-file' has been deprecated and will be removed in a future release. Use '--config-protected-file' instead.
   - name: --configuration-settings-file
     summary: JSON file path for configuration-settings.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--configuration-settings-file' has been deprecated and will be removed in a future release. Use '--config-settings-file' instead.
   - name: --no-wait
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.

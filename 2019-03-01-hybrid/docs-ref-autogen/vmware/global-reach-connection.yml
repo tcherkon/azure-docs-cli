@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **vmware** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az vmware global-reach-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage global reach connections in a private cloud.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_vmware_global-reach-connection_create
   name: az vmware global-reach-connection create
   summary: Create a global reach connection in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware global-reach-connection create --name
                                              --private-cloud
@@ -46,6 +50,8 @@ directCommands:
   name: az vmware global-reach-connection delete
   summary: Delete a global reach connection in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware global-reach-connection delete --name
                                              --private-cloud
@@ -73,6 +79,8 @@ directCommands:
   name: az vmware global-reach-connection list
   summary: List global reach connections in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware global-reach-connection list --private-cloud
                                            --resource-group
@@ -89,6 +97,8 @@ directCommands:
   name: az vmware global-reach-connection show
   summary: Show details of a global reach connection in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware global-reach-connection show --name
                                            --private-cloud

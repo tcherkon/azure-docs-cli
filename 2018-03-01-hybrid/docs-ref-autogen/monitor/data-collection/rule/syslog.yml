@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **monitor-control-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az monitor data-collection rule syslog** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Syslog data source.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_data-collection_rule_syslog_add
   name: az monitor data-collection rule syslog add
   summary: Add a Syslog data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule syslog add --facility-names {*, auth, authpriv, cron, daemon, kern, local0, local1, local2, local3, local4, local5, local6, local7, lpr, mail, mark, news, syslog, user, uucp}
                                                --name
@@ -60,6 +64,8 @@ directCommands:
   name: az monitor data-collection rule syslog delete
   summary: Delete a Syslog data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule syslog delete --name
                                                   [--ids]
@@ -91,6 +97,8 @@ directCommands:
   name: az monitor data-collection rule syslog list
   summary: List Syslog data sources.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule syslog list --resource-group
                                                 --rule-name
@@ -110,6 +118,8 @@ directCommands:
   name: az monitor data-collection rule syslog show
   summary: Show a Syslog data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule syslog show --name
                                                 [--ids]
@@ -141,6 +151,8 @@ directCommands:
   name: az monitor data-collection rule syslog update
   summary: Update a Syslog data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule syslog update --name
                                                   [--facility-names {*, auth, authpriv, cron, daemon, kern, local0, local1, local2, local3, local4, local5, local6, local7, lpr, mail, mark, news, syslog, user, uucp}]

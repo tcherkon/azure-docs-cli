@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datadog** extension for the Azure CLI  (version 2.17.0 or higher).  The extension will automatically install the first time you run an **az datadog sso-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage sso config with datadog.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datadog_sso-config_create
   name: az datadog sso-config create
   summary: Configures single-sign-on for this resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog sso-config create --configuration-name
                                  --monitor-name
@@ -52,6 +56,8 @@ directCommands:
   name: az datadog sso-config list
   summary: List the single sign-on configurations for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog sso-config list --monitor-name
                                --resource-group
@@ -71,6 +77,8 @@ directCommands:
   name: az datadog sso-config show
   summary: Gets the datadog single sign-on resource for the given Monitor.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog sso-config show [--configuration-name]
                                [--ids]
@@ -100,6 +108,8 @@ directCommands:
   name: az datadog sso-config update
   summary: Configures single-sign-on for this resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog sso-config update [--add]
                                  [--configuration-name]
@@ -161,6 +171,8 @@ directCommands:
   name: az datadog sso-config wait
   summary: Place the CLI in a waiting state until a condition of the datadog sso-config is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog sso-config wait [--configuration-name]
                                [--created]

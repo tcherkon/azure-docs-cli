@@ -7,6 +7,10 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du update init** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Utility for import manifest initialization.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_update_init_v5
   name: az iot du update init v5
@@ -23,6 +27,10 @@ directCommands:
 
     Read more about using quotation marks and escape characters in different shells here:
       https://aka.ms/aziotcli-json.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot du update init' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot du update init v5 --compat
                              --step

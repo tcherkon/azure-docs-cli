@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-firewall** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az network firewall ip-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Azure Firewall IP configurations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_ip-config_create
   name: az network firewall ip-config create
   summary: Create an Azure Firewall IP configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall ip-config create --firewall-name
                                          --name
@@ -42,12 +46,15 @@ directCommands:
   - name: --m-name
     summary: Name of the management IP configuration.
     description: ''
+    isPreview: true
   - name: --m-public-ip-address
     summary: Name or ID of the public IP to use for management ip configuation.
     description: ''
+    isPreview: true
   - name: --m-vnet-name
     summary: The virtual network (VNet) name for management ip configuation. It should contain one subnet called "AzureFirewallManagementSubnet".
     description: ''
+    isPreview: true
   - name: --vnet-name
     summary: The virtual network (VNet) name. It should contain one subnet called "AzureFirewallSubnet".
     description: ''
@@ -55,6 +62,8 @@ directCommands:
   name: az network firewall ip-config delete
   summary: Delete an Azure Firewall IP configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall ip-config delete [--firewall-name]
                                          [--ids]
@@ -81,6 +90,8 @@ directCommands:
   name: az network firewall ip-config list
   summary: List Azure Firewall IP configurations.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall ip-config list --firewall-name
                                        --resource-group
@@ -97,6 +108,8 @@ directCommands:
   name: az network firewall ip-config show
   summary: Get the details of an Azure Firewall IP configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall ip-config show [--firewall-name]
                                        [--ids]

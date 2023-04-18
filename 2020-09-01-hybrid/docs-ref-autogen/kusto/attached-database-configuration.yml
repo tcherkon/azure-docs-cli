@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto attached-database-configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage attached database configuration with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_attached-database-configuration_create
   name: az kusto attached-database-configuration create
   summary: Create an attached database configuration.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto attached-database-configuration create --attached-database-configuration-name
                                                     --cluster-name
@@ -60,6 +68,10 @@ directCommands:
   name: az kusto attached-database-configuration delete
   summary: Deletes the attached database configuration with the given name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto attached-database-configuration delete [--attached-database-configuration-name]
                                                     [--cluster-name]
@@ -99,6 +111,10 @@ directCommands:
   name: az kusto attached-database-configuration list
   summary: Returns the list of attached database configurations of the given Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto attached-database-configuration list --cluster-name
                                                   --resource-group
@@ -118,6 +134,10 @@ directCommands:
   name: az kusto attached-database-configuration show
   summary: Returns an attached database configuration.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto attached-database-configuration show [--attached-database-configuration-name]
                                                   [--cluster-name]
@@ -147,6 +167,10 @@ directCommands:
   name: az kusto attached-database-configuration update
   summary: Update an attached database configuration.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto attached-database-configuration update [--add]
                                                     [--attached-database-configuration-name]
@@ -219,6 +243,10 @@ directCommands:
   name: az kusto attached-database-configuration wait
   summary: Place the CLI in a waiting state until a condition of the kusto attached-database-configuration is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto attached-database-configuration wait [--attached-database-configuration-name]
                                                   [--cluster-name]

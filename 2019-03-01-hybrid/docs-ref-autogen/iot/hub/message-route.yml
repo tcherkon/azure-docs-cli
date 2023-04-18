@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub message-route** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage routes of an IoT hub.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_message-route_create
   name: az iot hub message-route create
   summary: Add a route for an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-route' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-route create --en
                                     --hub-name
@@ -62,6 +70,10 @@ directCommands:
   name: az iot hub message-route delete
   summary: Delete all routes or a mentioned route in an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-route' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-route delete --hub-name
                                     [--resource-group]
@@ -99,6 +111,10 @@ directCommands:
   name: az iot hub message-route list
   summary: Get all the routes in an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-route' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-route list --hub-name
                                   [--resource-group]
@@ -125,6 +141,10 @@ directCommands:
   name: az iot hub message-route show
   summary: Get information about the route in an IoT Hub.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-route' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-route show --hub-name
                                   --rn
@@ -149,6 +169,10 @@ directCommands:
   name: az iot hub message-route test
   summary: Test all routes or a mentioned route in an IoT Hub.
   description: You can provide a sample message to test your routes.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-route' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-route test --hub-name
                                   [--ap]
@@ -193,6 +217,10 @@ directCommands:
   name: az iot hub message-route update
   summary: Update a route for an IoT Hub.
   description: You can change the source, endpoint, condition, or enabled state on the route.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot hub message-route' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot hub message-route update --hub-name
                                     --rn

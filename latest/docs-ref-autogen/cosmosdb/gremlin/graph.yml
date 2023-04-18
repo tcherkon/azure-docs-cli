@@ -3,11 +3,16 @@ uid: az_cosmosdb_gremlin_graph
 name: az cosmosdb gremlin graph
 summary: Manage Azure Cosmos DB Gremlin graphs.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_cosmosdb_gremlin_graph_create
   name: az cosmosdb gremlin graph create
   summary: Create an Gremlin graph under an Azure Cosmos DB Gremlin database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb gremlin graph create --account-name
                                      --database-name
@@ -64,11 +69,13 @@ directCommands:
   - name: --ttl
     summary: Default TTL. If the value is missing or set to "-1", items don’t expire. If the value is set to "n", items will expire "n" seconds after last modified time.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_gremlin_graph_delete
   name: az cosmosdb gremlin graph delete
   summary: Delete the Gremlin graph under an Azure Cosmos DB Gremlin database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb gremlin graph delete --account-name
                                      --database-name
@@ -97,11 +104,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_gremlin_graph_exists
   name: az cosmosdb gremlin graph exists
   summary: Checks if an Azure Cosmos DB Gremlin graph exists.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb gremlin graph exists --account-name
                                      --database-name
@@ -124,11 +133,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_gremlin_graph_list
   name: az cosmosdb gremlin graph list
   summary: List the Gremlin graphs under an Azure Cosmos DB Gremlin database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb gremlin graph list --account-name
                                    --database-name
@@ -146,11 +157,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_gremlin_graph_show
   name: az cosmosdb gremlin graph show
   summary: Show the details of a Gremlin graph under an Azure Cosmos DB Gremlin database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb gremlin graph show --account-name
                                    --database-name
@@ -173,11 +186,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_gremlin_graph_update
   name: az cosmosdb gremlin graph update
   summary: Update an Gremlin graph under an Azure Cosmos DB Gremlin database.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb gremlin graph update --account-name
                                      --database-name
@@ -213,7 +228,6 @@ directCommands:
   - name: --ttl
     summary: Default TTL. If the value is missing or set to "-1", items don’t expire. If the value is set to "n", items will expire "n" seconds after last modified time.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 commands:
 - az_cosmosdb_gremlin_graph_create
 - az_cosmosdb_gremlin_graph_delete

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring service-registry** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage Service Registry in Azure Spring Apps.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_service-registry_bind
   name: az spring service-registry bind
   summary: Bind an app to Service Registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring service-registry bind --app
                                     --resource-group
@@ -36,6 +40,8 @@ directCommands:
   name: az spring service-registry create
   summary: Create Service Registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring service-registry create --resource-group
                                       --service
@@ -55,6 +61,8 @@ directCommands:
   name: az spring service-registry delete
   summary: Delete Service Registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring service-registry delete --resource-group
                                       --service
@@ -77,6 +85,8 @@ directCommands:
   name: az spring service-registry show
   summary: Show the provisioning status and runtime status of Service Registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring service-registry show --resource-group
                                     --service
@@ -93,6 +103,8 @@ directCommands:
   name: az spring service-registry unbind
   summary: Unbind an app from Service Registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring service-registry unbind --app
                                       --resource-group

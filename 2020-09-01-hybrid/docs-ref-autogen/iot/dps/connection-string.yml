@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot dps connection-string** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage connection strings for an Azure IoT Hub Device Provisioning Service instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_dps_connection-string_show
   name: az iot dps connection-string show
   summary: Show the connection strings for the specified Device Provisioning Services using the given policy name and key.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps connection-string show [--all]
                                       [--dps-name]

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **ml** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az ml connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure ML workspace connection.
 description: Azure ML workspace connection provides a secure way to store authentication and configuration information needed to connect and interact with the external resources.
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_ml_connection_create
   name: az ml connection create
   summary: Create a workspace connection.
   description: Workspace connection allow to store authentication and configuration information needed to connect and interact with the external resources.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'ml connection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ml connection create --file
                             --resource-group
@@ -45,6 +53,10 @@ directCommands:
   name: az ml connection delete
   summary: Delete a workspace connection.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'ml connection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ml connection delete --name
                             --resource-group
@@ -72,6 +84,10 @@ directCommands:
   name: az ml connection list
   summary: List all the workspaces connection.
   description: The list of connections in a workspace.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'ml connection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ml connection list --resource-group
                           --workspace-name
@@ -102,6 +118,10 @@ directCommands:
   name: az ml connection show
   summary: Show details of a workspace connection.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'ml connection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ml connection show --name
                           --resource-group
@@ -123,6 +143,10 @@ directCommands:
   name: az ml connection update
   summary: Update a workspace connection.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'ml connection' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ml connection update --name
                             --resource-group

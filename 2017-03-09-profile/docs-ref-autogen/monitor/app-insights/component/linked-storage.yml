@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **application-insights** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az monitor app-insights component linked-storage** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage linked storage account for an Application Insights component.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_app-insights_component_linked-storage_link
   name: az monitor app-insights component linked-storage link
   summary: Link a storage account with an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component linked-storage link --storage-account
                                                           [--app]
@@ -40,6 +44,8 @@ directCommands:
   name: az monitor app-insights component linked-storage show
   summary: Show the details of linked storage account for an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component linked-storage show [--app]
                                                           [--ids]
@@ -62,6 +68,8 @@ directCommands:
   name: az monitor app-insights component linked-storage unlink
   summary: Unlink a storage account with an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component linked-storage unlink [--app]
                                                             [--ids]
@@ -84,6 +92,8 @@ directCommands:
   name: az monitor app-insights component linked-storage update
   summary: Update the linked storage account for an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component linked-storage update --storage-account
                                                             [--app]

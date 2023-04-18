@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **ml** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az ml environment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure ML environments.
 description: Azure ML environments define the execution environment for jobs and endpoint deployments, encapsulating the dependencies for training and inference. These environment definitions are built into Docker images.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_environment_archive
   name: az ml environment archive
   summary: Archive an environment.
   description: Archiving an environment will hide it by default from list queries (`az ml environment list`). You can still continue to reference and use an archived environment in your workflows. You can archive either an environment container or a specific environment version. Archiving an environment container will archive all versions of the environment under that given name. You can restore an archived environment using `az ml environment restore`. If the entire environment container is archived, you cannot restore individual versions of the environment - you will need to restore the environment container.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment archive --name
                               [--label]
@@ -53,6 +57,8 @@ directCommands:
 
 
     The created environment will be tracked in the workspace under the specified name and version.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment create [--build-context]
                              [--conda-file]
@@ -136,6 +142,8 @@ directCommands:
   name: az ml environment list
   summary: List environments in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment list [--archived-only]
                            [--include-archived]
@@ -183,6 +191,8 @@ directCommands:
   name: az ml environment restore
   summary: Restore an archived environment.
   description: When an archived environment is restored, it will no longer be hidden from list queries (`az ml environment list`). If an entire environment container is archived, you can restore that archived container. This will restore all versions of the environment under that given name. You cannot restore only a specific environment version if the entire environment container is archived - you will need to restore the entire container. If only an individual environment version was archived, you can restore that specific version.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment restore --name
                               [--label]
@@ -220,6 +230,10 @@ directCommands:
   name: az ml environment share
   summary: Share a specific environment from workspace to registry.
   description: Copy an existing environment from a workspace to a registry for cross-workspace reuse.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az ml environment share --name
                             --registry-name
@@ -263,6 +277,8 @@ directCommands:
   name: az ml environment show
   summary: Show details for an environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment show --name
                            [--label]
@@ -300,6 +316,8 @@ directCommands:
   name: az ml environment update
   summary: Update an environment.
   description: Only the 'description' and 'tags' properties can be updated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml environment update --label
                              --name

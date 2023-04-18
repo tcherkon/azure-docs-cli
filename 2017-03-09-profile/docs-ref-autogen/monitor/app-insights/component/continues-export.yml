@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **application-insights** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az monitor app-insights component continues-export** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Continuous Export configurations for an Application Insights component.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_app-insights_component_continues-export_create
   name: az monitor app-insights component continues-export create
   summary: Create a Continuous Export configuration for an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component continues-export create --app
                                                               --dest-account
@@ -79,6 +83,8 @@ directCommands:
   name: az monitor app-insights component continues-export delete
   summary: Delete a specific Continuous Export configuration of an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component continues-export delete --id
                                                               [--app]
@@ -120,6 +126,8 @@ directCommands:
   name: az monitor app-insights component continues-export list
   summary: List Continuous Export configurations for an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component continues-export list --app
                                                             --resource-group
@@ -142,6 +150,8 @@ directCommands:
   name: az monitor app-insights component continues-export show
   summary: Get a specific Continuous Export configuration of an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component continues-export show --id
                                                             [--app]
@@ -178,6 +188,8 @@ directCommands:
   name: az monitor app-insights component continues-export update
   summary: Update a Continuous Export configuration for an Application Insights component.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component continues-export update --id
                                                               [--app]

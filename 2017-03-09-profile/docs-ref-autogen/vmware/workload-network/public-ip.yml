@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **vmware** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az vmware workload-network public-ip** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage a Public-IP workload network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_vmware_workload-network_public-ip_create
   name: az vmware workload-network public-ip create
   summary: Create a Public IP Block by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network public-ip create --private-cloud
                                                 --public-ip
@@ -45,6 +49,8 @@ directCommands:
   name: az vmware workload-network public-ip delete
   summary: Delete a Public IP Block by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network public-ip delete --private-cloud
                                                 --public-ip
@@ -75,6 +81,8 @@ directCommands:
   name: az vmware workload-network public-ip list
   summary: List of Public IP Blocks in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network public-ip list --private-cloud
                                               --resource-group
@@ -94,6 +102,8 @@ directCommands:
   name: az vmware workload-network public-ip show
   summary: Get a Public IP Block by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network public-ip show --private-cloud
                                               --public-ip

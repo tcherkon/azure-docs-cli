@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp env workload-profile** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage the workload profiles of a Container Apps environment.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_env_workload-profile_delete
   name: az containerapp env workload-profile delete
   summary: Delete a workload profile from a Container Apps environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'containerapp env workload-profile' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az containerapp env workload-profile delete --name
                                                 --resource-group
@@ -36,6 +44,10 @@ directCommands:
   name: az containerapp env workload-profile list
   summary: List the workload profiles from a Container Apps environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'containerapp env workload-profile' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az containerapp env workload-profile list --name
                                               --resource-group
@@ -55,6 +67,10 @@ directCommands:
   name: az containerapp env workload-profile list-supported
   summary: List the supported workload profiles in a region.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'containerapp env workload-profile' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az containerapp env workload-profile list-supported --location
   examples:
   - summary: List the supported workload profiles in a region
@@ -68,6 +84,10 @@ directCommands:
   name: az containerapp env workload-profile set
   summary: Create or update an existing workload profile in a Container Apps environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'containerapp env workload-profile' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az containerapp env workload-profile set --name
                                              --resource-group
@@ -105,6 +125,10 @@ directCommands:
   name: az containerapp env workload-profile show
   summary: Show a workload profile from a Container Apps environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'containerapp env workload-profile' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az containerapp env workload-profile show --name
                                               --resource-group

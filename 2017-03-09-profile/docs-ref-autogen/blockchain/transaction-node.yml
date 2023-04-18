@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **blockchain** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az blockchain transaction-node** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Blockchain transaction-node.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_blockchain_transaction-node_create
   name: az blockchain transaction-node create
   summary: Create a transaction node.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node create --member-name
                                           --name
@@ -58,6 +66,10 @@ directCommands:
   name: az blockchain transaction-node delete
   summary: Delete the transaction node.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node delete --member-name
                                           --name
@@ -93,6 +105,10 @@ directCommands:
   name: az blockchain transaction-node list
   summary: List the transaction nodes for a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node list --member-name
                                         --resource-group
@@ -112,6 +128,10 @@ directCommands:
   name: az blockchain transaction-node list-api-key
   summary: List the API keys for the transaction node.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node list-api-key --member-name
                                                 --name
@@ -136,6 +156,10 @@ directCommands:
   name: az blockchain transaction-node regenerate-api-key
   summary: Regenerate the API keys for the blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node regenerate-api-key --member-name
                                                       --name
@@ -170,6 +194,10 @@ directCommands:
   name: az blockchain transaction-node show
   summary: Show the details of the transaction node.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node show --member-name
                                         --name
@@ -194,6 +222,10 @@ directCommands:
   name: az blockchain transaction-node update
   summary: Update the transaction node.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node update --member-name
                                           --name
@@ -231,6 +263,10 @@ directCommands:
   name: az blockchain transaction-node wait
   summary: Wait until the transaction node is created or deleted.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain transaction-node' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain transaction-node wait --member-name
                                         --name

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage mobile network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_create
   name: az mobile-network create
   summary: Create a mobile network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network create --identifier
                              --mobile-network-name
@@ -50,6 +54,8 @@ directCommands:
   name: az mobile-network delete
   summary: Delete the specified mobile network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network delete [--ids]
                              [--mobile-network-name]
@@ -85,6 +91,8 @@ directCommands:
   name: az mobile-network list
   summary: List all the mobile networks in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az mobile-network list [--resource-group]
   examples:
   - summary: List mobile-network by resource group
@@ -97,6 +105,8 @@ directCommands:
   name: az mobile-network show
   summary: Get information about the specified mobile network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network show [--ids]
                            [--mobile-network-name]
@@ -122,6 +132,8 @@ directCommands:
   name: az mobile-network update
   summary: Update mobile network tags.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network update [--ids]
                              [--mobile-network-name]
@@ -151,6 +163,8 @@ directCommands:
   name: az mobile-network wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network wait [--created]
                            [--custom]

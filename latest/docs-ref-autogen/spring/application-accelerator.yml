@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring application-accelerator** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage Application Accelerator in Azure Spring Apps.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_spring_application-accelerator_create
   name: az spring application-accelerator create
   summary: (Enterprise Tier Only) Create Application Accelerator in Azure Spring Apps instance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spring application-accelerator' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spring application-accelerator create --resource-group
                                              --service
@@ -37,6 +45,10 @@ directCommands:
   name: az spring application-accelerator delete
   summary: (Enterprise Tier Only) Delete Application Accelerator from Azure Spring Apps instance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spring application-accelerator' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spring application-accelerator delete --resource-group
                                              --service
@@ -67,6 +79,10 @@ directCommands:
   name: az spring application-accelerator show
   summary: (Enterprise Tier Only) Show the settings, provisioning status and runtime status of Application Accelerator.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spring application-accelerator' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spring application-accelerator show --resource-group
                                            --service

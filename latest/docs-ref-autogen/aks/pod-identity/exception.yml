@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **aks-preview** extension for the Azure CLI  (version 2.44.0 or higher).  The extension will automatically install the first time you run an **az aks pod-identity exception** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage pod identity exceptions in managed Kubernetes cluster.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_aks_pod-identity_exception_add
   name: az aks pod-identity exception add
   summary: Add a pod identity exception to a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks pod-identity exception add --cluster-name
                                       --namespace
@@ -47,6 +51,8 @@ directCommands:
   name: az aks pod-identity exception delete
   summary: Remove a pod identity exception from a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks pod-identity exception delete --cluster-name
                                          --name
@@ -78,6 +84,8 @@ directCommands:
   name: az aks pod-identity exception list
   summary: List pod identity exceptions in a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks pod-identity exception list --cluster-name
                                        --resource-group
@@ -94,6 +102,8 @@ directCommands:
   name: az aks pod-identity exception update
   summary: Update a pod identity exception in a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks pod-identity exception update --cluster-name
                                          --name

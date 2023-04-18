@@ -3,11 +3,16 @@ uid: az_eventhubs_namespace_network-rule
 name: az eventhubs namespace network-rule
 summary: Manage Azure EventHubs networkruleset for namespace.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventhubs_namespace_network-rule_add
   name: az eventhubs namespace network-rule add
   summary: Add a network rule for a namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace network-rule add --namespace-name
                                             --resource-group
@@ -52,11 +57,13 @@ directCommands:
   - name: --vnet-name
     summary: Name of the Virtual Network.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_network-rule_list
   name: az eventhubs namespace network-rule list
   summary: Show properties of Network rule of the given Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace network-rule list --namespace-name
                                              --resource-group
@@ -72,11 +79,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_network-rule_remove
   name: az eventhubs namespace network-rule remove
   summary: Remove network rule for a namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace network-rule remove --namespace-name
                                                --resource-group
@@ -107,11 +116,13 @@ directCommands:
   - name: --vnet-name
     summary: Name of the Virtual Network.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_network-rule_update
   name: az eventhubs namespace network-rule update
   summary: Updates network rule properties of the given Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace network-rule update --namespace-name
                                                --resource-group
@@ -143,7 +154,6 @@ directCommands:
     parameterValueGroup: "Disabled, Enabled"
     summary: This determines if traffic is allowed over public network. By default it is enabled. If value is SecuredByPerimeter then Inbound and Outbound communication is controlled by the network security perimeter and profile' access rules.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 commands:
 - az_eventhubs_namespace_network-rule_add
 - az_eventhubs_namespace_network-rule_list

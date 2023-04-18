@@ -3,6 +3,8 @@ uid: az_netappfiles
 name: az netappfiles
 summary: Manage Azure NetApp Files (ANF) Resources.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 commands:
 - az_netappfiles_account
 - az_netappfiles_account_ad

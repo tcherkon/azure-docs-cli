@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **logz** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az logz sub-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage sub account tag rule with logz.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_logz_sub-rule_create
   name: az logz sub-rule create
   summary: Create a tag rule set for a given sub account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-rule create --monitor-name
                             --resource-group
@@ -72,6 +80,10 @@ directCommands:
   name: az logz sub-rule delete
   summary: Delete a tag rule set for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-rule delete [--ids]
                             [--monitor-name]
@@ -110,6 +122,10 @@ directCommands:
   name: az logz sub-rule list
   summary: List the tag rules for a given sub account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-rule list --monitor-name
                           --resource-group
@@ -134,6 +150,10 @@ directCommands:
   name: az logz sub-rule show
   summary: Get a tag rule set for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-rule show [--ids]
                           [--monitor-name]
@@ -167,6 +187,10 @@ directCommands:
   name: az logz sub-rule update
   summary: Update a tag rule set for a given sub account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-rule update [--add]
                             [--filtering-tags]

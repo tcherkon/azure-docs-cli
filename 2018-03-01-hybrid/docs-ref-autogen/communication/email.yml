@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **communication** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az communication email** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to send emails and get the status of emails previously sent using Azure Communication Services Email service.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_communication_email_send
   name: az communication email send
   summary: Send an email.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication email' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication email send --sender
                                 --subject

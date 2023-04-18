@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **appservice-kube** extension for the Azure CLI  (version 2.34.1 or higher).  The extension will automatically install the first time you run an **az appservice plan** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage app service plans.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_appservice_plan_create
   name: az appservice plan create
   summary: Create an app service plan.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az appservice plan create --name
                               --resource-group
@@ -65,6 +69,7 @@ directCommands:
   - name: --hyper-v
     summary: Host web app on Windows container.
     description: ''
+    isPreview: true
   - name: --is-linux
     summary: Host web app on Linux worker.
     description: ''
@@ -93,6 +98,8 @@ directCommands:
   name: az appservice plan list
   summary: List app service plans.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az appservice plan list [--resource-group]
   examples:
   - summary: List all free tier App Service plans.
@@ -107,6 +114,8 @@ directCommands:
   name: az appservice plan show
   summary: Get the app service plans for a resource group or a set of resource groups.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az appservice plan show [--ids]
                             [--name]
@@ -132,6 +141,8 @@ directCommands:
   name: az appservice plan update
   summary: Update an app service plan. See https://docs.microsoft.com/azure/app-service/app-service-plan-manage#move-an-app-to-another-app-service-plan to learn more.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az appservice plan update [--ids]
                               [--name]

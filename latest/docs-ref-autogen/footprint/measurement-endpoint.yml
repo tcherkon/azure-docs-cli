@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **footprint** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az footprint measurement-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage measurement endpoints under a profile.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_footprint_measurement-endpoint_create
   name: az footprint measurement-endpoint create
   summary: Creates or updates a single measurement endpoint under a Footprint profile with the specified properties.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint measurement-endpoint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint measurement-endpoint create --endpoint
                                              --measurement-endpoint-name
@@ -88,6 +96,10 @@ directCommands:
   name: az footprint measurement-endpoint delete
   summary: Deletes an existing measurement endpoint under a Footprint profile.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint measurement-endpoint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint measurement-endpoint delete [--ids]
                                              [--measurement-endpoint-name]
@@ -122,6 +134,10 @@ directCommands:
   name: az footprint measurement-endpoint list
   summary: Retrieves the information about all measurement endpoints under a Footprint profile.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint measurement-endpoint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint measurement-endpoint list --profile-name
                                            --resource-group
@@ -141,6 +157,10 @@ directCommands:
   name: az footprint measurement-endpoint show
   summary: Retrieves the information about a single measurement endpoint under a Footprint profile.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint measurement-endpoint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint measurement-endpoint show [--ids]
                                            [--measurement-endpoint-name]
@@ -170,6 +190,10 @@ directCommands:
   name: az footprint measurement-endpoint update
   summary: Creates or updates a single measurement endpoint under a Footprint profile with the specified properties.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'footprint measurement-endpoint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az footprint measurement-endpoint update --endpoint
                                              --measurement-type

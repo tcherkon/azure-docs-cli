@@ -3,11 +3,16 @@ uid: az_dms_project
 name: az dms project
 summary: Manage projects for an instance of the Azure Database Migration Service (classic).
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_dms_project_check-name
   name: az dms project check-name
   summary: Check if a given project name is available within a given instance of DMS as well as the name's validity.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project check-name --name
                               --resource-group
@@ -25,7 +30,6 @@ directCommands:
     name: --service-name
     summary: The name of the Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_create
   name: az dms project create
   summary: Create a migration project which can contain multiple tasks.
@@ -35,6 +39,9 @@ directCommands:
       1) SQL -> SQLDB
       2) PostgreSQL -> AzureDbForPostgreSQL
       3) MySQL -> AzureDbForMySQL.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project create --location
                           --name
@@ -79,11 +86,13 @@ directCommands:
   - name: --tags
     summary: A space-delimited list of tags in "tag1[=value1]" format.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_delete
   name: az dms project delete
   summary: Delete a project.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project delete --name
                           --resource-group
@@ -114,11 +123,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_list
   name: az dms project list
   summary: List the projects within an instance of DMS.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project list --resource-group
                         --service-name
@@ -134,11 +145,13 @@ directCommands:
     name: --service-name
     summary: The name of the Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_show
   name: az dms project show
   summary: Show the details of a migration project.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project show --name
                         --resource-group
@@ -159,7 +172,6 @@ directCommands:
     name: --service-name
     summary: The name of the Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 commands:
 - az_dms_project_check-name
 - az_dms_project_create

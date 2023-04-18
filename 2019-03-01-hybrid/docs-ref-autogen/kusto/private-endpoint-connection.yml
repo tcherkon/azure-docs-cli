@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto private-endpoint-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage private endpoint connection with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_private-endpoint-connection_create
   name: az kusto private-endpoint-connection create
   summary: Approve or reject a private endpoint connection with a given name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-endpoint-connection create --cluster-name
                                                 --name
@@ -52,6 +60,10 @@ directCommands:
   name: az kusto private-endpoint-connection delete
   summary: Deletes a private endpoint connection with a given name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-endpoint-connection delete [--cluster-name]
                                                 [--ids]
@@ -91,6 +103,10 @@ directCommands:
   name: az kusto private-endpoint-connection list
   summary: Returns the list of private endpoint connections.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-endpoint-connection list --cluster-name
                                               --resource-group
@@ -110,6 +126,10 @@ directCommands:
   name: az kusto private-endpoint-connection show
   summary: Gets a private endpoint connection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-endpoint-connection show [--cluster-name]
                                               [--ids]
@@ -139,6 +159,10 @@ directCommands:
   name: az kusto private-endpoint-connection update
   summary: Approve or reject a private endpoint connection with a given name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-endpoint-connection update [--add]
                                                 [--cluster-name]
@@ -200,6 +224,10 @@ directCommands:
   name: az kusto private-endpoint-connection wait
   summary: Place the CLI in a waiting state until a condition of the kusto private-endpoint-connection is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto private-endpoint-connection wait [--cluster-name]
                                               [--created]

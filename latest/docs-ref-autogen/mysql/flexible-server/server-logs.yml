@@ -3,11 +3,15 @@ uid: az_mysql_flexible-server_server-logs
 name: az mysql flexible-server server-logs
 summary: Manage server logs.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_flexible-server_server-logs_download
   name: az mysql flexible-server server-logs download
   summary: Download log files.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server server-logs download --name
                                                   --resource-group
@@ -32,6 +36,8 @@ directCommands:
   name: az mysql flexible-server server-logs list
   summary: List log files for a server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server server-logs list --resource-group
                                               --server-name

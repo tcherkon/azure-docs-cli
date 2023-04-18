@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **aks-preview** extension for the Azure CLI  (version 2.44.0 or higher).  The extension will automatically install the first time you run an **az aks nodepool snapshot** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage nodepool snapshots.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_aks_nodepool_snapshot_create
   name: az aks nodepool snapshot create
   summary: Create a nodepool snapshot.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks nodepool snapshot create --name
                                     --nodepool-id
@@ -56,6 +60,8 @@ directCommands:
   name: az aks nodepool snapshot delete
   summary: Delete a nodepool snapshot.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks nodepool snapshot delete --name
                                     --resource-group
@@ -83,6 +89,8 @@ directCommands:
   name: az aks nodepool snapshot list
   summary: List nodepool snapshots.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az aks nodepool snapshot list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -92,6 +100,8 @@ directCommands:
   name: az aks nodepool snapshot show
   summary: Show the details of a nodepool snapshot.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks nodepool snapshot show --name
                                   --resource-group

@@ -3,11 +3,15 @@ uid: az_mysql_flexible-server_parameter
 name: az mysql flexible-server parameter
 summary: Commands for managing server parameter values for flexible server.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_flexible-server_parameter_list
   name: az mysql flexible-server parameter list
   summary: List the parameter values for a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server parameter list --resource-group
                                             --server-name
@@ -46,6 +50,8 @@ directCommands:
   name: az mysql flexible-server parameter set
   summary: Update the parameter of a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server parameter set [--ids]
                                            [--name]
@@ -85,6 +91,8 @@ directCommands:
   name: az mysql flexible-server parameter show
   summary: Get the parameter for a flexible server.".
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server parameter show [--ids]
                                             [--name]

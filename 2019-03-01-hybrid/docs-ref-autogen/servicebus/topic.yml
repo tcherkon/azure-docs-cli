@@ -3,6 +3,8 @@ uid: az_servicebus_topic
 name: az servicebus topic
 summary: Manage Azure Service Bus Topic and Authorization Rule.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_servicebus_topic_subscription
 - az_servicebus_topic_subscription_rule

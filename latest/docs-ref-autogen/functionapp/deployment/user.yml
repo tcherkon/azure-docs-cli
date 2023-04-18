@@ -3,11 +3,16 @@ uid: az_functionapp_deployment_user
 name: az functionapp deployment user
 summary: Manage user credentials for deployment.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_functionapp_deployment_user_set
   name: az functionapp deployment user set
   summary: Update deployment credentials.
   description: All function and web apps in the subscription will be impacted since they share the same deployment credentials.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/appservice/_help.py
   syntax: >-
     az functionapp deployment user set --user-name
                                        [--password]
@@ -23,13 +28,14 @@ directCommands:
   - name: --password
     summary: Password, will prompt if not specified.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/appservice/_help.py
 - uid: az_functionapp_deployment_user_show
   name: az functionapp deployment user show
   summary: Gets publishing user.
   description: 'Description for Gets publishing user.  :keyword callable cls: A custom type or function that will be passed the direct response :return: User, or the result of cls(response) :rtype: ~azure.mgmt.web.v2022_03_01.models.User :raises: ~azure.core.exceptions.HttpResponseError.'
-  syntax: az functionapp deployment user show
+  status: GA
+  sourceType: Core
   editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/appservice/_help.py
+  syntax: az functionapp deployment user show
 commands:
 - az_functionapp_deployment_user_set
 - az_functionapp_deployment_user_show

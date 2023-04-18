@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml computetarget create** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Create a compute target (aks or amlcompute or computeinstance).
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_computetarget_create_aks
   name: az ml computetarget create aks
   summary: Create an AKS compute target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget create aks --name
                                    [--agent-count]
@@ -117,6 +121,8 @@ directCommands:
   name: az ml computetarget create amlcompute
   summary: Create an AzureML compute target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget create amlcompute --max-nodes
                                           --name
@@ -227,6 +233,8 @@ directCommands:
   name: az ml computetarget create computeinstance
   summary: Create an AzureML compute instance target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget create computeinstance --name
                                                --vm-size
@@ -306,6 +314,8 @@ directCommands:
   name: az ml computetarget create datafactory
   summary: Create a data factory compute target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget create datafactory --name
                                            [--location]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-wan** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network vpn-site** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage VPN site configurations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_vpn-site_create
   name: az network vpn-site create
   summary: Create a VPN site configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-site create --ip-address
                                --name
@@ -93,6 +97,8 @@ directCommands:
   name: az network vpn-site delete
   summary: Delete a VPN site configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-site delete [--ids]
                                [--name]
@@ -115,6 +121,8 @@ directCommands:
   name: az network vpn-site download
   summary: Provide a SAS-URL to download the configuration for a VPN site.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-site download --request
                                  --resource-group
@@ -136,6 +144,8 @@ directCommands:
   name: az network vpn-site list
   summary: List VPN site configurations.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network vpn-site list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -145,6 +155,8 @@ directCommands:
   name: az network vpn-site show
   summary: Get the details of a VPN site configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-site show [--ids]
                              [--name]
@@ -167,6 +179,8 @@ directCommands:
   name: az network vpn-site update
   summary: Update settings of a VPN site configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vpn-site update [--add]
                                [--address-prefixes]

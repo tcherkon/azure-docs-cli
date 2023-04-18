@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager scope-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage scope connection with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_scope-connection_create
   name: az network manager scope-connection create
   summary: Creates scope connection from Network Manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager scope-connection create --connection-name
                                                --network-manager
@@ -51,6 +55,8 @@ directCommands:
   name: az network manager scope-connection delete
   summary: Delete the pending scope connection created by this network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager scope-connection delete [--connection-name]
                                                [--ids]
@@ -85,6 +91,8 @@ directCommands:
   name: az network manager scope-connection list
   summary: List all scope connections created by this network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager scope-connection list --network-manager
                                              --resource-group
@@ -113,6 +121,8 @@ directCommands:
   name: az network manager scope-connection show
   summary: Get specified scope connection created by this Network Manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager scope-connection show [--connection-name]
                                              [--ids]
@@ -142,6 +152,8 @@ directCommands:
   name: az network manager scope-connection update
   summary: Update scope connection from Network Manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager scope-connection update [--add]
                                                [--connection-name]

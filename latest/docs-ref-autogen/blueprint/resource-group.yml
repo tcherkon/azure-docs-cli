@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **blueprint** extension for the Azure CLI  (version 2.3.0 or higher).  The extension will automatically install the first time you run an **az blueprint resource-group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage blueprint resource group artifact.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_blueprint_resource-group_add
   name: az blueprint resource-group add
   summary: Add a resource group artifact to the blueprint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint resource-group add --blueprint-name
                                     [--artifact-name]
@@ -66,6 +74,10 @@ directCommands:
   name: az blueprint resource-group list
   summary: List blueprint resource group artifact.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint resource-group list --blueprint-name
                                      [--management-group]
@@ -92,6 +104,10 @@ directCommands:
   name: az blueprint resource-group remove
   summary: Remove a blueprint resource group artifact.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint resource-group remove --artifact-name
                                        --blueprint-name
@@ -128,6 +144,10 @@ directCommands:
   name: az blueprint resource-group show
   summary: Show blueprint resource group artifact.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint resource-group show --artifact-name
                                      --blueprint-name
@@ -159,6 +179,10 @@ directCommands:
   name: az blueprint resource-group update
   summary: Update blueprint resource group artifact.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint resource-group update --artifact-name
                                        --blueprint-name

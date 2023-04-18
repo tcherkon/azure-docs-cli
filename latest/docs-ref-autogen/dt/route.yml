@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt route** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure event routes.
 description: Note that an endpoint must first be configured before adding an event route.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_route_create
   name: az dt route create
   summary: Add an event route to a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt route create --dt-name
                        --en
@@ -48,6 +52,8 @@ directCommands:
   name: az dt route delete
   summary: Remove an event route from a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt route delete --dt-name
                        --rn
@@ -72,6 +78,8 @@ directCommands:
   name: az dt route list
   summary: List the configured event routes of a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt route list --dt-name
                      [--resource-group]
@@ -91,6 +99,8 @@ directCommands:
   name: az dt route show
   summary: Show details of an event route configured on a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt route show --dt-name
                      --rn

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot product test** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage device tests for product certification.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_iot_product_test_create
   name: az iot product test create
   summary: Create a new product test for product certification.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test create [--at {ConnectionString, SymmetricKey, TPM, X509}]
                                [--badge-type {IotDevice, IotEdgeCompatible, Pnp}]
@@ -88,6 +96,10 @@ directCommands:
   name: az iot product test search
   summary: Search product repository for testing data.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test search [--base-url]
                                [--certificate-name]
@@ -119,6 +131,10 @@ directCommands:
   name: az iot product test show
   summary: View product test data.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test show --test-id
                              [--base-url]
@@ -138,6 +154,10 @@ directCommands:
   name: az iot product test update
   summary: Update the product certification test data.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test update --test-id
                                [--at {ConnectionString, SymmetricKey, TPM, X509}]

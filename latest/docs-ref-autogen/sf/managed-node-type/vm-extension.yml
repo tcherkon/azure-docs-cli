@@ -3,11 +3,15 @@ uid: az_sf_managed-node-type_vm-extension
 name: az sf managed-node-type vm-extension
 summary: Managed vm extension on a node type on managed clusters.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sf_managed-node-type_vm-extension_add
   name: az sf managed-node-type vm-extension add
   summary: Add an extension to the node type.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sf managed-node-type vm-extension add --cluster-name
                                              --extension-name
@@ -75,6 +79,8 @@ directCommands:
   name: az sf managed-node-type vm-extension delete
   summary: Delete an extension to the node type.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sf managed-node-type vm-extension delete --cluster-name
                                                 --extension-name

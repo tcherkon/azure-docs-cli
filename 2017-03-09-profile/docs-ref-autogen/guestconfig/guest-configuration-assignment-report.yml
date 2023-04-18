@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **guestconfig** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az guestconfig guest-configuration-assignment-report** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Guestconfig guest-configuration-assignment-report.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_guestconfig_guest-configuration-assignment-report_list
   name: az guestconfig guest-configuration-assignment-report list
   summary: List all reports for the guest configuration assignment, latest report first.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment-report' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment-report list --guest-configuration-assignment-name
                                                               --resource-group
@@ -36,6 +44,10 @@ directCommands:
   name: az guestconfig guest-configuration-assignment-report show
   summary: Get a report for the guest configuration assignment, by reportId.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment-report' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment-report show [--guest-configuration-assignment-name]
                                                               [--ids]

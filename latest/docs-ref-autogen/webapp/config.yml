@@ -3,11 +3,15 @@ uid: az_webapp_config
 name: az webapp config
 summary: Configure a web app.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_webapp_config_set
   name: az webapp config set
   summary: Set a web app's configuration.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp config set [--always-on {false, true}]
                          [--auto-heal-enabled {false, true}]
@@ -135,6 +139,8 @@ directCommands:
   name: az webapp config show
   summary: Get the details of a web app's configuration.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp config show [--ids]
                           [--name]

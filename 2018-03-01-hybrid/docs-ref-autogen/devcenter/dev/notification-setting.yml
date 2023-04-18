@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter dev notification-setting** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage notification setting with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_dev_notification-setting_create
   name: az devcenter dev notification-setting create
   summary: Creates or updates notification settings.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev notification-setting create --boolean-enabled {false, true}
                                                  --culture
@@ -83,6 +91,10 @@ directCommands:
   name: az devcenter dev notification-setting list-allowed-culture
   summary: Lists allowed culture codes for notification settings.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev notification-setting list-allowed-culture --dev-center
                                                                --project
@@ -108,6 +120,10 @@ directCommands:
   name: az devcenter dev notification-setting show
   summary: Gets notification settings for user in the project.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev notification-setting show --dev-center
                                                --project

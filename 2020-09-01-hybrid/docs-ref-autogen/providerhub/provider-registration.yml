@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **providerhub** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az providerhub provider-registration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage provider registration with providerhub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_providerhub_provider-registration_create
   name: az providerhub provider-registration create
   summary: Create the provider registration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub provider-registration create --provider-namespace
                                                 [--capabilities]
@@ -201,6 +205,8 @@ directCommands:
   name: az providerhub provider-registration delete
   summary: Deletes a provider registration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub provider-registration delete [--ids]
                                                 [--provider-namespace]
@@ -227,6 +233,8 @@ directCommands:
   name: az providerhub provider-registration generate-operation
   summary: Generates the operations api for the given provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub provider-registration generate-operation [--ids]
                                                             [--provider-namespace]
@@ -248,6 +256,8 @@ directCommands:
   name: az providerhub provider-registration list
   summary: Gets the list of the provider registrations in the subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az providerhub provider-registration list
   examples:
   - summary: ProviderRegistrations_List
@@ -256,6 +266,8 @@ directCommands:
   name: az providerhub provider-registration show
   summary: Gets the provider registration details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub provider-registration show [--ids]
                                               [--provider-namespace]

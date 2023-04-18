@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto database** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage database with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_database_add-principal
   name: az kusto database add-principal
   summary: Add Database principals permissions.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database add-principal [--cluster-name]
                                     [--database-name]
@@ -62,6 +70,10 @@ directCommands:
   name: az kusto database create
   summary: Create a database.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database create --cluster-name
                              --database-name
@@ -118,6 +130,10 @@ directCommands:
   name: az kusto database delete
   summary: Deletes the database with the given name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database delete [--cluster-name]
                              [--database-name]
@@ -157,6 +173,10 @@ directCommands:
   name: az kusto database list
   summary: Returns the list of databases of the given Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database list --cluster-name
                            --resource-group
@@ -176,6 +196,10 @@ directCommands:
   name: az kusto database list-principal
   summary: Returns a list of database principals of the given Kusto cluster and database.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database list-principal --cluster-name
                                      --database-name
@@ -200,6 +224,10 @@ directCommands:
   name: az kusto database remove-principal
   summary: Remove Database principals permissions.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database remove-principal [--cluster-name]
                                        [--database-name]
@@ -250,6 +278,10 @@ directCommands:
   name: az kusto database show
   summary: Returns a database.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database show [--cluster-name]
                            [--database-name]
@@ -279,6 +311,10 @@ directCommands:
   name: az kusto database update
   summary: Updates a database.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database update [--cluster-name]
                              [--database-name]
@@ -339,6 +375,10 @@ directCommands:
   name: az kusto database wait
   summary: Place the CLI in a waiting state until a condition of the kusto database is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto database wait [--cluster-name]
                            [--created]

@@ -3,11 +3,15 @@ uid: az_spring_connection_create
 name: az spring connection create
 summary: Create a connection between a spring app and a target resource.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_spring_connection_create_appconfig
   name: az spring connection create appconfig
   summary: Create a spring app connection to appconfig.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create appconfig [--app]
                                           [--app-config]
@@ -111,6 +115,8 @@ directCommands:
   name: az spring connection create confluent-cloud
   summary: Create a spring app connection to confluent-cloud.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create confluent-cloud --bootstrap-server
                                                 --kafka-key
@@ -194,6 +200,8 @@ directCommands:
   name: az spring connection create cosmos-cassandra
   summary: Create a spring app connection to cosmos-cassandra.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create cosmos-cassandra [--account]
                                                  [--app]
@@ -296,6 +304,8 @@ directCommands:
   name: az spring connection create cosmos-gremlin
   summary: Create a spring app connection to cosmos-gremlin.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create cosmos-gremlin [--account]
                                                [--app]
@@ -402,6 +412,8 @@ directCommands:
   name: az spring connection create cosmos-mongo
   summary: Create a spring app connection to cosmos-mongo.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create cosmos-mongo [--account]
                                              [--app]
@@ -504,6 +516,8 @@ directCommands:
   name: az spring connection create cosmos-sql
   summary: Create a spring app connection to cosmos-sql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create cosmos-sql [--account]
                                            [--app]
@@ -606,6 +620,8 @@ directCommands:
   name: az spring connection create cosmos-table
   summary: Create a spring app connection to cosmos-table.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create cosmos-table [--account]
                                              [--app]
@@ -708,6 +724,8 @@ directCommands:
   name: az spring connection create eventhub
   summary: Create a spring app connection to eventhub.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create eventhub [--app]
                                          [--client-type {dotnet, go, java, kafka-springBoot, nodejs, none, python, springBoot}]
@@ -816,6 +834,8 @@ directCommands:
   name: az spring connection create keyvault
   summary: Create a spring app connection to keyvault.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create keyvault [--app]
                                          [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -920,6 +940,10 @@ directCommands:
   name: az spring connection create mysql
   summary: Create a spring app connection to mysql.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release.
+  sourceType: Core
   syntax: >-
     az spring connection create mysql [--app]
                                       [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1017,6 +1041,8 @@ directCommands:
   name: az spring connection create mysql-flexible
   summary: Create a spring app connection to mysql-flexible.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create mysql-flexible [--app]
                                                [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1112,6 +1138,8 @@ directCommands:
   name: az spring connection create postgres
   summary: Create a spring app connection to postgres.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create postgres [--app]
                                          [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1223,6 +1251,8 @@ directCommands:
   name: az spring connection create postgres-flexible
   summary: Create a spring app connection to postgres-flexible.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create postgres-flexible [--app]
                                                   [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1314,6 +1344,8 @@ directCommands:
   name: az spring connection create redis
   summary: Create a spring app connection to redis.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create redis [--app]
                                       [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1395,6 +1427,8 @@ directCommands:
   name: az spring connection create redis-enterprise
   summary: Create a spring app connection to redis-enterprise.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create redis-enterprise [--app]
                                                  [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1471,6 +1505,8 @@ directCommands:
   name: az spring connection create servicebus
   summary: Create a spring app connection to servicebus.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create servicebus [--app]
                                            [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1579,6 +1615,8 @@ directCommands:
   name: az spring connection create signalr
   summary: Create a spring app connection to signalr.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create signalr [--app]
                                         [--client-type {dotnet, none}]
@@ -1672,6 +1710,8 @@ directCommands:
   name: az spring connection create sql
   summary: Create a spring app connection to sql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create sql [--app]
                                     [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1773,6 +1813,8 @@ directCommands:
   name: az spring connection create storage-blob
   summary: Create a spring app connection to storage-blob.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create storage-blob [--account]
                                              [--app]
@@ -1881,6 +1923,8 @@ directCommands:
   name: az spring connection create storage-file
   summary: Create a spring app connection to storage-file.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create storage-file [--account]
                                              [--app]
@@ -1963,6 +2007,8 @@ directCommands:
   name: az spring connection create storage-queue
   summary: Create a spring app connection to storage-queue.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create storage-queue [--account]
                                               [--app]
@@ -2061,6 +2107,8 @@ directCommands:
   name: az spring connection create storage-table
   summary: Create a spring app connection to storage-table.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create storage-table [--account]
                                               [--app]
@@ -2143,6 +2191,8 @@ directCommands:
   name: az spring connection create webpubsub
   summary: Create a spring app connection to webpubsub.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection create webpubsub [--app]
                                           [--client-type {dotnet, java, nodejs, none, python}]

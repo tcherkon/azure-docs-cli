@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datashare** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datashare synchronization-setting** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage synchronization setting with datashare.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_datashare_synchronization-setting_create
   name: az datashare synchronization-setting create
   summary: Create a synchronizationSetting.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare synchronization-setting create --account-name
                                                 --name
@@ -54,6 +62,10 @@ directCommands:
   name: az datashare synchronization-setting delete
   summary: Delete a synchronizationSetting in a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare synchronization-setting delete [--account-name]
                                                 [--ids]
@@ -97,6 +109,10 @@ directCommands:
   name: az datashare synchronization-setting list
   summary: List synchronizationSettings in a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare synchronization-setting list --account-name
                                               --resource-group
@@ -126,6 +142,10 @@ directCommands:
   name: az datashare synchronization-setting show
   summary: Get a synchronizationSetting in a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare synchronization-setting show [--account-name]
                                               [--ids]
@@ -159,6 +179,10 @@ directCommands:
   name: az datashare synchronization-setting wait
   summary: Place the CLI in a waiting state until a condition of the datashare synchronization-setting is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare synchronization-setting wait [--account-name]
                                               [--created]

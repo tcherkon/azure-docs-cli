@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az boards iteration project** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage iterations for a project.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_boards_iteration_project_create
   name: az boards iteration project create
   summary: Create iteration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration project create --name
                                        [--detect {false, true}]
@@ -49,6 +53,8 @@ directCommands:
   name: az boards iteration project delete
   summary: Delete iteration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration project delete --path
                                        [--detect {false, true}]
@@ -79,6 +85,8 @@ directCommands:
   name: az boards iteration project list
   summary: List iterations for a project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration project list [--depth]
                                      [--detect {false, true}]
@@ -107,6 +115,8 @@ directCommands:
   name: az boards iteration project show
   summary: Show iteration details for a project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration project show --id
                                      [--detect {false, true}]
@@ -132,6 +142,8 @@ directCommands:
   name: az boards iteration project update
   summary: Update project iteration.
   description: Move iteration or update iteration details like name AND/OR start-date and finish-date.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards iteration project update --path
                                        [--child-id]

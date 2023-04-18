@@ -3,11 +3,15 @@ uid: az_managed-cassandra_cluster
 name: az managed-cassandra cluster
 summary: Azure Managed Cassandra Cluster.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_managed-cassandra_cluster_create
   name: az managed-cassandra cluster create
   summary: Create a Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster create --cluster-name
                                         --delegated-management-subnet-id
@@ -106,6 +110,8 @@ directCommands:
   name: az managed-cassandra cluster deallocate
   summary: Deallocate the Managed Cassandra Cluster and Associated Data Centers. Deallocation will deallocate the host virtual machine of this cluster, and reserved the data disk. This won't do anything on an already deallocated cluster. Use Start to restart the cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster deallocate --cluster-name
                                             --resource-group
@@ -131,6 +137,8 @@ directCommands:
   name: az managed-cassandra cluster delete
   summary: Deletes a Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster delete --cluster-name
                                         --resource-group
@@ -161,6 +169,8 @@ directCommands:
   name: az managed-cassandra cluster invoke-command
   summary: Invoke a command like nodetool for cassandra maintenance.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster invoke-command --cluster-name
                                                 --command-name
@@ -210,6 +220,8 @@ directCommands:
   name: az managed-cassandra cluster list
   summary: List the Managed Cassandra Clusters in a ResourceGroup and Subscription. If the ResourceGroup is not specified all the clusters in this Subscription are returned.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az managed-cassandra cluster list [--resource-group]
   examples:
   - summary: List all Managed Cassandra Clusters in a given Subscription and ResourceGroup.
@@ -224,6 +236,8 @@ directCommands:
   name: az managed-cassandra cluster show
   summary: Get a Managed Cassandra Cluster Resource.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster show --cluster-name
                                       --resource-group
@@ -243,6 +257,8 @@ directCommands:
   name: az managed-cassandra cluster start
   summary: Start the Managed Cassandra Cluster and Associated Data Centers. Start will start the host virtual machine of this cluster with reserved data disk. This won't do anything on an already running cluster. Use Deallocate to deallocate the cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster start --cluster-name
                                        --resource-group
@@ -268,6 +284,8 @@ directCommands:
   name: az managed-cassandra cluster status
   summary: Gets the CPU, memory, and disk usage statistics for each Cassandra node in a cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster status --cluster-name
                                         --resource-group
@@ -287,6 +305,8 @@ directCommands:
   name: az managed-cassandra cluster update
   summary: Update a Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra cluster update --cluster-name
                                         --resource-group

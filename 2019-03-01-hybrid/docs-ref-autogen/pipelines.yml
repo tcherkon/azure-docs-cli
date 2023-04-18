@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Pipelines.
 description: This command group is a part of the azure-devops extension.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_create
   name: az pipelines create
   summary: Create a new Azure Pipeline (YAML based).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines create --name
                         [--branch]
@@ -103,6 +107,8 @@ directCommands:
   name: az pipelines delete
   summary: Delete a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines delete --id
                         [--detect {false, true}]
@@ -133,6 +139,8 @@ directCommands:
   name: az pipelines list
   summary: List pipelines.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines list [--detect {false, true}]
                       [--folder-path]
@@ -178,6 +186,8 @@ directCommands:
   name: az pipelines run
   summary: Queue (run) a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines run [--branch]
                      [--commit-id]
@@ -230,6 +240,8 @@ directCommands:
   name: az pipelines show
   summary: Get the details of a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines show [--detect {false, true}]
                       [--folder-path]
@@ -266,6 +278,8 @@ directCommands:
   name: az pipelines update
   summary: Update a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines update --id
                         [--branch]

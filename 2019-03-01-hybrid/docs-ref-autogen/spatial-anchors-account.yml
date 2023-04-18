@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **mixed-reality** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az spatial-anchors-account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage spatial anchor account with mixed reality.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_spatial-anchors-account_create
   name: az spatial-anchors-account create
   summary: Create a spatial anchors account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spatial-anchors-account' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spatial-anchors-account create --name
                                       --resource-group
@@ -76,6 +84,10 @@ directCommands:
   name: az spatial-anchors-account delete
   summary: Delete a spatial anchors account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spatial-anchors-account' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spatial-anchors-account delete [--ids]
                                       [--name]
@@ -101,6 +113,10 @@ directCommands:
   name: az spatial-anchors-account list
   summary: List resources by resource group and list spatial anchors accounts by subscription.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spatial-anchors-account' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az spatial-anchors-account list [--resource-group]
   examples:
   - summary: List spatial anchor accounts by resource group
@@ -115,6 +131,10 @@ directCommands:
   name: az spatial-anchors-account show
   summary: Retrieve a spatial anchors account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spatial-anchors-account' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spatial-anchors-account show [--ids]
                                     [--name]
@@ -140,6 +160,10 @@ directCommands:
   name: az spatial-anchors-account update
   summary: Update a spatial anchors account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'spatial-anchors-account' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az spatial-anchors-account update [--add]
                                       [--force-string]

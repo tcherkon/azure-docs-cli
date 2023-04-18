@@ -3,6 +3,8 @@ uid: az_eventgrid_partner
 name: az eventgrid partner
 summary: Manage partner resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_eventgrid_partner_configuration
 - az_eventgrid_partner_configuration_authorize

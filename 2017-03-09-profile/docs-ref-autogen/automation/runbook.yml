@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation runbook** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Automation Runbook.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_automation_runbook_create
   name: az automation runbook create
   summary: Create the runbook identified by runbook name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook create --automation-account-name
                                  --name
@@ -69,6 +77,10 @@ directCommands:
   name: az automation runbook delete
   summary: Delete the runbook by name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook delete [--automation-account-name]
                                  [--ids]
@@ -103,6 +115,10 @@ directCommands:
   name: az automation runbook list
   summary: Retrieve a list of runbooks.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook list --automation-account-name
                                --resource-group
@@ -122,6 +138,10 @@ directCommands:
   name: az automation runbook publish
   summary: Publish runbook draft.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook publish [--automation-account-name]
                                   [--ids]
@@ -156,6 +176,10 @@ directCommands:
   name: az automation runbook replace-content
   summary: Replace content of the runbook.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook replace-content --content
                                           [--automation-account-name]
@@ -196,6 +220,10 @@ directCommands:
   name: az automation runbook revert-to-published
   summary: Revert the runbook content to last known published state.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook revert-to-published [--automation-account-name]
                                               [--ids]
@@ -225,6 +253,10 @@ directCommands:
   name: az automation runbook show
   summary: Retrieve the runbook identified by runbook name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook show [--automation-account-name]
                                [--ids]
@@ -254,6 +286,10 @@ directCommands:
   name: az automation runbook start
   summary: Start the runbook.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook start [--automation-account-name]
                                 [--ids]
@@ -291,6 +327,10 @@ directCommands:
   name: az automation runbook update
   summary: Update the runbook identified by runbook name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook update [--automation-account-name]
                                  [--description]
@@ -342,6 +382,10 @@ directCommands:
   name: az automation runbook wait
   summary: Place the CLI in a waiting state until a condition of the automation runbook is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation runbook' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation runbook wait [--automation-account-name]
                                [--created]

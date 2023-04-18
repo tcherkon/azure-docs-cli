@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto data-connection iot-hub** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage data connection with kusto sub group iot-hub.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_data-connection_iot-hub_create
   name: az kusto data-connection iot-hub create
   summary: Create a data connection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection iot-hub create --cluster-name
                                             --data-connection-name
@@ -82,6 +90,10 @@ directCommands:
   name: az kusto data-connection iot-hub data-connection-validation
   summary: Checks that the data connection parameters are valid.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection iot-hub data-connection-validation [--cluster-name]
                                                                 [--consumer-group]
@@ -155,6 +167,10 @@ directCommands:
   name: az kusto data-connection iot-hub update
   summary: Updates a data connection.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto data-connection iot-hub update [--cluster-name]
                                             [--consumer-group]

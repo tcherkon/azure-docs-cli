@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **sentinel** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az sentinel threat-indicator** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage threat intelligence indicator with sentinel.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sentinel_threat-indicator_append-tag
   name: az sentinel threat-indicator append-tag
   summary: Append tags to a threat intelligence indicator.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator append-tag --name
                                             --resource-group
@@ -30,6 +36,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --intelligence-tags
     summary: List of tags to be appended.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
@@ -38,6 +45,10 @@ directCommands:
   name: az sentinel threat-indicator create
   summary: Create a new threat intelligence indicator.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator create --resource-group
                                         --workspace-name
@@ -169,6 +180,10 @@ directCommands:
   name: az sentinel threat-indicator delete
   summary: Delete a threat intelligence indicator.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator delete [--ids]
                                         [--name]
@@ -200,6 +215,10 @@ directCommands:
   name: az sentinel threat-indicator list
   summary: Get all threat intelligence indicators.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator list --resource-group
                                       --workspace-name
@@ -216,6 +235,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --filter
     summary: Filters the results, based on a Boolean condition. Optional.
@@ -233,6 +253,10 @@ directCommands:
   name: az sentinel threat-indicator query
   summary: Query threat intelligence indicators as per filtering criteria.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator query --resource-group
                                        --workspace-name
@@ -258,6 +282,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --ids
     summary: Ids of threat intelligence indicators  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
@@ -303,6 +328,10 @@ directCommands:
   name: az sentinel threat-indicator replace-tag
   summary: Replace tags added to a threat intelligence indicator.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator replace-tag --name
                                              --resource-group
@@ -348,6 +377,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --confidence
     summary: Confidence of threat intelligence entity.
@@ -439,6 +469,10 @@ directCommands:
   name: az sentinel threat-indicator show
   summary: View a threat intelligence indicator by name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator show [--ids]
                                       [--name]
@@ -465,6 +499,10 @@ directCommands:
   name: az sentinel threat-indicator update
   summary: Update a threat Intelligence indicator.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel threat-indicator update [--confidence]
                                         [--created]

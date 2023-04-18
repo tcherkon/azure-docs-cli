@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **internet-analyzer** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az internet-analyzer** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage internet analyzer.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_internet-analyzer_show-scorecard
   name: az internet-analyzer show-scorecard
   summary: Show latency scorecard for a test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer show-scorecard --aggregation-interval
                                         --profile-name
@@ -47,6 +51,8 @@ directCommands:
   name: az internet-analyzer show-timeseries
   summary: Show timeseries for a test.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer show-timeseries --aggregation-interval
                                          --end-date-time-utc

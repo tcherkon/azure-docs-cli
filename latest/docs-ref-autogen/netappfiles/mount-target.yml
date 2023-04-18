@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **netappfiles-preview** extension for the Azure CLI  (version 2.0.56 or higher).  The extension will automatically install the first time you run an **az netappfiles mount-target** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure NetApp Files (ANF) Mount Target Resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_netappfiles_mount-target_list
   name: az netappfiles mount-target list
   summary: List the mount targets of an ANF volume.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az netappfiles mount-target list --account-name
                                      --pool-name

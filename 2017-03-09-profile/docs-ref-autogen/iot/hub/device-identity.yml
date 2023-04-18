@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub device-identity** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT devices.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_device-identity_create
   name: az iot hub device-identity create
@@ -20,6 +22,8 @@ directCommands:
     If a device scope is provided for an edge device, the value will automatically be
 
     converted to a parent scope.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity create --device-id
                                       [--am {shared_private_key, x509_ca, x509_thumbprint}]
@@ -113,6 +117,8 @@ directCommands:
   name: az iot hub device-identity delete
   summary: Delete an IoT Hub device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity delete --device-id
                                       [--auth-type {key, login}]
@@ -161,6 +167,8 @@ directCommands:
 
 
     For more information, see https://aka.ms/iothub-device-exportimport.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity export [--auth-type {key, login}]
                                       [--bc]
@@ -238,6 +246,8 @@ directCommands:
 
 
     For more information, see https://aka.ms/iothub-device-exportimport.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity import [--auth-type {key, login}]
                                       [--hub-name]
@@ -310,6 +320,8 @@ directCommands:
     this command. In the future, this `az iot hub device-identity list` command may be
 
     altered or deprecated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity list [--auth-type {key, login}]
                                     [--edge-enabled {false, true}]
@@ -345,6 +357,8 @@ directCommands:
   name: az iot hub device-identity renew-key
   summary: Renew target keys of an IoT Hub device with sas authentication.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity renew-key --device-id
                                          --hub-name
@@ -391,6 +405,8 @@ directCommands:
   name: az iot hub device-identity show
   summary: Get the details of an IoT Hub device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity show --device-id
                                     [--auth-type {key, login}]
@@ -421,6 +437,8 @@ directCommands:
   name: az iot hub device-identity update
   summary: Update an IoT Hub device.
   description: Use --set followed by property assignments for updating a device. Leverage parameters returned from 'iot hub device-identity show'.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity update --device-id
                                       [--add]

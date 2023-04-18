@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **edgeorder** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az edgeorder order-item** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage order item with edgeorder sub group order-item.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_edgeorder_order-item_cancel
   name: az edgeorder order-item cancel
   summary: Cancel order item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item cancel --reason
                                    [--ids]
@@ -43,6 +47,8 @@ directCommands:
   name: az edgeorder order-item create
   summary: Create an order item. Existing order item cannot be updated with this api and should instead be updated with the Update order item API.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item create --name
                                    --order-item-resource
@@ -73,6 +79,8 @@ directCommands:
   name: az edgeorder order-item delete
   summary: Delete an order item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item delete [--ids]
                                    [--name]
@@ -108,6 +116,8 @@ directCommands:
   name: az edgeorder order-item list
   summary: List order item at resource group level. And List order item at subscription level.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item list [--expand]
                                  [--filter]
@@ -135,6 +145,8 @@ directCommands:
   name: az edgeorder order-item return
   summary: Return order item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item return --return-reason
                                    [--contact-details]
@@ -222,6 +234,8 @@ directCommands:
   name: az edgeorder order-item show
   summary: Get an order item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item show [--expand]
                                  [--ids]
@@ -251,6 +265,8 @@ directCommands:
   name: az edgeorder order-item update
   summary: Update the properties of an existing order item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item update [--contact-details]
                                    [--encryption-preferences]
@@ -372,6 +388,8 @@ directCommands:
   name: az edgeorder order-item wait
   summary: Place the CLI in a waiting state until a condition of the order-item is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder order-item wait --order-item-name
                                  --resource-group

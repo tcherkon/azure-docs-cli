@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter dev catalog-item** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage catalog item with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_dev_catalog-item_list
   name: az devcenter dev catalog-item list
   summary: Lists latest version of all catalog items available for a project.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev catalog-item list --dev-center
                                        --project
@@ -31,6 +39,10 @@ directCommands:
   name: az devcenter dev catalog-item show
   summary: Get a catalog item from a project.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev catalog-item show --catalog-item-id
                                        --dev-center

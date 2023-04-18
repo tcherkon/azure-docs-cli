@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection backup-instance** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage backup instance with dataprotection.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_backup-instance_adhoc-backup
   name: az dataprotection backup-instance adhoc-backup
   summary: Trigger adhoc backup.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance adhoc-backup --rule-name
                                                    [--backup-instance-name]
@@ -56,6 +64,10 @@ directCommands:
   name: az dataprotection backup-instance create
   summary: Configure backup for a resource in a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance create --backup-instance
                                              --resource-group
@@ -86,6 +98,10 @@ directCommands:
   name: az dataprotection backup-instance delete
   summary: Delete a backup instance in a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance delete [--backup-instance-name]
                                              [--ids]
@@ -125,6 +141,10 @@ directCommands:
   name: az dataprotection backup-instance initialize
   summary: Initialize JSON request body for configuring backup of a resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance initialize --datasource-id
                                                  --datasource-location
@@ -173,6 +193,10 @@ directCommands:
   name: az dataprotection backup-instance list
   summary: Gets a backup instances belonging to a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance list --resource-group
                                            --vault-name
@@ -192,6 +216,10 @@ directCommands:
   name: az dataprotection backup-instance list-from-resourcegraph
   summary: List backup instances across subscriptions, resource groups and vaults.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance list-from-resourcegraph --datasource-type {AzureBlob, AzureDatabaseForPostgreSQL, AzureDisk}
                                                               [--datasource-id]
@@ -231,6 +259,10 @@ directCommands:
   name: az dataprotection backup-instance resume-protection
   summary: This operation will resume protection for a stopped backup instance.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance resume-protection [--backup-instance-name]
                                                         [--ids]
@@ -265,6 +297,10 @@ directCommands:
   name: az dataprotection backup-instance show
   summary: Gets a backup instance with name in a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance show [--backup-instance-name]
                                            [--ids]
@@ -294,6 +330,10 @@ directCommands:
   name: az dataprotection backup-instance stop-protection
   summary: This operation will stop protection of a backup instance and data will be held forever.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance stop-protection [--backup-instance-name]
                                                       [--ids]
@@ -328,6 +368,10 @@ directCommands:
   name: az dataprotection backup-instance suspend-backup
   summary: This operation will stop backups for backup instance.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance suspend-backup [--backup-instance-name]
                                                      [--ids]
@@ -362,6 +406,10 @@ directCommands:
   name: az dataprotection backup-instance update-msi-permissions
   summary: Assign the required permissions needed to successfully enable backup for the datasource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance update-msi-permissions --datasource-type {AzureBlob, AzureDatabaseForPostgreSQL, AzureDisk}
                                                              --operation {Backup}
@@ -413,6 +461,10 @@ directCommands:
   name: az dataprotection backup-instance update-policy
   summary: Update backup policy associated with backup instance.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance update-policy --backup-instance-name
                                                     --policy-id
@@ -448,6 +500,10 @@ directCommands:
   name: az dataprotection backup-instance validate-for-backup
   summary: Validate whether configure backup will be successful or not.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance validate-for-backup --backup-instance
                                                           [--ids]
@@ -484,6 +540,10 @@ directCommands:
   name: az dataprotection backup-instance validate-for-restore
   summary: Validates if Restore can be triggered for a DataSource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance validate-for-restore --restore-request-object
                                                            [--backup-instance-name]
@@ -524,6 +584,10 @@ directCommands:
   name: az dataprotection backup-instance wait
   summary: Place the CLI in a waiting state until a condition of the dataprotection backup-instance is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance wait [--backup-instance-name]
                                            [--created]

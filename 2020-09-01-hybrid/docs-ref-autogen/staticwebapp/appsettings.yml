@@ -3,11 +3,15 @@ uid: az_staticwebapp_appsettings
 name: az staticwebapp appsettings
 summary: Manage app settings the static app.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_staticwebapp_appsettings_delete
   name: az staticwebapp appsettings delete
   summary: Delete app settings with given keys of the static app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az staticwebapp appsettings delete --name
                                        --setting-names
@@ -32,6 +36,8 @@ directCommands:
   name: az staticwebapp appsettings list
   summary: List app settings of the static app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az staticwebapp appsettings list --name
                                      [--resource-group]
@@ -51,6 +57,8 @@ directCommands:
   name: az staticwebapp appsettings set
   summary: Add to or change the app settings of the static app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az staticwebapp appsettings set --name
                                     --setting-names

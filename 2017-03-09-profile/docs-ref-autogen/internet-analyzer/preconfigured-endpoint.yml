@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **internet-analyzer** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az internet-analyzer preconfigured-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage preconfigured endpoints.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_internet-analyzer_preconfigured-endpoint_list
   name: az internet-analyzer preconfigured-endpoint list
   summary: List preconfigured endpoints.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az internet-analyzer preconfigured-endpoint list --profile-name
                                                      --resource-group

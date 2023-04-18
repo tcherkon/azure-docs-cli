@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **vmware** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az vmware workload-network dns-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage a DNS Service workload network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_vmware_workload-network_dns-service_create
   name: az vmware workload-network dns-service create
   summary: Create a DNS service by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dns-service create --dns-service
                                                   --private-cloud
@@ -62,6 +66,8 @@ directCommands:
   name: az vmware workload-network dns-service delete
   summary: Delete a DNS service by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dns-service delete --dns-service
                                                   --private-cloud
@@ -92,6 +98,8 @@ directCommands:
   name: az vmware workload-network dns-service list
   summary: List of DNS services in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dns-service list --private-cloud
                                                 --resource-group
@@ -111,6 +119,8 @@ directCommands:
   name: az vmware workload-network dns-service show
   summary: Get a DNS service by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dns-service show --dns-service
                                                 --private-cloud
@@ -135,6 +145,8 @@ directCommands:
   name: az vmware workload-network dns-service update
   summary: Update a DNS service by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dns-service update --dns-service
                                                   --private-cloud

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **billing-benefits** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az billing-benefits reservation-order-aliases** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure billing benefits reservation order aliases commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_billing-benefits_reservation-order-aliases_create
   name: az billing-benefits reservation-order-aliases create
   summary: Create a reservation order alias.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az billing-benefits reservation-order-aliases create --order-alias-name
                                                          [--applied-scope-prop]
@@ -91,6 +95,8 @@ directCommands:
   name: az billing-benefits reservation-order-aliases show
   summary: Get a reservation order alias.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az billing-benefits reservation-order-aliases show --order-alias-name
   examples:
   - summary: Show the details of a reservation order alias
@@ -104,6 +110,8 @@ directCommands:
   name: az billing-benefits reservation-order-aliases wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az billing-benefits reservation-order-aliases wait --order-alias-name
                                                        [--created]

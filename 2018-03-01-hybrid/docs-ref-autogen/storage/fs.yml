@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **storage-preview** extension for the Azure CLI  (version 2.25.0 or higher).  The extension will automatically install the first time you run an **az storage fs** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage file systems in Azure Data Lake Storage Gen2 account.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_storage_fs_list-deleted-path
   name: az storage fs list-deleted-path
   summary: List the deleted (file or directory) paths under the specified file system.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage fs' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage fs list-deleted-path --file-system
                                     [--account-key]
@@ -64,6 +72,10 @@ directCommands:
   name: az storage fs undelete-path
   summary: Restore soft-deleted path.
   description: Operation will only be successful if used within the specified number of days set in the delete retention policy.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'storage fs' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az storage fs undelete-path --deleted-path-name
                                 --deletion-id

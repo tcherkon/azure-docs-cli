@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter admin devcenter** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dev center with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_admin_devcenter_create
   name: az devcenter admin devcenter create
   summary: Create a dev center.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devcenter create --name
                                         --resource-group
@@ -57,6 +65,10 @@ directCommands:
   name: az devcenter admin devcenter delete
   summary: Delete a dev center.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devcenter delete [--ids]
                                         [--name]
@@ -92,6 +104,10 @@ directCommands:
   name: az devcenter admin devcenter list
   summary: List all dev centers in a subscription.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az devcenter admin devcenter list [--resource-group]
   examples:
   - summary: List by Resource Group
@@ -106,6 +122,10 @@ directCommands:
   name: az devcenter admin devcenter show
   summary: Get a devcenter.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devcenter show [--ids]
                                       [--name]
@@ -131,6 +151,10 @@ directCommands:
   name: az devcenter admin devcenter update
   summary: Update a devcenter resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devcenter update [--add]
                                         [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
@@ -191,6 +215,10 @@ directCommands:
   name: az devcenter admin devcenter wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devcenter wait [--created]
                                       [--custom]

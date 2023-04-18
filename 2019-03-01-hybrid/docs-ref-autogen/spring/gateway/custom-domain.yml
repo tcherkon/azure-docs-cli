@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring gateway custom-domain** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage custom domains for gateway.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_gateway_custom-domain_bind
   name: az spring gateway custom-domain bind
   summary: Bind a custom domain with the gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway custom-domain bind --domain-name
                                          --resource-group
@@ -41,6 +45,8 @@ directCommands:
   name: az spring gateway custom-domain list
   summary: List all custom domains of the gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway custom-domain list --resource-group
                                          --service
@@ -60,6 +66,8 @@ directCommands:
   name: az spring gateway custom-domain show
   summary: Show details of a custom domain.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway custom-domain show --domain-name
                                          --resource-group
@@ -81,6 +89,8 @@ directCommands:
   name: az spring gateway custom-domain unbind
   summary: Unbind a custom-domain of the gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway custom-domain unbind --domain-name
                                            --resource-group
@@ -102,6 +112,8 @@ directCommands:
   name: az spring gateway custom-domain update
   summary: Update a custom domain of the gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway custom-domain update --domain-name
                                            --resource-group

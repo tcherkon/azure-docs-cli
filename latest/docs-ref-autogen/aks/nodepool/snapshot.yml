@@ -3,11 +3,16 @@ uid: az_aks_nodepool_snapshot
 name: az aks nodepool snapshot
 summary: Commands to manage nodepool snapshots.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_aks_nodepool_snapshot_create
   name: az aks nodepool snapshot create
   summary: Create a nodepool snapshot.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool snapshot create --name
                                     --nodepool-id
@@ -48,11 +53,13 @@ directCommands:
   - name: --tags
     summary: The tags of the snapshot.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_snapshot_delete
   name: az aks nodepool snapshot delete
   summary: Delete a nodepool snapshot.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool snapshot delete --name
                                     --resource-group
@@ -76,21 +83,25 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_snapshot_list
   name: az aks nodepool snapshot list
   summary: List nodepool snapshots.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: az aks nodepool snapshot list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_snapshot_show
   name: az aks nodepool snapshot show
   summary: Show the details of a nodepool snapshot.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool snapshot show --name
                                   --resource-group
@@ -103,11 +114,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_snapshot_wait
   name: az aks nodepool snapshot wait
   summary: Wait for a nodepool snapshot to reach a desired state.
   description: If an operation on a nodepool snapshot was interrupted or was started with `--no-wait`, use this command to wait for it to complete.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool snapshot wait --name
                                   --resource-group
@@ -158,7 +171,6 @@ directCommands:
     defaultValue: "False"
     summary: Wait until updated with provisioningState at 'Succeeded'.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 commands:
 - az_aks_nodepool_snapshot_create
 - az_aks_nodepool_snapshot_delete

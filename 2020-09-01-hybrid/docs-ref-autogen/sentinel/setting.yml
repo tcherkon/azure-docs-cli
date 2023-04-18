@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **sentinel** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az sentinel setting** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage setting with sentinel.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sentinel_setting_create
   name: az sentinel setting create
   summary: Create setting.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel setting create --name
                                --resource-group
@@ -32,6 +38,7 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   optionalParameters:
   - name: --entity-analytics
     summary: Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
@@ -46,6 +53,10 @@ directCommands:
   name: az sentinel setting delete
   summary: Delete setting of the product.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel setting delete [--ids]
                                [--name]
@@ -69,6 +80,7 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
   - name: --yes -y
     defaultValue: "False"
     summary: Do not prompt for confirmation.
@@ -77,6 +89,10 @@ directCommands:
   name: az sentinel setting list
   summary: List of all the settings.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel setting list --resource-group
                              --workspace-name
@@ -89,10 +105,15 @@ directCommands:
     name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 - uid: az_sentinel_setting_show
   name: az sentinel setting show
   summary: Get a setting.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel setting show [--ids]
                              [--name]
@@ -115,10 +136,15 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 - uid: az_sentinel_setting_update
   name: az sentinel setting update
   summary: Update setting.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sentinel setting update [--add]
                                [--entity-analytics]
@@ -170,6 +196,7 @@ directCommands:
   - name: --workspace-name -w
     summary: The name of the workspace.
     description: ''
+    isExperimental: true
 commands:
 - az_sentinel_setting_create
 - az_sentinel_setting_delete

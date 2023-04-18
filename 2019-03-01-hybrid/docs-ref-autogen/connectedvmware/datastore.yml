@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedvmware** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az connectedvmware datastore** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Datastore resource.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedvmware_datastore_create
   name: az connectedvmware datastore create
   summary: Create a datastore resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware datastore create --custom-location
                                         --inventory-item
@@ -61,6 +65,8 @@ directCommands:
   name: az connectedvmware datastore delete
   summary: Delete datastore resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware datastore delete [--force]
                                         [--ids]
@@ -101,6 +107,8 @@ directCommands:
   name: az connectedvmware datastore list
   summary: Retrieve a list of datastore of given resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az connectedvmware datastore list [--resource-group]
   examples:
   - summary: Retrieve a list of datastore
@@ -113,6 +121,8 @@ directCommands:
   name: az connectedvmware datastore show
   summary: Get details of a datastore by id, resource-group, datastore name, or subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware datastore show [--ids]
                                       [--name]

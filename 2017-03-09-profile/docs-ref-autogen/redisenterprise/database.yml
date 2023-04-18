@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **redisenterprise** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az redisenterprise database** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Redis Enterprise databases.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_redisenterprise_database_create
   name: az redisenterprise database create
   summary: Create new database for a Redis Enterprise cache.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database create --cluster-name
                                        --resource-group
@@ -87,6 +91,7 @@ directCommands:
 
 
       After enabling persistence, you will be unable to disable it. Support for disabling persistence after enabling will be added at a later date.
+    isPreview: true
   - name: --port
     summary: TCP port of the database endpoint. Specified at create time. Defaults to an available port.
     description: ''
@@ -94,6 +99,8 @@ directCommands:
   name: az redisenterprise database delete
   summary: Delete a single database in a Redis Enterprise cache.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database delete [--cluster-name]
                                        [--ids]
@@ -129,6 +136,8 @@ directCommands:
   name: az redisenterprise database export
   summary: Export data stored in a Redis Enterprise database.
   description: Export data stored in a Redis Enterprise database to a target database file.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database export --sas-uri
                                        [--cluster-name]
@@ -165,6 +174,8 @@ directCommands:
   name: az redisenterprise database force-unlink
   summary: Forcibly removes the link to the specified database resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database force-unlink --unlink-ids
                                              [--cluster-name]
@@ -201,6 +212,8 @@ directCommands:
   name: az redisenterprise database import
   summary: Import data into a Redis Enterprise database.
   description: Import data from a database file into a target Redis Enterprise database.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database import --sas-uris
                                        [--cluster-name]
@@ -237,6 +250,8 @@ directCommands:
   name: az redisenterprise database list
   summary: List all databases in a Redis Enterprise cache.
   description: List details about all databases in the specified Redis Enterprise cache.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database list --cluster-name
                                      --resource-group
@@ -256,6 +271,8 @@ directCommands:
   name: az redisenterprise database list-keys
   summary: Retrieve all access keys for a Redis Enterprise database.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database list-keys --cluster-name
                                           --resource-group
@@ -275,6 +292,8 @@ directCommands:
   name: az redisenterprise database regenerate-key
   summary: Regenerate an access key for a Redis Enterprise database.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database regenerate-key --key-type {Primary, Secondary}
                                                [--cluster-name]
@@ -312,6 +331,8 @@ directCommands:
   name: az redisenterprise database show
   summary: Get information about a database in a Redis Enterprise cache.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database show [--cluster-name]
                                      [--ids]
@@ -337,6 +358,8 @@ directCommands:
   name: az redisenterprise database update
   summary: Update an existing Redis Enterprise database.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database update [--client-protocol {Encrypted, Plaintext}]
                                        [--cluster-name]
@@ -392,6 +415,7 @@ directCommands:
 
 
       After enabling persistence, you will be unable to disable it. Support for disabling persistence after enabling will be added at a later date.
+    isPreview: true
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
@@ -402,6 +426,8 @@ directCommands:
   name: az redisenterprise database wait
   summary: Place the CLI in a waiting state until a condition of the Redis Enterprise database is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise database wait [--cluster-name]
                                      [--created]

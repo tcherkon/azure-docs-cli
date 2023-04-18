@@ -3,11 +3,16 @@ uid: az_cosmosdb_restorable-database-account
 name: az cosmosdb restorable-database-account
 summary: Manage restorable Azure Cosmos DB accounts.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_cosmosdb_restorable-database-account_list
   name: az cosmosdb restorable-database-account list
   summary: List all the database accounts that can be restored.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb restorable-database-account list [--account-name]
                                                  [--location]
@@ -18,11 +23,13 @@ directCommands:
   - name: --location -l
     summary: Location.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_restorable-database-account_show
   name: az cosmosdb restorable-database-account show
   summary: Show the details of a database account that can be restored.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb restorable-database-account show [--instance-id]
                                                  [--location]
@@ -33,7 +40,6 @@ directCommands:
   - name: --location -l
     summary: Location.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 commands:
 - az_cosmosdb_restorable-database-account_list
 - az_cosmosdb_restorable-database-account_show

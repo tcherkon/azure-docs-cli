@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **ml** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az ml schedule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure ML schedule resources.
 description: Azure ML schedule defines how to trigger jobs on a regular basis to keep training models up-to-date, to run and download inference results on a periodic basis and many other scenarios, you can use cron expression and recurrence to define the trigger pattern.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_schedule_create
   name: az ml schedule create
   summary: Create a schedule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule create --file
                           --resource-group
@@ -49,6 +53,8 @@ directCommands:
   name: az ml schedule delete
   summary: Delete a schedule. The previous triggered jobs will NOT be deleted.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule delete --name
                           --resource-group
@@ -76,6 +82,8 @@ directCommands:
   name: az ml schedule disable
   summary: Disable a schedule so that it will stop triggering jobs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule disable --name
                            --resource-group
@@ -103,6 +111,8 @@ directCommands:
   name: az ml schedule enable
   summary: Enable a schedule so that it will continue triggering jobs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule enable --name
                           --resource-group
@@ -130,6 +140,8 @@ directCommands:
   name: az ml schedule list
   summary: List the schedules in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule list --resource-group
                         [--disabled-only]
@@ -163,6 +175,8 @@ directCommands:
   name: az ml schedule show
   summary: Show details of a schedule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule show --name
                         --resource-group
@@ -187,6 +201,8 @@ directCommands:
   name: az ml schedule update
   summary: Update a schedule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml schedule update --name
                           --resource-group

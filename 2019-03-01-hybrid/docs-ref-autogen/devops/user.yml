@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops user** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage users.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_user_add
   name: az devops user add
   summary: Add user.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops user add --email-id
                        --license-type {advanced, earlyAdopter, express, professional, stakeholder}
@@ -44,6 +48,8 @@ directCommands:
   name: az devops user list
   summary: List users in an organization [except for users which are added via AAD groups].
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops user list [--detect {false, true}]
                         [--org]
@@ -68,6 +74,8 @@ directCommands:
   name: az devops user remove
   summary: Remove user from an organization.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops user remove --user
                           [--detect {false, true}]
@@ -94,6 +102,8 @@ directCommands:
   name: az devops user show
   summary: Show user details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops user show --user
                         [--detect {false, true}]
@@ -115,6 +125,8 @@ directCommands:
   name: az devops user update
   summary: Update license type for a user.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops user update --license-type {advanced, earlyAdopter, express, professional, stakeholder}
                           --user

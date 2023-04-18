@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **scvmm** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az scvmm avset** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Arc for SCVMM Availability Set resources.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_scvmm_avset_create
   name: az scvmm avset create
   summary: Create availabilty set resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm avset create --avset-name
                           --custom-location
@@ -61,6 +69,10 @@ directCommands:
   name: az scvmm avset delete
   summary: Delete availabilty set resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm avset delete [--force]
                           [--ids]
@@ -102,6 +114,10 @@ directCommands:
   name: az scvmm avset list
   summary: Retrieve a list of availabilty sets.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az scvmm avset list [--resource-group]
   examples:
   - summary: Retrieve a list of availabilty sets present in a resource group
@@ -116,6 +132,10 @@ directCommands:
   name: az scvmm avset show
   summary: Get details of an availabilty set.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm avset show [--ids]
                         [--name]
@@ -143,6 +163,10 @@ directCommands:
   name: az scvmm avset update
   summary: Update availabilty set resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm avset update [--ids]
                           [--name]
@@ -179,6 +203,10 @@ directCommands:
   name: az scvmm avset wait
   summary: Place the CLI in a waiting state until a condition of the availability set is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm avset wait --availability-set-name
                         --resource-group

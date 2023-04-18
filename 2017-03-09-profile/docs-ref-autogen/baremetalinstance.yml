@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **baremetal-infrastructure** extension for the Azure CLI  (version 2.12.0 or higher).  The extension will automatically install the first time you run an **az baremetalinstance** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (PREVIEW) Manage BareMetal Instances.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_baremetalinstance_delete
   name: az baremetalinstance delete
   summary: Delete a BareMetal Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az baremetalinstance delete [--ids]
                                 [--instance-name]
@@ -34,6 +38,8 @@ directCommands:
   name: az baremetalinstance list
   summary: List BareMetal Instances.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az baremetalinstance list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -43,6 +49,8 @@ directCommands:
   name: az baremetalinstance restart
   summary: Restart a BareMetal Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az baremetalinstance restart [--ids]
                                  [--instance-name]
@@ -65,6 +73,8 @@ directCommands:
   name: az baremetalinstance show
   summary: Get the details of a BareMetal Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az baremetalinstance show [--ids]
                               [--instance-name]
@@ -87,6 +97,8 @@ directCommands:
   name: az baremetalinstance shutdown
   summary: Shutdown a BareMetal Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az baremetalinstance shutdown [--ids]
                                   [--instance-name]
@@ -109,6 +121,8 @@ directCommands:
   name: az baremetalinstance start
   summary: Start a BareMetal Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az baremetalinstance start [--ids]
                                [--instance-name]
@@ -131,6 +145,8 @@ directCommands:
   name: az baremetalinstance update
   summary: Update the tags field of a BareMetal Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az baremetalinstance update [--add]
                                 [--force-string]

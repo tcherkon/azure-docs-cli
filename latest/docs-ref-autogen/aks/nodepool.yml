@@ -3,11 +3,16 @@ uid: az_aks_nodepool
 name: az aks nodepool
 summary: Commands to manage node pools in Kubernetes kubernetes cluster.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_aks_nodepool_add
   name: az aks nodepool add
   summary: Add a node pool to the managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool add --cluster-name
                         --name
@@ -208,11 +213,13 @@ directCommands:
     parameterValueGroup: "1, 2, 3"
     summary: Availability zones where agent nodes will be placed. Also, to install agent nodes to more than one zone you need to pass zone numbers separated by blanks.  For example -  To have all 3 zones, you are expected to enter `--zones 1 2 3`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_delete
   name: az aks nodepool delete
   summary: Delete the agent pool in the managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool delete --cluster-name
                            --name
@@ -236,11 +243,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_get-upgrades
   name: az aks nodepool get-upgrades
   summary: Get the available upgrade versions for an agent pool of the managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool get-upgrades --cluster-name
                                  --name
@@ -261,11 +270,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_list
   name: az aks nodepool list
   summary: List node pools in the managed Kubernetes cluster. To get list of nodes in the cluster run `kubectl get nodes` command.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool list --cluster-name
                          --resource-group
@@ -278,11 +289,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_operation-abort
   name: az aks nodepool operation-abort
   summary: Abort last running operation on nodepool.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool operation-abort --cluster-name
                                     --name
@@ -309,11 +322,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_scale
   name: az aks nodepool scale
   summary: Scale the node pool in a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool scale --cluster-name
                           --name
@@ -342,11 +357,13 @@ directCommands:
     defaultValue: "3"
     summary: Number of nodes in the Kubernetes node pool.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_show
   name: az aks nodepool show
   summary: Show the details for a node pool in the managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool show --cluster-name
                          --name
@@ -364,11 +381,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_start
   name: az aks nodepool start
   summary: Start stopped agent pool in the managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool start --cluster-name
                           --name
@@ -399,11 +418,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_stop
   name: az aks nodepool stop
   summary: Stop running agent pool in the managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool stop --cluster-name
                          --name
@@ -434,11 +455,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_update
   name: az aks nodepool update
   summary: Update a node pool properties.
   description: Update a node pool to enable/disable cluster-autoscaler or change min-count or max-count. When called with no optional arguments this attempts to move the node pool to its goal state without changing the current node pool configuration. This can be used to move out of a non succeeded state.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool update --cluster-name
                            --name
@@ -524,11 +547,13 @@ directCommands:
     defaultValue: "False"
     summary: Update min-count or max-count for cluster autoscaler.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_upgrade
   name: az aks nodepool upgrade
   summary: Upgrade the node pool in a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool upgrade --cluster-name
                             --name
@@ -578,11 +603,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_nodepool_wait
   name: az aks nodepool wait
   summary: Wait for a node pool to reach a desired state.
   description: If an operation on a node pool was interrupted or was started with `--no-wait`, use this command to wait for it to complete.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks nodepool wait --cluster-name
                          --name
@@ -638,7 +665,6 @@ directCommands:
     defaultValue: "False"
     summary: Wait until updated with provisioningState at 'Succeeded'.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 commands:
 - az_aks_nodepool_add
 - az_aks_nodepool_delete

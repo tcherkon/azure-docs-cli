@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter admin gallery** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage gallery with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_admin_gallery_create
   name: az devcenter admin gallery create
   summary: Create a gallery.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin gallery' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin gallery create --dev-center
                                       --gallery-name
@@ -46,6 +54,10 @@ directCommands:
   name: az devcenter admin gallery delete
   summary: Delete a gallery resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin gallery' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin gallery delete [--dev-center]
                                       [--gallery-name]
@@ -85,6 +97,10 @@ directCommands:
   name: az devcenter admin gallery list
   summary: List galleries for a devcenter.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin gallery' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin gallery list --dev-center
                                     --resource-group
@@ -104,6 +120,10 @@ directCommands:
   name: az devcenter admin gallery show
   summary: Get a gallery.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin gallery' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin gallery show [--dev-center]
                                     [--gallery-name]
@@ -133,6 +153,10 @@ directCommands:
   name: az devcenter admin gallery wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin gallery' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin gallery wait [--created]
                                     [--custom]

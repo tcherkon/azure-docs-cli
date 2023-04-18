@@ -3,11 +3,15 @@ uid: az_spring
 name: az spring
 summary: Commands to manage Azure Spring Apps.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_spring_create
   name: az spring create
   summary: Create an Azure Spring Apps instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring create --name
                      --resource-group
@@ -120,6 +124,7 @@ directCommands:
     defaultValue: "False"
     summary: (Enterprise Tier Only) Enable Application Live View.
     description: ''
+    isPreview: true
   - name: --enable-api-portal
     defaultValue: "False"
     summary: (Enterprise Tier Only) Enable API portal.
@@ -128,6 +133,7 @@ directCommands:
     defaultValue: "False"
     summary: (Enterprise Tier Only) Enable Application Accelerator.
     description: ''
+    isPreview: true
   - name: --enable-dataplane-public-endpoint --enable-dppa
     parameterValueGroup: "false, true"
     summary: If true, assign public endpoint for log streaming, remote debugging, app connect in vnet injection instance which could be accessed out of virtual network.
@@ -158,6 +164,7 @@ directCommands:
   - name: --marketplace-plan-id
     summary: (Enterprise Tier Only) Specify a different Marketplace plan to purchase with Spring instance. List all plans by running `az spring list-marketplace-plan -o table`.
     description: ''
+    isPreview: true
   - name: --no-wait
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
@@ -203,10 +210,13 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Create your Azure Spring Apps service in an Azure availability zone or not, this could only be supported in several regions at the moment.
     description: ''
+    isPreview: true
 - uid: az_spring_delete
   name: az spring delete
   summary: Delete an Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring delete --name
                      --resource-group
@@ -229,6 +239,8 @@ directCommands:
   name: az spring list
   summary: List all Azure Spring Apps in the given resource group, otherwise list the subscription's.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az spring list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -238,6 +250,10 @@ directCommands:
   name: az spring list-marketplace-plan
   summary: (Enterprise Tier Only) List Marketplace plan to be purchased.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: az spring list-marketplace-plan
   examples:
   - summary: List all plans.
@@ -246,6 +262,8 @@ directCommands:
   name: az spring show
   summary: Show the details for an Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring show --name
                    --resource-group
@@ -262,6 +280,8 @@ directCommands:
   name: az spring start
   summary: Start an Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring start --name
                     --resource-group
@@ -284,6 +304,8 @@ directCommands:
   name: az spring stop
   summary: Stop an Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring stop --name
                    --resource-group
@@ -306,6 +328,8 @@ directCommands:
   name: az spring update
   summary: Update an Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring update --name
                      --resource-group

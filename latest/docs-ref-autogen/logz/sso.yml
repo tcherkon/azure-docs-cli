@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **logz** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az logz sso** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage single sign on with logz.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_logz_sso_create
   name: az logz sso create
   summary: Create single-sign-on for this resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sso create --configuration-name
                        --monitor-name
@@ -54,6 +62,10 @@ directCommands:
   name: az logz sso list
   summary: List the single sign-on configurations for a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sso list --monitor-name
                      --resource-group
@@ -73,6 +85,10 @@ directCommands:
   name: az logz sso show
   summary: Get the Logz single sign-on resource for the given Monitor.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sso show [--configuration-name]
                      [--ids]
@@ -102,6 +118,10 @@ directCommands:
   name: az logz sso update
   summary: Create single-sign-on for this resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sso update [--add]
                        [--configuration-name]
@@ -165,6 +185,10 @@ directCommands:
   name: az logz sso wait
   summary: Place the CLI in a waiting state until a condition of the logz sso is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sso wait [--configuration-name]
                      [--created]

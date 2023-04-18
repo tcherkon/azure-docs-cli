@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter admin pool** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pool with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_admin_pool_create
   name: az devcenter admin pool create
   summary: Create a machine pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin pool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin pool create --name
                                    --project
@@ -63,6 +71,10 @@ directCommands:
   name: az devcenter admin pool delete
   summary: Delete a machine pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin pool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin pool delete [--ids]
                                    [--name]
@@ -102,6 +114,10 @@ directCommands:
   name: az devcenter admin pool list
   summary: List pools for a project.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin pool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin pool list --project
                                  --resource-group
@@ -121,6 +137,10 @@ directCommands:
   name: az devcenter admin pool show
   summary: Get a machine pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin pool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin pool show [--ids]
                                  [--name]
@@ -150,6 +170,10 @@ directCommands:
   name: az devcenter admin pool update
   summary: Update a machine pool.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin pool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin pool update [--add]
                                    [--dev-box-definition-name]
@@ -218,6 +242,10 @@ directCommands:
   name: az devcenter admin pool wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin pool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin pool wait [--created]
                                  [--custom]

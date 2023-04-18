@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops team** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage teams.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_team_create
   name: az devops team create
   summary: Create a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops team create --name
                           [--description]
@@ -41,6 +45,8 @@ directCommands:
   name: az devops team delete
   summary: Delete a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops team delete --id
                           [--detect {false, true}]
@@ -71,6 +77,8 @@ directCommands:
   name: az devops team list
   summary: List all teams in a project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops team list [--detect {false, true}]
                         [--org]
@@ -98,6 +106,8 @@ directCommands:
   name: az devops team list-member
   summary: List members of a team.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops team list-member --team
                                [--detect {false, true}]
@@ -131,6 +141,8 @@ directCommands:
   name: az devops team show
   summary: Show team details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops team show --team
                         [--detect {false, true}]
@@ -156,6 +168,8 @@ directCommands:
   name: az devops team update
   summary: Update a team's name and/or description.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops team update --team
                           [--description]

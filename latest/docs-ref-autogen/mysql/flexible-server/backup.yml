@@ -3,11 +3,15 @@ uid: az_mysql_flexible-server_backup
 name: az mysql flexible-server backup
 summary: Manage flexible server backups.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_flexible-server_backup_create
   name: az mysql flexible-server backup create
   summary: Create a backup for a given server with specified backup name.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server backup create --backup-name
                                            --name
@@ -32,6 +36,8 @@ directCommands:
   name: az mysql flexible-server backup list
   summary: List all the backups for a given server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server backup list --name
                                          --resource-group
@@ -51,6 +57,8 @@ directCommands:
   name: az mysql flexible-server backup show
   summary: Show the details of a specific backup for a given server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server backup show [--backup-name]
                                          [--ids]

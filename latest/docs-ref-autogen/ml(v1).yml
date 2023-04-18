@@ -12,6 +12,8 @@ description: >-
   Install Azure CLI ML extension v1
 
   https://docs.microsoft.com/azure/machine-learning/reference-azure-machine-learning-cli.
+status: GA
+sourceType: Extension
 commands:
 - az_ml(v1)_computetarget
 - az_ml(v1)_computetarget_amlcompute

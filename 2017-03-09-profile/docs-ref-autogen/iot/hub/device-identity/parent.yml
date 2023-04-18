@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub device-identity parent** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage parent device relationships for IoT devices.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_device-identity_parent_set
   name: az iot hub device-identity parent set
   summary: Set the parent device of a target device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity parent set --device-id
                                           --parent-device-id
@@ -57,6 +61,8 @@ directCommands:
   name: az iot hub device-identity parent show
   summary: Get the parent device of a target device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity parent show --device-id
                                            [--auth-type {key, login}]

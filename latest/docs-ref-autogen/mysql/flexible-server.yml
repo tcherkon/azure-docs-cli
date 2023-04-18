@@ -3,11 +3,15 @@ uid: az_mysql_flexible-server
 name: az mysql flexible-server
 summary: Manage Azure Database for MySQL Flexible Servers.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_mysql_flexible-server_connect
   name: az mysql flexible-server connect
   summary: Connect to a flexible server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mysql flexible-server connect --admin-user
                                      --name
@@ -37,6 +41,8 @@ directCommands:
   - name: --querytext -q
     summary: A query to run against the flexible server.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'querytext' has been deprecated and will be removed in a future release. Use 'execute' instead.
 - uid: az_mysql_flexible-server_create
   name: az mysql flexible-server create
   summary: Create a MySQL flexible server.
@@ -50,6 +56,8 @@ directCommands:
     - Configure private access
 
     https://docs.microsoft.com/en-us/azure/mysql/flexible-server/how-to-manage-virtual-network-cli.
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server create [--address-prefixes]
                                     [--admin-password]
@@ -330,6 +338,8 @@ directCommands:
   name: az mysql flexible-server delete
   summary: Delete a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server delete [--ids]
                                     [--name]
@@ -361,6 +371,8 @@ directCommands:
   name: az mysql flexible-server execute
   summary: Connect to a flexible server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mysql flexible-server execute --admin-password
                                      --admin-user
@@ -395,6 +407,8 @@ directCommands:
   name: az mysql flexible-server geo-restore
   summary: Geo-restore a flexible server from backup.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server geo-restore --location
                                          --source-server
@@ -504,6 +518,8 @@ directCommands:
   name: az mysql flexible-server list
   summary: List available flexible servers.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az mysql flexible-server list [--resource-group]
   examples:
   - summary: List all MySQL flexible servers in a subscription.
@@ -520,6 +536,8 @@ directCommands:
   name: az mysql flexible-server list-skus
   summary: Lists available sku's in the given region.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az mysql flexible-server list-skus --location
   examples:
   - summary: Lists available sku's in the given region.
@@ -535,6 +553,8 @@ directCommands:
   name: az mysql flexible-server restart
   summary: Restart a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server restart [--failover]
                                      [--ids]
@@ -566,6 +586,8 @@ directCommands:
   name: az mysql flexible-server restore
   summary: Restore a flexible server from backup.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server restore --source-server
                                      [--address-prefixes]
@@ -677,6 +699,8 @@ directCommands:
   name: az mysql flexible-server show
   summary: Get the details of a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server show [--ids]
                                   [--name]
@@ -702,6 +726,8 @@ directCommands:
   name: az mysql flexible-server show-connection-string
   summary: Show the connection strings for a MySQL flexible-server database.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server show-connection-string [--admin-password]
                                                     [--admin-user]
@@ -739,6 +765,8 @@ directCommands:
   name: az mysql flexible-server start
   summary: Start a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server start [--ids]
                                    [--name]
@@ -769,6 +797,8 @@ directCommands:
   name: az mysql flexible-server stop
   summary: Stop a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server stop [--ids]
                                   [--name]
@@ -799,6 +829,8 @@ directCommands:
   name: az mysql flexible-server update
   summary: Update a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server update [--add]
                                     [--admin-password]
@@ -960,6 +992,8 @@ directCommands:
   name: az mysql flexible-server upgrade
   summary: Upgrade the major version of a flexible server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server upgrade --version {8}
                                      [--ids]
@@ -1004,6 +1038,8 @@ directCommands:
   name: az mysql flexible-server wait
   summary: Wait for the flexible server to satisfy certain conditions.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server wait [--created]
                                   [--custom]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automanage** extension for the Azure CLI  (version 2.44.1 or higher).  The extension will automatically install the first time you run an **az automanage configuration-profile version** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage configuration profile version.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automanage_configuration-profile_version_create
   name: az automanage configuration-profile version create
   summary: Create a configuration profile version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile version create --configuration-profile-name
                                                        --name
@@ -49,6 +53,8 @@ directCommands:
   name: az automanage configuration-profile version delete
   summary: Delete a configuration profile version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile version delete [--configuration-profile-name]
                                                        [--ids]
@@ -83,6 +89,8 @@ directCommands:
   name: az automanage configuration-profile version list
   summary: List configuration profile versions for a configuration profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile version list --configuration-profile-name
                                                      --resource-group
@@ -102,6 +110,8 @@ directCommands:
   name: az automanage configuration-profile version show
   summary: Get information about a configuration profile version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile version show [--configuration-profile-name]
                                                      [--ids]
@@ -131,6 +141,8 @@ directCommands:
   name: az automanage configuration-profile version update
   summary: Update a configuration profile version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile version update [--add]
                                                        [--configuration]

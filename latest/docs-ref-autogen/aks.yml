@@ -3,11 +3,16 @@ uid: az_aks
 name: az aks
 summary: Manage Azure Kubernetes Services.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_aks_browse
   name: az aks browse
   summary: Show the dashboard for a Kubernetes cluster in a web browser.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks browse --name
                   --resource-group
@@ -39,11 +44,13 @@ directCommands:
     defaultValue: "8001"
     summary: The listening port for the dashboard.
     description: Add this argument when the default listening port is used by another process or unavailable.
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_check-acr
   name: az aks check-acr
   summary: Validate an ACR is accessible from an AKS cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks check-acr --acr
                      --name
@@ -69,11 +76,13 @@ directCommands:
   - name: --node-name
     summary: The name of a specific node to perform acr pull test checks. If not specified, it will be checked on a random node.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_create
   name: az aks create
   summary: Create a new managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks create --name
                   --resource-group
@@ -341,6 +350,7 @@ directCommands:
   - name: --data-collection-settings
     summary: Path to JSON file containing data collection settings for Monitoring addon.
     description: ''
+    isPreview: true
   - name: --defender-config
     summary: Path to JSON file containing Microsoft Defender profile configurations.
     description: ''
@@ -450,6 +460,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable Managed Identity Auth for Monitoring addon.
     description: ''
+    isPreview: true
   - name: --enable-node-public-ip
     defaultValue: "False"
     summary: Enable VMSS node public IP.
@@ -475,6 +486,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable syslog data collection for Monitoring addon.
     description: ''
+    isPreview: true
   - name: --enable-ultra-ssd
     defaultValue: "False"
     summary: Enable UltraSSD, default value is false.
@@ -733,11 +745,13 @@ directCommands:
     parameterValueGroup: "1, 2, 3"
     summary: Availability zones where agent nodes will be placed. Also, to install agent nodes to more than one zones you need to pass zone numbers (1,2 or 3) separated by blanks.  For example -  To have all 3 zones, you are expected to enter `--zones 1 2 3`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_delete
   name: az aks delete
   summary: Delete a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks delete --name
                   --resource-group
@@ -764,11 +778,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_disable-addons
   name: az aks disable-addons
   summary: Disable Kubernetes addons.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks disable-addons --addons
                           --name
@@ -795,7 +811,6 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_enable-addons
   name: az aks enable-addons
   summary: Enable Kubernetes addons.
@@ -812,6 +827,9 @@ directCommands:
         - ingress-appgw            : enable Application Gateway Ingress Controller addon.
         - open-service-mesh        : enable Open Service Mesh addon.
         - azure-keyvault-secrets-provider : enable Azure Keyvault Secrets Provider addon.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks enable-addons --addons
                          --name
@@ -898,11 +916,13 @@ directCommands:
   - name: --workspace-resource-id
     summary: The resource ID of an existing Log Analytics Workspace to use for storing monitoring data.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_get-credentials
   name: az aks get-credentials
   summary: Get access credentials for a managed Kubernetes cluster.
   description: By default, the credentials are merged into the .kube/config file so kubectl can use them.  See -f parameter for details.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks get-credentials --name
                            --resource-group
@@ -947,11 +967,12 @@ directCommands:
     defaultValue: "False"
     summary: Get private cluster credential with server address to be public fqdn.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_get-os-options
   name: az aks get-os-options
   summary: Get the OS options available for creating a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az aks get-os-options --location
   examples:
   - summary: Get the OS options available for creating a managed Kubernetes cluster
@@ -965,6 +986,9 @@ directCommands:
   name: az aks get-upgrades
   summary: Get the upgrade versions available for a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks get-upgrades --name
                         --resource-group
@@ -980,11 +1004,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_get-versions
   name: az aks get-versions
   summary: Get the versions available for creating a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: az aks get-versions --location
   examples:
   - summary: Get the versions available for creating a managed Kubernetes cluster
@@ -994,11 +1020,13 @@ directCommands:
     name: --location -l
     summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_install-cli
   name: az aks install-cli
   summary: Download and install kubectl, the Kubernetes command-line tool. Download and install kubelogin, a client-go credential (exec) plugin implementing azure authentication.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks install-cli [--base-src-url]
                        [--client-version]
@@ -1029,11 +1057,12 @@ directCommands:
     defaultValue: "latest"
     summary: Version of kubelogin to install.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_kanalyze
   name: az aks kanalyze
   summary: Display diagnostic results for the Kubernetes cluster after kollect is done.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks kanalyze --name
                     --resource-group
@@ -1056,6 +1085,8 @@ directCommands:
       storage account name and a shared access signature with write permission.
       resource Id to a storage account you own.
       the storagea account in diagnostics settings for your managed cluster.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks kollect --name
                    --resource-group
@@ -1120,16 +1151,21 @@ directCommands:
   name: az aks list
   summary: List managed Kubernetes clusters.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: az aks list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_operation-abort
   name: az aks operation-abort
   summary: Abort last running operation on managed cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks operation-abort --name
                            --resource-group
@@ -1151,11 +1187,15 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_remove-dev-spaces
   name: az aks remove-dev-spaces
   summary: Remove Azure Dev Spaces from a managed Kubernetes cluster.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks remove-dev-spaces --name
                              --resource-group
@@ -1179,11 +1219,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_rotate-certs
   name: az aks rotate-certs
   summary: Rotate certificates and keys on a managed Kubernetes cluster.
   description: Kubernetes will be unavailable during cluster certificate rotation.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks rotate-certs --name
                         --resource-group
@@ -1207,11 +1249,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_scale
   name: az aks scale
   summary: Scale the node pool in a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks scale --name
                  --node-count
@@ -1242,11 +1286,13 @@ directCommands:
   - name: --nodepool-name
     summary: Node pool name, up to 12 alphanumeric characters.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_show
   name: az aks show
   summary: Show the details for a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks show --name
                 --resource-group
@@ -1262,11 +1308,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_start
   name: az aks start
   summary: Starts a previously stopped Managed Cluster.
   description: See `starting a cluster <https://docs.microsoft.com/azure/aks/start-stop-cluster>`_ for more details about starting a cluster.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks start --name
                  --resource-group
@@ -1285,11 +1333,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_stop
   name: az aks stop
   summary: Stops a Managed Cluster.
   description: This can only be performed on Azure Virtual Machine Scale set backed clusters. Stopping a cluster stops the control plane and agent nodes entirely, while maintaining all object and cluster state. A cluster does not accrue charges while it is stopped. See `stopping a cluster <https://docs.microsoft.com/azure/aks/start-stop-cluster>`_ for more details about stopping a cluster.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks stop --name
                 --resource-group
@@ -1308,11 +1358,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not wait for the long-running operation to finish.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_update
   name: az aks update
   summary: Update a managed Kubernetes cluster. When called with no optional arguments this attempts to move the cluster to its goal state without changing the current cluster configuration. This can be used to move out of a non succeeded state.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks update --name
                   --resource-group
@@ -1721,11 +1773,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_update-credentials
   name: az aks update-credentials
   summary: Update credentials for a managed Kubernetes cluster, like service principal.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks update-credentials --name
                               --resource-group
@@ -1760,11 +1814,13 @@ directCommands:
   - name: --service-principal
     summary: Service principal used for authentication to Azure APIs. This argument is required if `--reset-service-principal` is specified.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_upgrade
   name: az aks upgrade
   summary: Upgrade a managed Kubernetes cluster to a newer version.
   description: Kubernetes will be unavailable during cluster upgrades.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks upgrade --name
                    --resource-group
@@ -1806,11 +1862,15 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_use-dev-spaces
   name: az aks use-dev-spaces
   summary: Use Azure Dev Spaces with a managed Kubernetes cluster.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks use-dev-spaces --name
                           --resource-group
@@ -1853,11 +1913,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation. Requires --space.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 - uid: az_aks_wait
   name: az aks wait
   summary: Wait for a managed Kubernetes cluster to reach a desired state.
   description: If an operation on a cluster was interrupted or was started with `--no-wait`, use this command to wait for it to complete.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
   syntax: >-
     az aks wait --name
                 --resource-group
@@ -1910,7 +1972,6 @@ directCommands:
     defaultValue: "False"
     summary: Wait until updated with provisioningState at 'Succeeded'.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/acs/_help.py
 commands:
 - az_aks_addon
 - az_aks_addon_disable

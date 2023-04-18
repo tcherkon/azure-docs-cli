@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **offazure** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az offazure hyperv site** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Hyper-V site.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_offazure_hyperv_site_create
   name: az offazure hyperv site create
   summary: Create a Hyper-V site.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az offazure hyperv site create --name
                                    --resource-group
@@ -76,6 +84,10 @@ directCommands:
   name: az offazure hyperv site delete
   summary: Delete a Hyper-V site.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az offazure hyperv site delete [--ids]
                                    [--name]
@@ -106,6 +118,10 @@ directCommands:
   name: az offazure hyperv site show
   summary: Get the details of a site.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az offazure hyperv site show [--ids]
                                  [--name]

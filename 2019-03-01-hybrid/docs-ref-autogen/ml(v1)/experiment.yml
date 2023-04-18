@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml experiment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage experiments.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_experiment_list
   name: az ml experiment list
   summary: List experiments in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml experiment list [--output-metadata-file]
                           [--path]

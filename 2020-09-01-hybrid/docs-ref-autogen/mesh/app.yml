@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mesh** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az mesh app** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Service Fabric Mesh applications.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mesh_app_delete
   name: az mesh app delete
   summary: Delete a Service Fabric Mesh application.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh app delete [--ids]
                        [--name]
@@ -39,6 +43,8 @@ directCommands:
   name: az mesh app list
   summary: List Service Fabric Mesh applications.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az mesh app list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -48,6 +54,8 @@ directCommands:
   name: az mesh app show
   summary: Get the details of a Service Fabric Mesh application.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh app show [--ids]
                      [--name]

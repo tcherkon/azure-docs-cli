@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **account** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az account alias** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage subscription alias.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_account_alias_create
   name: az account alias create
   summary: Create Alias Subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az account alias create --name
                             [--billing-scope]
@@ -53,6 +57,8 @@ directCommands:
   name: az account alias delete
   summary: Delete Alias.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az account alias delete --name
   examples:
   - summary: DeleteAlias
@@ -66,6 +72,8 @@ directCommands:
   name: az account alias list
   summary: List Alias Subscriptions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az account alias list
   examples:
   - summary: List Alias Subscriptions
@@ -74,6 +82,8 @@ directCommands:
   name: az account alias show
   summary: Get Alias Subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az account alias show --name
   examples:
   - summary: GetAlias
@@ -87,6 +97,8 @@ directCommands:
   name: az account alias wait
   summary: Place the CLI in a waiting state until a condition of the account alias is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az account alias wait --name
                           [--created]

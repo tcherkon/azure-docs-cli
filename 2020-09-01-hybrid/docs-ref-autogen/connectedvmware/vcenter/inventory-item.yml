@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedvmware** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az connectedvmware vcenter inventory-item** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Inventory item resource.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedvmware_vcenter_inventory-item_list
   name: az connectedvmware vcenter inventory-item list
   summary: Retrieve a list of inventory item given by resource group and vcenter name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vcenter inventory-item list --resource-group
                                                    --vcenter
@@ -31,6 +35,8 @@ directCommands:
   name: az connectedvmware vcenter inventory-item show
   summary: Get details of a inventory item by inventory item name or id, resource-group and vcenter name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vcenter inventory-item show --inventory-item
                                                    --resource-group

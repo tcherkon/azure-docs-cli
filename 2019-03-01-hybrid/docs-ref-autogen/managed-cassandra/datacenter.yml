@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **cosmosdb-preview** extension for the Azure CLI  (version 2.17.1 or higher).  The extension will automatically install the first time you run an **az managed-cassandra datacenter** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure Managed Cassandra DataCenter.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_managed-cassandra_datacenter_create
   name: az managed-cassandra datacenter create
   summary: Create a Datacenter in an Azure Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra datacenter create --cluster-name
                                            --data-center-location
@@ -127,6 +131,8 @@ directCommands:
   name: az managed-cassandra datacenter delete
   summary: Deletes a Managed Cassandra Datacenter.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra datacenter delete --cluster-name
                                            --data-center-name
@@ -164,6 +170,8 @@ directCommands:
   name: az managed-cassandra datacenter list
   summary: List the Managed Cassandra Datacenters in a given Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra datacenter list --cluster-name
                                          --resource-group
@@ -183,6 +191,8 @@ directCommands:
   name: az managed-cassandra datacenter show
   summary: Get a Managed Cassandra DataCenter Resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra datacenter show --cluster-name
                                          --data-center-name
@@ -207,6 +217,8 @@ directCommands:
   name: az managed-cassandra datacenter update
   summary: Update a Datacenter in an Azure Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra datacenter update --cluster-name
                                            --data-center-name

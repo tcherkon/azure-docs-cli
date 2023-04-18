@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **databox** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az databox job** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage databox job.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_databox_job_cancel
   name: az databox job cancel
   summary: Cancel a job.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databox job cancel --name
                           --reason
@@ -42,6 +46,8 @@ directCommands:
   name: az databox job create
   summary: Create a new job with the specified parameters.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databox job create --city
                           --contact-name
@@ -173,6 +179,8 @@ directCommands:
   name: az databox job delete
   summary: Delete a job.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databox job delete --name
                           --resource-group
@@ -198,6 +206,8 @@ directCommands:
   name: az databox job list
   summary: List all the jobs available under the given resource group or the given subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az databox job list [--resource-group]
   examples:
   - summary: List all the jobs available under the current subscription.
@@ -212,6 +222,8 @@ directCommands:
   name: az databox job list-credentials
   summary: List the unencrypted secrets related to the job.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databox job list-credentials --name
                                     --resource-group
@@ -231,6 +243,8 @@ directCommands:
   name: az databox job show
   summary: Get information about the specified job.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databox job show --name
                         --resource-group
@@ -250,6 +264,8 @@ directCommands:
   name: az databox job update
   summary: Update an existing job with the specified parameters.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databox job update --name
                           --resource-group

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **vmware** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az vmware authorization** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage the authorizations of an ExpressRoute Circuit for a private cloud.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_vmware_authorization_create
   name: az vmware authorization create
   summary: Create an authorization for an ExpressRoute Circuit in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware authorization create --name
                                    --private-cloud
@@ -38,6 +42,8 @@ directCommands:
   name: az vmware authorization delete
   summary: Delete an authorization for an ExpressRoute Circuit in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware authorization delete --name
                                    --private-cloud
@@ -65,6 +71,8 @@ directCommands:
   name: az vmware authorization list
   summary: List authorizations for an ExpressRoute Circuit in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware authorization list --private-cloud
                                  --resource-group
@@ -81,6 +89,8 @@ directCommands:
   name: az vmware authorization show
   summary: Show details of an authorization for an ExpressRoute Circuit in a private cloud.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware authorization show --name
                                  --private-cloud

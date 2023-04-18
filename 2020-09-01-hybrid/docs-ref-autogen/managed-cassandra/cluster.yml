@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **cosmosdb-preview** extension for the Azure CLI  (version 2.17.1 or higher).  The extension will automatically install the first time you run an **az managed-cassandra cluster** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure Managed Cassandra Cluster.
 description: See https://docs.microsoft.com/en-us/azure/managed-instance-apache-cassandra/manage-resources-cli for Cassandra API samples.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_managed-cassandra_cluster_create
   name: az managed-cassandra cluster create
   summary: Create a Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra cluster create --cluster-name
                                         --delegated-management-subnet-id
@@ -109,6 +113,8 @@ directCommands:
   name: az managed-cassandra cluster delete
   summary: Deletes a Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra cluster delete --cluster-name
                                         --resource-group
@@ -139,6 +145,8 @@ directCommands:
   name: az managed-cassandra cluster list
   summary: List the Managed Cassandra Clusters in a ResourceGroup and Subscription. If the ResourceGroup is not specified all the clusters in this Subscription are returned.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az managed-cassandra cluster list [--resource-group]
   examples:
   - summary: List all Managed Cassandra Clusters in a given Subscription and ResourceGroup.
@@ -153,6 +161,8 @@ directCommands:
   name: az managed-cassandra cluster show
   summary: Get a Managed Cassandra Cluster Resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra cluster show --cluster-name
                                       --resource-group
@@ -172,6 +182,8 @@ directCommands:
   name: az managed-cassandra cluster update
   summary: Update a Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az managed-cassandra cluster update --cluster-name
                                         --resource-group

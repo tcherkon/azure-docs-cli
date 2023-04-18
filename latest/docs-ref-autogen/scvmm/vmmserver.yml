@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **scvmm** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az scvmm vmmserver** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Arc for SCVMM VMMServer resources.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_scvmm_vmmserver_connect
   name: az scvmm vmmserver connect
   summary: Create a vmmserver resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vmmserver connect --custom-location
                                --location
@@ -73,6 +81,10 @@ directCommands:
   name: az scvmm vmmserver delete
   summary: Delete a vmmserver resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vmmserver delete [--force]
                               [--ids]
@@ -109,6 +121,10 @@ directCommands:
   name: az scvmm vmmserver list
   summary: Retrieve a list of vmmservers.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az scvmm vmmserver list [--resource-group]
   examples:
   - summary: Retrieve a list of vmmservers present in a resource group
@@ -123,6 +139,10 @@ directCommands:
   name: az scvmm vmmserver show
   summary: Get details of a vmmserver.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vmmserver show [--ids]
                             [--name]
@@ -150,6 +170,10 @@ directCommands:
   name: az scvmm vmmserver update
   summary: Update vmmserver resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vmmserver update [--ids]
                               [--name]
@@ -186,6 +210,10 @@ directCommands:
   name: az scvmm vmmserver wait
   summary: Place the CLI in a waiting state until a condition of the vmmserver is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vmmserver wait --resource-group
                             --vmm-server-name

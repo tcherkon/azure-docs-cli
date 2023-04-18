@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **scvmm** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az scvmm cloud** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Arc for SCVMM Cloud resources.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_scvmm_cloud_create
   name: az scvmm cloud create
   summary: Create cloud resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm cloud create --custom-location
                           --location
@@ -63,6 +71,10 @@ directCommands:
   name: az scvmm cloud delete
   summary: Delete cloud resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm cloud delete [--force]
                           [--ids]
@@ -104,6 +116,10 @@ directCommands:
   name: az scvmm cloud list
   summary: Retrieve a list of clouds.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az scvmm cloud list [--resource-group]
   examples:
   - summary: Retrieve a list of clouds present in a resource group
@@ -118,6 +134,10 @@ directCommands:
   name: az scvmm cloud show
   summary: Get details of a cloud.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm cloud show [--ids]
                         [--name]
@@ -145,6 +165,10 @@ directCommands:
   name: az scvmm cloud update
   summary: Update cloud resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm cloud update [--ids]
                           [--name]
@@ -181,6 +205,10 @@ directCommands:
   name: az scvmm cloud wait
   summary: Place the CLI in a waiting state until a condition of the cloud is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm cloud wait --cloud-name
                         --resource-group

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter admin catalog** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage catalog with dev center.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_admin_catalog_create
   name: az devcenter admin catalog create
   summary: Create a catalog.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog create --catalog-name
                                       --dev-center
@@ -52,6 +60,10 @@ directCommands:
   name: az devcenter admin catalog delete
   summary: Delete a catalog resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog delete [--catalog-name]
                                       [--dev-center]
@@ -91,6 +103,10 @@ directCommands:
   name: az devcenter admin catalog list
   summary: List catalogs for a devcenter.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog list --dev-center
                                     --resource-group
@@ -110,6 +126,10 @@ directCommands:
   name: az devcenter admin catalog show
   summary: Get a catalog.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog show [--catalog-name]
                                     [--dev-center]
@@ -139,6 +159,10 @@ directCommands:
   name: az devcenter admin catalog sync
   summary: Syncs templates for a template source.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog sync [--catalog-name]
                                     [--dev-center]
@@ -173,6 +197,10 @@ directCommands:
   name: az devcenter admin catalog update
   summary: Update a catalog.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog update [--add]
                                       [--ado-git]
@@ -232,6 +260,10 @@ directCommands:
   name: az devcenter admin catalog wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin catalog' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin catalog wait [--catalog-name]
                                     [--created]

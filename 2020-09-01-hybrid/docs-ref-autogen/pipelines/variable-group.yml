@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines variable-group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage variable groups.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_variable-group_create
   name: az pipelines variable-group create
   summary: Create a variable group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable-group create --name
                                        --variables
@@ -51,6 +55,8 @@ directCommands:
   name: az pipelines variable-group delete
   summary: Delete a variable group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable-group delete --group-id
                                        [--detect {false, true}]
@@ -81,6 +87,8 @@ directCommands:
   name: az pipelines variable-group list
   summary: List variable groups.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable-group list [--action {manage, none, use}]
                                      [--continuation-token]
@@ -123,6 +131,8 @@ directCommands:
   name: az pipelines variable-group show
   summary: Show variable group details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable-group show --group-id
                                      [--detect {false, true}]
@@ -148,6 +158,8 @@ directCommands:
   name: az pipelines variable-group update
   summary: Update a variable group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable-group update --group-id
                                        [--authorize {false, true}]

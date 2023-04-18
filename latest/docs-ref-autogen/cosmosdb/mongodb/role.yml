@@ -3,6 +3,8 @@ uid: az_cosmosdb_mongodb_role
 name: az cosmosdb mongodb role
 summary: Manage Azure Cosmos DB Mongo role resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_cosmosdb_mongodb_role_definition
 - az_cosmosdb_mongodb_role_definition_create

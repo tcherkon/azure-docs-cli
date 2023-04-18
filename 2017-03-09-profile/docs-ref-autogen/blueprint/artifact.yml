@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **blueprint** extension for the Azure CLI  (version 2.3.0 or higher).  The extension will automatically install the first time you run an **az blueprint artifact** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage blueprint artifact.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_blueprint_artifact_delete
   name: az blueprint artifact delete
   summary: Delete a blueprint artifact.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint artifact delete --blueprint-name
                                  --name
@@ -53,6 +61,10 @@ directCommands:
   name: az blueprint artifact list
   summary: List artifacts for a given blueprint definition.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint artifact list --blueprint-name
                                [--management-group]
@@ -84,6 +96,10 @@ directCommands:
   name: az blueprint artifact show
   summary: Get a blueprint artifact.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blueprint' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blueprint artifact show --blueprint-name
                                --name

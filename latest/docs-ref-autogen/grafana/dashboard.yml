@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **amg** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az grafana dashboard** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage dashboards of an instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_grafana_dashboard_create
   name: az grafana dashboard create
   summary: Create a new dashboard.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana dashboard create --definition
                                 --name
@@ -64,6 +68,8 @@ directCommands:
   name: az grafana dashboard delete
   summary: Delete a dashboard.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana dashboard delete --dashboard
                                 --name
@@ -92,6 +98,8 @@ directCommands:
   name: az grafana dashboard import
   summary: Import a dashboard.
   description: CLI command will fill in required parameters for data sources if configured.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana dashboard import --definition
                                 --name
@@ -131,6 +139,8 @@ directCommands:
   name: az grafana dashboard list
   summary: List all dashboards of an instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana dashboard list --name
                               [--api-key]
@@ -154,6 +164,8 @@ directCommands:
   name: az grafana dashboard show
   summary: Show the detail of a dashboard.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana dashboard show --dashboard
                               --name
@@ -182,6 +194,10 @@ directCommands:
   name: az grafana dashboard sync
   summary: Sync Azure Managed Grafana dashboards from one instance to another instance. Note, dashboards with "provisioned" state will be skipped due to being read-only.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az grafana dashboard sync --destination
                               --source
@@ -217,6 +233,8 @@ directCommands:
   name: az grafana dashboard update
   summary: Update a dashboard.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana dashboard update --definition
                                 --name

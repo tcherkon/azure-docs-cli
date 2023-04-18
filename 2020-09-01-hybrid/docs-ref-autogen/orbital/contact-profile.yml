@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **orbital** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az orbital contact-profile** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Contact profile is a reusable contact configuration.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_orbital_contact-profile_create
   name: az orbital contact-profile create
   summary: Create a contact profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital contact-profile create --contact-profile-name
                                       --resource-group
@@ -70,6 +74,8 @@ directCommands:
   name: az orbital contact-profile delete
   summary: Delete a specified contact profile resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital contact-profile delete [--contact-profile-name]
                                       [--ids]
@@ -105,6 +111,8 @@ directCommands:
   name: az orbital contact-profile list
   summary: List contact profiles.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital contact-profile list [--resource-group]
                                     [--skiptoken]
@@ -124,6 +132,8 @@ directCommands:
   name: az orbital contact-profile show
   summary: Get the specified contact Profile in a specified resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital contact-profile show [--contact-profile-name]
                                     [--ids]
@@ -149,6 +159,8 @@ directCommands:
   name: az orbital contact-profile update
   summary: Update contact profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital contact-profile update [--add]
                                       [--auto-tracking {disabled, sBand, xBand}]
@@ -229,6 +241,8 @@ directCommands:
   name: az orbital contact-profile wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az orbital contact-profile wait [--contact-profile-name]
                                     [--created]

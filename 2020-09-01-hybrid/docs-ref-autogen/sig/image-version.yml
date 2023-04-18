@@ -3,11 +3,15 @@ uid: az_sig_image-version
 name: az sig image-version
 summary: Manage shared gallery image version with VM.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_sig_image-version_create
   name: az sig image-version create
   summary: Create a new image version.
   description: This operation might take a long time depending on the replicate region number. Use "--no-wait" is advised.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-version create --gallery-image-definition
                                 --gallery-image-version
@@ -320,6 +324,8 @@ directCommands:
   name: az sig image-version delete
   summary: Delete a gallery Image Version.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-version delete --gallery-image-definition
                                 --gallery-image-version
@@ -346,6 +352,8 @@ directCommands:
   name: az sig image-version list
   summary: List gallery Image Versions in a gallery Image Definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-version list --gallery-image-definition
                               --gallery-name
@@ -367,6 +375,10 @@ directCommands:
   name: az sig image-version list-community
   summary: List VM Image Versions in a gallery community (preview).
   description: List VM Image Versions in a gallery community (private preview feature, please contact community image gallery team by email sigpmdev@microsoft.com to register for preview if you're interested in using this feature).
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sig image-version list-community [--gallery-image-definition]
                                         [--ids]
@@ -407,6 +419,8 @@ directCommands:
   name: az sig image-version show
   summary: Retrieves information about a gallery Image Version.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-version show --gallery-image-definition
                               --gallery-image-version
@@ -438,6 +452,10 @@ directCommands:
   name: az sig image-version show-community
   summary: Get an image version in a gallery community (preview).
   description: Get an image version in a gallery community (private preview feature, please contact community image gallery team by email sigpmdev@microsoft.com to register for preview if you're interested in using this feature).
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sig image-version show-community [--gallery-image-definition]
                                         [--gallery-image-version]
@@ -474,6 +492,8 @@ directCommands:
   name: az sig image-version update
   summary: Update a share image version.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-version update --gallery-image-definition
                                 --gallery-image-version
@@ -594,6 +614,8 @@ directCommands:
   name: az sig image-version wait
   summary: Wait for image version related operation.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-version wait --gallery-image-definition
                               --gallery-image-version

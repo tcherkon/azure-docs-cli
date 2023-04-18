@@ -3,6 +3,8 @@ uid: az_billing
 name: az billing
 summary: Manage Azure Billing.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_billing_account
 - az_billing_account_list

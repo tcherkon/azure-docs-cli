@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **alertsmanagement** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az monitor alert-processing-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage alert processing rule with alertsmanagement.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_monitor_alert-processing-rule_create
   name: az monitor alert-processing-rule create
   summary: Create an alert processing rule.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'monitor alert-processing-rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor alert-processing-rule create --name
                                             --resource-group
@@ -282,6 +290,10 @@ directCommands:
   name: az monitor alert-processing-rule delete
   summary: Delete an alert processing rule.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'monitor alert-processing-rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor alert-processing-rule delete [--ids]
                                             [--name]
@@ -317,6 +329,10 @@ directCommands:
   name: az monitor alert-processing-rule list
   summary: List all alert processing rules in a subscription or resource group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'monitor alert-processing-rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az monitor alert-processing-rule list [--resource-group]
   examples:
   - summary: List all alert processing rules in current subscription
@@ -334,6 +350,10 @@ directCommands:
   name: az monitor alert-processing-rule show
   summary: Get an alert processing rule.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'monitor alert-processing-rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor alert-processing-rule show [--ids]
                                           [--name]
@@ -369,6 +389,10 @@ directCommands:
   name: az monitor alert-processing-rule update
   summary: Enable, disable, or update tags for an alert processing rule.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'monitor alert-processing-rule' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az monitor alert-processing-rule update [--add]
                                             [--enabled {false, true}]

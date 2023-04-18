@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **amg** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az grafana notification-channel** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage notification channels of an instance.
 description: As part of legacy alerting, this command group will be deprecated in a future release.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_grafana_notification-channel_create
   name: az grafana notification-channel create
   summary: Create a notification channel.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana notification-channel create --definition
                                            --name
@@ -48,6 +52,8 @@ directCommands:
   name: az grafana notification-channel delete
   summary: Delete a notification channel.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana notification-channel delete --name
                                            --notification-channel
@@ -73,6 +79,8 @@ directCommands:
   name: az grafana notification-channel list
   summary: List all notification channels of an instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana notification-channel list --name
                                          [--api-key]
@@ -98,6 +106,8 @@ directCommands:
   name: az grafana notification-channel show
   summary: Get details of a notification channel.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana notification-channel show --name
                                          --notification-channel
@@ -123,6 +133,8 @@ directCommands:
   name: az grafana notification-channel test
   summary: Tests a notification channels.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana notification-channel test --name
                                          --notification-channel
@@ -148,6 +160,8 @@ directCommands:
   name: az grafana notification-channel update
   summary: Update a notification channel.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana notification-channel update --definition
                                            --name

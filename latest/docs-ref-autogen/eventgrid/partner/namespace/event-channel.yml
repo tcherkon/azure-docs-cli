@@ -3,11 +3,20 @@ uid: az_eventgrid_partner_namespace_event-channel
 name: az eventgrid partner namespace event-channel
 summary: Manage partner event channels.
 description: ''
+status: Deprecated
+isDeprecated: true
+deprecateInfo: This command group has been deprecated and will be removed in a future release.
+sourceType: Core
 directCommands:
 - uid: az_eventgrid_partner_namespace_event-channel_create
   name: az eventgrid partner namespace event-channel create
   summary: Create an event channel under a partner namespace.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'eventgrid partner namespace event-channel' is deprecated and will be removed in a future release.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner namespace event-channel create --destination-rg
                                                         --destination-sub-id
@@ -92,11 +101,17 @@ directCommands:
       BoolEquals:                --publisher-filter data.property3 BoolEquals true
 
       Multiple publisher filters can be specified by using more than one `--publisher-filter` argument.
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
+    isDeprecated: true
+    deprecateInfo: Argument 'publisher_filter' has been deprecated and will be removed in a future release.
 - uid: az_eventgrid_partner_namespace_event-channel_delete
   name: az eventgrid partner namespace event-channel delete
   summary: Delete a partner namespace.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'eventgrid partner namespace event-channel' is deprecated and will be removed in a future release.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner namespace event-channel delete [--ids]
                                                         [--name]
@@ -127,11 +142,15 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_partner_namespace_event-channel_list
   name: az eventgrid partner namespace event-channel list
   summary: List available partner event-channels.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'eventgrid partner namespace event-channel' is deprecated and will be removed in a future release.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner namespace event-channel list --partner-namespace-name
                                                       --resource-group
@@ -154,11 +173,15 @@ directCommands:
   - name: --odata-query
     summary: 'The OData query used for filtering the list results. Filtering is currently allowed on the Name property only. The supported operations include: CONTAINS, eq (for equal), ne (for not equal), AND, OR and NOT.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_partner_namespace_event-channel_show
   name: az eventgrid partner namespace event-channel show
   summary: Get the details of an event channel under a partner namespace.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'eventgrid partner namespace event-channel' is deprecated and will be removed in a future release.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid partner namespace event-channel show [--ids]
                                                       [--name]
@@ -186,7 +209,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 commands:
 - az_eventgrid_partner_namespace_event-channel_create
 - az_eventgrid_partner_namespace_event-channel_delete

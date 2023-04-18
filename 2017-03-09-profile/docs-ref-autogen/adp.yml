@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **adp** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az adp** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Autonomous Development Platform resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_adp_check-name-availability
   name: az adp check-name-availability
   summary: Checks the resource name is available.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az adp check-name-availability --name
                                    --type {Microsoft.AutonomousDevelopmentPlatform/accounts, Microsoft.AutonomousDevelopmentPlatform/workspaces}

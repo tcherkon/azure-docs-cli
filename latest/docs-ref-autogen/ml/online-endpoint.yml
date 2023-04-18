@@ -11,11 +11,15 @@ description: >-
 
 
   Azure ML supports two types of endpoints: online and batch. Online endpoints support real-time inference, while batch endpoints are used for offline batch scoring.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_online-endpoint_create
   name: az ml online-endpoint create
   summary: Create an endpoint.
   description: To create an endpoint, provide a YAML file with online endpoint configuration. If the endpoint already exists, it will fail. If you want to update existing endpoint, use az ml online-endpoint update.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint create --resource-group
                                  --workspace-name
@@ -68,6 +72,8 @@ directCommands:
   name: az ml online-endpoint delete
   summary: Delete an endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint delete --name
                                  --resource-group
@@ -109,6 +115,8 @@ directCommands:
   name: az ml online-endpoint get-credentials
   summary: List the token/keys for an online endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint get-credentials --name
                                           --resource-group
@@ -133,6 +141,8 @@ directCommands:
   name: az ml online-endpoint invoke
   summary: Invoke an endpoint.
   description: You can invoke an online endpoint with some request data. This will be real-time inference, and the scoring results will be returned immediately.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint invoke --name
                                  --resource-group
@@ -174,6 +184,8 @@ directCommands:
   name: az ml online-endpoint list
   summary: List endpoints in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint list --resource-group
                                --workspace-name
@@ -204,6 +216,8 @@ directCommands:
   name: az ml online-endpoint regenerate-keys
   summary: Regenerate the keys for an online endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint regenerate-keys --name
                                           --resource-group
@@ -239,6 +253,8 @@ directCommands:
   name: az ml online-endpoint show
   summary: Show details for an endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint show --name
                                --resource-group
@@ -277,6 +293,8 @@ directCommands:
   name: az ml online-endpoint update
   summary: Update an endpoint.
   description: The 'description', 'tags', and 'traffic' properties of an endpoint can be updated. In addition, new deployments can be added to an endpoint, and existing deployments can be updated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml online-endpoint update --resource-group
                                  --workspace-name
@@ -325,6 +343,7 @@ directCommands:
   - name: --mirror-traffic
     summary: Directs a duplicate percentage of live traffic to a train a deployment.
     description: ''
+    isPreview: true
   - name: --name -n
     summary: Name of the online endpoint.
     description: ''

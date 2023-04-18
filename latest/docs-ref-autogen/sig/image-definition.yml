@@ -3,11 +3,15 @@ uid: az_sig_image-definition
 name: az sig image-definition
 summary: Manage shared gallery image with VM.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sig_image-definition_create
   name: az sig image-definition create
   summary: Create a gallery image definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition create --gallery-image-definition
                                    --gallery-name
@@ -283,6 +287,8 @@ directCommands:
   name: az sig image-definition delete
   summary: Delete a gallery image.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition delete [--gallery-image-definition]
                                    [--gallery-name]
@@ -309,6 +315,8 @@ directCommands:
   name: az sig image-definition list
   summary: List gallery image definitions in a gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition list --gallery-name
                                  --resource-group
@@ -325,6 +333,8 @@ directCommands:
   name: az sig image-definition list-community
   summary: List VM Image definitions in a gallery community.
   description: List VM Image definitions in a gallery community.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition list-community [--ids]
                                            [--location]
@@ -361,6 +371,8 @@ directCommands:
   name: az sig image-definition list-shared
   summary: List VM Image definitions in a gallery shared directly to your subscription or tenant.
   description: List VM Image definitions in a gallery shared directly to your subscription or tenant.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition list-shared [--gallery-unique-name]
                                         [--ids]
@@ -407,6 +419,8 @@ directCommands:
   name: az sig image-definition show
   summary: Retrieves information about a gallery image definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition show [--gallery-image-definition]
                                  [--gallery-name]
@@ -433,6 +447,8 @@ directCommands:
   name: az sig image-definition show-community
   summary: Get a community gallery image.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition show-community [--gallery-image-definition]
                                            [--ids]
@@ -459,6 +475,8 @@ directCommands:
   name: az sig image-definition show-shared
   summary: Get a shared gallery image.
   description: Get a shared gallery image that has been shared directly to your subscription or tenant.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition show-shared [--gallery-image-definition]
                                         [--gallery-unique-name]
@@ -491,6 +509,8 @@ directCommands:
   name: az sig image-definition update
   summary: Update a VM Image definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition update --gallery-image-definition
                                    --gallery-name

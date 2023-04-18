@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT automatic device management configuration at scale.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_configuration_create
   name: az iot hub configuration create
@@ -27,6 +29,8 @@ directCommands:
 
 
     Note: Target condition for modules must start with "from devices.modules where".
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub configuration create --config-id
                                     --content
@@ -98,6 +102,8 @@ directCommands:
   name: az iot hub configuration delete
   summary: Delete an IoT device configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub configuration delete --config-id
                                     [--auth-type {key, login}]
@@ -132,6 +138,8 @@ directCommands:
   name: az iot hub configuration list
   summary: List IoT automatic device management configurations in an IoT Hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub configuration list [--auth-type {key, login}]
                                   [--hub-name]
@@ -160,6 +168,8 @@ directCommands:
   name: az iot hub configuration show
   summary: Get the details of an IoT automatic device management configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub configuration show --config-id
                                   [--auth-type {key, login}]
@@ -190,6 +200,8 @@ directCommands:
   name: az iot hub configuration show-metric
   summary: Evaluate a target user or system metric defined in an IoT device configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub configuration show-metric --config-id
                                          --metric-id
@@ -242,6 +254,8 @@ directCommands:
     Note: Configuration content is immutable. Configuration properties that can be
 
     updated are 'labels', 'metrics', 'priority' and 'targetCondition'.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub configuration update --config-id
                                     [--add]

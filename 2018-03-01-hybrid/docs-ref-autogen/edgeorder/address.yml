@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **edgeorder** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az edgeorder address** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage address with edgeorder sub group address.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_edgeorder_address_create
   name: az edgeorder address create
   summary: Create a new address with the specified parameters. Existing address can be updated with this API.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder address create --address-name
                                 --contact-details
@@ -88,6 +92,8 @@ directCommands:
   name: az edgeorder address delete
   summary: Delete an address.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder address delete [--address-name]
                                 [--ids]
@@ -123,6 +129,8 @@ directCommands:
   name: az edgeorder address list
   summary: List all the addresses available under the given resource group. And List all the addresses available under the subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder address list [--filter]
                               [--resource-group]
@@ -146,6 +154,8 @@ directCommands:
   name: az edgeorder address show
   summary: Get information about the specified address.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder address show [--address-name]
                               [--ids]
@@ -171,6 +181,8 @@ directCommands:
   name: az edgeorder address update
   summary: Update the properties of an existing address.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder address update [--address-name]
                                 [--contact-details]
@@ -251,6 +263,8 @@ directCommands:
   name: az edgeorder address wait
   summary: Place the CLI in a waiting state until a condition of the address is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder address wait --address-name
                               --resource-group

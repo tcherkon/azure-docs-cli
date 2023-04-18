@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring test-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage test endpoint in Azure Spring Apps.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_test-endpoint_disable
   name: az spring test-endpoint disable
   summary: Disable test endpoint of the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring test-endpoint disable --name
                                     --resource-group
@@ -28,6 +32,8 @@ directCommands:
   name: az spring test-endpoint enable
   summary: Enable test endpoint of the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring test-endpoint enable --name
                                    --resource-group
@@ -44,6 +50,8 @@ directCommands:
   name: az spring test-endpoint list
   summary: List test endpoint keys of the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring test-endpoint list --name
                                  --resource-group
@@ -69,6 +77,8 @@ directCommands:
   name: az spring test-endpoint renew-key
   summary: Regenerate a test-endpoint key for the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring test-endpoint renew-key --name
                                       --resource-group

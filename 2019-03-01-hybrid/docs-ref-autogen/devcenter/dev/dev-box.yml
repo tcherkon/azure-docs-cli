@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter dev dev-box** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dev box with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_dev_dev-box_create
   name: az devcenter dev dev-box create
   summary: Creates or updates a dev box.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box create --dev-box-name
                                     --dev-center
@@ -57,6 +65,10 @@ directCommands:
   name: az devcenter dev dev-box delay-upcoming-action
   summary: Delays an Upcoming Action.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box delay-upcoming-action --delay-time
                                                    --dev-box-name
@@ -97,6 +109,10 @@ directCommands:
   name: az devcenter dev dev-box delete
   summary: Deletes a dev box.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box delete --dev-box-name
                                     --dev-center
@@ -137,6 +153,10 @@ directCommands:
   name: az devcenter dev dev-box list
   summary: Lists dev boxes in the project for a particular user, lists dev boxes in the dev center for a particular user, or lists dev boxes that the caller has access to in the dev center.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box list --dev-center
                                   [--project]
@@ -164,6 +184,10 @@ directCommands:
   name: az devcenter dev dev-box list-upcoming-action
   summary: Lists upcoming actions on a Dev Box.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box list-upcoming-action --dev-box-name
                                                   --dev-center
@@ -194,6 +218,10 @@ directCommands:
   name: az devcenter dev dev-box show
   summary: Gets a dev box.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box show --dev-box-name
                                   --dev-center
@@ -224,6 +252,10 @@ directCommands:
   name: az devcenter dev dev-box show-remote-connection
   summary: Gets Connection info.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box show-remote-connection --dev-box-name
                                                     --dev-center
@@ -254,6 +286,10 @@ directCommands:
   name: az devcenter dev dev-box show-upcoming-action
   summary: Gets an Upcoming Action.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box show-upcoming-action --dev-box-name
                                                   --dev-center
@@ -289,6 +325,10 @@ directCommands:
   name: az devcenter dev dev-box skip-upcoming-action
   summary: Skips an Upcoming Action.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box skip-upcoming-action --dev-box-name
                                                   --dev-center
@@ -324,6 +364,10 @@ directCommands:
   name: az devcenter dev dev-box start
   summary: Starts a dev box.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box start --dev-box-name
                                    --dev-center
@@ -359,6 +403,10 @@ directCommands:
   name: az devcenter dev dev-box stop
   summary: Stops a dev box.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter dev dev-box stop --dev-box-name
                                   --dev-center

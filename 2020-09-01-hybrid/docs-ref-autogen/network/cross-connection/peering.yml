@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **express-route-cross-connection** extension for the Azure CLI  (version 2.0.41 or higher).  The extension will automatically install the first time you run an **az network cross-connection peering** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage ExpressRoute peering of an ExpressRoute cross-connection.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_cross-connection_peering_create
   name: az network cross-connection peering create
   summary: Create peering settings for an ExpressRoute cross-connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection peering create --cross-connection-name
                                                --peer-asn
@@ -79,6 +83,8 @@ directCommands:
   name: az network cross-connection peering delete
   summary: Delete peering settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection peering delete [--cross-connection-name]
                                                [--ids]
@@ -108,6 +114,8 @@ directCommands:
   name: az network cross-connection peering list
   summary: List peering settings of an ExpressRoute cross-connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection peering list --cross-connection-name
                                              --resource-group
@@ -127,6 +135,8 @@ directCommands:
   name: az network cross-connection peering show
   summary: Get the details of an express route peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection peering show [--cross-connection-name]
                                              [--ids]
@@ -156,6 +166,8 @@ directCommands:
   name: az network cross-connection peering update
   summary: Update peering settings for an ExpressRoute cross-connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network cross-connection peering update [--add]
                                                [--advertised-public-prefixes]

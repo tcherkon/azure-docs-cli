@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring app** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage apps in Azure Spring Apps.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_app_append-loaded-public-certificate
   name: az spring app append-loaded-public-certificate
   summary: Append a new loaded public certificate to an app in the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app append-loaded-public-certificate --certificate-name
                                                    --load-trust-store {false, true}
@@ -48,6 +52,8 @@ directCommands:
   name: az spring app append-persistent-storage
   summary: Append a new persistent storage to an app in the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app append-persistent-storage --mount-path
                                             --name
@@ -108,6 +114,8 @@ directCommands:
   name: az spring app connect
   summary: Connect to the interactive shell of an app instance for troubleshooting'.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app connect --name
                           --resource-group
@@ -143,6 +151,8 @@ directCommands:
   name: az spring app create
   summary: Create a new app with a default deployment in the Azure Spring Apps instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app create --name
                          --resource-group
@@ -233,6 +243,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If false, will disable the liveness probe of the app instance.
     description: ''
+    isPreview: true
   - name: --enable-persistent-storage --enable-ps
     parameterValueGroup: "false, true"
     summary: If true, mount a 50G (Standard Pricing tier) or 1G (Basic Pricing tier) disk with default path.
@@ -241,16 +252,19 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If false, will disable the readiness probe of the app instance.
     description: ''
+    isPreview: true
   - name: --enable-startup-probe
     parameterValueGroup: "false, true"
     summary: If false, will disable the startup probe of the app instance.
     description: ''
+    isPreview: true
   - name: --env
     summary: Space-separated environment variables in 'key[=value]' format.
     description: ''
   - name: --grace-period --termination-grace-period-seconds
     summary: Optional duration in seconds the app instance needs to terminate gracefully.
     description: ''
+    isPreview: true
   - name: --ingress-read-timeout
     summary: Ingress read timeout value in seconds. Default 300, minimum is 1, maximum is 1800.
     description: ''
@@ -267,6 +281,7 @@ directCommands:
   - name: --liveness-probe-config
     summary: A json file path indicates the liveness probe config.
     description: ''
+    isPreview: true
   - name: --loaded-public-certificate-file -f
     summary: A json file path indicates the certificates which would be loaded to app.
     description: ''
@@ -287,6 +302,7 @@ directCommands:
   - name: --readiness-probe-config
     summary: A json file path indicates the readiness probe config.
     description: ''
+    isPreview: true
   - name: --runtime-version
     parameterValueGroup: "Java_11, Java_17, Java_8, NetCore_31"
     summary: Runtime version of used language.
@@ -319,6 +335,7 @@ directCommands:
   - name: --startup-probe-config
     summary: A json file path indicates the startup probe config.
     description: ''
+    isPreview: true
   - name: --system-assigned
     parameterValueGroup: "false, true"
     summary: Enable system-assigned managed identity.
@@ -326,10 +343,13 @@ directCommands:
   - name: --user-assigned
     summary: Space-separated user-assigned managed identity resource IDs to assgin to an app.
     description: ''
+    isPreview: true
 - uid: az_spring_app_delete
   name: az spring app delete
   summary: Delete an app in the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app delete --name
                          --resource-group
@@ -351,6 +371,8 @@ directCommands:
   name: az spring app deploy
   summary: Deploy source code or pre-built binary to an app and update related configurations.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app deploy --name
                          --resource-group
@@ -469,20 +491,24 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If false, will disable the liveness probe of the app instance.
     description: ''
+    isPreview: true
   - name: --enable-readiness-probe
     parameterValueGroup: "false, true"
     summary: If false, will disable the readiness probe of the app instance.
     description: ''
+    isPreview: true
   - name: --enable-startup-probe
     parameterValueGroup: "false, true"
     summary: If false, will disable the startup probe of the app instance.
     description: ''
+    isPreview: true
   - name: --env
     summary: Space-separated environment variables in 'key[=value]' format.
     description: ''
   - name: --grace-period --termination-grace-period-seconds
     summary: Optional duration in seconds the app instance needs to terminate gracefully.
     description: ''
+    isPreview: true
   - name: --jvm-options
     summary: "A string containing jvm options, use '=' instead of ' ' for this argument to avoid bash parse error, eg: --jvm-options='-Xms1024m -Xmx2048m'."
     description: ''
@@ -492,6 +518,7 @@ directCommands:
   - name: --liveness-probe-config
     summary: A json file path indicates the liveness probe config.
     description: ''
+    isPreview: true
   - name: --main-entry -m
     summary: A string containing the path to the .NET executable relative to zip root.
     description: ''
@@ -502,6 +529,7 @@ directCommands:
   - name: --readiness-probe-config
     summary: A json file path indicates the readiness probe config.
     description: ''
+    isPreview: true
   - name: --registry-password
     summary: The password of the container registry.
     description: ''
@@ -518,6 +546,7 @@ directCommands:
   - name: --startup-probe-config
     summary: A json file path indicates the startup probe config.
     description: ''
+    isPreview: true
   - name: --target-module
     summary: Child module to be deployed, required for multiple jar packages built from source code.
     description: ''
@@ -528,6 +557,8 @@ directCommands:
   name: az spring app disable-remote-debugging
   summary: Disable remote debugging for a deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app disable-remote-debugging --name
                                            --resource-group
@@ -559,6 +590,8 @@ directCommands:
   name: az spring app enable-remote-debugging
   summary: Enable remote debugging for a deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app enable-remote-debugging --name
                                           --resource-group
@@ -595,6 +628,8 @@ directCommands:
   name: az spring app get-remote-debugging-config
   summary: Get the remote debugging configuration of a deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app get-remote-debugging-config --name
                                               --resource-group
@@ -621,6 +656,8 @@ directCommands:
   name: az spring app list
   summary: List all apps in the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app list --resource-group
                        --service
@@ -640,6 +677,8 @@ directCommands:
   name: az spring app logs
   summary: Show logs of an app instance, logs will be streamed when setting '-f/--follow'.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app logs --name
                        --resource-group
@@ -693,6 +732,8 @@ directCommands:
   name: az spring app restart
   summary: Restart instances of the app, default to production deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app restart --name
                           --resource-group
@@ -724,6 +765,8 @@ directCommands:
   name: az spring app scale
   summary: Manually scale an app or its deployments.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app scale --name
                         --resource-group
@@ -802,6 +845,8 @@ directCommands:
   name: az spring app set-deployment
   summary: Set production deployment of an app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app set-deployment --deployment
                                  --name
@@ -837,6 +882,8 @@ directCommands:
   name: az spring app show
   summary: Show the details of an app in the Azure Spring Apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app show --name
                        --resource-group
@@ -858,6 +905,8 @@ directCommands:
   name: az spring app show-deploy-log
   summary: Show build log of the last deploy, only apply to source code deploy, default to production deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app show-deploy-log --name
                                   --resource-group
@@ -884,6 +933,8 @@ directCommands:
   name: az spring app start
   summary: Start instances of the app, default to production deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app start --name
                         --resource-group
@@ -915,6 +966,8 @@ directCommands:
   name: az spring app stop
   summary: Stop instances of the app, default to production deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app stop --name
                        --resource-group
@@ -946,6 +999,8 @@ directCommands:
   name: az spring app unset-deployment
   summary: Unset production deployment of an app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app unset-deployment --name
                                    --resource-group
@@ -976,6 +1031,8 @@ directCommands:
   name: az spring app update
   summary: Update configurations of an app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring app update --name
                          --resource-group
@@ -1059,6 +1116,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If false, will disable the liveness probe of the app instance.
     description: ''
+    isPreview: true
   - name: --enable-persistent-storage --enable-ps
     parameterValueGroup: "false, true"
     summary: If true, mount a 50G (Standard Pricing tier) or 1G (Basic Pricing tier) disk with default path.
@@ -1067,16 +1125,19 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If false, will disable the readiness probe of the app instance.
     description: ''
+    isPreview: true
   - name: --enable-startup-probe
     parameterValueGroup: "false, true"
     summary: If false, will disable the startup probe of the app instance.
     description: ''
+    isPreview: true
   - name: --env
     summary: Space-separated environment variables in 'key[=value]' format.
     description: ''
   - name: --grace-period --termination-grace-period-seconds
     summary: Optional duration in seconds the app instance needs to terminate gracefully.
     description: ''
+    isPreview: true
   - name: --https-only
     parameterValueGroup: "false, true"
     summary: If true, access app via https.
@@ -1093,6 +1154,7 @@ directCommands:
   - name: --liveness-probe-config
     summary: A json file path indicates the liveness probe config.
     description: ''
+    isPreview: true
   - name: --loaded-public-certificate-file -f
     summary: A json file path indicates the certificates which would be loaded to app.
     description: ''
@@ -1109,6 +1171,7 @@ directCommands:
   - name: --readiness-probe-config
     summary: A json file path indicates the readiness probe config.
     description: ''
+    isPreview: true
   - name: --runtime-version
     parameterValueGroup: "Java_11, Java_17, Java_8, NetCore_31"
     summary: Runtime version of used language.
@@ -1126,6 +1189,7 @@ directCommands:
   - name: --startup-probe-config
     summary: A json file path indicates the startup probe config.
     description: ''
+    isPreview: true
 commands:
 - az_spring_app_append-loaded-public-certificate
 - az_spring_app_append-persistent-storage

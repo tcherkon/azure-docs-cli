@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **hybridaks** extension for the Azure CLI  (version 2.32.0 or higher).  The extension will automatically install the first time you run an **az hybridaks** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage hybridaks provisioned clusters.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_hybridaks_create
   name: az hybridaks create
   summary: Creates the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks create --custom-location
                         --name
@@ -143,6 +151,10 @@ directCommands:
   name: az hybridaks delete
   summary: Deletes the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks delete --name
                         --resource-group
@@ -173,6 +185,10 @@ directCommands:
   name: az hybridaks get-upgrades
   summary: Get the upgrade versions available for the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks get-upgrades --name
                               --resource-group
@@ -192,6 +208,10 @@ directCommands:
   name: az hybridaks list
   summary: Lists the Hybrid AKS provisioned cluster in a resource group or in a subscription.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az hybridaks list [--resource-group]
   examples:
   - summary: ListProvisionedClusterByResourceGroup
@@ -206,6 +226,10 @@ directCommands:
   name: az hybridaks proxy
   summary: Gets access to a connected Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks proxy [--file]
                        [--ids]
@@ -257,6 +281,10 @@ directCommands:
   name: az hybridaks show
   summary: Gets the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks show --name
                       --resource-group
@@ -276,6 +304,10 @@ directCommands:
   name: az hybridaks update
   summary: Updates the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks update --name
                         --resource-group
@@ -300,6 +332,10 @@ directCommands:
   name: az hybridaks upgrade
   summary: Upgrades the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks upgrade --name
                          --resource-group

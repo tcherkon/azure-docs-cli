@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **dns-resolver** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az dns-resolver forwarding-ruleset** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage forwarding ruleset with dns resolver.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dns-resolver_forwarding-ruleset_create
   name: az dns-resolver forwarding-ruleset create
   summary: Create a DNS forwarding ruleset.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset create --dns-forwarding-ruleset-name
                                               --outbound-endpoints
@@ -58,6 +62,8 @@ directCommands:
   name: az dns-resolver forwarding-ruleset delete
   summary: 'Deletes a DNS forwarding ruleset. WARNING: This operation cannot be undone. All forwarding rules within the ruleset will be deleted.'
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset delete [--dns-forwarding-ruleset-name]
                                               [--ids]
@@ -97,6 +103,8 @@ directCommands:
   name: az dns-resolver forwarding-ruleset list
   summary: Lists DNS forwarding ruleset resource IDs attached to a virtual network. And Lists DNS forwarding rulesets within a resource group. And Lists DNS forwarding rulesets in all resource groups of a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset list [--resource-group]
                                             [--top]
@@ -122,6 +130,8 @@ directCommands:
   name: az dns-resolver forwarding-ruleset list-by-virtual-network
   summary: Lists DNS forwarding ruleset resource IDs attached to a virtual network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset list-by-virtual-network --resource-group
                                                                --virtual-network-name
@@ -146,6 +156,8 @@ directCommands:
   name: az dns-resolver forwarding-ruleset show
   summary: Gets a DNS forwarding ruleset properties.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset show [--dns-forwarding-ruleset-name]
                                             [--ids]
@@ -171,6 +183,8 @@ directCommands:
   name: az dns-resolver forwarding-ruleset update
   summary: Update a DNS forwarding ruleset.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset update [--dns-forwarding-ruleset-name]
                                               [--ids]
@@ -209,6 +223,8 @@ directCommands:
   name: az dns-resolver forwarding-ruleset wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dns-resolver forwarding-ruleset wait [--created]
                                             [--custom]

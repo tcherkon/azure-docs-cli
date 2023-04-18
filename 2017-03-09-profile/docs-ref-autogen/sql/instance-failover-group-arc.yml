@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **arcdata** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az sql instance-failover-group-arc** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Arc-enabled SQL managed instance Failover Groups.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sql_instance-failover-group-arc_create
   name: az sql instance-failover-group-arc create
   summary: Create a failover group resource.
   description: Create an Arc-enabled SQL Managed Instance failover group resource to set up a distributed availability group.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql instance-failover-group-arc create --mi
                                               --name
@@ -82,6 +86,8 @@ directCommands:
   name: az sql instance-failover-group-arc delete
   summary: Delete an Arc-enabled SQL Managed Instance failover group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql instance-failover-group-arc delete --name
                                               [--k8s-namespace]
@@ -115,6 +121,8 @@ directCommands:
   name: az sql instance-failover-group-arc list
   summary: List all failover groups.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql instance-failover-group-arc list [--k8s-namespace]
                                             [--mi]
@@ -142,6 +150,8 @@ directCommands:
   name: az sql instance-failover-group-arc show
   summary: Show the details of a failover group resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql instance-failover-group-arc show --name
                                             [--k8s-namespace]
@@ -175,6 +185,8 @@ directCommands:
   name: az sql instance-failover-group-arc update
   summary: Update a failover group resource.
   description: Update an Arc-enabled SQL Managed Instance failover group resource to change the role of the distributed availability group.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sql instance-failover-group-arc update --name
                                               [--k8s-namespace]

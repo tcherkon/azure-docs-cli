@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **timeseriesinsights** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az tsi environment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage environment with Azure Time Series Insights.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_tsi_environment_delete
   name: az tsi environment delete
   summary: Delete the environment with the specified name in the specified subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi environment delete [--environment-name]
                               [--ids]
@@ -42,6 +46,8 @@ directCommands:
   name: az tsi environment list
   summary: List all the available environments associated with the subscription and within the specified     resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az tsi environment list [--resource-group]
   examples:
   - summary: EnvironmentsByResourceGroup
@@ -56,6 +62,8 @@ directCommands:
   name: az tsi environment show
   summary: Show the environment with the specified name in the specified subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi environment show [--environment-name]
                             [--expand]
@@ -85,6 +93,8 @@ directCommands:
   name: az tsi environment wait
   summary: Place the CLI in a waiting state until a condition of the timeseriesinsights environment is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi environment wait [--created]
                             [--custom]

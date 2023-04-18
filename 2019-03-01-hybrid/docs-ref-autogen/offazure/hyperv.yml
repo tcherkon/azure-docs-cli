@@ -7,6 +7,10 @@ extensionInformation: >-
   > This reference is part of the **offazure** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az offazure hyperv** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Hyper-V on-premise resources.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'offazure' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 commands:
 - az_offazure_hyperv_cluster
 - az_offazure_hyperv_cluster_list

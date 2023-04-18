@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager connect-config** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage connectivityconfiguration with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_connect-config_create
   name: az network manager connect-config create
   summary: Create a new network manager connectivity configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connect-config create --applies-to-groups
                                              --configuration-name
@@ -85,6 +89,8 @@ directCommands:
   name: az network manager connect-config delete
   summary: Deletes a network manager connectivity configuration, specified by the resource group, network manager name, and connectivity configuration name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connect-config delete [--configuration-name]
                                              [--force {false, true}]
@@ -125,6 +131,8 @@ directCommands:
   name: az network manager connect-config list
   summary: Lists all the network manager connectivity configuration in a specified network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connect-config list --name
                                            --resource-group
@@ -153,6 +161,8 @@ directCommands:
   name: az network manager connect-config show
   summary: Gets a Network Connectivity Configuration, specified by the resource group, network manager name, and connectivity Configuration name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connect-config show [--configuration-name]
                                            [--ids]
@@ -182,6 +192,8 @@ directCommands:
   name: az network manager connect-config update
   summary: Update a new network manager connectivity configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connect-config update [--add]
                                              [--applies-to-groups]

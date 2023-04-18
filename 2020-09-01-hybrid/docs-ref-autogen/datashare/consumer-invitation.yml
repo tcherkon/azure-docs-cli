@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datashare** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datashare consumer-invitation** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage consumer invitation with datashare.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_datashare_consumer-invitation_list-invitation
   name: az datashare consumer-invitation list-invitation
   summary: Lists invitations.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az datashare consumer-invitation list-invitation [--skip-token]
   examples:
   - summary: ConsumerInvitations_ListInvitations
@@ -24,6 +32,10 @@ directCommands:
   name: az datashare consumer-invitation reject-invitation
   summary: Reject an invitation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare consumer-invitation reject-invitation --invitation-id
                                                        --location
@@ -43,6 +55,10 @@ directCommands:
   name: az datashare consumer-invitation show
   summary: Get an invitation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare consumer-invitation show --invitation-id
                                           --location

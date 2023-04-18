@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storagesync** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az storagesync** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure File Sync.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storagesync_create
   name: az storagesync create
   summary: Create a new storage sync service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync create --name
                           --resource-group
@@ -44,6 +48,8 @@ directCommands:
   name: az storagesync delete
   summary: Delete a given storage sync service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync delete [--ids]
                           [--name]
@@ -77,6 +83,8 @@ directCommands:
   name: az storagesync list
   summary: List all storage sync services in a resource group or a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az storagesync list [--resource-group]
   examples:
   - summary: List all storage sync services in a resource group "SampleResourceGroup".
@@ -91,6 +99,8 @@ directCommands:
   name: az storagesync show
   summary: Show the properties for a given storage sync service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync show [--ids]
                         [--name]

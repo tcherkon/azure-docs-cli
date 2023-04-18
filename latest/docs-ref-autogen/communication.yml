@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **communication** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az communication** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage communication service with communication.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_communication_create
   name: az communication create
   summary: Creates a new Communication Service or update an existing one.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication create --name
                             --resource-group
@@ -49,6 +53,8 @@ directCommands:
   name: az communication delete
   summary: Deletes an existing Communication Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication delete [--ids]
                             [--name]
@@ -84,6 +90,8 @@ directCommands:
   name: az communication link-notification-hub
   summary: Links an Azure Notification Hub to this communication service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication link-notification-hub [--connection-string]
                                            [--ids]
@@ -117,6 +125,8 @@ directCommands:
   name: az communication list
   summary: Handles requests to list all resources in a resource group or a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az communication list [--resource-group]
   examples:
   - summary: List by resource group
@@ -131,6 +141,8 @@ directCommands:
   name: az communication list-key
   summary: Gets the access keys of the Communication Service resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication list-key --name
                               --resource-group
@@ -150,6 +162,8 @@ directCommands:
   name: az communication regenerate-key
   summary: Regenerates Communication Service access key. PrimaryKey and SecondaryKey cannot be regenerated at the same time.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication regenerate-key [--ids]
                                     [--key-type {Primary, Secondary}]
@@ -180,6 +194,8 @@ directCommands:
   name: az communication show
   summary: Gets the Communication Service and its properties.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication show [--ids]
                           [--name]
@@ -205,6 +221,8 @@ directCommands:
   name: az communication update
   summary: Updates an existing Communication Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication update [--data-location]
                             [--ids]
@@ -242,6 +260,8 @@ directCommands:
   name: az communication wait
   summary: Places the CLI in a waiting state until a condition of the communication is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az communication wait [--created]
                           [--custom]

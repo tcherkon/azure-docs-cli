@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door probe** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Front Door health probe settings.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_probe_create
   name: az network front-door probe create
   summary: Create Front Door health probe settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door probe create --front-door-name
                                        --interval
@@ -61,6 +65,8 @@ directCommands:
   name: az network front-door probe delete
   summary: Delete Front Door health probe settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door probe delete --front-door-name
                                        --name
@@ -82,6 +88,8 @@ directCommands:
   name: az network front-door probe list
   summary: List Front Door health probe settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door probe list --front-door-name
                                      --resource-group
@@ -98,6 +106,8 @@ directCommands:
   name: az network front-door probe show
   summary: Get the details of a Front Door health probe settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door probe show --front-door-name
                                      --name
@@ -119,6 +129,8 @@ directCommands:
   name: az network front-door probe update
   summary: Update Front Door health probe settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door probe update --front-door-name
                                        --name

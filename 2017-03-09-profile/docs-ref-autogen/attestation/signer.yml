@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **attestation** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az attestation signer** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage signers.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_attestation_signer_add
   name: az attestation signer add
   summary: Adds a new attestation policy certificate to the set of policy management certificates.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation signer' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation signer add [--id]
                               [--name]
@@ -44,6 +52,10 @@ directCommands:
   name: az attestation signer list
   summary: Retrieves the set of certificates used to express policy for the current tenant.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation signer' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation signer list [--id]
                                [--name]
@@ -65,6 +77,10 @@ directCommands:
   name: az attestation signer remove
   summary: Removes the specified policy management certificate.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation signer' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation signer remove [--id]
                                  [--name]

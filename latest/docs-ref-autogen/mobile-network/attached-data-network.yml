@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network attached-data-network** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage attached data net work.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_attached-data-network_create
   name: az mobile-network attached-data-network create
   summary: Create an attached data network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network attached-data-network create --adn-name
                                                    --data-interface
@@ -77,6 +81,8 @@ directCommands:
   name: az mobile-network attached-data-network delete
   summary: Delete the specified attached data network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network attached-data-network delete [--adn-name]
                                                    [--ids]
@@ -120,6 +126,8 @@ directCommands:
   name: az mobile-network attached-data-network list
   summary: List all the attached data networks associated with a packet core data plane.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network attached-data-network list --pccp-name
                                                  --pcdp-name
@@ -144,6 +152,8 @@ directCommands:
   name: az mobile-network attached-data-network show
   summary: Get information about the specified attached data network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network attached-data-network show [--adn-name]
                                                  [--ids]
@@ -177,6 +187,8 @@ directCommands:
   name: az mobile-network attached-data-network update
   summary: Update an attached data network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network attached-data-network update [--add]
                                                    [--address-pool]
@@ -256,6 +268,8 @@ directCommands:
   name: az mobile-network attached-data-network wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network attached-data-network wait [--adn-name]
                                                  [--created]

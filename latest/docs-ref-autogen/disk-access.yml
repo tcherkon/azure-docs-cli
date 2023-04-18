@@ -3,11 +3,15 @@ uid: az_disk-access
 name: az disk-access
 summary: Manage disk access resources.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_disk-access_create
   name: az disk-access create
   summary: Create a disk access resource.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az disk-access create --name
                           --resource-group
@@ -41,6 +45,8 @@ directCommands:
   name: az disk-access delete
   summary: Delete a disk access resource.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az disk-access delete [--ids]
                           [--name]
@@ -66,6 +72,8 @@ directCommands:
   name: az disk-access list
   summary: List disk access resources.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az disk-access list [--resource-group]
   examples:
   - summary: List all disk access reosurces in a resource group.
@@ -78,6 +86,8 @@ directCommands:
   name: az disk-access show
   summary: Get information of a disk access resource.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az disk-access show [--ids]
                         [--name]
@@ -103,6 +113,8 @@ directCommands:
   name: az disk-access update
   summary: Update a disk access resource.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az disk-access update [--add]
                           [--force-string]
@@ -157,6 +169,8 @@ directCommands:
   name: az disk-access wait
   summary: Place the CLI in a waiting state until a condition of a disk access is met.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az disk-access wait [--created]
                         [--custom]

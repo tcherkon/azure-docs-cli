@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot device c2d-message** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Cloud-to-device messaging commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_device_c2d-message_abandon
   name: az iot device c2d-message abandon
   summary: Abandon a cloud-to-device message.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device c2d-message abandon --device-id
                                       [--etag]
@@ -40,6 +44,8 @@ directCommands:
   name: az iot device c2d-message complete
   summary: Complete a cloud-to-device message.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device c2d-message complete --device-id
                                        [--etag]
@@ -68,6 +74,8 @@ directCommands:
   name: az iot device c2d-message purge
   summary: Purge cloud-to-device message queue for a target device.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device c2d-message purge --device-id
                                     [--hub-name]
@@ -92,6 +100,8 @@ directCommands:
   name: az iot device c2d-message receive
   summary: Receive a cloud-to-device message.
   description: 'Note: Only one message ack argument [--complete, --reject, --abandon] will be accepted.'
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device c2d-message receive --device-id
                                       [--abandon {false, true}]
@@ -148,6 +158,8 @@ directCommands:
   name: az iot device c2d-message reject
   summary: Reject or deadletter a cloud-to-device message.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device c2d-message reject --device-id
                                      [--etag]
@@ -179,6 +191,8 @@ directCommands:
     This command relies on and may install dependent Cython package (uamqp) upon first execution.
 
     https://github.com/Azure/azure-uamqp-python.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot device c2d-message send --device-id
                                    [--ack {full, negative, positive}]

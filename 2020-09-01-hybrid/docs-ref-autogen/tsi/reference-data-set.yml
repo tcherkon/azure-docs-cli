@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **timeseriesinsights** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az tsi reference-data-set** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage reference data set with timeseriesinsights.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_tsi_reference-data-set_create
   name: az tsi reference-data-set create
   summary: Create a reference data set in the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi reference-data-set create --environment-name
                                      --key-properties
@@ -65,6 +69,8 @@ directCommands:
   name: az tsi reference-data-set delete
   summary: Delete the reference data set.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi reference-data-set delete [--environment-name]
                                      [--ids]
@@ -99,6 +105,8 @@ directCommands:
   name: az tsi reference-data-set list
   summary: List all the available reference data sets associated with the subscription and within the specified resource group and environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi reference-data-set list --environment-name
                                    --resource-group
@@ -118,6 +126,8 @@ directCommands:
   name: az tsi reference-data-set show
   summary: Show the reference data set with the specified name in the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi reference-data-set show [--environment-name]
                                    [--ids]
@@ -147,6 +157,8 @@ directCommands:
   name: az tsi reference-data-set update
   summary: Update the reference data set.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi reference-data-set update [--environment-name]
                                      [--ids]

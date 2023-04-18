@@ -3,17 +3,24 @@ uid: az_eventgrid_topic-type
 name: az eventgrid topic-type
 summary: Get details for topic types.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventgrid_topic-type_list
   name: az eventgrid topic-type list
   summary: List registered topic types.
   description: ''
-  syntax: az eventgrid topic-type list
+  status: GA
+  sourceType: Core
   editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
+  syntax: az eventgrid topic-type list
 - uid: az_eventgrid_topic-type_list-event-types
   name: az eventgrid topic-type list-event-types
   summary: List the event types supported by a topic type.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: az eventgrid topic-type list-event-types --name
   examples:
   - summary: List all event types supported by Azure Storage Accounts.
@@ -23,18 +30,19 @@ directCommands:
     name: --name -n
     summary: Name of the topic type.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_topic-type_show
   name: az eventgrid topic-type show
   summary: Get the details for a topic type.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: az eventgrid topic-type show --name
   requiredParameters:
   - isRequired: true
     name: --name -n
     summary: Name of the topic type.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 commands:
 - az_eventgrid_topic-type_list
 - az_eventgrid_topic-type_list-event-types

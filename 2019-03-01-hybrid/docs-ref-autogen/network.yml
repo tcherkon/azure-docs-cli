@@ -3,11 +3,16 @@ uid: az_network
 name: az network
 summary: Manage Azure Network resources.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_network_list-usages
   name: az network list-usages
   summary: List the number of network resources in a region that are used against a subscription quota.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: az network list-usages --location
   examples:
   - summary: List the provisioned network resources in East US region within a subscription.
@@ -17,7 +22,6 @@ directCommands:
     name: --location -l
     summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 commands:
 - az_network_bastion
 - az_network_bastion_create

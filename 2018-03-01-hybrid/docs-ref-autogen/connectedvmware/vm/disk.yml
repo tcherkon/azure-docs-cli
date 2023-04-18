@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedvmware** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az connectedvmware vm disk** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Vm disk.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedvmware_vm_disk_add
   name: az connectedvmware vm disk add
   summary: Add virtual disk to a virtual machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm disk add --controller-key
                                    --disk-size
@@ -61,6 +65,8 @@ directCommands:
   name: az connectedvmware vm disk delete
   summary: Delete virtual disks to a virtual machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm disk delete --disks
                                       --resource-group
@@ -96,6 +102,8 @@ directCommands:
   name: az connectedvmware vm disk list
   summary: Retrieve a list of vm disk from given resource group name and vm name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm disk list --resource-group
                                     --vm-name
@@ -115,6 +123,8 @@ directCommands:
   name: az connectedvmware vm disk show
   summary: Get details of a vm disk by it's name, resource-group and vm name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm disk show --name
                                     --resource-group
@@ -139,6 +149,8 @@ directCommands:
   name: az connectedvmware vm disk update
   summary: Update virtual disk to a virtual machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedvmware vm disk update --resource-group
                                       --vm-name

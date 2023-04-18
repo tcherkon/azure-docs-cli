@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **peering** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az peering service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Peering service.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_peering_service_create
   name: az peering service create
   summary: Creates a new peering service or updates an existing peering with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering service create --location
                               --peering-service-name
@@ -53,6 +57,8 @@ directCommands:
   name: az peering service delete
   summary: Deletes an existing peering service with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering service delete --peering-service-name
                               --resource-group
@@ -72,6 +78,8 @@ directCommands:
   name: az peering service list
   summary: Lists all of the peerings under the given subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az peering service list [--resource-group]
   examples:
   - summary: List peering services in a resource group
@@ -84,6 +92,8 @@ directCommands:
   name: az peering service show
   summary: Gets an existing peering service with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering service show --peering-service-name
                             --resource-group
@@ -103,6 +113,8 @@ directCommands:
   name: az peering service update
   summary: Updates tags for a peering service with the specified name under the given subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az peering service update --peering-service-name
                               --resource-group

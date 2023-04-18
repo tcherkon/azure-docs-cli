@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-wan** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network vhub route-table** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage route table in the virtual hub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_vhub_route-table_create
   name: az network vhub route-table create
   summary: Create a route table in the virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub route-table create --name
                                        --resource-group
@@ -68,6 +72,8 @@ directCommands:
   name: az network vhub route-table delete
   summary: Delete a route table in the virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub route-table delete --name
                                        --resource-group
@@ -92,6 +98,8 @@ directCommands:
   name: az network vhub route-table list
   summary: List all route tables in the virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub route-table list --resource-group
                                      --vhub-name
@@ -108,6 +116,8 @@ directCommands:
   name: az network vhub route-table show
   summary: Show a route table in the virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub route-table show --name
                                      --resource-group
@@ -129,6 +139,8 @@ directCommands:
   name: az network vhub route-table update
   summary: Update a route table in the virtual hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub route-table update --name
                                        --resource-group
@@ -163,6 +175,8 @@ directCommands:
   name: az network vhub route-table wait
   summary: Place the CLI in a waiting state until a condition of the vhub route-table is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vhub route-table wait --name
                                      --resource-group

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **dynatrace** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az dynatrace monitor tag-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dynatrace monitor tag-rule.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dynatrace_monitor_tag-rule_create
   name: az dynatrace monitor tag-rule create
   summary: Create a tag rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor tag-rule create --monitor-name
                                          --name
@@ -50,6 +54,8 @@ directCommands:
   name: az dynatrace monitor tag-rule delete
   summary: Delete a tag rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor tag-rule delete [--ids]
                                          [--monitor-name]
@@ -89,6 +95,8 @@ directCommands:
   name: az dynatrace monitor tag-rule list
   summary: List all tag rule by monitor name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor tag-rule list --monitor-name
                                        --resource-group
@@ -108,6 +116,8 @@ directCommands:
   name: az dynatrace monitor tag-rule show
   summary: Show a tag rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor tag-rule show [--ids]
                                        [--monitor-name]
@@ -137,6 +147,8 @@ directCommands:
   name: az dynatrace monitor tag-rule update
   summary: Update a tag rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor tag-rule update [--ids]
                                          [--log-rules]
@@ -174,6 +186,8 @@ directCommands:
   name: az dynatrace monitor tag-rule wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dynatrace monitor tag-rule wait [--created]
                                        [--custom]

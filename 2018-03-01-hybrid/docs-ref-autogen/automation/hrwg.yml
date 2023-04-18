@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation hrwg** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Automation Hybrid Runbook Worker Group.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automation_hrwg_create
   name: az automation hrwg create
   summary: Create a hybrid runbook worker group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg create --automation-account-name
                               --hybrid-runbook-worker-group-name
@@ -41,6 +45,8 @@ directCommands:
   name: az automation hrwg delete
   summary: Delete a hybrid runbook worker group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg delete [--automation-account-name]
                               [--hybrid-runbook-worker-group-name]
@@ -75,6 +81,8 @@ directCommands:
   name: az automation hrwg list
   summary: List all hybrid runbook worker groups.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg list --automation-account-name
                             --resource-group
@@ -99,6 +107,8 @@ directCommands:
   name: az automation hrwg show
   summary: Get hybrid worker group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg show [--automation-account-name]
                             [--hybrid-runbook-worker-group-name]
@@ -128,6 +138,8 @@ directCommands:
   name: az automation hrwg update
   summary: Update a hybrid runbook worker group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg update [--add]
                               [--automation-account-name]

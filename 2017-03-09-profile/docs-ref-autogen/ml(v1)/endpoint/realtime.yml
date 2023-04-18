@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml endpoint realtime** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage operationalized realtime endpoints.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_endpoint_realtime_create-version
   name: az ml endpoint realtime create-version
   summary: Create a version for realtime endpoint in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime create-version --name
                                            --version-name
@@ -201,6 +205,8 @@ directCommands:
   name: az ml endpoint realtime delete
   summary: Delete a realtime endpoint and its version from the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime delete --name
                                    [--path]
@@ -233,6 +239,8 @@ directCommands:
   name: az ml endpoint realtime delete-version
   summary: Delete a version for realtime endpoint in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime delete-version --name
                                            --version-name
@@ -274,6 +282,8 @@ directCommands:
   name: az ml endpoint realtime get-access-token
   summary: Get a token to issue requests a realtime endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime get-access-token --name
                                              [--path]
@@ -306,6 +316,8 @@ directCommands:
   name: az ml endpoint realtime get-keys
   summary: Get keys to issue requests against a realtime endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime get-keys --name
                                      [--path]
@@ -338,6 +350,8 @@ directCommands:
   name: az ml endpoint realtime get-logs
   summary: Get logs for a realtime endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime get-logs --name
                                      [--init]
@@ -380,6 +394,8 @@ directCommands:
   name: az ml endpoint realtime list
   summary: List realtime endpoints in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime list [--compute-type]
                                  [--model-id]
@@ -428,6 +444,8 @@ directCommands:
   name: az ml endpoint realtime regen-key
   summary: Regenerate keys for a realtime endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime regen-key --key
                                       --name
@@ -469,6 +487,8 @@ directCommands:
   name: az ml endpoint realtime run
   summary: Run a realtime endpoint in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime run --name
                                 [--input-data]
@@ -505,6 +525,8 @@ directCommands:
   name: az ml endpoint realtime show
   summary: Show details for a realtime endpoint in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime show --name
                                  [--path]
@@ -537,6 +559,8 @@ directCommands:
   name: az ml endpoint realtime update
   summary: Update a realtime endpoint in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime update --name
                                    [--add-property]
@@ -604,6 +628,8 @@ directCommands:
   name: az ml endpoint realtime update-version
   summary: Update a version for realtime endpoint in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml endpoint realtime update-version --name
                                            --version-name

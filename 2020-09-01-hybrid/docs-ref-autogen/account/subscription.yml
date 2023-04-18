@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **account** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az account subscription** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage subscriptions.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_account_subscription_cancel
   name: az account subscription cancel
   summary: Cancel subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'account subscription' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az account subscription cancel --id
                                    [--yes]
@@ -32,6 +40,10 @@ directCommands:
   name: az account subscription enable
   summary: Enable subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'account subscription' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az account subscription enable --id
   examples:
   - summary: Enable subscription
@@ -45,6 +57,10 @@ directCommands:
   name: az account subscription list
   summary: Get all subscriptions for a tenant.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'account subscription' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az account subscription list
   examples:
   - summary: listSubscriptions
@@ -53,6 +69,10 @@ directCommands:
   name: az account subscription list-location
   summary: This operation provides all the locations that are available for resource providers; however, each resource provider may support a subset of this list.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'account subscription' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az account subscription list-location --id
   examples:
   - summary: listLocations
@@ -66,6 +86,10 @@ directCommands:
   name: az account subscription rename
   summary: Rename subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'account subscription' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az account subscription rename --id
                                    [--name]
@@ -85,6 +109,10 @@ directCommands:
   name: az account subscription show
   summary: Get details about a specified subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'account subscription' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az account subscription show --id
   examples:
   - summary: getSubscription

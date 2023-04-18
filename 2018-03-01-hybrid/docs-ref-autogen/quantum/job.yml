@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **quantum** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az quantum job** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage jobs for Azure Quantum.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_quantum_job_cancel
   name: az quantum job cancel
   summary: Request to cancel a job on Azure Quantum if it hasn't completed.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum job cancel --job-id
                           --location
@@ -43,6 +51,10 @@ directCommands:
   name: az quantum job list
   summary: Get the list of jobs in a Quantum Workspace.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum job list --location
                         --resource-group
@@ -67,6 +79,10 @@ directCommands:
   name: az quantum job output
   summary: Get the results of running a Q# job.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum job output --job-id
                           --location
@@ -103,6 +119,10 @@ directCommands:
   name: az quantum job show
   summary: Get the job's status and details.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum job show --job-id
                         --location
@@ -134,6 +154,10 @@ directCommands:
   name: az quantum job submit
   summary: Submit a program or circuit to run on Azure Quantum.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum job submit --location
                           --resource-group
@@ -232,6 +256,10 @@ directCommands:
   name: az quantum job wait
   summary: Place the CLI in a waiting state until the job finishes running.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'quantum' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az quantum job wait --job-id
                         --location

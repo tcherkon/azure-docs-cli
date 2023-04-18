@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **sap-hana** extension for the Azure CLI  (version 2.0.46 or higher).  The extension will automatically install the first time you run an **az sapmonitor provider-instance** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage the provider instance for the SAP Monitor.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_sapmonitor_provider-instance_create
   name: az sapmonitor provider-instance create
   summary: Create a new provider instance for the SAP Monitor.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sapmonitor provider-instance create --monitor-name
                                            --provider-instance-name
@@ -48,6 +52,8 @@ directCommands:
   name: az sapmonitor provider-instance delete
   summary: Delete a provider instance from the SAP Monitor.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sapmonitor provider-instance delete --monitor-name
                                            --provider-instance-name
@@ -69,6 +75,8 @@ directCommands:
   name: az sapmonitor provider-instance list
   summary: List provider instances for the SAP Monitor.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sapmonitor provider-instance list --monitor-name
                                          --resource-group
@@ -85,6 +93,8 @@ directCommands:
   name: az sapmonitor provider-instance show
   summary: Get the details of a provider instance for the SAP Monitor.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az sapmonitor provider-instance show --monitor-name
                                          --provider-instance-name

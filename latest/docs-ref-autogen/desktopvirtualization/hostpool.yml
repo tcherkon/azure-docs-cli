@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **desktopvirtualization** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az desktopvirtualization hostpool** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Desktopvirtualization hostpool.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_desktopvirtualization_hostpool_create
   name: az desktopvirtualization hostpool create
   summary: Create a host pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization hostpool create --host-pool-type {BYODesktop, Personal, Pooled}
                                              --load-balancer-type {BreadthFirst, DepthFirst, Persistent}
@@ -131,6 +135,8 @@ directCommands:
   name: az desktopvirtualization hostpool delete
   summary: Remove a host pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization hostpool delete [--force {false, true}]
                                              [--ids]
@@ -161,6 +167,8 @@ directCommands:
   name: az desktopvirtualization hostpool list
   summary: List hostPools in subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az desktopvirtualization hostpool list [--resource-group]
   examples:
   - summary: HostPool_ListByResourceGroup
@@ -173,6 +181,8 @@ directCommands:
   name: az desktopvirtualization hostpool retrieve-registration-token
   summary: Registration token of the host pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization hostpool retrieve-registration-token [--ids]
                                                                   [--name]
@@ -198,6 +208,8 @@ directCommands:
   name: az desktopvirtualization hostpool show
   summary: Get a host pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization hostpool show [--ids]
                                            [--name]
@@ -223,6 +235,8 @@ directCommands:
   name: az desktopvirtualization hostpool update
   summary: Update a host pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization hostpool update [--custom-rdp-property]
                                              [--description]

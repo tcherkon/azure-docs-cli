@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot dps** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage entities in an Azure IoT Hub Device Provisioning Service (DPS). Augmented with the IoT extension.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_dps_compute-device-key
   name: az iot dps compute-device-key
   summary: Generate a derived device SAS key.
   description: Generate a derived device key for a DPS enrollment group.
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'iot dps enrollment-group compute-device-key' instead.
+  sourceType: Extension
   syntax: >-
     az iot dps compute-device-key --registration-id
                                   [--auth-type {key, login}]

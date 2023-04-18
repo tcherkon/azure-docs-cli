@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops wiki** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage wikis.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_wiki_create
   name: az devops wiki create
   summary: Create a wiki.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops wiki create [--detect {false, true}]
                           [--mapped-path]
@@ -61,6 +65,8 @@ directCommands:
   name: az devops wiki delete
   summary: Delete a wiki.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops wiki delete --wiki
                           [--detect {false, true}]
@@ -91,6 +97,8 @@ directCommands:
   name: az devops wiki list
   summary: List all the wikis in a project or organization.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops wiki list [--detect {false, true}]
                         [--org]
@@ -121,6 +129,8 @@ directCommands:
   name: az devops wiki show
   summary: Show details of a wiki.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops wiki show --wiki
                         [--detect {false, true}]

@@ -3,6 +3,8 @@ uid: az_eventhubs
 name: az eventhubs
 summary: Sss.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_eventhubs_cluster
 - az_eventhubs_cluster_available-region

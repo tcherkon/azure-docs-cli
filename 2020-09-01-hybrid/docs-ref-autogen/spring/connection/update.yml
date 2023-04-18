@@ -3,11 +3,15 @@ uid: az_spring_connection_update
 name: az spring connection update
 summary: Update a spring app connection.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_spring_connection_update_appconfig
   name: az spring connection update appconfig
   summary: Update a spring app to appconfig connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update appconfig [--app]
                                           [--client-type {dotnet, java, nodejs, none, python}]
@@ -97,6 +101,8 @@ directCommands:
   name: az spring connection update confluent-cloud
   summary: Update a spring app to confluent-cloud connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update confluent-cloud --connection
                                                 [--app]
@@ -181,6 +187,8 @@ directCommands:
   name: az spring connection update cosmos-cassandra
   summary: Update a spring app to cosmos-cassandra connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update cosmos-cassandra [--app]
                                                  [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -265,6 +273,8 @@ directCommands:
   name: az spring connection update cosmos-gremlin
   summary: Update a spring app to cosmos-gremlin connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update cosmos-gremlin [--app]
                                                [--client-type {dotnet, java, nodejs, none, php, python}]
@@ -349,6 +359,8 @@ directCommands:
   name: az spring connection update cosmos-mongo
   summary: Update a spring app to cosmos-mongo connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update cosmos-mongo [--app]
                                              [--client-type {dotnet, go, java, nodejs, none, springBoot}]
@@ -433,6 +445,8 @@ directCommands:
   name: az spring connection update cosmos-sql
   summary: Update a spring app to cosmos-sql connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update cosmos-sql [--app]
                                            [--client-type {dotnet, java, nodejs, none, python}]
@@ -517,6 +531,8 @@ directCommands:
   name: az spring connection update cosmos-table
   summary: Update a spring app to cosmos-table connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update cosmos-table [--app]
                                              [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -601,6 +617,8 @@ directCommands:
   name: az spring connection update eventhub
   summary: Update a spring app to eventhub connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update eventhub [--app]
                                          [--client-type {dotnet, go, java, kafka-springBoot, nodejs, none, python, springBoot}]
@@ -695,6 +713,8 @@ directCommands:
   name: az spring connection update keyvault
   summary: Update a spring app to keyvault connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update keyvault [--app]
                                          [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -775,6 +795,10 @@ directCommands:
   name: az spring connection update mysql
   summary: Update a spring app to mysql connection.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release.
+  sourceType: Core
   syntax: >-
     az spring connection update mysql [--app]
                                       [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -854,6 +878,8 @@ directCommands:
   name: az spring connection update mysql-flexible
   summary: Update a spring app to mysql-flexible connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update mysql-flexible [--app]
                                                [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -931,6 +957,8 @@ directCommands:
   name: az spring connection update postgres
   summary: Update a spring app to postgres connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update postgres [--app]
                                          [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1014,6 +1042,8 @@ directCommands:
   name: az spring connection update postgres-flexible
   summary: Update a spring app to postgres-flexible connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update postgres-flexible [--app]
                                                   [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1087,6 +1117,8 @@ directCommands:
   name: az spring connection update redis
   summary: Update a spring app to redis connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update redis [--app]
                                       [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1150,6 +1182,8 @@ directCommands:
   name: az spring connection update redis-enterprise
   summary: Update a spring app to redis-enterprise connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update redis-enterprise [--app]
                                                  [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1208,6 +1242,8 @@ directCommands:
   name: az spring connection update servicebus
   summary: Update a spring app to servicebus connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update servicebus [--app]
                                            [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -1302,6 +1338,8 @@ directCommands:
   name: az spring connection update signalr
   summary: Update a spring app to signalr connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update signalr [--app]
                                         [--client-type {dotnet, none}]
@@ -1381,6 +1419,8 @@ directCommands:
   name: az spring connection update sql
   summary: Update a spring app to sql connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update sql [--app]
                                     [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1464,6 +1504,8 @@ directCommands:
   name: az spring connection update storage-blob
   summary: Update a spring app to storage-blob connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update storage-blob [--app]
                                              [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -1548,6 +1590,8 @@ directCommands:
   name: az spring connection update storage-file
   summary: Update a spring app to storage-file connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update storage-file [--app]
                                              [--client-type {dotnet, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1616,6 +1660,8 @@ directCommands:
   name: az spring connection update storage-queue
   summary: Update a spring app to storage-queue connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update storage-queue [--app]
                                               [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -1700,6 +1746,8 @@ directCommands:
   name: az spring connection update storage-table
   summary: Update a spring app to storage-table connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update storage-table [--app]
                                               [--client-type {dotnet, java, nodejs, none, python}]
@@ -1768,6 +1816,8 @@ directCommands:
   name: az spring connection update webpubsub
   summary: Update a spring app to webpubsub connection.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az spring connection update webpubsub [--app]
                                           [--client-type {dotnet, java, nodejs, none, python}]

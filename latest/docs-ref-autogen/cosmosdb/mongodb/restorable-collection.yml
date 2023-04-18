@@ -3,11 +3,16 @@ uid: az_cosmosdb_mongodb_restorable-collection
 name: az cosmosdb mongodb restorable-collection
 summary: Manage different versions of mongodb collections that are restorable in a database of a Azure Cosmos DB account.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_cosmosdb_mongodb_restorable-collection_list
   name: az cosmosdb mongodb restorable-collection list
   summary: List all the versions of all the mongodb collections that were created / modified / deleted in the given database and restorable account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb mongodb restorable-collection list --database-rid
                                                    --instance-id
@@ -34,7 +39,6 @@ directCommands:
   - name: --start-time -s
     summary: Start time of restorable MongoDB collections event feed.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 commands:
 - az_cosmosdb_mongodb_restorable-collection_list
 globalParameters:

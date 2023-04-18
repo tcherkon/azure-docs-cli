@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub device-identity connection-string** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT device's connection string.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_device-identity_connection-string_show
   name: az iot hub device-identity connection-string show
   summary: Show a given IoT Hub device connection string.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub device-identity connection-string show --device-id
                                                       [--auth-type {key, login}]

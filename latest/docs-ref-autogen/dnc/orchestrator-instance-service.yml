@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dnc** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az dnc orchestrator-instance-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage orchestrator instance service with dnc.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dnc_orchestrator-instance-service_create
   name: az dnc orchestrator-instance-service create
   summary: Create a orchestrator instance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc orchestrator-instance-service create --resource-group
                                                 --resource-name
@@ -74,6 +82,10 @@ directCommands:
   name: az dnc orchestrator-instance-service delete
   summary: Deletes the Orchestrator Instance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc orchestrator-instance-service delete [--force-delete {false, true}]
                                                 [--ids]
@@ -114,6 +126,10 @@ directCommands:
   name: az dnc orchestrator-instance-service show
   summary: Gets details about the orchestrator instance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc orchestrator-instance-service show [--ids]
                                               [--resource-group]
@@ -139,6 +155,10 @@ directCommands:
   name: az dnc orchestrator-instance-service wait
   summary: Place the CLI in a waiting state until a condition of the dnc orchestrator-instance-service is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc orchestrator-instance-service wait [--created]
                                               [--custom]

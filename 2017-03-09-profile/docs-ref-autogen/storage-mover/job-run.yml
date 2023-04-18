@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storage-mover** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az storage-mover job-run** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Job Run resource.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storage-mover_job-run_list
   name: az storage-mover job-run list
   summary: Lists all Job Runs in a Job Definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover job-run list --job-definition-name
                                   --project-name
@@ -41,6 +45,8 @@ directCommands:
   name: az storage-mover job-run show
   summary: Gets a Job Run resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage-mover job-run show [--ids]
                                   [--job-definition-name]

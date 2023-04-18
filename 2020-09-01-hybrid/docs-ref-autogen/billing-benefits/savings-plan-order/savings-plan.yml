@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **billing-benefits** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az billing-benefits savings-plan-order savings-plan** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure billing benefits savings plan in savings plan order commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_billing-benefits_savings-plan-order_savings-plan_list
   name: az billing-benefits savings-plan-order savings-plan list
   summary: List savings plans in an order.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az billing-benefits savings-plan-order savings-plan list --savings-plan-order-id
   examples:
   - summary: List savings plans in an order
@@ -25,6 +29,8 @@ directCommands:
   name: az billing-benefits savings-plan-order savings-plan show
   summary: Get savings plan.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az billing-benefits savings-plan-order savings-plan show --savings-plan-id
                                                              --savings-plan-order-id
@@ -51,6 +57,8 @@ directCommands:
   name: az billing-benefits savings-plan-order savings-plan update
   summary: Update savings plan.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az billing-benefits savings-plan-order savings-plan update --savings-plan-id
                                                                --savings-plan-order-id
@@ -104,6 +112,8 @@ directCommands:
   name: az billing-benefits savings-plan-order savings-plan validate-update
   summary: Validate savings plan patch.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az billing-benefits savings-plan-order savings-plan validate-update --savings-plan-id
                                                                         --savings-plan-order-id

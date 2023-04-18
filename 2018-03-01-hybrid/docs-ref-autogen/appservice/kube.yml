@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **appservice-kube** extension for the Azure CLI  (version 2.34.1 or higher).  The extension will automatically install the first time you run an **az appservice kube** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Kubernetes Environments.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_appservice_kube_create
   name: az appservice kube create
   summary: Create a Kubernetes Environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'appservice kube' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az appservice kube create --custom-location
                               --name
@@ -56,6 +64,10 @@ directCommands:
   name: az appservice kube delete
   summary: Delete kubernetes environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'appservice kube' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az appservice kube delete --name
                               --resource-group
@@ -86,6 +98,10 @@ directCommands:
   name: az appservice kube list
   summary: List kubernetes environments by subscription or resource group.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'appservice kube' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az appservice kube list [--resource-group]
   examples:
   - summary: List Kubernetes Environments by subscription.
@@ -100,6 +116,10 @@ directCommands:
   name: az appservice kube show
   summary: Show the details of a kubernetes environment.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'appservice kube' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az appservice kube show --name
                             --resource-group
@@ -119,6 +139,10 @@ directCommands:
   name: az appservice kube update
   summary: Update a Kubernetes Environment. Currently not supported.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'appservice kube' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az appservice kube update --name
                               --resource-group
@@ -156,6 +180,10 @@ directCommands:
   name: az appservice kube wait
   summary: Wait for a Kubernetes Environment to reach a desired state.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'appservice kube' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az appservice kube wait --name
                             --resource-group

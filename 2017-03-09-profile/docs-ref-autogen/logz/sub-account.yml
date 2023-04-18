@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **logz** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az logz sub-account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage sub account with logz.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_logz_sub-account_create
   name: az logz sub-account create
   summary: Create sub account under a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account create --monitor-name
                                --name
@@ -105,6 +113,10 @@ directCommands:
   name: az logz sub-account delete
   summary: Delete a sub account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account delete [--ids]
                                [--monitor-name]
@@ -144,6 +156,10 @@ directCommands:
   name: az logz sub-account list
   summary: List the sub account under a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account list --monitor-name
                              --resource-group
@@ -163,6 +179,10 @@ directCommands:
   name: az logz sub-account list-payload
   summary: List the payload that needs to be passed as a request for installing Logz.io agent on a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account list-payload --monitor-name
                                      --name
@@ -187,6 +207,10 @@ directCommands:
   name: az logz sub-account list-resource
   summary: List the resources currently being monitored by the Logz sub account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account list-resource --monitor-name
                                       --name
@@ -211,6 +235,10 @@ directCommands:
   name: az logz sub-account list-vm
   summary: List the compute resources currently being monitored by the Logz sub account resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account list-vm --monitor-name
                                 --name
@@ -235,6 +263,10 @@ directCommands:
   name: az logz sub-account show
   summary: Get a sub account under a given monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account show [--ids]
                              [--monitor-name]
@@ -264,6 +296,10 @@ directCommands:
   name: az logz sub-account update
   summary: Update a monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account update [--ids]
                                [--monitor-name]
@@ -302,6 +338,10 @@ directCommands:
   name: az logz sub-account update-vm
   summary: Update the collection when Logz.io agent has been installed on a VM for a given monitor.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account update-vm [--ids]
                                   [--monitor-name]
@@ -349,6 +389,10 @@ directCommands:
   name: az logz sub-account wait
   summary: Place the CLI in a waiting state until a condition of the logz sub-account is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'logz' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az logz sub-account wait [--created]
                              [--custom]

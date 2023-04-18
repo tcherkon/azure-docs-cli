@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **rdbms-connect** extension for the Azure CLI  (version 2.19.0 or higher).  The extension will automatically install the first time you run an **az postgres flexible-server** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Database for PostgreSQL Flexible Servers.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_postgres_flexible-server_connect
   name: az postgres flexible-server connect
   summary: Connect to a flexible server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az postgres flexible-server connect --admin-user
                                         --name
@@ -41,10 +45,14 @@ directCommands:
   - name: --querytext -q
     summary: A query to run against the flexible server.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'querytext' has been deprecated and will be removed in a future release. Use 'execute' instead.
 - uid: az_postgres_flexible-server_execute
   name: az postgres flexible-server execute
   summary: Connect to a flexible server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az postgres flexible-server execute --admin-password
                                         --admin-user

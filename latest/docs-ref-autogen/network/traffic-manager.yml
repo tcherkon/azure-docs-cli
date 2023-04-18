@@ -3,6 +3,8 @@ uid: az_network_traffic-manager
 name: az network traffic-manager
 summary: Manage the routing of incoming traffic.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_network_traffic-manager_endpoint
 - az_network_traffic-manager_endpoint_create

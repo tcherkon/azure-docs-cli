@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **notification-hub** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az notification-hub namespace authorization-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage notification hubs namespace authorization rule.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_notification-hub_namespace_authorization-rule_create
   name: az notification-hub namespace authorization-rule create
   summary: Create an authorization rule for a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace authorization-rule create --name
                                                             --namespace-name
@@ -44,6 +52,10 @@ directCommands:
   name: az notification-hub namespace authorization-rule delete
   summary: Delete a namespace authorization rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace authorization-rule delete [--ids]
                                                             [--name]
@@ -81,6 +93,10 @@ directCommands:
   name: az notification-hub namespace authorization-rule list
   summary: List the authorization rules for a namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace authorization-rule list --namespace-name
                                                           --resource-group
@@ -103,6 +119,10 @@ directCommands:
   name: az notification-hub namespace authorization-rule list-keys
   summary: List the Primary and Secondary ConnectionStrings to the namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace authorization-rule list-keys --name
                                                                --namespace-name
@@ -130,6 +150,10 @@ directCommands:
   name: az notification-hub namespace authorization-rule regenerate-keys
   summary: Regenerate the Primary/Secondary Keys to the Namespace Authorization Rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace authorization-rule regenerate-keys --name
                                                                      --namespace-name
@@ -163,6 +187,10 @@ directCommands:
   name: az notification-hub namespace authorization-rule show
   summary: Show an authorization rule for a namespace by name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace authorization-rule show [--ids]
                                                           [--name]

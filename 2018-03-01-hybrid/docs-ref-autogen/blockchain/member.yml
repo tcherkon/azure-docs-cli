@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **blockchain** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az blockchain member** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Blockchain member.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_blockchain_member_create
   name: az blockchain member create
   summary: Create a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member create --name
                                 --resource-group
@@ -79,6 +87,10 @@ directCommands:
   name: az blockchain member delete
   summary: Delete a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member delete --name
                                 --resource-group
@@ -109,6 +121,10 @@ directCommands:
   name: az blockchain member list
   summary: List the blockchain members.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az blockchain member list [--resource-group]
   examples:
   - summary: List the blockchain members in a resource group.
@@ -121,6 +137,10 @@ directCommands:
   name: az blockchain member list-api-key
   summary: List the API keys for a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member list-api-key --name
                                       --resource-group
@@ -140,6 +160,10 @@ directCommands:
   name: az blockchain member list-consortium-member
   summary: List the consortium members for a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member list-consortium-member --name
                                                 --resource-group
@@ -159,6 +183,10 @@ directCommands:
   name: az blockchain member regenerate-api-key
   summary: Regenerate the API keys for a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member regenerate-api-key --name
                                             --resource-group
@@ -184,6 +212,10 @@ directCommands:
   name: az blockchain member show
   summary: Show the details about a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member show --name
                               --resource-group
@@ -203,6 +235,10 @@ directCommands:
   name: az blockchain member update
   summary: Update a blockchain member.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member update --name
                                 --resource-group
@@ -243,6 +279,10 @@ directCommands:
   name: az blockchain member wait
   summary: Wait until a blockchain member is created or deleted.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'blockchain member' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az blockchain member wait --name
                               --resource-group

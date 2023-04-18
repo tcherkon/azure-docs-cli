@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **guestconfig** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az guestconfig guest-configuration-assignment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Guestconfig guest-configuration-assignment.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_guestconfig_guest-configuration-assignment_create
   name: az guestconfig guest-configuration-assignment create
   summary: Creates an association between a VM and guest configuration.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment create --guest-configuration-assignment-name
                                                          --resource-group
@@ -97,6 +105,10 @@ directCommands:
   name: az guestconfig guest-configuration-assignment delete
   summary: Delete a guest configuration assignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment delete [--ids]
                                                          [--name]
@@ -131,6 +143,10 @@ directCommands:
   name: az guestconfig guest-configuration-assignment list
   summary: List all guest configuration assignments for a virtual machine.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment list --resource-group
                                                        --vm-name
@@ -150,6 +166,10 @@ directCommands:
   name: az guestconfig guest-configuration-assignment show
   summary: Get information about a guest configuration assignment.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment show [--ids]
                                                        [--name]
@@ -179,6 +199,10 @@ directCommands:
   name: az guestconfig guest-configuration-assignment update
   summary: Creates an association between a VM and guest configuration.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment update [--context]
                                                          [--guest-configuration-assignment-name]
@@ -268,6 +292,10 @@ directCommands:
   name: az guestconfig guest-configuration-assignment wait
   summary: Place the CLI in a waiting state until a condition of the guestconfig guest-configuration-assignment is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'guestconfig guest-configuration-assignment' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az guestconfig guest-configuration-assignment wait [--created]
                                                        [--custom]

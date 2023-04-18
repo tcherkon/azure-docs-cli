@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **databricks** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az databricks workspace vnet-peering** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage databricks workspace vnet peering.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_databricks_workspace_vnet-peering_create
   name: az databricks workspace vnet-peering create
   summary: Create a vnet peering for a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace vnet-peering create --name
                                                 --resource-group
@@ -66,6 +70,8 @@ directCommands:
   name: az databricks workspace vnet-peering delete
   summary: Delete the vnet peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace vnet-peering delete [--ids]
                                                 [--name]
@@ -100,6 +106,8 @@ directCommands:
   name: az databricks workspace vnet-peering list
   summary: List vnet peerings under a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace vnet-peering list --resource-group
                                               --workspace-name
@@ -119,6 +127,8 @@ directCommands:
   name: az databricks workspace vnet-peering show
   summary: Show the vnet peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace vnet-peering show [--ids]
                                               [--name]
@@ -148,6 +158,8 @@ directCommands:
   name: az databricks workspace vnet-peering update
   summary: Update the vnet peering.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace vnet-peering update [--add]
                                                 [--allow-forwarded-traffic {0, 1, f, false, n, no, t, true, y, yes}]
@@ -219,6 +231,8 @@ directCommands:
   name: az databricks workspace vnet-peering wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace vnet-peering wait [--created]
                                               [--custom]

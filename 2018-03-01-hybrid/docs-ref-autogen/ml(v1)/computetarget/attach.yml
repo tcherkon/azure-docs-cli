@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml computetarget attach** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Attach subgroup commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_computetarget_attach_aks
   name: az ml computetarget attach aks
   summary: Attach an AKS cluster to the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget attach aks --compute-resource-id
                                    --name
@@ -37,6 +41,8 @@ directCommands:
   name: az ml computetarget attach kubernetes
   summary: Attach a KubernetesCompute as a compute target to the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget attach kubernetes --compute-resource-id
                                           --name
@@ -66,6 +72,8 @@ directCommands:
   name: az ml computetarget attach remote
   summary: Attach a remote machine without Docker as a compute target to the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget attach remote --address
                                       --name

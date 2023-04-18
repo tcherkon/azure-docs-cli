@@ -3,11 +3,15 @@ uid: az_webapp_deployment_user
 name: az webapp deployment user
 summary: Manage user credentials for deployment.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_webapp_deployment_user_set
   name: az webapp deployment user set
   summary: Update deployment credentials.
   description: All function and web apps in the subscription will be impacted since they share the same deployment credentials.
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment user set --user-name
                                   [--password]
@@ -27,6 +31,8 @@ directCommands:
   name: az webapp deployment user show
   summary: Get deployment publishing user.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az webapp deployment user show
   examples:
   - summary: Get publishing user information.

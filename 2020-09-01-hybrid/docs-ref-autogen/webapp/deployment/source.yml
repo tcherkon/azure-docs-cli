@@ -3,11 +3,15 @@ uid: az_webapp_deployment_source
 name: az webapp deployment source
 summary: Manage web app deployment via source control.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_webapp_deployment_source_config
   name: az webapp deployment source config
   summary: Manage deployment from git or Mercurial repositories.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment source config --repo-url
                                        [--branch]
@@ -65,6 +69,8 @@ directCommands:
   name: az webapp deployment source config-local-git
   summary: Get a URL for a git repository endpoint to clone and push to for web app deployment.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment source config-local-git [--ids]
                                                  [--name]
@@ -99,6 +105,8 @@ directCommands:
   name: az webapp deployment source config-zip
   summary: Perform deployment using the kudu zip push deployment for a web app.
   description: By default Kudu assumes that zip deployments do not require any build-related actions like npm install or dotnet publish. This can be overridden by including a .deployment file in your zip file with the following content '[config] SCM_DO_BUILD_DURING_DEPLOYMENT = true', to enable Kudu detection logic and build script generation process. See https://github.com/projectkudu/kudu/wiki/Configurable-settings#enabledisable-build-actions-preview. Alternately the setting can be enabled using the az webapp config appsettings set command.
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment source config-zip --src
                                            [--ids]
@@ -141,6 +149,8 @@ directCommands:
   name: az webapp deployment source delete
   summary: Delete a source control deployment configuration.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment source delete [--ids]
                                        [--name]
@@ -170,6 +180,8 @@ directCommands:
   name: az webapp deployment source show
   summary: Get the details of a source control deployment configuration.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment source show [--ids]
                                      [--name]
@@ -199,6 +211,8 @@ directCommands:
   name: az webapp deployment source sync
   summary: Synchronize from the repository. Only needed under manual integration mode.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp deployment source sync [--ids]
                                      [--name]
@@ -228,6 +242,8 @@ directCommands:
   name: az webapp deployment source update-token
   summary: Update source control token cached in Azure app service.
   description: If no token is provided, the command will clean up existing token.
+  status: GA
+  sourceType: Core
   syntax: az webapp deployment source update-token [--git-token]
   optionalParameters:
   - name: --git-token

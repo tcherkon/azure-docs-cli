@@ -3,6 +3,10 @@ uid: az_afd_waf-log-analytic
 name: az afd waf-log-analytic
 summary: Manage afd WAF related log analytic results.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'afd' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Core
 commands:
 - az_afd_waf-log-analytic_metric
 - az_afd_waf-log-analytic_metric_list

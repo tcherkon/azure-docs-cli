@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datadog** extension for the Azure CLI  (version 2.17.0 or higher).  The extension will automatically install the first time you run an **az datadog terms** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage marketplace agreements with datadog.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_datadog_terms_create
   name: az datadog terms create
   summary: Create Datadog marketplace agreement in the subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datadog terms' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az datadog terms create [--properties]
   examples:
   - summary: MarketplaceAgreements_CreateOrUpdate
@@ -42,6 +50,10 @@ directCommands:
   name: az datadog terms list
   summary: List datadog marketplace agreements.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datadog terms' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az datadog terms list
   examples:
   - summary: List marketplace agreements
@@ -50,6 +62,10 @@ directCommands:
   name: az datadog terms update
   summary: Update Datadog marketplace agreement in the subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datadog terms' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az datadog terms update [--properties]
   optionalParameters:
   - name: --properties

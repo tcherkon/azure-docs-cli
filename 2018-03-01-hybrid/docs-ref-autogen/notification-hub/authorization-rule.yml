@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **notification-hub** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az notification-hub authorization-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage notification hubs authorization rule.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_notification-hub_authorization-rule_create
   name: az notification-hub authorization-rule create
   summary: Create an authorization rule for a NotificationHub.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub authorization-rule create --name
                                                   --namespace-name
@@ -51,6 +59,10 @@ directCommands:
   name: az notification-hub authorization-rule delete
   summary: Delete a notificationHub authorization rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub authorization-rule delete [--ids]
                                                   [--name]
@@ -89,6 +101,10 @@ directCommands:
   name: az notification-hub authorization-rule list
   summary: List the authorization rules for a NotificationHub.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub authorization-rule list --namespace-name
                                                 --notification-hub-name
@@ -116,6 +132,10 @@ directCommands:
   name: az notification-hub authorization-rule list-keys
   summary: List the Primary and Secondary ConnectionStrings to the NotificationHub.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub authorization-rule list-keys --name
                                                      --namespace-name
@@ -148,6 +168,10 @@ directCommands:
   name: az notification-hub authorization-rule regenerate-keys
   summary: Regenerate the Primary/Secondary Keys to the NotificationHub Authorization Rule.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub authorization-rule regenerate-keys --name
                                                            --namespace-name
@@ -188,6 +212,10 @@ directCommands:
   name: az notification-hub authorization-rule show
   summary: Show an authorization rule for a NotificationHub by name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub authorization-rule show [--ids]
                                                 [--name]

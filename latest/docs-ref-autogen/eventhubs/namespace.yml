@@ -3,11 +3,16 @@ uid: az_eventhubs_namespace
 name: az eventhubs namespace
 summary: NamespaceV2.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventhubs_namespace_create
   name: az eventhubs namespace create
   summary: Creates the EventHubs Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace create --name
                                   --resource-group
@@ -52,10 +57,12 @@ directCommands:
   - name: --cluster-arm-id
     summary: Cluster ARM ID of the Namespace.
     description: ''
+    isPreview: true
   - name: --disable-local-auth
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether SAS authentication is enabled/disabled for the Event Hubs.
     description: ''
+    isPreview: true
   - name: --enable-auto-inflate
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether AutoInflate is enabled for eventhub namespace.
@@ -71,6 +78,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether Infrastructure Encryption (Double Encryption) is enabled/disabled.
     description: ''
+    isPreview: true
   - name: --location -l
     summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
@@ -105,11 +113,14 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enabling this property creates a Standard EventHubs Namespace in regions supported availability zones.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
+    isPreview: true
 - uid: az_eventhubs_namespace_delete
   name: az eventhubs namespace delete
   summary: Delete an existing namespace. This operation also removes all associated resources under the namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace delete [--ids]
                                   [--name]
@@ -136,11 +147,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_exists
   name: az eventhubs namespace exists
   summary: Check for the availability of the given name for the Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: az eventhubs namespace exists --name
   examples:
   - summary: Create a new topic.
@@ -152,11 +165,13 @@ directCommands:
     name: --name -n
     summary: Namespace name. Name can contain only letters, numbers, and hyphens. The namespace must start with a letter, and it must end with a letter or number.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_list
   name: az eventhubs namespace list
   summary: List the available Namespaces within a resource group.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: az eventhubs namespace list --resource-group
   examples:
   - summary: List the Event Hubs Namespaces by resource group.
@@ -168,11 +183,13 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_show
   name: az eventhubs namespace show
   summary: Get the description of the specified namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace show [--ids]
                                 [--name]
@@ -194,11 +211,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_update
   name: az eventhubs namespace update
   summary: Update a namespace. Once created, this namespace's resource manifest is immutable. This operation is idempotent.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace update [--add]
                                   [--alternate-name]
@@ -314,11 +333,13 @@ directCommands:
     parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
     summary: Enabling this property creates a Standard Event Hubs Namespace in regions supported availability zones.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 - uid: az_eventhubs_namespace_wait
   name: az eventhubs namespace wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace wait [--created]
                                 [--custom]
@@ -371,7 +392,6 @@ directCommands:
     defaultValue: "False"
     summary: Wait until updated with provisioningState at 'Succeeded'.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 commands:
 - az_eventhubs_namespace_application-group
 - az_eventhubs_namespace_application-group_create

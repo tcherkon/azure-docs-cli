@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **vmware** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az vmware workload-network dhcp relay** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage a DHCP (Data Host Configuration Protocol) workload network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_vmware_workload-network_dhcp_relay_create
   name: az vmware workload-network dhcp relay create
   summary: Create DHCP by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dhcp relay create --dhcp
                                                  --private-cloud
@@ -49,6 +53,8 @@ directCommands:
   name: az vmware workload-network dhcp relay delete
   summary: Delete DHCP by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dhcp relay delete --dhcp
                                                  --private-cloud
@@ -79,6 +85,8 @@ directCommands:
   name: az vmware workload-network dhcp relay update
   summary: Update DHCP by ID in a private cloud workload network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az vmware workload-network dhcp relay update --dhcp
                                                  --private-cloud

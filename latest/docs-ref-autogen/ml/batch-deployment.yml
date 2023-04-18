@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **ml** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az ml batch-deployment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure ML batch deployments.
 description: Azure ML deployments provide a simple interface for creating and managing model deployments.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_batch-deployment_create
   name: az ml batch-deployment create
   summary: Create a deployment. If the deployment already exists, it will be over-written with the new settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml batch-deployment create --file
                                   --resource-group
@@ -64,6 +68,8 @@ directCommands:
   name: az ml batch-deployment delete
   summary: Delete a deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml batch-deployment delete --endpoint-name
                                   --name
@@ -104,6 +110,8 @@ directCommands:
   name: az ml batch-deployment list
   summary: List deployments.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml batch-deployment list --endpoint-name
                                 --resource-group
@@ -128,6 +136,8 @@ directCommands:
   name: az ml batch-deployment list-jobs
   summary: List the batch scoring jobs for a batch deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml batch-deployment list-jobs --endpoint-name
                                      --name
@@ -157,6 +167,8 @@ directCommands:
   name: az ml batch-deployment show
   summary: Show a deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml batch-deployment show --endpoint-name
                                 --name
@@ -186,6 +198,8 @@ directCommands:
   name: az ml batch-deployment update
   summary: Update a deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml batch-deployment update --resource-group
                                   --workspace-name

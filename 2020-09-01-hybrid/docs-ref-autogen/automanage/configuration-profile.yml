@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automanage** extension for the Azure CLI  (version 2.44.1 or higher).  The extension will automatically install the first time you run an **az automanage configuration-profile** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage configuration profile.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automanage_configuration-profile_create
   name: az automanage configuration-profile create
   summary: Create a configuration profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile create --configuration-profile-name
                                                --resource-group
@@ -46,6 +50,8 @@ directCommands:
   name: az automanage configuration-profile delete
   summary: Delete a configuration profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile delete [--configuration-profile-name]
                                                [--ids]
@@ -76,6 +82,8 @@ directCommands:
   name: az automanage configuration-profile list
   summary: List configuration profiles within a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az automanage configuration-profile list [--resource-group]
   examples:
   - summary: list configuration-profile
@@ -88,6 +96,8 @@ directCommands:
   name: az automanage configuration-profile show
   summary: Get information about a configuration profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile show [--configuration-profile-name]
                                              [--ids]
@@ -113,6 +123,8 @@ directCommands:
   name: az automanage configuration-profile update
   summary: Update a configuration profile.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automanage configuration-profile update [--add]
                                                [--configuration]

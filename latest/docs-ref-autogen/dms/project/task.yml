@@ -3,11 +3,16 @@ uid: az_dms_project_task
 name: az dms project task
 summary: Manage tasks for a Azure Database Migration Service (classic) instance's project.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_dms_project_task_cancel
   name: az dms project task cancel
   summary: Cancel a task if it's currently queued or running.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task cancel --name
                                --project-name
@@ -30,11 +35,13 @@ directCommands:
     name: --service-name
     summary: The name of the Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_check-name
   name: az dms project task check-name
   summary: Check if a given task name is available within a given instance of DMS as well as the name's validity.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task check-name --name
                                    --project-name
@@ -57,7 +64,6 @@ directCommands:
     name: --service-name
     summary: The name of the Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_create
   name: az dms project task create
   summary: Create and start a migration task.
@@ -67,6 +73,9 @@ directCommands:
       1) SQL -> SQLDB :: OfflineMigration
       2) PostgreSQL -> AzureDbForPostgreSql :: OnlineMigration
       3) MySQL -> AzureDbForMySQL :: OfflineMigration.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task create --database-options-json
                                --name
@@ -293,13 +302,15 @@ directCommands:
   - name: --task-type
     summary: 'The type of data movement the task will support. The supported types are: OnlineMigration, OfflineMigration. If not provided, will default to OfflineMigration for SQL, MySQL and OnlineMigration for PostgreSQL.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_cutover
   name: az dms project task cutover
   summary: For an online migration task, complete the migration by performing a cutover.
   description: >-
     To see the result of the request, please use the 'task show' command:
         az dms project task show ... --expand command.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task cutover --name
                                 --object-name
@@ -327,11 +338,13 @@ directCommands:
     name: --service-name
     summary: The name of the Service.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_delete
   name: az dms project task delete
   summary: Delete a migration task.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task delete --name
                                --project-name
@@ -367,11 +380,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_list
   name: az dms project task list
   summary: List the tasks within a project. Some tasks may have a status of Unknown, which indicates that an error occurred while querying the status of that task.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task list --project-name
                              --resource-group
@@ -399,13 +414,14 @@ directCommands:
   - name: --task-type
     summary: Filters the list by the type of task. For the list of possible types see "az dms check-status".
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_restart
   name: az dms project task restart
   summary: Restart either the entire migration or just a specified object. Currently only supported by MongoDB migrations.
   description: >-
     To see the result of the request, please use the 'task show' command:
         az dms project task show ... --expand command.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dms project task restart --name
                                 --project-name
@@ -437,6 +453,9 @@ directCommands:
   name: az dms project task show
   summary: Show the details of a migration task. Use the "--expand" to get more details.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
   syntax: >-
     az dms project task show --name
                              --project-name
@@ -467,13 +486,14 @@ directCommands:
   - name: --expand
     summary: Expand the response to provide more details. Use with "command" to see more details of the task. Use with "output" to see the results of the task's migration.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/dms/_help.py
 - uid: az_dms_project_task_stop
   name: az dms project task stop
   summary: Stops the task, or stops migration on the specified object (MongoDB migrations only).
   description: >-
     To see the result of the request, please use the 'task show' command:
         az dms project task show ... --expand command.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dms project task stop --name
                              --project-name

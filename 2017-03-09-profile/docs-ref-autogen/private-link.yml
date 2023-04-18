@@ -3,6 +3,8 @@ uid: az_private-link
 name: az private-link
 summary: Private-link association CLI command group.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_private-link_association
 - az_private-link_association_create

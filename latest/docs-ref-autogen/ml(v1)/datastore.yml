@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml datastore** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands for managing and using datastores with the Azure ML Workspace.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_datastore_attach-adls
   name: az ml datastore attach-adls
   summary: Attach an ADLS datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-adls --client-id
                                 --client-secret
@@ -91,6 +95,8 @@ directCommands:
   name: az ml datastore attach-adls-gen2
   summary: Attach a ADLS Gen2 datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-adls-gen2 --account-name
                                      --client-id
@@ -185,6 +191,8 @@ directCommands:
   name: az ml datastore attach-blob
   summary: Attach a blob storage datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-blob --account-name
                                 --container-name
@@ -262,6 +270,8 @@ directCommands:
   name: az ml datastore attach-dbfs
   summary: Attach a Databricks File System datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-dbfs --name
                                 [--output-metadata-file]
@@ -295,6 +305,8 @@ directCommands:
   name: az ml datastore attach-file
   summary: Attach a file share datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-file --account-name
                                 --name
@@ -360,6 +372,8 @@ directCommands:
   name: az ml datastore attach-mysqldb
   summary: Attach an Azure MySQL datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-mysqldb --database-name
                                    --name
@@ -427,6 +441,8 @@ directCommands:
   name: az ml datastore attach-psqldb
   summary: Attach an Azure PostgreSQL datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-psqldb --database-name
                                   --name
@@ -499,6 +515,8 @@ directCommands:
   name: az ml datastore attach-sqldb
   summary: Attach an Azure SQL datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore attach-sqldb --database-name
                                  --name
@@ -593,6 +611,8 @@ directCommands:
   name: az ml datastore detach
   summary: Detach a datastore by name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore detach --name
                            [--output-metadata-file]
@@ -626,6 +646,8 @@ directCommands:
   name: az ml datastore download
   summary: Download files from a Datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore download --name
                              --target-path
@@ -676,6 +698,8 @@ directCommands:
   name: az ml datastore list
   summary: List datastores in the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore list [--include-secret]
                          [--output-metadata-file]
@@ -707,6 +731,8 @@ directCommands:
   name: az ml datastore set-default
   summary: Set the workspace default datastore by name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore set-default --name
                                 [--output-metadata-file]
@@ -740,6 +766,8 @@ directCommands:
   name: az ml datastore show
   summary: Show a single datastore by name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore show --name
                          [--include-secret]
@@ -777,6 +805,8 @@ directCommands:
   name: az ml datastore show-default
   summary: Show the workspace default datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore show-default [--include-secret]
                                  [--output-metadata-file]
@@ -808,6 +838,8 @@ directCommands:
   name: az ml datastore upload
   summary: Upload files to a Datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore upload --name
                            --src-path

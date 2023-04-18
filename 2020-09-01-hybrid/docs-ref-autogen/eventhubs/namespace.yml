@@ -3,11 +3,16 @@ uid: az_eventhubs_namespace
 name: az eventhubs namespace
 summary: Manage Azure EventHubs namespace and Authorizationrule.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventhubs_namespace_create
   name: az eventhubs namespace create
   summary: Creates the EventHubs Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace create --name
                                   --resource-group
@@ -52,10 +57,12 @@ directCommands:
   - name: --cluster-arm-id
     summary: Cluster ARM ID of the Namespace.
     description: ''
+    isPreview: true
   - name: --disable-local-auth
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether SAS authentication is enabled/disabled for the Event Hubs.
     description: ''
+    isPreview: true
   - name: --enable-auto-inflate
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether AutoInflate is enabled for eventhub namespace.
@@ -71,6 +78,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: A boolean value that indicates whether Infrastructure Encryption (Double Encryption) is enabled/disabled.
     description: ''
+    isPreview: true
   - name: --location -l
     summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
@@ -105,11 +113,14 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enabling this property creates a Standard EventHubs Namespace in regions supported availability zones.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
+    isPreview: true
 - uid: az_eventhubs_namespace_exists
   name: az eventhubs namespace exists
   summary: Check for the availability of the given name for the Namespace.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: az eventhubs namespace exists --name
   examples:
   - summary: Create a new topic.
@@ -121,7 +132,6 @@ directCommands:
     name: --name -n
     summary: Namespace name. Name can contain only letters, numbers, and hyphens. The namespace must start with a letter, and it must end with a letter or number.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 commands:
 - az_eventhubs_namespace_application-group
 - az_eventhubs_namespace_application-group_create

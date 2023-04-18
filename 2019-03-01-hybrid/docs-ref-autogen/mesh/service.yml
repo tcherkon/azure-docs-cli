@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mesh** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az mesh service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Service Fabric Mesh services.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mesh_service_list
   name: az mesh service list
   summary: Lists all the service resources.
   description: Gets the information about all services of an application resource. The information include the description and other properties of the Service.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh service list --app-name
                          --resource-group
@@ -28,6 +32,8 @@ directCommands:
   name: az mesh service show
   summary: Get the details of a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh service show --app-name
                          --name

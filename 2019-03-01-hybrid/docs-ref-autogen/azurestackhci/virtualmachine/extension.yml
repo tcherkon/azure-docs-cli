@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azurestackhci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az azurestackhci virtualmachine extension** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtualmachine extension with azurestackhci.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_azurestackhci_virtualmachine_extension_create
   name: az azurestackhci virtualmachine extension create
   summary: Create a virtualmachine extension.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine extension create --name
                                                      --resource-group
@@ -91,6 +99,10 @@ directCommands:
   name: az azurestackhci virtualmachine extension delete
   summary: Delete a virtualmachine extension.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine extension delete [--ids]
                                                      [--name]
@@ -125,6 +137,10 @@ directCommands:
   name: az azurestackhci virtualmachine extension list
   summary: List all the extensions for a virtualmachine.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine extension list --resource-group
                                                    --virtualmachine-name
@@ -144,6 +160,10 @@ directCommands:
   name: az azurestackhci virtualmachine extension show
   summary: Get the details of a virtualmachine extension.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine extension show [--ids]
                                                    [--name]
@@ -173,6 +193,10 @@ directCommands:
   name: az azurestackhci virtualmachine extension update
   summary: Update a virtualmachine extension.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine extension update --name
                                                      [--auto-upgrade-minor {false, true}]
@@ -242,6 +266,10 @@ directCommands:
   name: az azurestackhci virtualmachine extension wait
   summary: Place the CLI in a waiting state until a condition of the virtualmachine extension is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine extension wait [--created]
                                                    [--custom]

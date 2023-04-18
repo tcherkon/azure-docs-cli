@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **fleet** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az fleet** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage fleet.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_fleet_create
   name: az fleet create
   summary: Creates or updates a Fleet.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet create --name
                     --resource-group
@@ -46,6 +50,8 @@ directCommands:
   name: az fleet delete
   summary: Deletes a Fleet.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet delete --name
                     --resource-group
@@ -68,6 +74,8 @@ directCommands:
   name: az fleet get-credentials
   summary: Lists the user credentials of a Fleet.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet get-credentials --name
                              --resource-group
@@ -99,6 +107,8 @@ directCommands:
   name: az fleet list
   summary: Lists fleets in the specified subscription and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az fleet list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -108,6 +118,8 @@ directCommands:
   name: az fleet show
   summary: Gets a Fleet.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet show --name
                   --resource-group
@@ -124,6 +136,8 @@ directCommands:
   name: az fleet update
   summary: Patches a fleet resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet update --name
                     --resource-group
@@ -145,6 +159,8 @@ directCommands:
   name: az fleet wait
   summary: Wait for a fleet resouce to reach a desired state.
   description: If an operation on fleet was interrupted or was started with `--no-wait`, use this command to wait for it to complete.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fleet wait --fleet-name
                   --resource-group

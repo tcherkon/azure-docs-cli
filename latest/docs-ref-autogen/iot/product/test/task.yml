@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot product test task** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage product testing certification tasks.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_iot_product_test_task_create
   name: az iot product test task create
   summary: Queue a new testing task. Only one testing task can be running at a time.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test task create --test-id
                                     [--base-url]
@@ -52,6 +60,10 @@ directCommands:
   name: az iot product test task delete
   summary: Cancel a running task matching the specified --task-id.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test task delete --task-id
                                     --test-id
@@ -76,6 +88,10 @@ directCommands:
   name: az iot product test task show
   summary: Show the status of a testing task. Use --running for current running task or --task-id.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot product' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot product test task show --test-id
                                   [--base-url]

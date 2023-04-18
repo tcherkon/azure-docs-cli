@@ -3,6 +3,10 @@ uid: az_consumption_reservation
 name: az consumption reservation
 summary: Manage reservations for Azure resources.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'consumption' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Core
 commands:
 - az_consumption_reservation_detail
 - az_consumption_reservation_detail_list

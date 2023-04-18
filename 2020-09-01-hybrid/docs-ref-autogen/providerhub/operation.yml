@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **providerhub** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az providerhub operation** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage operation with providerhub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_providerhub_operation_create
   name: az providerhub operation create
   summary: Create the operation supported by the given provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub operation create --contents
                                     --provider-namespace
@@ -31,6 +35,8 @@ directCommands:
   name: az providerhub operation delete
   summary: Deletes an operation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub operation delete [--ids]
                                     [--provider-namespace]
@@ -57,6 +63,8 @@ directCommands:
   name: az providerhub operation list
   summary: Gets the operations supported by the given provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az providerhub operation list --provider-namespace
   examples:
   - summary: Operations_ListByProviderRegistration

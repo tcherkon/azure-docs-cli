@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager security-admin-config rule-collection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage admin rule collection with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_security-admin-config_rule-collection_create
   name: az network manager security-admin-config rule-collection create
   summary: Create a network manager security configuration admin rule collection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config rule-collection create --applies-to-groups
                                                                     --configuration-name
@@ -51,6 +55,8 @@ directCommands:
   name: az network manager security-admin-config rule-collection delete
   summary: Delete an admin rule collection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config rule-collection delete --rule-collection-name
                                                                     [--configuration-name]
@@ -97,6 +103,8 @@ directCommands:
   name: az network manager security-admin-config rule-collection list
   summary: List network manager security configuration admin rule collections.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config rule-collection list --configuration-name
                                                                   --name
@@ -130,6 +138,8 @@ directCommands:
   name: az network manager security-admin-config rule-collection show
   summary: Gets a network manager security configuration admin rule collection in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config rule-collection show --rule-collection-name
                                                                   [--configuration-name]
@@ -165,6 +175,8 @@ directCommands:
   name: az network manager security-admin-config rule-collection update
   summary: Update a network manager security configuration admin rule collection in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager security-admin-config rule-collection update --rule-collection-name
                                                                     [--add]

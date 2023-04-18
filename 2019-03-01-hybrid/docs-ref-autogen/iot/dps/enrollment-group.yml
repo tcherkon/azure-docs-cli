@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot dps enrollment-group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage enrollment groups in an Azure IoT Hub Device Provisioning Service.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_dps_enrollment-group_compute-device-key
   name: az iot dps enrollment-group compute-device-key
   summary: Generate a derived device SAS key for an enrollment group in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment-group compute-device-key --registration-id
                                                    [--auth-type {key, login}]
@@ -60,6 +64,8 @@ directCommands:
     should have matching BEGIN and END segments, for example:
 
     start with '-----BEGIN CERTIFICATE-----' and end with '-----END CERTIFICATE-----'.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment-group create --eid
                                        [--allocation-policy {custom, geoLatency, hashed, static}]
@@ -166,6 +172,8 @@ directCommands:
   name: az iot dps enrollment-group delete
   summary: Delete an enrollment group in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment-group delete --eid
                                        [--auth-type {key, login}]
@@ -200,6 +208,8 @@ directCommands:
   name: az iot dps enrollment-group list
   summary: List enrollments groups in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment-group list [--auth-type {key, login}]
                                      [--dps-name]
@@ -228,6 +238,8 @@ directCommands:
   name: az iot dps enrollment-group show
   summary: Get an enrollment group's details in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment-group show --eid
                                      [--auth-type {key, login}]
@@ -273,6 +285,8 @@ directCommands:
     should have matching BEGIN and END segments, for example:
 
     start with '-----BEGIN CERTIFICATE-----' and end with '-----END CERTIFICATE-----'.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment-group update --eid
                                        [--allocation-policy {custom, geoLatency, hashed, static}]

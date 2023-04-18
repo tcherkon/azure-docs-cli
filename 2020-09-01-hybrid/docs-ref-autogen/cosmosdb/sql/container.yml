@@ -7,11 +7,17 @@ extensionInformation: >-
   > This reference is part of the **cosmosdb-preview** extension for the Azure CLI  (version 2.17.1 or higher).  The extension will automatically install the first time you run an **az cosmosdb sql container** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Cosmos DB SQL containers.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_cosmosdb_sql_container_merge
   name: az cosmosdb sql container merge
   summary: Merges the partitions of a sql container.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container merge --account-name
                                     --database-name
@@ -41,6 +47,10 @@ directCommands:
   name: az cosmosdb sql container redistribute-partition-throughput
   summary: Redistributes the partition throughput of a sql container.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container redistribute-partition-throughput --account-name
                                                                 --database-name
@@ -89,6 +99,10 @@ directCommands:
   name: az cosmosdb sql container restore
   summary: Restore a deleted sql container within the same account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container restore --account-name
                                       --database-name
@@ -123,6 +137,10 @@ directCommands:
   name: az cosmosdb sql container retrieve-partition-throughput
   summary: Retrieve  the partition throughput of a sql container.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az cosmosdb sql container retrieve-partition-throughput --account-name
                                                             --database-name

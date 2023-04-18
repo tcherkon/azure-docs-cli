@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **k8s-configuration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az k8s-configuration flux** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Flux v2 Kubernetes configurations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_k8s-configuration_flux_create
   name: az k8s-configuration flux create
   summary: Create a Flux v2 Kubernetes configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-configuration flux create --cluster-name
                                      --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -238,6 +242,8 @@ directCommands:
   name: az k8s-configuration flux delete
   summary: Delete a Flux v2 Kubernetes configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-configuration flux delete --cluster-name
                                      --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -292,6 +298,8 @@ directCommands:
   name: az k8s-configuration flux list
   summary: List all Flux v2 Kubernetes configurations.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-configuration flux list --cluster-name
                                    --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -325,6 +333,8 @@ directCommands:
   name: az k8s-configuration flux show
   summary: Show a Flux v2 Kubernetes configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-configuration flux show --cluster-name
                                    --cluster-type {connectedClusters, managedClusters, provisionedClusters}
@@ -363,6 +373,8 @@ directCommands:
   name: az k8s-configuration flux update
   summary: Update a Flux v2 Kubernetes configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az k8s-configuration flux update --cluster-name
                                      --cluster-type {connectedClusters, managedClusters, provisionedClusters}

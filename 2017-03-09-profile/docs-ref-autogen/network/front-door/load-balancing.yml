@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door load-balancing** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Front Door load-balancing settings.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_load-balancing_create
   name: az network front-door load-balancing create
   summary: Create Front Door load-balancing settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door load-balancing create --front-door-name
                                                 --name
@@ -48,6 +52,8 @@ directCommands:
   name: az network front-door load-balancing delete
   summary: Delete Front Door load-balancing settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door load-balancing delete --front-door-name
                                                 --name
@@ -69,6 +75,8 @@ directCommands:
   name: az network front-door load-balancing list
   summary: List Front Door load-balancing settingss.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door load-balancing list --front-door-name
                                               --resource-group
@@ -85,6 +93,8 @@ directCommands:
   name: az network front-door load-balancing show
   summary: Get the details of a Front Door load-balancing settings bundle.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door load-balancing show --front-door-name
                                               --name
@@ -106,6 +116,8 @@ directCommands:
   name: az network front-door load-balancing update
   summary: Update Front Door load-balancing settings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door load-balancing update --front-door-name
                                                 --name

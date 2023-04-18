@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp revision label** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage revision labels assigned to traffic weights.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_revision_label_add
   name: az containerapp revision label add
   summary: Set a revision label to a revision with an associated traffic weight.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision label add --label
                                        --resource-group
@@ -48,6 +52,8 @@ directCommands:
   name: az containerapp revision label remove
   summary: Remove a revision label from a revision with an associated traffic weight.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision label remove --label
                                           --name
@@ -72,6 +78,8 @@ directCommands:
   name: az containerapp revision label swap
   summary: Swap a revision label between two revisions with associated traffic weights.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp revision label swap --name
                                         --resource-group

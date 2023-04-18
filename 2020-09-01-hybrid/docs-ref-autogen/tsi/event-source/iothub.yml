@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **timeseriesinsights** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az tsi event-source iothub** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage event source with timeseriesinsights sub group iot-hub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_tsi_event-source_iothub_create
   name: az tsi event-source iothub create
   summary: Create an event source under the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi event-source iothub create --consumer-group-name
                                       --environment-name
@@ -79,6 +83,8 @@ directCommands:
   name: az tsi event-source iothub update
   summary: Update an event source under the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi event-source iothub update [--environment-name]
                                       [--event-source-name]

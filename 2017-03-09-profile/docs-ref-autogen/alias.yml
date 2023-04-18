@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **alias** extension for the Azure CLI  (version 2.0.31.dev0 or higher).  The extension will automatically install the first time you run an **az alias** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure CLI Aliases.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_alias_create
   name: az alias create
   summary: Create an alias.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az alias create --command
                     --name
@@ -47,6 +51,8 @@ directCommands:
   name: az alias export
   summary: Export all registered aliases to a given path, as an INI configuration file. If no export path is specified, the alias configuration file is exported to the current working directory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az alias export [--exclude]
                     [--path]
@@ -61,6 +67,8 @@ directCommands:
   name: az alias import
   summary: Import aliases from an INI configuration file or an URL.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az alias import --source
   requiredParameters:
   - isRequired: true
@@ -71,11 +79,15 @@ directCommands:
   name: az alias list
   summary: List the registered aliases.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az alias list
 - uid: az_alias_remove
   name: az alias remove
   summary: Remove one or more aliases. Aliases to be removed are space-delimited.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az alias remove --name
   requiredParameters:
   - isRequired: true
@@ -86,6 +98,8 @@ directCommands:
   name: az alias remove-all
   summary: Remove all registered aliases.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az alias remove-all [--yes]
   optionalParameters:
   - name: --yes -y

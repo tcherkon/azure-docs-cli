@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network sim** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage sim.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_sim_create
   name: az mobile-network sim create
   summary: Create a SIM.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim create --international-msi
                                  --name
@@ -71,6 +75,8 @@ directCommands:
   name: az mobile-network sim delete
   summary: Delete the specified SIM.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim delete [--ids]
                                  [--name]
@@ -110,6 +116,8 @@ directCommands:
   name: az mobile-network sim list
   summary: List all the SIMs in a SIM group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim list --resource-group
                                --sim-group-name
@@ -129,6 +137,8 @@ directCommands:
   name: az mobile-network sim show
   summary: Get information about the specified SIM.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim show [--ids]
                                [--name]
@@ -158,6 +168,8 @@ directCommands:
   name: az mobile-network sim wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim wait [--created]
                                [--custom]

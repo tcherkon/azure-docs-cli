@@ -3,11 +3,15 @@ uid: az_managed-cassandra_datacenter
 name: az managed-cassandra datacenter
 summary: Azure Managed Cassandra DataCenter.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_managed-cassandra_datacenter_create
   name: az managed-cassandra datacenter create
   summary: Create a Datacenter in an Azure Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra datacenter create --cluster-name
                                            --data-center-location
@@ -95,6 +99,8 @@ directCommands:
   name: az managed-cassandra datacenter delete
   summary: Deletes a Managed Cassandra Datacenter.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra datacenter delete --cluster-name
                                            --data-center-name
@@ -132,6 +138,8 @@ directCommands:
   name: az managed-cassandra datacenter list
   summary: List the Managed Cassandra Datacenters in a given Cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra datacenter list --cluster-name
                                          --resource-group
@@ -151,6 +159,8 @@ directCommands:
   name: az managed-cassandra datacenter show
   summary: Get a Managed Cassandra DataCenter Resource.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra datacenter show --cluster-name
                                          --data-center-name
@@ -175,6 +185,8 @@ directCommands:
   name: az managed-cassandra datacenter update
   summary: Update a Datacenter in an Azure Managed Cassandra Cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az managed-cassandra datacenter update --cluster-name
                                            --data-center-name

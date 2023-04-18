@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot central export** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure IoT Central data exports.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_iot_central_export_create
   name: az iot central export create
   summary: Create an export for an IoT Central application.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot central export' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot central export create --app-id
                                  --destinations
@@ -65,6 +73,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview"
     summary: The API version for the requested operation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -87,6 +97,10 @@ directCommands:
   name: az iot central export delete
   summary: Delete an export for an IoT Central application.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot central export' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot central export delete --app-id
                                  --export-id
@@ -111,6 +125,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview"
     summary: The API version for the requested operation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -122,6 +138,10 @@ directCommands:
   name: az iot central export list
   summary: Get the full list of exports for an IoT Central application.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot central export' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot central export list --app-id
                                [--api-version {2022-06-30-preview}]
@@ -141,6 +161,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview"
     summary: The API version for the requested operation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -152,6 +174,10 @@ directCommands:
   name: az iot central export show
   summary: Get an export details.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot central export' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot central export show --app-id
                                --export-id
@@ -176,6 +202,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview"
     summary: The API version for the requested operation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -187,6 +215,10 @@ directCommands:
   name: az iot central export update
   summary: Update an export for an IoT Central application.
   description: Source is immutable once an export is created.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot central export' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot central export update --app-id
                                  --content
@@ -218,6 +250,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview"
     summary: The API version for the requested operation.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.

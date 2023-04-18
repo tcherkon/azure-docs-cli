@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection backup-instance restore** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Restore backed up instances from recovery points in a backup vault.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_backup-instance_restore_initialize-for-data-recovery
   name: az dataprotection backup-instance restore initialize-for-data-recovery
   summary: Initialize restore request object to recover all backed up data in a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance restore initialize-for-data-recovery --datasource-type {AzureBlob, AzureDatabaseForPostgreSQL, AzureDisk}
                                                                            --restore-location
@@ -71,6 +79,10 @@ directCommands:
   name: az dataprotection backup-instance restore initialize-for-data-recovery-as-files
   summary: Initialize restore request object to recover all backed up data as files in a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance restore initialize-for-data-recovery-as-files --datasource-type {AzureBlob, AzureDatabaseForPostgreSQL, AzureDisk}
                                                                                     --restore-location
@@ -126,6 +138,10 @@ directCommands:
   name: az dataprotection backup-instance restore initialize-for-item-recovery
   summary: Initialize restore request object to recover specified items of backed up data in a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance restore initialize-for-item-recovery --backup-instance-id
                                                                            --datasource-type {AzureBlob, AzureDatabaseForPostgreSQL, AzureDisk}
@@ -178,6 +194,10 @@ directCommands:
   name: az dataprotection backup-instance restore trigger
   summary: Triggers restore for a BackupInstance.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-instance restore trigger --restore-request-object
                                                       [--backup-instance-name]

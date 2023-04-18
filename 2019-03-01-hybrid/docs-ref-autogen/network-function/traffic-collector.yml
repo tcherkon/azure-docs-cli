@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **traffic-collector** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az network-function traffic-collector** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Traffic Collector resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network-function_traffic-collector_create
   name: az network-function traffic-collector create
   summary: Create an Azure Traffic Collector resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network-function traffic-collector create --name
                                                  --resource-group
@@ -45,6 +49,8 @@ directCommands:
   name: az network-function traffic-collector delete
   summary: Delete a specified Azure Traffic Collector resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network-function traffic-collector delete [--ids]
                                                  [--name]
@@ -80,6 +86,8 @@ directCommands:
   name: az network-function traffic-collector list
   summary: Return a list of Azure Traffic Collectors.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network-function traffic-collector list [--resource-group]
   examples:
   - summary: Return a list of azure traffic collectors in a resource group
@@ -92,6 +100,8 @@ directCommands:
   name: az network-function traffic-collector show
   summary: Get the specified Azure Traffic Collector resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network-function traffic-collector show [--ids]
                                                [--name]
@@ -117,6 +127,8 @@ directCommands:
   name: az network-function traffic-collector update
   summary: Update an Azure Traffic Collector resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network-function traffic-collector update [--add]
                                                  [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
@@ -172,6 +184,8 @@ directCommands:
   name: az network-function traffic-collector wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network-function traffic-collector wait [--created]
                                                [--custom]

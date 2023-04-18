@@ -3,11 +3,15 @@ uid: az_containerapp
 name: az containerapp
 summary: Manage Azure Container Apps.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_containerapp_browse
   name: az containerapp browse
   summary: Open a containerapp in the browser, if possible.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp browse [--ids]
                            [--name]
@@ -33,6 +37,8 @@ directCommands:
   name: az containerapp create
   summary: Create a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp create --name
                            --resource-group
@@ -256,6 +262,7 @@ directCommands:
   - name: --workload-profile-name -w
     summary: Name of the workload profile to run the app on.
     description: ''
+    isPreview: true
   - name: --yaml
     summary: Path to a .yaml file with the configuration of a container app. All other parameters will be ignored. For an example, see  https://docs.microsoft.com/azure/container-apps/azure-resource-manager-api-spec#examples.
     description: ''
@@ -263,6 +270,8 @@ directCommands:
   name: az containerapp delete
   summary: Delete a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp delete [--ids]
                            [--name]
@@ -298,6 +307,8 @@ directCommands:
   name: az containerapp exec
   summary: Open an SSH-like interactive shell within a container app replica.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp exec --name
                          --resource-group
@@ -339,6 +350,8 @@ directCommands:
   name: az containerapp list
   summary: List container apps.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp list [--environment]
                          [--resource-group]
@@ -358,6 +371,8 @@ directCommands:
   name: az containerapp show
   summary: Show details of a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp show [--ids]
                          [--name]
@@ -388,6 +403,8 @@ directCommands:
   name: az containerapp up
   summary: Create or update a container app as well as any associated resources (ACR, resource group, container apps environment, GitHub Actions, etc.).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp up --name
                        [--branch]
@@ -499,6 +516,8 @@ directCommands:
   name: az containerapp update
   summary: Update a container app. In multiple revisions mode, create a new revision based on the latest revision.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp update [--args]
                            [--command]
@@ -626,6 +645,7 @@ directCommands:
   - name: --workload-profile-name -w
     summary: The friendly name for the workload profile.
     description: ''
+    isPreview: true
   - name: --yaml
     summary: Path to a .yaml file with the configuration of a container app. All other parameters will be ignored. For an example, see  https://docs.microsoft.com/azure/container-apps/azure-resource-manager-api-spec#examples.
     description: ''

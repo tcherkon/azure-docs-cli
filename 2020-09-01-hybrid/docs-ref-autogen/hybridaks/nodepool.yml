@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **hybridaks** extension for the Azure CLI  (version 2.32.0 or higher).  The extension will automatically install the first time you run an **az hybridaks nodepool** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage nodepools in a hybridaks provisioned cluster.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_hybridaks_nodepool_add
   name: az hybridaks nodepool add
   summary: Adds a nodepool in the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks nodepool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks nodepool add --cluster-name
                               --name
@@ -69,6 +77,10 @@ directCommands:
   name: az hybridaks nodepool delete
   summary: Deletes the nodepool in the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks nodepool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks nodepool delete --cluster-name
                                  --name
@@ -104,6 +116,10 @@ directCommands:
   name: az hybridaks nodepool list
   summary: Lists all the nodepools in the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks nodepool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks nodepool list --cluster-name
                                --resource-group
@@ -123,6 +139,10 @@ directCommands:
   name: az hybridaks nodepool show
   summary: Gets the nodepool in the Hybrid AKS provisioned cluster.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks nodepool' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks nodepool show --cluster-name
                                --name

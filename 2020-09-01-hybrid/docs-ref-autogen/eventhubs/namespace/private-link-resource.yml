@@ -3,11 +3,18 @@ uid: az_eventhubs_namespace_private-link-resource
 name: az eventhubs namespace private-link-resource
 summary: Manage eventhubs namespace private link resources.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventhubs_namespace_private-link-resource_show
   name: az eventhubs namespace private-link-resource show
   summary: Get the private link resources that need to be created for a eventhubs namespace.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
   syntax: >-
     az eventhubs namespace private-link-resource show --namespace-name
                                                       --resource-group
@@ -23,7 +30,6 @@ directCommands:
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventhubs/_help.py
 commands:
 - az_eventhubs_namespace_private-link-resource_show
 globalParameters:

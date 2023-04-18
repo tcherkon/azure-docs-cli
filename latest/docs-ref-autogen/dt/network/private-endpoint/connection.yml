@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt network private-endpoint connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Digital Twins instance private-endpoint connections.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_network_private-endpoint_connection_delete
   name: az dt network private-endpoint connection delete
   summary: Delete a private-endpoint connection associated with the Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt network private-endpoint connection delete --cn
                                                      --dt-name
@@ -48,6 +52,8 @@ directCommands:
   name: az dt network private-endpoint connection list
   summary: List private-endpoint connections associated with the Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt network private-endpoint connection list --dt-name
                                                    [--resource-group]
@@ -67,6 +73,8 @@ directCommands:
   name: az dt network private-endpoint connection set
   summary: Set the state of a private-endpoint connection associated with the Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt network private-endpoint connection set --cn
                                                   --dt-name
@@ -116,6 +124,8 @@ directCommands:
   name: az dt network private-endpoint connection show
   summary: Show a private-endpoint connection associated with the Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt network private-endpoint connection show --cn
                                                    --dt-name
@@ -140,6 +150,8 @@ directCommands:
   name: az dt network private-endpoint connection wait
   summary: Wait until an operation on a private-endpoint connection is complete.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt network private-endpoint connection wait --cn
                                                    --dt-name

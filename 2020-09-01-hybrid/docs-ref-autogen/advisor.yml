@@ -3,6 +3,8 @@ uid: az_advisor
 name: az advisor
 summary: Manage Azure Advisor.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_advisor_configuration
 - az_advisor_configuration_list

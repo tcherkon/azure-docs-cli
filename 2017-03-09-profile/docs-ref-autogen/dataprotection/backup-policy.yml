@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection backup-policy** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage backup policy with dataprotection.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_backup-policy_create
   name: az dataprotection backup-policy create
   summary: Create a backup policy belonging to a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy create --backup-policy-name
                                            --policy
@@ -41,6 +49,10 @@ directCommands:
   name: az dataprotection backup-policy delete
   summary: Deletes a backup policy belonging to a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy delete [--backup-policy-name]
                                            [--ids]
@@ -75,6 +87,10 @@ directCommands:
   name: az dataprotection backup-policy get-default-policy-template
   summary: Get default policy template for a given datasource type.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az dataprotection backup-policy get-default-policy-template --datasource-type {AzureBlob, AzureDatabaseForPostgreSQL, AzureDisk}
   examples:
   - summary: Get default policy template for Azure Disk
@@ -89,6 +105,10 @@ directCommands:
   name: az dataprotection backup-policy list
   summary: Returns list of backup policies belonging to a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy list --resource-group
                                          --vault-name
@@ -108,6 +128,10 @@ directCommands:
   name: az dataprotection backup-policy show
   summary: Gets a backup policy belonging to a backup vault.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy show [--backup-policy-name]
                                          [--ids]

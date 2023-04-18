@@ -3,11 +3,15 @@ uid: az_mysql_server-logs
 name: az mysql server-logs
 summary: Manage server logs.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_server-logs_download
   name: az mysql server-logs download
   summary: Download log files.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server-logs download --name
                                   [--ids]
@@ -39,6 +43,8 @@ directCommands:
   name: az mysql server-logs list
   summary: List log files for a server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server-logs list --resource-group
                               --server-name

@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **timeseriesinsights** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az tsi** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Time Series Insights.
 description: ''
+status: GA
+sourceType: Extension
 commands:
 - az_tsi_access-policy
 - az_tsi_access-policy_create

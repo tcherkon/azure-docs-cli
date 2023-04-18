@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datadog** extension for the Azure CLI  (version 2.17.0 or higher).  The extension will automatically install the first time you run an **az datadog tag-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage tag rule with datadog.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datadog_tag-rule_create
   name: az datadog tag-rule create
   summary: Create a tag rule set for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog tag-rule create --monitor-name
                                --resource-group
@@ -82,6 +86,8 @@ directCommands:
   name: az datadog tag-rule list
   summary: List the tag rules for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog tag-rule list --monitor-name
                              --resource-group
@@ -101,6 +107,8 @@ directCommands:
   name: az datadog tag-rule show
   summary: Get a tag rule set for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog tag-rule show [--ids]
                              [--monitor-name]
@@ -130,6 +138,8 @@ directCommands:
   name: az datadog tag-rule update
   summary: Update a tag rule set for a given monitor resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datadog tag-rule update [--add]
                                [--filtering-tags]

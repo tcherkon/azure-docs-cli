@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **webpubsub** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az webpubsub** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Webpubsub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_webpubsub_create
   name: az webpubsub create
   summary: Create a Webpubsub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub create --name
                         --resource-group
@@ -50,6 +54,8 @@ directCommands:
   name: az webpubsub delete
   summary: Delete a Webpubsub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub delete [--ids]
                         [--name]
@@ -72,6 +78,8 @@ directCommands:
   name: az webpubsub list
   summary: List Webpubsub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az webpubsub list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -81,6 +89,8 @@ directCommands:
   name: az webpubsub list-skus
   summary: List all available skus of the resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub list-skus [--ids]
                            [--name]
@@ -103,6 +113,8 @@ directCommands:
   name: az webpubsub list-usage
   summary: List resource usage quotas by location.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az webpubsub list-usage --location
   requiredParameters:
   - isRequired: true
@@ -113,6 +125,8 @@ directCommands:
   name: az webpubsub restart
   summary: Restart a Webpubsub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub restart [--ids]
                          [--name]
@@ -135,6 +149,8 @@ directCommands:
   name: az webpubsub show
   summary: Show details of a Webpubsub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub show [--ids]
                       [--name]
@@ -157,6 +173,8 @@ directCommands:
   name: az webpubsub update
   summary: Update a Webpubsub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webpubsub update [--add]
                         [--force-string]

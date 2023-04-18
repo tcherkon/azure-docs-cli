@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Digital Twins instance endpoints.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_endpoint_delete
   name: az dt endpoint delete
   summary: Remove an endpoint from a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt endpoint delete --dt-name
                           --en
@@ -48,6 +52,8 @@ directCommands:
   name: az dt endpoint list
   summary: List all egress endpoints configured on a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt endpoint list --dt-name
                         [--resource-group]
@@ -67,6 +73,8 @@ directCommands:
   name: az dt endpoint show
   summary: Show details of an endpoint configured on a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt endpoint show --dt-name
                         --en
@@ -91,6 +99,8 @@ directCommands:
   name: az dt endpoint wait
   summary: Wait until an endpoint operation is done.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt endpoint wait --dt-name
                         --en

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du update file** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Update file operations.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_update_file_list
   name: az iot du update file list
   summary: List update file Ids with respect to update provider, name and version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update file list --account
                                --instance
@@ -51,6 +55,8 @@ directCommands:
   name: az iot du update file show
   summary: Show the details of a specific update file with respect to update provider, name and version.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du update file show --account
                                --instance

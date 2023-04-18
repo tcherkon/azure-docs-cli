@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **amg** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az grafana service-account token** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage service account tokens.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_grafana_service-account_token_create
   name: az grafana service-account token create
   summary: Create a new service account token.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana service-account token create --name
                                             --service-account
@@ -46,6 +50,8 @@ directCommands:
   name: az grafana service-account token delete
   summary: Delete a service account token.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana service-account token delete --name
                                             --service-account
@@ -72,6 +78,8 @@ directCommands:
   name: az grafana service-account token list
   summary: List existing service account tokens.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana service-account token list --name
                                           --service-account

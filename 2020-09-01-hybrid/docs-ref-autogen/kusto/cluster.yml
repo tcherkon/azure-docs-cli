@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **kusto** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az kusto cluster** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cluster with kusto.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_kusto_cluster_add-language-extension
   name: az kusto cluster add-language-extension
   summary: Add a list of language extensions that can run within KQL queries.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster add-language-extension [--cluster-name]
                                             [--ids]
@@ -53,6 +61,10 @@ directCommands:
   name: az kusto cluster create
   summary: Create a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster create --cluster-name
                             --resource-group
@@ -232,6 +244,10 @@ directCommands:
   name: az kusto cluster delete
   summary: Deletes a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster delete [--cluster-name]
                             [--ids]
@@ -267,6 +283,10 @@ directCommands:
   name: az kusto cluster detach-follower-database
   summary: Detaches all followers of a database owned by this cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster detach-follower-database --attached-database-configuration-name
                                               --cluster-resource-id
@@ -308,6 +328,10 @@ directCommands:
   name: az kusto cluster diagnose-virtual-network
   summary: Diagnoses network connectivity status for external resources on which the service is dependent on.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster diagnose-virtual-network [--cluster-name]
                                               [--ids]
@@ -338,6 +362,10 @@ directCommands:
   name: az kusto cluster list
   summary: Lists all Kusto clusters within a resource group. And Lists all Kusto clusters within a subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az kusto cluster list [--resource-group]
   examples:
   - summary: KustoClustersListByResourceGroup
@@ -352,6 +380,10 @@ directCommands:
   name: az kusto cluster list-follower-database
   summary: Returns a list of databases that are owned by this cluster and were followed by another cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster list-follower-database --cluster-name
                                             --resource-group
@@ -371,6 +403,10 @@ directCommands:
   name: az kusto cluster list-language-extension
   summary: Returns a list of language extensions that can run within KQL queries.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster list-language-extension --cluster-name
                                              --resource-group
@@ -390,6 +426,10 @@ directCommands:
   name: az kusto cluster list-outbound-network-dependency-endpoint
   summary: Gets the network endpoints of all outbound dependencies of a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster list-outbound-network-dependency-endpoint --cluster-name
                                                                --resource-group
@@ -409,6 +449,10 @@ directCommands:
   name: az kusto cluster list-sku
   summary: Returns the SKUs available for the provided resource. And Lists eligible SKUs for Kusto resource provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster list-sku [--cluster-name]
                               [--resource-group]
@@ -428,6 +472,10 @@ directCommands:
   name: az kusto cluster remove-language-extension
   summary: Remove a list of language extensions that can run within KQL queries.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster remove-language-extension [--cluster-name]
                                                [--ids]
@@ -469,6 +517,10 @@ directCommands:
   name: az kusto cluster show
   summary: Gets a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster show [--cluster-name]
                           [--ids]
@@ -494,6 +546,10 @@ directCommands:
   name: az kusto cluster start
   summary: Starts a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster start [--cluster-name]
                            [--ids]
@@ -524,6 +580,10 @@ directCommands:
   name: az kusto cluster stop
   summary: Stops a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster stop [--cluster-name]
                           [--ids]
@@ -554,6 +614,10 @@ directCommands:
   name: az kusto cluster update
   summary: Update a Kusto cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster update [--accepted-audiences]
                             [--allowed-fqdn-list]
@@ -729,6 +793,10 @@ directCommands:
   name: az kusto cluster wait
   summary: Place the CLI in a waiting state until a condition of the kusto cluster is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'kusto' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az kusto cluster wait [--cluster-name]
                           [--created]

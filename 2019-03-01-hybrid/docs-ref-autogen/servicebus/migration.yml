@@ -3,11 +3,16 @@ uid: az_servicebus_migration
 name: az servicebus migration
 summary: Manage Azure Service Bus Migration of Standard to Premium.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_servicebus_migration_abort
   name: az servicebus migration abort
   summary: Disable the Service Bus Migration of Standard to Premium namespace.
   description: Abort command stops the replication of entities from standard to premium namespaces. The entities replicated to premium namespace before abort command will be available under premium namespace. The aborted migration can not be resumed, its has to restarted.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus migration abort [--ids]
                                   [--name]
@@ -29,11 +34,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_migration_complete
   name: az servicebus migration complete
   summary: Completes the Service Bus Migration of Standard to Premium namespace.
   description: After completing migration, the existing connection strings to standard namespace will connect to premium namespace automatically. Post migration name is the name that can be used to connect to standard namespace after migration is complete.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus migration complete [--ids]
                                      [--name]
@@ -55,11 +62,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_migration_show
   name: az servicebus migration show
   summary: Shows properties of properties of Service Bus Migration.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus migration show [--ids]
                                  [--name]
@@ -81,11 +90,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 - uid: az_servicebus_migration_start
   name: az servicebus migration start
   summary: Create and Start Service Bus Migration of Standard to Premium namespace.
   description: Service Bus Migration requires an empty Premium namespace to replicate entities from Standard namespace.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
   syntax: >-
     az servicebus migration start --post-migration-name
                                   --target-namespace
@@ -118,7 +129,6 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/servicebus/_help.py
 commands:
 - az_servicebus_migration_abort
 - az_servicebus_migration_complete

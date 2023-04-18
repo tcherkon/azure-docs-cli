@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **scvmm** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az scvmm vm-template** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Arc for SCVMM Virtual Machine Template resources.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_scvmm_vm-template_create
   name: az scvmm vm-template create
   summary: Create vm-template resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vm-template create --custom-location
                                 --location
@@ -63,6 +71,10 @@ directCommands:
   name: az scvmm vm-template delete
   summary: Delete vm-template resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vm-template delete [--force]
                                 [--ids]
@@ -104,6 +116,10 @@ directCommands:
   name: az scvmm vm-template list
   summary: Retrieve a list of vm-templates.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az scvmm vm-template list [--resource-group]
   examples:
   - summary: Retrieve a list of vm-templates present in a resource group
@@ -118,6 +134,10 @@ directCommands:
   name: az scvmm vm-template show
   summary: Get details of a vm-template.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vm-template show [--ids]
                               [--name]
@@ -145,6 +165,10 @@ directCommands:
   name: az scvmm vm-template update
   summary: Update vm-template resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vm-template update [--ids]
                                 [--name]
@@ -181,6 +205,10 @@ directCommands:
   name: az scvmm vm-template wait
   summary: Place the CLI in a waiting state until a condition of the vm-template is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'scvmm' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az scvmm vm-template wait --resource-group
                               --vm-template-name

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot central device attestation** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure IoT Central device attestation.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_central_device_attestation_create
   name: az iot central device attestation create
   summary: Create an individual device attestation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central device attestation create --app-id
                                              --content
@@ -41,6 +45,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -52,6 +58,8 @@ directCommands:
   name: az iot central device attestation delete
   summary: Remove an individual device attestation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central device attestation delete --app-id
                                              --device-id
@@ -76,6 +84,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -87,6 +97,8 @@ directCommands:
   name: az iot central device attestation show
   summary: Get device attestation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central device attestation show --app-id
                                            --device-id
@@ -111,6 +123,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -122,6 +136,8 @@ directCommands:
   name: az iot central device attestation update
   summary: Update an individual device attestation via patch.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central device attestation update --app-id
                                              --content
@@ -151,6 +167,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.

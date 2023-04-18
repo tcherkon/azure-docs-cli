@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datamigration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datamigration sql-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Database Migration Service.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datamigration_sql-service_create
   name: az datamigration sql-service create
   summary: Create Database Migration Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service create --name
                                         --resource-group
@@ -45,6 +49,8 @@ directCommands:
   name: az datamigration sql-service delete
   summary: Delete Database Migration Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service delete [--ids]
                                         [--name]
@@ -80,6 +86,8 @@ directCommands:
   name: az datamigration sql-service delete-node
   summary: Delete the integration runtime node.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service delete-node [--ids]
                                              [--ir-name]
@@ -113,6 +121,8 @@ directCommands:
   name: az datamigration sql-service list
   summary: Retrieve all Database Migration Services in the resource group. And Retrieve all Database Migration Services in the subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az datamigration sql-service list [--resource-group]
   examples:
   - summary: Get Migration Services in the Resource Group.
@@ -127,6 +137,8 @@ directCommands:
   name: az datamigration sql-service list-auth-key
   summary: Retrieve the List of Authentication Keys for Self Hosted Integration Runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service list-auth-key --name
                                                --resource-group
@@ -146,6 +158,8 @@ directCommands:
   name: az datamigration sql-service list-integration-runtime-metric
   summary: Retrieve the registered Integration Runtine nodes and their monitoring data for a given Database Migration Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service list-integration-runtime-metric --name
                                                                  --resource-group
@@ -165,6 +179,8 @@ directCommands:
   name: az datamigration sql-service list-migration
   summary: Retrieve the List of database migrations attached to the service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service list-migration --name
                                                 --resource-group
@@ -184,6 +200,8 @@ directCommands:
   name: az datamigration sql-service regenerate-auth-key
   summary: Regenerate a new set of Authentication Keys for Self Hosted Integration Runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service regenerate-auth-key [--auth-key1]
                                                      [--auth-key2]
@@ -221,6 +239,8 @@ directCommands:
   name: az datamigration sql-service show
   summary: Retrieve the Database Migration Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service show [--ids]
                                       [--name]
@@ -246,6 +266,8 @@ directCommands:
   name: az datamigration sql-service update
   summary: Update Database Migration Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service update [--ids]
                                         [--name]
@@ -280,6 +302,8 @@ directCommands:
   name: az datamigration sql-service wait
   summary: Place the CLI in a waiting state until a condition of the datamigration sql-service is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-service wait [--created]
                                       [--custom]

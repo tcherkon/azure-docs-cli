@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **desktopvirtualization** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az desktopvirtualization workspace** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Desktopvirtualization workspace.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_desktopvirtualization_workspace_create
   name: az desktopvirtualization workspace create
   summary: Create a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization workspace create --name
                                               --resource-group
@@ -52,6 +56,8 @@ directCommands:
   name: az desktopvirtualization workspace delete
   summary: Remove a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization workspace delete [--ids]
                                               [--name]
@@ -77,6 +83,8 @@ directCommands:
   name: az desktopvirtualization workspace list
   summary: List workspaces in subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az desktopvirtualization workspace list [--resource-group]
   examples:
   - summary: Workspace_ListByResourceGroup
@@ -89,6 +97,8 @@ directCommands:
   name: az desktopvirtualization workspace show
   summary: Get a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization workspace show [--ids]
                                             [--name]
@@ -114,6 +124,8 @@ directCommands:
   name: az desktopvirtualization workspace update
   summary: Update a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az desktopvirtualization workspace update [--application-group-references]
                                               [--description]

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **import-export** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az import-export** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Import Export.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_import-export_create
   name: az import-export create
   summary: Creates a new job or updates an existing job in the specified subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'import-export' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az import-export create --name
                             --resource-group
@@ -127,6 +135,10 @@ directCommands:
   name: az import-export delete
   summary: Deletes an existing job. Only jobs in the Creating or Completed states can be deleted.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'import-export' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az import-export delete --name
                             --resource-group
@@ -146,6 +158,10 @@ directCommands:
   name: az import-export list
   summary: Returns all active and completed jobs in a subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'import-export' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az import-export list [--resource-group]
   examples:
   - summary: List jobs in a resource group
@@ -160,6 +176,10 @@ directCommands:
   name: az import-export show
   summary: Gets information about an existing job.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'import-export' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az import-export show --name
                           --resource-group
@@ -179,6 +199,10 @@ directCommands:
   name: az import-export update
   summary: Updates specific properties of a job. You can call this operation to notify the Import/Export service that the hard drives comprising the import or export job have been shipped to the Microsoft data center. It can also be used to cancel an existing job.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'import-export' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az import-export update --name
                             --resource-group

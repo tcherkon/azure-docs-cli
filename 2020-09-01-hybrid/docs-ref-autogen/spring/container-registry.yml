@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring container-registry** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage Container Registry Resource.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_container-registry_show
   name: az spring container-registry show
   summary: Show a container registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring container-registry show --resource-group
                                       --service
@@ -36,6 +40,8 @@ directCommands:
   name: az spring container-registry update
   summary: Update a container registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring container-registry update --resource-group
                                         --service

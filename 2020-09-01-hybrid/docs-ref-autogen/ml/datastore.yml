@@ -11,11 +11,15 @@ description: >-
 
 
   When you create a workspace, an Azure Storage account is automatically created as an associated resource. A blob container is created in this account, and its connection information is stored as a datastore named 'workspaceblobstore'. This serves as the workspace's default datastore, and the blob container is used to store your workspace artifacts and machine learning job logs and outputs.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_datastore_create
   name: az ml datastore create
   summary: Create a datastore.
   description: This connects the underlying Azure storage service to the workspace. The storage service types that can currently be connected to by creating a datastore include Azure Blob storage, Azure File Share, Azure Data Lake Storage Gen1 and Azure Data Lake Storage Gen2.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore create --file
                            --resource-group
@@ -49,6 +53,8 @@ directCommands:
   name: az ml datastore delete
   summary: Delete a datastore.
   description: This deletes the connection information to the storage service from the workspace but does not delete the underlying data in storage.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore delete --name
                            --resource-group
@@ -70,6 +76,8 @@ directCommands:
   name: az ml datastore list
   summary: List datastores in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore list --resource-group
                          --workspace-name
@@ -94,6 +102,8 @@ directCommands:
   name: az ml datastore show
   summary: Show details for a datastore.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore show --name
                          --resource-group
@@ -115,6 +125,8 @@ directCommands:
   name: az ml datastore update
   summary: Update a datastore.
   description: The 'description', 'tags', and 'credential' properties can be updated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml datastore update --resource-group
                            --workspace-name

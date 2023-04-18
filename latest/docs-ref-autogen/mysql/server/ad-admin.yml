@@ -3,11 +3,15 @@ uid: az_mysql_server_ad-admin
 name: az mysql server ad-admin
 summary: Manage a MySQL server's Active Directory administrator.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_server_ad-admin_create
   name: az mysql server ad-admin create
   summary: Create an Active Directory administrator for MySQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server ad-admin create --resource-group
                                     --server-name
@@ -41,6 +45,8 @@ directCommands:
   name: az mysql server ad-admin delete
   summary: Delete an Active Directory Administrator for MySQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server ad-admin delete [--ids]
                                     [--resource-group]
@@ -71,6 +77,8 @@ directCommands:
   name: az mysql server ad-admin list
   summary: List all Active Directory Administrators for MySQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server ad-admin list [--ids]
                                   [--resource-group]
@@ -96,6 +104,8 @@ directCommands:
   name: az mysql server ad-admin show
   summary: Get Active Directory Administrator information for a MySQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server ad-admin show [--ids]
                                   [--resource-group]
@@ -121,6 +131,8 @@ directCommands:
   name: az mysql server ad-admin wait
   summary: Place the CLI in a waiting state until a condition of the MySQL server Active Directory Administrator is met.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql server ad-admin wait [--created]
                                   [--custom]

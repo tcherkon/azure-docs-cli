@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datamigration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datamigration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Data Migration.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datamigration_get-assessment
   name: az datamigration get-assessment
   summary: Start assessment on SQL Server instance(s).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration get-assessment [--config-file-path]
                                     [--connection-string]
@@ -42,6 +46,8 @@ directCommands:
   name: az datamigration get-sku-recommendation
   summary: Give SKU recommendations for Azure SQL offerings.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration get-sku-recommendation [--config-file-path]
                                             [--database-allow-list]
@@ -111,6 +117,8 @@ directCommands:
   name: az datamigration login-migration
   summary: Migrate logins from the source Sql Servers to the target Azure Sql Servers.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration login-migration [--aad-domain-name]
                                      [--config-file-path]
@@ -150,6 +158,8 @@ directCommands:
   name: az datamigration performance-data-collection
   summary: Collect performance data for given SQL Server instance(s).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration performance-data-collection [--config-file-path]
                                                  [--connection-string]
@@ -196,6 +206,8 @@ directCommands:
   name: az datamigration register-integration-runtime
   summary: Register Database Migration Service on Integration Runtime.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration register-integration-runtime --auth-key
                                                   [--installed-ir-path]

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **datashare** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datashare share-subscription** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage share subscription with datashare.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_datashare_share-subscription_cancel-synchronization
   name: az datashare share-subscription cancel-synchronization
   summary: Request to cancel a synchronization.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription cancel-synchronization --synchronization-id
                                                            [--account-name]
@@ -52,6 +60,10 @@ directCommands:
   name: az datashare share-subscription create
   summary: Create a shareSubscription in an account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription create --account-name
                                            --invitation-id
@@ -91,6 +103,10 @@ directCommands:
   name: az datashare share-subscription delete
   summary: Delete a shareSubscription in an account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription delete [--account-name]
                                            [--ids]
@@ -130,6 +146,10 @@ directCommands:
   name: az datashare share-subscription list
   summary: List share subscriptions in an account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription list --account-name
                                          --resource-group
@@ -162,6 +182,10 @@ directCommands:
   name: az datashare share-subscription list-source-share-synchronization-setting
   summary: Get synchronization settings set on a share.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription list-source-share-synchronization-setting --account-name
                                                                               --name
@@ -191,6 +215,10 @@ directCommands:
   name: az datashare share-subscription list-synchronization
   summary: List synchronizations of a share subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription list-synchronization --account-name
                                                          --name
@@ -228,6 +256,10 @@ directCommands:
   name: az datashare share-subscription list-synchronization-detail
   summary: List synchronization details.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription list-synchronization-detail --account-name
                                                                 --name
@@ -270,6 +302,10 @@ directCommands:
   name: az datashare share-subscription show
   summary: Get a shareSubscription in an account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription show [--account-name]
                                          [--ids]
@@ -299,6 +335,10 @@ directCommands:
   name: az datashare share-subscription synchronize
   summary: Initiate a copy.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription synchronize [--account-name]
                                                 [--ids]
@@ -338,6 +378,10 @@ directCommands:
   name: az datashare share-subscription wait
   summary: Place the CLI in a waiting state until a condition of the datashare share-subscription is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'datashare' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az datashare share-subscription wait [--account-name]
                                          [--created]

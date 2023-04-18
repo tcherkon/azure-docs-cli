@@ -3,6 +3,8 @@ uid: az_synapse
 name: az synapse
 summary: Manage and operate Synapse Workspace, Spark Pool, SQL Pool.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_synapse_activity-run
 - az_synapse_activity-run_query-by-pipeline-run

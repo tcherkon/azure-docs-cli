@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **load** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az load** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Load Testing resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_load_create
   name: az load create
   summary: Create an Azure Load Testing resource.
   description: The load test resource name must be unique to a resource group.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az load create --name
                    --resource-group
@@ -72,6 +76,8 @@ directCommands:
   name: az load delete
   summary: Delete an Azure Load Testing resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az load delete [--ids]
                    [--name]
@@ -109,6 +115,8 @@ directCommands:
   name: az load list
   summary: Lists Azure Load Testing resources.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az load list [--resource-group]
   examples:
   - summary: List Azure load testing resources
@@ -124,6 +132,8 @@ directCommands:
   name: az load show
   summary: Show the details of one or more Azure Load Testing resources.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az load show [--ids]
                  [--name]
@@ -151,6 +161,8 @@ directCommands:
   name: az load update
   summary: Update an Azure Load Testing resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az load update [--encryption-identity]
                    [--encryption-key]
@@ -209,6 +221,8 @@ directCommands:
   name: az load wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az load wait [--created]
                  [--custom]

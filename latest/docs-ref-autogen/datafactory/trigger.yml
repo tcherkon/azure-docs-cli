@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory trigger** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage trigger with datafactory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_trigger_create
   name: az datafactory trigger create
   summary: Create a trigger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger create --factory-name
                                   --name
@@ -46,6 +50,8 @@ directCommands:
   name: az datafactory trigger delete
   summary: Deletes a trigger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger delete [--factory-name]
                                   [--ids]
@@ -80,6 +86,8 @@ directCommands:
   name: az datafactory trigger get-event-subscription-status
   summary: Get a trigger's event subscription status.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger get-event-subscription-status [--factory-name]
                                                          [--ids]
@@ -109,6 +117,8 @@ directCommands:
   name: az datafactory trigger list
   summary: Lists triggers.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger list --factory-name
                                 --resource-group
@@ -128,6 +138,8 @@ directCommands:
   name: az datafactory trigger query-by-factory
   summary: Query triggers.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger query-by-factory [--continuation-token]
                                             [--factory-name]
@@ -161,6 +173,8 @@ directCommands:
   name: az datafactory trigger show
   summary: Gets a trigger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger show [--factory-name]
                                 [--ids]
@@ -194,6 +208,8 @@ directCommands:
   name: az datafactory trigger start
   summary: Starts a trigger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger start [--factory-name]
                                  [--ids]
@@ -228,6 +244,8 @@ directCommands:
   name: az datafactory trigger stop
   summary: Stops a trigger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger stop [--factory-name]
                                 [--ids]
@@ -262,6 +280,8 @@ directCommands:
   name: az datafactory trigger subscribe-to-event
   summary: Subscribe event trigger to events.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger subscribe-to-event [--factory-name]
                                               [--ids]
@@ -296,6 +316,8 @@ directCommands:
   name: az datafactory trigger unsubscribe-from-event
   summary: Unsubscribe event trigger from events.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger unsubscribe-from-event [--factory-name]
                                                   [--ids]
@@ -330,6 +352,8 @@ directCommands:
   name: az datafactory trigger update
   summary: Update a trigger.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger update [--add]
                                   [--annotations]
@@ -392,6 +416,8 @@ directCommands:
   name: az datafactory trigger wait
   summary: Place the CLI in a waiting state until a condition of the datafactory trigger is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory trigger wait [--created]
                                 [--custom]

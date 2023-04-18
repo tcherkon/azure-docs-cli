@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **azurestackhci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az azurestackhci virtualmachine** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtualmachine with azurestackhci.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_azurestackhci_virtualmachine_create
   name: az azurestackhci virtualmachine create
   summary: Create a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine create --name
                                            --resource-group
@@ -144,6 +152,10 @@ directCommands:
   name: az azurestackhci virtualmachine delete
   summary: Delete a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine delete [--ids]
                                            [--name]
@@ -174,6 +186,10 @@ directCommands:
   name: az azurestackhci virtualmachine list
   summary: List all the VMs.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az azurestackhci virtualmachine list [--resource-group]
   examples:
   - summary: ListVirtualMachineByResourceGroup
@@ -188,6 +204,10 @@ directCommands:
   name: az azurestackhci virtualmachine restart
   summary: Restart a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine restart [--ids]
                                             [--name]
@@ -213,6 +233,10 @@ directCommands:
   name: az azurestackhci virtualmachine show
   summary: Get the details of a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine show [--ids]
                                          [--name]
@@ -238,6 +262,10 @@ directCommands:
   name: az azurestackhci virtualmachine start
   summary: Start a stopped VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine start [--ids]
                                           [--name]
@@ -263,6 +291,10 @@ directCommands:
   name: az azurestackhci virtualmachine stop
   summary: Power off (stop) a running VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine stop [--ids]
                                          [--name]
@@ -288,6 +320,10 @@ directCommands:
   name: az azurestackhci virtualmachine update
   summary: Update a VM.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'azurestackhci' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az azurestackhci virtualmachine update [--cpu-count]
                                            [--ids]

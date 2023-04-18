@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az boards area project** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage areas for a project.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_boards_area_project_create
   name: az boards area project create
   summary: Create area.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area project create --name
                                   [--detect {false, true}]
@@ -41,6 +45,8 @@ directCommands:
   name: az boards area project delete
   summary: Delete area.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area project delete --path
                                   [--detect {false, true}]
@@ -71,6 +77,8 @@ directCommands:
   name: az boards area project list
   summary: List areas for a project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area project list [--depth]
                                 [--detect {false, true}]
@@ -99,6 +107,8 @@ directCommands:
   name: az boards area project show
   summary: Show area details for a project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area project show --id
                                 [--detect {false, true}]
@@ -124,6 +134,8 @@ directCommands:
   name: az boards area project update
   summary: Update area.
   description: Move area or update area name.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards area project update --path
                                   [--child-id]

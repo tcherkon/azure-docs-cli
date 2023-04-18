@@ -3,6 +3,8 @@ uid: az_backup
 name: az backup
 summary: Manage Azure Backups.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_backup_container
 - az_backup_container_list

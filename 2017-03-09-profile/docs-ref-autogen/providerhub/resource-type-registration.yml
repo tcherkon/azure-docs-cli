@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **providerhub** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az providerhub resource-type-registration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage resource type registration with providerhub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_providerhub_resource-type-registration_create
   name: az providerhub resource-type-registration create
   summary: Create a resource type.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub resource-type-registration create --provider-namespace
                                                      --resource-type
@@ -296,6 +300,8 @@ directCommands:
   name: az providerhub resource-type-registration delete
   summary: Deletes a resource type.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub resource-type-registration delete [--ids]
                                                      [--provider-namespace]
@@ -326,6 +332,8 @@ directCommands:
   name: az providerhub resource-type-registration list
   summary: Gets the list of the resource types for the given provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az providerhub resource-type-registration list --provider-namespace
   examples:
   - summary: ResourceTypeRegistrations_ListByProviderRegistration
@@ -339,6 +347,8 @@ directCommands:
   name: az providerhub resource-type-registration show
   summary: Gets a resource type details in the given subscription and provider.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub resource-type-registration show [--ids]
                                                    [--provider-namespace]

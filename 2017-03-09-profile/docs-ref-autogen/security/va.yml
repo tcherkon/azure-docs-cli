@@ -3,6 +3,8 @@ uid: az_security_va
 name: az security va
 summary: View Vulnerability Assessment.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_security_va_sql
 - az_security_va_sql_baseline

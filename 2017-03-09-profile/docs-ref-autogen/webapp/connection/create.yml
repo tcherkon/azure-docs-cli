@@ -3,11 +3,15 @@ uid: az_webapp_connection_create
 name: az webapp connection create
 summary: Create a connection between a webapp and a target resource.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_webapp_connection_create_appconfig
   name: az webapp connection create appconfig
   summary: Create a webapp connection to appconfig.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create appconfig [--app-config]
                                           [--client-type {dotnet, java, nodejs, none, python}]
@@ -102,6 +106,8 @@ directCommands:
   name: az webapp connection create confluent-cloud
   summary: Create a webapp connection to confluent-cloud.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create confluent-cloud --bootstrap-server
                                                 --kafka-key
@@ -176,6 +182,8 @@ directCommands:
   name: az webapp connection create cosmos-cassandra
   summary: Create a webapp connection to cosmos-cassandra.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create cosmos-cassandra [--account]
                                                  [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
@@ -279,6 +287,8 @@ directCommands:
   name: az webapp connection create cosmos-gremlin
   summary: Create a webapp connection to cosmos-gremlin.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create cosmos-gremlin [--account]
                                                [--client-type {dotnet, java, nodejs, none, php, python}]
@@ -386,6 +396,8 @@ directCommands:
   name: az webapp connection create cosmos-mongo
   summary: Create a webapp connection to cosmos-mongo.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create cosmos-mongo [--account]
                                              [--client-type {dotnet, go, java, nodejs, none, springBoot}]
@@ -489,6 +501,8 @@ directCommands:
   name: az webapp connection create cosmos-sql
   summary: Create a webapp connection to cosmos-sql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create cosmos-sql [--account]
                                            [--client-type {dotnet, java, nodejs, none, python}]
@@ -592,6 +606,8 @@ directCommands:
   name: az webapp connection create cosmos-table
   summary: Create a webapp connection to cosmos-table.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create cosmos-table [--account]
                                              [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -695,6 +711,8 @@ directCommands:
   name: az webapp connection create eventhub
   summary: Create a webapp connection to eventhub.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create eventhub [--client-type {dotnet, go, java, kafka-springBoot, nodejs, none, python, springBoot}]
                                          [--connection]
@@ -794,6 +812,8 @@ directCommands:
   name: az webapp connection create keyvault
   summary: Create a webapp connection to keyvault.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create keyvault [--client-type {dotnet, java, nodejs, none, python, springBoot}]
                                          [--connection]
@@ -899,6 +919,10 @@ directCommands:
   name: az webapp connection create mysql
   summary: Create a webapp connection to mysql.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release.
+  sourceType: Core
   syntax: >-
     az webapp connection create mysql [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
                                       [--config-connstr {false, true}]
@@ -933,6 +957,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Store configuration into connection strings, only could be used together with dotnet client_type.
     description: ''
+    isPreview: true
   - name: --connection
     summary: Name of the webapp connection.
     description: ''
@@ -993,6 +1018,8 @@ directCommands:
   name: az webapp connection create mysql-flexible
   summary: Create a webapp connection to mysql-flexible.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create mysql-flexible [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
                                                [--config-connstr {false, true}]
@@ -1026,6 +1053,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Store configuration into connection strings, only could be used together with dotnet client_type.
     description: ''
+    isPreview: true
   - name: --connection
     summary: Name of the webapp connection.
     description: ''
@@ -1085,6 +1113,8 @@ directCommands:
   name: az webapp connection create postgres
   summary: Create a webapp connection to postgres.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create postgres [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
                                          [--config-connstr {false, true}]
@@ -1125,6 +1155,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Store configuration into connection strings, only could be used together with dotnet client_type.
     description: ''
+    isPreview: true
   - name: --connection
     summary: Name of the webapp connection.
     description: ''
@@ -1193,6 +1224,8 @@ directCommands:
   name: az webapp connection create postgres-flexible
   summary: Create a webapp connection to postgres-flexible.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create postgres-flexible [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
                                                   [--config-connstr {false, true}]
@@ -1226,6 +1259,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Store configuration into connection strings, only could be used together with dotnet client_type.
     description: ''
+    isPreview: true
   - name: --connection
     summary: Name of the webapp connection.
     description: ''
@@ -1281,6 +1315,8 @@ directCommands:
   name: az webapp connection create redis
   summary: Create a webapp connection to redis.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create redis [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
                                       [--connection]
@@ -1353,6 +1389,8 @@ directCommands:
   name: az webapp connection create redis-enterprise
   summary: Create a webapp connection to redis-enterprise.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create redis-enterprise [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
                                                  [--connection]
@@ -1420,6 +1458,8 @@ directCommands:
   name: az webapp connection create servicebus
   summary: Create a webapp connection to servicebus.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create servicebus [--client-type {dotnet, go, java, nodejs, none, python, springBoot}]
                                            [--connection]
@@ -1519,6 +1559,8 @@ directCommands:
   name: az webapp connection create signalr
   summary: Create a webapp connection to signalr.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create signalr [--client-type {dotnet, none}]
                                         [--connection]
@@ -1613,6 +1655,8 @@ directCommands:
   name: az webapp connection create sql
   summary: Create a webapp connection to sql.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create sql [--client-type {django, dotnet, go, java, nodejs, none, php, python, ruby, springBoot}]
                                     [--config-connstr {false, true}]
@@ -1648,6 +1692,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Store configuration into connection strings, only could be used together with dotnet client_type.
     description: ''
+    isPreview: true
   - name: --connection
     summary: Name of the webapp connection.
     description: ''
@@ -1711,6 +1756,8 @@ directCommands:
   name: az webapp connection create storage-blob
   summary: Create a webapp connection to storage-blob.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create storage-blob [--account]
                                              [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -1820,6 +1867,8 @@ directCommands:
   name: az webapp connection create storage-file
   summary: Create a webapp connection to storage-file.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create storage-file [--account]
                                              [--client-type {dotnet, java, nodejs, none, php, python, ruby, springBoot}]
@@ -1893,6 +1942,8 @@ directCommands:
   name: az webapp connection create storage-queue
   summary: Create a webapp connection to storage-queue.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create storage-queue [--account]
                                               [--client-type {dotnet, java, nodejs, none, python, springBoot}]
@@ -1992,6 +2043,8 @@ directCommands:
   name: az webapp connection create storage-table
   summary: Create a webapp connection to storage-table.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create storage-table [--account]
                                               [--client-type {dotnet, java, nodejs, none, python}]
@@ -2065,6 +2118,8 @@ directCommands:
   name: az webapp connection create webpubsub
   summary: Create a webapp connection to webpubsub.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az webapp connection create webpubsub [--client-type {dotnet, java, nodejs, none, python}]
                                           [--connection]

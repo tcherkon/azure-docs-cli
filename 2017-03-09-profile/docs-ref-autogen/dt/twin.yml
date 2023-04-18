@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt twin** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure the digital twins of a Digital Twins instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_twin_create
   name: az dt twin create
@@ -15,6 +17,8 @@ directCommands:
     --properties can be inline JSON or file path.
 
     Note: --properties are required for twins that contain components.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin create --dt-name
                       --dtmi
@@ -73,6 +77,8 @@ directCommands:
   name: az dt twin delete
   summary: Remove a digital twin. All relationships referencing this twin must already be deleted.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin delete --dt-name
                       --twin-id
@@ -103,6 +109,8 @@ directCommands:
   name: az dt twin delete-all
   summary: Deletes all digital twins within a Digital Twins instance, including all relationships for those twins.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin delete-all --dt-name
                           [--resource-group]
@@ -127,6 +135,8 @@ directCommands:
   name: az dt twin query
   summary: Query the digital twins of an instance. Allows traversing relationships and filtering by property values.
   description: In many twin queries, the `$` character is used to reference the `$dtId` property of a twin. In bash-like shells or powershell the `$` character has functional meaning and must be escaped as part of the query input. Please review the Digital Twins CLI concepts document https://docs.microsoft.com/en-us/azure/digital-twins/concepts-cli for more information.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin query --dt-name
                      --query-command
@@ -163,6 +173,8 @@ directCommands:
   name: az dt twin show
   summary: Show the details of a digital twin.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin show --dt-name
                     --twin-id
@@ -187,6 +199,8 @@ directCommands:
   name: az dt twin update
   summary: Update an instance digital twin via JSON patch specification.
   description: Updates to property values and $model elements may happen in the same request. Operations are limited to add, replace and remove.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt twin update --dt-name
                       --json-patch

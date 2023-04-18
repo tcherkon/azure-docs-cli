@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **elastic** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az elastic monitor** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage monitor with elastic.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_elastic_monitor_create
   name: az elastic monitor create
   summary: Create a monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor create --monitor-name
                               --resource-group
@@ -71,6 +79,10 @@ directCommands:
   name: az elastic monitor delete
   summary: Delete a monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor delete [--ids]
                               [--monitor-name]
@@ -106,6 +118,10 @@ directCommands:
   name: az elastic monitor list
   summary: List all monitors under the specified resource group. And List all monitors under the specified subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az elastic monitor list [--resource-group]
   examples:
   - summary: Monitors_ListByResourceGroup
@@ -120,6 +136,10 @@ directCommands:
   name: az elastic monitor list-deployment-info
   summary: Fetch information regarding Elastic cloud deployment corresponding to the Elastic monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor list-deployment-info --monitor-name
                                             --resource-group
@@ -139,6 +159,10 @@ directCommands:
   name: az elastic monitor list-resource
   summary: List the resources currently being monitored by the Elastic monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor list-resource --monitor-name
                                      --resource-group
@@ -158,6 +182,10 @@ directCommands:
   name: az elastic monitor list-vm-host
   summary: List the vm resources currently being monitored by the Elastic monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor list-vm-host --monitor-name
                                     --resource-group
@@ -177,6 +205,10 @@ directCommands:
   name: az elastic monitor list-vm-ingestion-detail
   summary: List the vm ingestion details that will be monitored by the Elastic monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor list-vm-ingestion-detail --monitor-name
                                                 --resource-group
@@ -196,6 +228,10 @@ directCommands:
   name: az elastic monitor show
   summary: Get the properties of a specific monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor show [--ids]
                             [--monitor-name]
@@ -221,6 +257,10 @@ directCommands:
   name: az elastic monitor update
   summary: Update a monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor update [--ids]
                               [--monitor-name]
@@ -250,6 +290,10 @@ directCommands:
   name: az elastic monitor update-vm-collection
   summary: Update the vm details that will be monitored by the Elastic monitor resource.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor update-vm-collection [--ids]
                                             [--monitor-name]
@@ -284,6 +328,10 @@ directCommands:
   name: az elastic monitor wait
   summary: Place the CLI in a waiting state until a condition of the elastic monitor is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'elastic' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic monitor wait [--created]
                             [--custom]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory pipeline-run** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pipeline run with datafactory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_pipeline-run_cancel
   name: az datafactory pipeline-run cancel
   summary: Cancel a pipeline run by its run ID.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline-run cancel [--factory-name]
                                        [--ids]
@@ -46,6 +50,8 @@ directCommands:
   name: az datafactory pipeline-run query-by-factory
   summary: Query pipeline runs in the factory based on input filter conditions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline-run query-by-factory --last-updated-after
                                                  --last-updated-before
@@ -114,6 +120,8 @@ directCommands:
   name: az datafactory pipeline-run show
   summary: Get a pipeline run by its run ID.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory pipeline-run show [--factory-name]
                                      [--ids]

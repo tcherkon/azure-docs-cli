@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **communication** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az communication chat thread** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage chat thread of a Communication Service resource.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'communication chat' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_communication_chat_thread_create
   name: az communication chat thread create
   summary: Creates a chat thread.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication chat thread' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication chat thread create --topic
                                         [--access-token]
@@ -39,6 +47,10 @@ directCommands:
   name: az communication chat thread delete
   summary: Deletes a chat thread.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication chat thread' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication chat thread delete --thread
                                         [--access-token]
@@ -67,6 +79,10 @@ directCommands:
   name: az communication chat thread list
   summary: Gets the list of chat threads of a user.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication chat thread' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication chat thread list [--access-token]
                                       [--endpoint]
@@ -88,6 +104,10 @@ directCommands:
   name: az communication chat thread update-topic
   summary: Updates the topic of a chat thread.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication chat thread' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication chat thread update-topic --thread
                                               --topic

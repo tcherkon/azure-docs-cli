@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **support** extension for the Azure CLI  (version 2.0.81 or higher).  The extension will automatically install the first time you run an **az support services** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Azure services and related problem categories.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_support_services_list
   name: az support services list
   summary: Lists all the Azure services available for support ticket creation. Always use the service and it's corresponding problem classification(s) obtained programmatically for support ticket creation. This practice ensures that you always have the most recent set of service and problem classification Ids.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az support services list
   examples:
   - summary: Gets list of services for which a support ticket can be created.
@@ -20,6 +24,8 @@ directCommands:
   name: az support services show
   summary: Gets a specific Azure service for support ticket creation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az support services show --service-name
   examples:
   - summary: Gets details of Azure service.

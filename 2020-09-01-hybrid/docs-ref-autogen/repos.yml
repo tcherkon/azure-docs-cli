@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az repos** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Repos.
 description: This command group is a part of the azure-devops extension.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_repos_create
   name: az repos create
   summary: Create a Git repository in a team project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos create --name
                     [--detect {false, true}]
@@ -42,6 +46,8 @@ directCommands:
   name: az repos delete
   summary: Delete a Git repository in a team project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos delete --id
                     [--detect {false, true}]
@@ -72,6 +78,8 @@ directCommands:
   name: az repos list
   summary: List Git repositories of a team project.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos list [--detect {false, true}]
                   [--org]
@@ -91,6 +99,8 @@ directCommands:
   name: az repos show
   summary: Get the details of a Git repository.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos show --repository
                   [--detect {false, true}]
@@ -121,6 +131,8 @@ directCommands:
   name: az repos update
   summary: Update the Git repository.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos update --repository
                     [--default-branch]

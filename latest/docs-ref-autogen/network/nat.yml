@@ -3,6 +3,8 @@ uid: az_network_nat
 name: az network nat
 summary: Manage NAT resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_network_nat_gateway
 - az_network_nat_gateway_create

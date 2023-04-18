@@ -3,11 +3,18 @@ uid: az_storage
 name: az storage
 summary: Manage Azure Cloud Storage resources.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_storage_copy
   name: az storage copy
   summary: Copy files or directories to or from Azure storage.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage copy --destination
                     --source
@@ -132,11 +139,15 @@ directCommands:
   - name: --recursive -r
     summary: Look into sub-directories recursively.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 - uid: az_storage_remove
   name: az storage remove
   summary: Delete blobs or files from Azure Storage.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage remove [--account-key]
                       [--account-name]
@@ -210,7 +221,6 @@ directCommands:
   - name: --share-name -s
     summary: The file share name.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 commands:
 - az_storage_account
 - az_storage_account_check-name

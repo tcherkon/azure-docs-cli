@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring config-server git repo** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Config Server git repository in Azure Spring Apps.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_config-server_git_repo_add
   name: az spring config-server git repo add
   summary: Add a new repository of git property of Config Server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring config-server git repo add --name
                                          --repo-name
@@ -79,6 +83,8 @@ directCommands:
   name: az spring config-server git repo list
   summary: List all repositories of git property of Config Server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring config-server git repo list --name
                                           --resource-group
@@ -100,6 +106,8 @@ directCommands:
   name: az spring config-server git repo remove
   summary: Remove an existing repository of git property of Config Server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring config-server git repo remove --name
                                             --repo-name
@@ -126,6 +134,8 @@ directCommands:
   name: az spring config-server git repo update
   summary: Override an existing repository of git property of Config Server, will totally override the old one.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring config-server git repo update --name
                                             --repo-name

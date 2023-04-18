@@ -3,11 +3,16 @@ uid: az
 name: az
 summary: ''
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_configure
   name: az configure
   summary: Manage Azure CLI configuration. This command is interactive.
   description: For automation scenarios or to set all available options, use the new `az config`.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/configure/_help.py
   syntax: >-
     az configure [--defaults]
                  [--list-defaults {false, true}]
@@ -30,17 +35,21 @@ directCommands:
     parameterValueGroup: "global, local"
     summary: Scope of defaults. Using "local" for settings only effective under current folder.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/configure/_help.py
 - uid: az_feedback
   name: az feedback
   summary: Send feedback to the Azure CLI Team.
   description: This command is interactive. If possible, it launches the default web browser to open GitHub issue creation page with the body auto-generated and pre-filled. You will have a chance to edit the issue body before submitting it.
-  syntax: az feedback
+  status: GA
+  sourceType: Core
   editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/feedback/_help.py
+  syntax: az feedback
 - uid: az_find
   name: az find
   summary: I'm an AI robot, my advice is based on our Azure documentation as well as the usage patterns of Azure CLI and Azure ARM users. Using me improves Azure products and documentation.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/find/_help.py
   syntax: az find [<CLI_TERM>]
   examples:
   - summary: Give me any Azure CLI group and I’ll show the most popular commands within the group.
@@ -53,16 +62,23 @@ directCommands:
   - name: <CLI_TERM>
     summary: An Azure CLI command or group for which you need an example.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/find/_help.py
 - uid: az_init
   name: az init
   summary: It's an effortless setting up tool for configs.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: az init
 - uid: az_interactive
   name: az interactive
   summary: Start interactive mode. Installs the Interactive extension if not installed already.
   description: 'For more information on interactive mode, see: https://azure.microsoft.com/blog/welcome-to-azure-cli-shell/.'
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
   syntax: >-
     az interactive [--style {bg, br, contrast, default, grey, halloween, neon, none, pastel, primary, purple, quiet}]
                    [--update]
@@ -81,6 +97,9 @@ directCommands:
     By default, this command logs in with a user account. CLI will try to launch a web browser to log in interactively. If a web browser is not available, CLI will fall back to device code login.
 
     To login with a service principal, specify --service-principal.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
   syntax: >-
     az login [--allow-no-subscriptions]
              [--federated-token]
@@ -139,17 +158,18 @@ directCommands:
   - name: --username -u
     summary: User name, service principal, or managed service identity ID.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
 - uid: az_logout
   name: az logout
   summary: Log out to remove access to Azure subscriptions.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
   syntax: az logout [--username]
   optionalParameters:
   - name: --username
     summary: Account user, if missing, logout the current active account.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/profile/_help.py
 - uid: az_next
   name: az next
   summary: Recommend the possible next set of commands to take.
@@ -177,6 +197,10 @@ directCommands:
 
     [7] az config set next.print_help=True/False
         Enable/disable whether to print help actively before executing each command. False is the default.
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az next [--command]
             [--scenario]
@@ -200,6 +224,8 @@ directCommands:
 
 
     For passing JSON in PowerShell, see https://github.com/Azure/azure-cli/blob/dev/doc/quoting-issues-with-powershell.md.
+  status: GA
+  sourceType: Core
   syntax: >-
     az rest --uri
             [--body]
@@ -267,16 +293,26 @@ directCommands:
   name: az self-test
   summary: Runs a self-test of the CLI.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release.
+  sourceType: Core
   syntax: az self-test
 - uid: az_survey
   name: az survey
   summary: Take Azure CLI survey.
   description: Help us improve Azure CLI by sharing your experience. This survey should take about 3 minutes. Learn more at https://go.microsoft.com/fwlink/?linkid=2203309.
+  status: GA
+  sourceType: Core
   syntax: az survey
 - uid: az_upgrade
   name: az upgrade
   summary: Upgrade Azure CLI and extensions.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Core
   syntax: >-
     az upgrade [--all {false, true}]
                [--yes]
@@ -293,6 +329,8 @@ directCommands:
   name: az version
   summary: Show the versions of Azure CLI modules and extensions in JSON format by default or format configured by --output.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az version
 commands:
 - az_account

@@ -3,6 +3,10 @@ uid: az_dla
 name: az dla
 summary: Manage Data Lake Analytics accounts, jobs, and catalogs.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Core
 commands:
 - az_dla_account
 - az_dla_account_blob-storage

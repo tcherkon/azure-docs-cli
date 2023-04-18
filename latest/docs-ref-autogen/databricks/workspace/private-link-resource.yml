@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **databricks** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az databricks workspace private-link-resource** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage databricks workspace private link resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_databricks_workspace_private-link-resource_list
   name: az databricks workspace private-link-resource list
   summary: List private link resources for a given workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace private-link-resource list --resource-group
                                                        --workspace-name
@@ -28,6 +32,8 @@ directCommands:
   name: az databricks workspace private-link-resource show
   summary: Get the specified private link resource for the given group id (sub-resource).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az databricks workspace private-link-resource show [--group-id]
                                                        [--ids]

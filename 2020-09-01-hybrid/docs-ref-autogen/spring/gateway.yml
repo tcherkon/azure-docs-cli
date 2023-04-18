@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **spring** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring gateway** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: (Enterprise Tier Only) Commands to manage gateway in Azure Spring Apps.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_spring_gateway_clear
   name: az spring gateway clear
   summary: Clear all settings of gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway clear --resource-group
                             --service
@@ -34,6 +38,8 @@ directCommands:
   name: az spring gateway create
   summary: Create Spring Cloud Gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway create --resource-group
                              --service
@@ -58,6 +64,8 @@ directCommands:
   name: az spring gateway delete
   summary: Delete Spring Cloud Gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway delete --resource-group
                              --service
@@ -80,6 +88,8 @@ directCommands:
   name: az spring gateway show
   summary: Show the settings, provisioning status and runtime status of gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway show --resource-group
                            --service
@@ -96,6 +106,8 @@ directCommands:
   name: az spring gateway sync-cert
   summary: Sync certificate of gateway.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway sync-cert --resource-group
                                 --service
@@ -126,6 +138,8 @@ directCommands:
   name: az spring gateway update
   summary: Update an existing gateway properties.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az spring gateway update --resource-group
                              --service

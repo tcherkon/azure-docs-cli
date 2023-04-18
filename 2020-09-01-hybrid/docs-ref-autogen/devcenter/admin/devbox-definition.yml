@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **devcenter** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az devcenter admin devbox-definition** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dev box definition with devcenter.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'devcenter' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_devcenter_admin_devbox-definition_create
   name: az devcenter admin devbox-definition create
   summary: Create a dev box definition.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devbox-definition' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devbox-definition create --dev-box-definition-name
                                                 --dev-center
@@ -67,6 +75,10 @@ directCommands:
   name: az devcenter admin devbox-definition delete
   summary: Delete a Dev Box definition.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devbox-definition' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devbox-definition delete [--dev-box-definition-name]
                                                 [--dev-center]
@@ -106,6 +118,10 @@ directCommands:
   name: az devcenter admin devbox-definition list
   summary: List Dev Box definitions configured for a project.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devbox-definition' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devbox-definition list --resource-group
                                               [--dev-center]
@@ -131,6 +147,10 @@ directCommands:
   name: az devcenter admin devbox-definition show
   summary: Get a dev box definition.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devbox-definition' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devbox-definition show [--dev-box-definition-name]
                                               [--dev-center]
@@ -166,6 +186,10 @@ directCommands:
   name: az devcenter admin devbox-definition update
   summary: Update a Dev Box definition.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devbox-definition' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devbox-definition update [--add]
                                                 [--dev-box-definition-name]
@@ -238,6 +262,10 @@ directCommands:
   name: az devcenter admin devbox-definition wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az devcenter admin devbox-definition' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az devcenter admin devbox-definition wait [--created]
                                               [--custom]

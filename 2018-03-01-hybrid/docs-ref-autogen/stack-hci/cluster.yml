@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **stack-hci** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az stack-hci cluster** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cluster with stack hci.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_stack-hci_cluster_create
   name: az stack-hci cluster create
   summary: Create an HCI cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci cluster create --cluster-name
                                 --resource-group
@@ -96,6 +100,8 @@ directCommands:
   name: az stack-hci cluster create-identity
   summary: Create cluster identity.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci cluster create-identity --cluster-name
                                          --resource-group
@@ -121,6 +127,8 @@ directCommands:
   name: az stack-hci cluster delete
   summary: Delete an HCI cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci cluster delete [--cluster-name]
                                 [--ids]
@@ -156,6 +164,8 @@ directCommands:
   name: az stack-hci cluster list
   summary: List all HCI clusters in a resource group. And List all HCI clusters in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az stack-hci cluster list [--resource-group]
   examples:
   - summary: List clusters in a given resource group
@@ -170,6 +180,8 @@ directCommands:
   name: az stack-hci cluster show
   summary: Get HCI cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci cluster show [--cluster-name]
                               [--ids]
@@ -195,6 +207,8 @@ directCommands:
   name: az stack-hci cluster update
   summary: Update an HCI cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci cluster update [--aad-client-id]
                                 [--aad-tenant-id]
@@ -246,6 +260,8 @@ directCommands:
   name: az stack-hci cluster wait
   summary: Place the CLI in a waiting state until a condition of the stack-hci cluster is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az stack-hci cluster wait [--cluster-name]
                               [--created]

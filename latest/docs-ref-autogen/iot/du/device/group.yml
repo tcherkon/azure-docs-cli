@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot du device group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Device group management.
 description: A device group is a collection of devices. Device groups provide a way to scale deployments to many devices. Each device belongs to exactly one device group at a time. A device group is automatically created when a Device Update-enabled device is connected to the hub and reports its properties.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_du_device_group_delete
   name: az iot du device group delete
   summary: Delete a device group.
   description: Device groups are not automatically cleaned up but are retained for history purposes. This operation can be used if there is no need for the group or need to retain history for it. If a device is ever connected again for a group after the group was deleted it will be automatically re-created with no history.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device group delete --account
                                   --gid
@@ -48,6 +52,8 @@ directCommands:
   name: az iot du device group list
   summary: List device groups within an instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device group list --account
                                 --instance
@@ -78,6 +84,8 @@ directCommands:
   name: az iot du device group show
   summary: Show details about a device group including the best update and update compliance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot du device group show --account
                                 --gid

@@ -3,6 +3,8 @@ uid: az_ams
 name: az ams
 summary: Manage Azure Media Services resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_ams_account
 - az_ams_account_check-name

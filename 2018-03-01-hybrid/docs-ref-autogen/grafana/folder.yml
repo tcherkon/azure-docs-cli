@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **amg** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az grafana folder** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage folders of an instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_grafana_folder_create
   name: az grafana folder create
   summary: Create a new folder.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana folder create --name
                              --title
@@ -37,6 +41,8 @@ directCommands:
   name: az grafana folder delete
   summary: Delete a folder.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana folder delete --folder
                              --name
@@ -62,6 +68,8 @@ directCommands:
   name: az grafana folder list
   summary: List all folders of an instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana folder list --name
                            [--api-key]
@@ -82,6 +90,8 @@ directCommands:
   name: az grafana folder show
   summary: Show the details of a folder.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana folder show --folder
                            --name
@@ -107,6 +117,8 @@ directCommands:
   name: az grafana folder update
   summary: Update a folder.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az grafana folder update --folder
                              --name

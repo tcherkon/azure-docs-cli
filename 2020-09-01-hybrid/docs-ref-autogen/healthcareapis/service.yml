@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **healthcareapis** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az healthcareapis service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Healthcareapis service.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_healthcareapis_service_create
   name: az healthcareapis service create
   summary: Create the metadata of a service instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis service create --kind {fhir, fhir-R4, fhir-Stu3}
                                      --location
@@ -155,6 +159,8 @@ directCommands:
   name: az healthcareapis service delete
   summary: Delete a service instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis service delete [--ids]
                                      [--no-wait]
@@ -190,6 +196,8 @@ directCommands:
   name: az healthcareapis service list
   summary: Get all the service instances in a resource group. And Get all the service instances in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az healthcareapis service list [--resource-group]
   examples:
   - summary: List all services in resource group
@@ -204,6 +212,8 @@ directCommands:
   name: az healthcareapis service show
   summary: Get the metadata of a service instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis service show [--ids]
                                    [--resource-group]
@@ -229,6 +239,8 @@ directCommands:
   name: az healthcareapis service update
   summary: Update the metadata of a service instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis service update [--ids]
                                      [--no-wait]
@@ -268,6 +280,8 @@ directCommands:
   name: az healthcareapis service wait
   summary: Place the CLI in a waiting state until a condition of the healthcareapis service is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis service wait [--created]
                                    [--custom]

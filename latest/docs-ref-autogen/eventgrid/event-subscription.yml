@@ -3,11 +3,16 @@ uid: az_eventgrid_event-subscription
 name: az eventgrid event-subscription
 summary: Manage event subscriptions.
 description: Manage event subscriptions for an Event Grid topic, domain, domain topic, Azure subscription, resource group or for any other Azure resource that supports event notifications.
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventgrid_event-subscription_create
   name: az eventgrid event-subscription create
   summary: Create a new event subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid event-subscription create --name
                                            [--aad-tenant-id]
@@ -217,6 +222,7 @@ directCommands:
     parameterValueGroup: "systemassigned"
     summary: The identity type of the deadletter destination resource.
     description: ''
+    isPreview: true
   - name: --deadletter-identity-endpoint
     summary: The Azure resource ID of an Azure Storage blob container destination with identity where EventGrid should deadletter undeliverable events for this event subscription.
     description: ''
@@ -238,13 +244,16 @@ directCommands:
     parameterValueGroup: "systemassigned"
     summary: The identity type of the delivery destination resource (e.g., storage queue, or eventhub).
     description: ''
+    isPreview: true
   - name: --delivery-identity-endpoint
     summary: Endpoint with identity where EventGrid should deliver events matching this event subscription. For webhook endpoint type, this should be the corresponding webhook URL. For other endpoint types, this should be the Azure resource identifier of the endpoint.
     description: ''
+    isPreview: true
   - name: --delivery-identity-endpoint-type
     parameterValueGroup: "azurefunction, eventhub, hybridconnection, servicebusqueue, servicebustopic, storagequeue, webhook"
     summary: The type of the destination endpoint with resource identity.
     description: ''
+    isPreview: true
   - name: --enable-advanced-filtering-on-arrays --enable-af-arr
     parameterValueGroup: "false, true"
     summary: Allows advanced filters to be evaluated against an array of values instead of expecting a singular value.
@@ -313,11 +322,13 @@ directCommands:
   - name: --subject-ends-with
     summary: An optional string to filter events for an event subscription based on a suffix. Wildcard characters are not supported.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_event-subscription_delete
   name: az eventgrid event-subscription delete
   summary: Delete an event subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid event-subscription delete --name
                                            [--source-resource-id]
@@ -368,7 +379,6 @@ directCommands:
       For EventGrid domain:       --source-resource-id /subscriptions/{SubID}/resourceGroups/rg1/providers/Microsoft.EventGrid/domains/d1
 
       For EventGrid domain topic: --source-resource-id /subscriptions/{SubID}/resourceGroups/rg1/providers/Microsoft.EventGrid/domains/d1/topics/t1.
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_event-subscription_list
   name: az eventgrid event-subscription list
   summary: List event subscriptions.
@@ -384,6 +394,9 @@ directCommands:
     3. To list all event subscriptions in a region (across all topic types), specify only the --location parameter.
 
     4. For both #2 and #3 above, to filter only by a resource group, you can additionally specify the --resource-group parameter.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid event-subscription list [--location]
                                          [--odata-query]
@@ -454,11 +467,13 @@ directCommands:
           --resource-group TestRG --topic-type-name Microsoft.Storage.StorageAccounts --location westus2
       Example 2: List all event subscriptions on Azure subscriptions
           --topic-type-name Microsoft.Resources.Subscriptions --location global.
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_event-subscription_show
   name: az eventgrid event-subscription show
   summary: Get the details of an event subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid event-subscription show --name
                                          [--include-attrib-secret {false, true}]
@@ -518,11 +533,13 @@ directCommands:
       For EventGrid domain:       --source-resource-id /subscriptions/{SubID}/resourceGroups/rg1/providers/Microsoft.EventGrid/domains/d1
 
       For EventGrid domain topic: --source-resource-id /subscriptions/{SubID}/resourceGroups/rg1/providers/Microsoft.EventGrid/domains/d1/topics/t1.
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_event-subscription_update
   name: az eventgrid event-subscription update
   summary: Update an event subscription.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid event-subscription update --name
                                            [--add]
@@ -651,6 +668,7 @@ directCommands:
     parameterValueGroup: "systemassigned"
     summary: The identity type of the deadletter destination resource.
     description: ''
+    isPreview: true
   - name: --deadletter-identity-endpoint
     summary: The Azure resource ID of an Azure Storage blob container destination with identity where EventGrid should deadletter undeliverable events for this event subscription.
     description: ''
@@ -672,13 +690,16 @@ directCommands:
     parameterValueGroup: "systemassigned"
     summary: The identity type of the delivery destination resource (e.g., storage queue, or eventhub).
     description: ''
+    isPreview: true
   - name: --delivery-identity-endpoint
     summary: Endpoint with identity where EventGrid should deliver events matching this event subscription. For webhook endpoint type, this should be the corresponding webhook URL. For other endpoint types, this should be the Azure resource identifier of the endpoint.
     description: ''
+    isPreview: true
   - name: --delivery-identity-endpoint-type
     parameterValueGroup: "azurefunction, eventhub, hybridconnection, servicebusqueue, servicebustopic, storagequeue, webhook"
     summary: The type of the destination endpoint with resource identity.
     description: ''
+    isPreview: true
   - name: --enable-advanced-filtering-on-arrays --enable-af-arr
     parameterValueGroup: "false, true"
     summary: Allows advanced filters to be evaluated against an array of values instead of expecting a singular value.
@@ -733,7 +754,6 @@ directCommands:
   - name: --subject-ends-with
     summary: An optional string to filter events for an event subscription based on a suffix. Wildcard characters are not supported.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 commands:
 - az_eventgrid_event-subscription_create
 - az_eventgrid_event-subscription_delete

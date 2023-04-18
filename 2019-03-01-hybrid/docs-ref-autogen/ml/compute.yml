@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **ml** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az ml compute** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure ML compute resources.
 description: Azure ML compute targets are designated compute resources where you can run your jobs for training or deploy your models for inference.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_compute_attach
   name: az ml compute attach
   summary: Attach an existing compute resource to a workspace.
   description: Kubernetes clusters and remote VMs can be attached as compute targets.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute attach --resource-group
                          --workspace-name
@@ -78,6 +82,10 @@ directCommands:
   name: az ml compute connect-ssh
   summary: Set up SSH connection to Compute Instance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az ml compute connect-ssh --name
                               --resource-group
@@ -107,6 +115,8 @@ directCommands:
   name: az ml compute create
   summary: Create a compute target.
   description: You can create an AmlCompute cluster, which is Azure ML's managed compute infrastructure, or a compute instance, which is a managed cloud-based workstation.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute create --resource-group
                          --workspace-name
@@ -226,6 +236,8 @@ directCommands:
   name: az ml compute delete
   summary: Delete a compute target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute delete --name
                          --resource-group
@@ -258,6 +270,8 @@ directCommands:
   name: az ml compute detach
   summary: Detach a previously attached compute resource from a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute detach --name
                          --resource-group
@@ -290,6 +304,8 @@ directCommands:
   name: az ml compute list
   summary: List the compute targets in a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute list --resource-group
                        --workspace-name
@@ -318,6 +334,8 @@ directCommands:
   name: az ml compute list-nodes
   summary: List node details for a compute target. The only supported compute type for this command is AML compute.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute list-nodes --name
                              --resource-group
@@ -342,6 +360,8 @@ directCommands:
   name: az ml compute list-sizes
   summary: List the VM sizes available by location.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute list-sizes --resource-group
                              --workspace-name
@@ -367,6 +387,8 @@ directCommands:
   name: az ml compute list-usage
   summary: List the available usage resources for VMs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute list-usage --resource-group
                              --workspace-name
@@ -388,6 +410,8 @@ directCommands:
   name: az ml compute restart
   summary: Restart a ComputeInstance target.
   description: --no-wait option is recommended.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute restart --name
                           --resource-group
@@ -415,6 +439,8 @@ directCommands:
   name: az ml compute show
   summary: Show details for a compute target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute show --name
                        --resource-group
@@ -439,6 +465,8 @@ directCommands:
   name: az ml compute start
   summary: Start a ComputeInstance target.
   description: --no-wait option is recommended.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute start --name
                         --resource-group
@@ -466,6 +494,8 @@ directCommands:
   name: az ml compute stop
   summary: Stop a ComputeInstance target.
   description: --no-wait option is recommended.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute stop --name
                        --resource-group
@@ -493,6 +523,8 @@ directCommands:
   name: az ml compute update
   summary: Update a compute target.
   description: The 'tags', 'max_instances', 'min_instances', 'idle_time_before_scale_down', 'identity_type', and 'user_assigned_identities' properties can be updated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml compute update --name
                          --resource-group

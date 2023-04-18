@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcappliance** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az arcappliance validate** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Command group to validate Appliance cluster and configuration.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_arcappliance_validate_hci
   name: az arcappliance validate hci
   summary: Command to validate HCI Appliance Configuration.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance validate' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance validate hci --config-file
                                  [--location]
@@ -39,6 +47,10 @@ directCommands:
   name: az arcappliance validate kubevirt
   summary: Command to validate KubeVirt Appliance Configuration.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance validate' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance validate kubevirt --config-file
                                       [--location]
@@ -66,6 +78,10 @@ directCommands:
   name: az arcappliance validate scvmm
   summary: Command to validate SCVMM Appliance Configuration.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance validate' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance validate scvmm --config-file
                                    [--location]
@@ -93,6 +109,10 @@ directCommands:
   name: az arcappliance validate vmware
   summary: Command to validate VMware Appliance Configuration.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance validate' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance validate vmware --config-file
                                     [--location]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **edgeorder** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az edgeorder** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Edge Order.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_edgeorder_list-config
   name: az edgeorder list-config
   summary: This method provides the list of configurations for the given product family, product line and product under subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder list-config --configuration-filters
                              [--location-placement-id]
@@ -52,6 +56,8 @@ directCommands:
   name: az edgeorder list-family
   summary: This method provides the list of product families for the given subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az edgeorder list-family --filterable-properties
                              [--expand]
@@ -96,6 +102,8 @@ directCommands:
   name: az edgeorder list-metadata
   summary: This method provides the list of product families metadata for the given subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az edgeorder list-metadata [--skip-token]
   examples:
   - summary: ListProductFamiliesMetadata

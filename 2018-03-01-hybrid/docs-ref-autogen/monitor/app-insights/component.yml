@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **application-insights** extension for the Azure CLI  (version 2.38.0 or higher).  The extension will automatically install the first time you run an **az monitor app-insights component** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage an Application Insights component or its subcomponents.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_app-insights_component_connect-function
   name: az monitor app-insights component connect-function
   summary: Connect AI to an Azure function.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component connect-function --function
                                                        [--app]
@@ -45,6 +49,8 @@ directCommands:
   name: az monitor app-insights component connect-webapp
   summary: Connect AI to a web app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component connect-webapp --web-app
                                                      [--app]
@@ -88,6 +94,8 @@ directCommands:
   name: az monitor app-insights component create
   summary: Create a new Application Insights resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component create --app
                                              --location
@@ -145,6 +153,8 @@ directCommands:
   name: az monitor app-insights component delete
   summary: Delete a new Application Insights resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component delete [--app]
                                              [--ids]
@@ -170,6 +180,8 @@ directCommands:
   name: az monitor app-insights component show
   summary: Get an Application Insights resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component show [--app]
                                            [--ids]
@@ -199,6 +211,8 @@ directCommands:
   name: az monitor app-insights component update
   summary: Update properties on an existing Application Insights resource. The primary value which can be updated is kind, which customizes the UI experience.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component update [--app]
                                              [--ids]
@@ -246,6 +260,8 @@ directCommands:
   name: az monitor app-insights component update-tags
   summary: Update tags on an existing Application Insights resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor app-insights component update-tags --tags
                                                   [--app]

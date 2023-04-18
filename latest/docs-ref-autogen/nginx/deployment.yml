@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **nginx** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az nginx deployment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage NGINX deployment resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_nginx_deployment_create
   name: az nginx deployment create
   summary: Create an NGINX for Azure resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment create --deployment-name
                                --resource-group
@@ -80,6 +84,8 @@ directCommands:
   name: az nginx deployment delete
   summary: Delete an Nginx deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment delete [--deployment-name]
                                [--ids]
@@ -118,6 +124,8 @@ directCommands:
     List all deployments under the specified subscription.
 
     List all Nginx Deployments under the specified resource group.
+  status: GA
+  sourceType: Extension
   syntax: az nginx deployment list [--resource-group]
   examples:
   - summary: Deployment List
@@ -133,6 +141,8 @@ directCommands:
   name: az nginx deployment show
   summary: Get the properties of a specific Nginx Deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment show [--deployment-name]
                              [--ids]
@@ -158,6 +168,8 @@ directCommands:
   name: az nginx deployment update
   summary: Update an Nginx deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment update [--add]
                                [--deployment-name]
@@ -243,6 +255,8 @@ directCommands:
   name: az nginx deployment wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment wait [--created]
                              [--custom]

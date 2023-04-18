@@ -3,6 +3,8 @@ uid: az_cdn_endpoint_waf
 name: az cdn endpoint waf
 summary: Manage WAF properties of a CDN endpoint.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_cdn_endpoint_waf_policy
 - az_cdn_endpoint_waf_policy_remove

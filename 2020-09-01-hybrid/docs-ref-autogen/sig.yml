@@ -3,11 +3,15 @@ uid: az_sig
 name: az sig
 summary: Manage shared image gallery.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_sig_create
   name: az sig create
   summary: Create a shared image gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig create --gallery-name
                   --resource-group
@@ -56,6 +60,8 @@ directCommands:
   name: az sig delete
   summary: Delete a Shared Image Gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig delete --gallery-name
                   --resource-group
@@ -72,6 +78,8 @@ directCommands:
   name: az sig list
   summary: List share image galleries.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az sig list [--resource-group]
   examples:
   - summary: List shared galleries by subscription id.
@@ -84,6 +92,8 @@ directCommands:
   name: az sig show
   summary: Retrieve information about a Shared Image Gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig show [--gallery-name]
                 [--ids]
@@ -114,6 +124,10 @@ directCommands:
   name: az sig show-community
   summary: Get a gallery that has been community (preview).
   description: Get a gallery that has been community (private preview feature, please contact community image gallery team by email sigpmdev@microsoft.com to register for preview if you're interested in using this feature).
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sig show-community [--ids]
                           [--location]
@@ -139,6 +153,8 @@ directCommands:
   name: az sig update
   summary: Update a share image gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig update --gallery-name
                   --resource-group

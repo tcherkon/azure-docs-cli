@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot dps enrollment registration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage service-side device registrations for an individual enrollment in an Azure IoT Hub Device Provisioning Service.
 description: Use `az iot device registration create` to simulate device registration.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_dps_enrollment_registration_delete
   name: az iot dps enrollment registration delete
   summary: Delete a device registration for an individual enrollment in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment registration delete --eid
                                               [--auth-type {key, login}]
@@ -46,6 +50,8 @@ directCommands:
   name: az iot dps enrollment registration show
   summary: Get a device registration for an individual enrollment in an Azure IoT Hub Device Provisioning Service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot dps enrollment registration show --eid
                                             [--auth-type {key, login}]

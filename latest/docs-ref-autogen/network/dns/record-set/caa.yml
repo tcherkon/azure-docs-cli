@@ -3,11 +3,16 @@ uid: az_network_dns_record-set_caa
 name: az network dns record-set caa
 summary: Manage DNS CAA records.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_network_dns_record-set_caa_add-record
   name: az network dns record-set caa add-record
   summary: Add a CAA record.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa add-record --flags
                                              --record-set-name
@@ -55,11 +60,13 @@ directCommands:
     defaultValue: "3600"
     summary: Record set TTL (time-to-live).
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 - uid: az_network_dns_record-set_caa_create
   name: az network dns record-set caa create
   summary: Create an empty CAA record set.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa create --name
                                          --resource-group
@@ -104,11 +111,13 @@ directCommands:
     defaultValue: "3600"
     summary: Record set TTL (time-to-live).
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 - uid: az_network_dns_record-set_caa_delete
   name: az network dns record-set caa delete
   summary: Delete a CAA record set and all associated records.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa delete --name
                                          --resource-group
@@ -141,11 +150,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 - uid: az_network_dns_record-set_caa_list
   name: az network dns record-set caa list
   summary: List all CAA record sets in a zone.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa list --resource-group
                                        --zone-name
@@ -161,11 +172,13 @@ directCommands:
     name: --zone-name -z
     summary: The name of the zone.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 - uid: az_network_dns_record-set_caa_remove-record
   name: az network dns record-set caa remove-record
   summary: Remove a CAA record from its record set.
   description: By default, if the last record in a set is removed, the record set is deleted. To retain the empty record set, include --keep-empty-record-set.
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa remove-record --flags
                                                 --record-set-name
@@ -209,11 +222,13 @@ directCommands:
     defaultValue: "False"
     summary: Keep the empty record set if the last record is removed.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 - uid: az_network_dns_record-set_caa_show
   name: az network dns record-set caa show
   summary: Get the details of a CAA record set.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa show --name
                                        --resource-group
@@ -234,11 +249,13 @@ directCommands:
     name: --zone-name -z
     summary: The name of the zone.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 - uid: az_network_dns_record-set_caa_update
   name: az network dns record-set caa update
   summary: Update a CAA record set.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: >-
     az network dns record-set caa update --name
                                          --resource-group
@@ -298,7 +315,6 @@ directCommands:
   - name: --target-resource
     summary: ID of an Azure resource from which the DNS resource value is taken.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 commands:
 - az_network_dns_record-set_caa_add-record
 - az_network_dns_record-set_caa_create

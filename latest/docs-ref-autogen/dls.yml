@@ -3,6 +3,10 @@ uid: az_dls
 name: az dls
 summary: Manage Data Lake Store accounts and filesystems.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Core
 commands:
 - az_dls_account
 - az_dls_account_create

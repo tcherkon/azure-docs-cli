@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager connection management-group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage management-group connection with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_connection_management-group_create
   name: az network manager connection management-group create
   summary: Create a connection to a cross tenant network manager".
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection management-group create --connection-name
                                                           --management-group-id
@@ -41,6 +45,8 @@ directCommands:
   name: az network manager connection management-group delete
   summary: Delete specified pending connection created by this management group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection management-group delete --management-group-id
                                                           [--connection-name]
@@ -73,6 +79,8 @@ directCommands:
   name: az network manager connection management-group list
   summary: List all network manager connections created by this management group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection management-group list --management-group-id
                                                         [--skip-token]
@@ -96,6 +104,8 @@ directCommands:
   name: az network manager connection management-group show
   summary: Get a specified connection created by this management group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection management-group show --management-group-id
                                                         [--connection-name]
@@ -123,6 +133,8 @@ directCommands:
   name: az network manager connection management-group update
   summary: Update a connection to a cross tenant network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection management-group update [--add]
                                                           [--connection-name]

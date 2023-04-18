@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedmachine** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az connectedmachine** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Connected Machine.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedmachine_delete
   name: az connectedmachine delete
   summary: The operation to remove a hybrid machine identity in Azure.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine delete [--ids]
                                [--machine-name]
@@ -42,6 +46,8 @@ directCommands:
   name: az connectedmachine list
   summary: List all the hybrid machines in the specified resource group. Use the nextLink property in the response to get the next page of hybrid machines. And Lists all the hybrid machines in the specified subscription. Use the nextLink property in the response to get the next page of hybrid machines.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az connectedmachine list [--resource-group]
   examples:
   - summary: List Machines by resource group
@@ -56,6 +62,8 @@ directCommands:
   name: az connectedmachine show
   summary: Retrieve information about the model view or the instance view of a hybrid machine.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine show [--ids]
                              [--machine-name]
@@ -81,6 +89,8 @@ directCommands:
   name: az connectedmachine upgrade-extension
   summary: The operation to upgrade Machine Extensions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine upgrade-extension [--extension-targets]
                                           [--ids]

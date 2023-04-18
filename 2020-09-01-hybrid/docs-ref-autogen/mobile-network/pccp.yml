@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network pccp** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage packet core control plane.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_pccp_collect-diagnostics-package
   name: az mobile-network pccp collect-diagnostics-package
   summary: Collect a diagnostics package for the specified packet core control plane. This action will upload the diagnostics to a storage account.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp collect-diagnostics-package --blob-url
                                                        [--ids]
@@ -48,6 +52,8 @@ directCommands:
   name: az mobile-network pccp create
   summary: Create a packet core control plane.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp create --access-interface
                                   --local-diagnostics
@@ -126,6 +132,8 @@ directCommands:
   name: az mobile-network pccp delete
   summary: Delete the specified packet core control plane.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp delete [--ids]
                                   [--name]
@@ -161,6 +169,8 @@ directCommands:
   name: az mobile-network pccp list
   summary: List all the packet core control planes in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az mobile-network pccp list [--resource-group]
   examples:
   - summary: List Packet Core Control Plane by resource group
@@ -173,6 +183,8 @@ directCommands:
   name: az mobile-network pccp reinstall
   summary: Reinstall the specified packet core control plane. This action will remove any transaction state from the packet core to return it to a known state. This action will cause a service outage.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp reinstall [--ids]
                                      [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
@@ -203,6 +215,8 @@ directCommands:
   name: az mobile-network pccp rollback
   summary: Roll back the specified packet core control plane to the previous version, "rollbackVersion". Multiple consecutive rollbacks are not possible. This action may cause a service outage.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp rollback [--ids]
                                     [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
@@ -233,6 +247,8 @@ directCommands:
   name: az mobile-network pccp show
   summary: Get information about the specified packet core control plane.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp show [--ids]
                                 [--name]
@@ -258,6 +274,8 @@ directCommands:
   name: az mobile-network pccp update
   summary: Update a packet core control plane.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp update [--access-interface]
                                   [--add]
@@ -347,6 +365,8 @@ directCommands:
   name: az mobile-network pccp wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network pccp wait [--created]
                                 [--custom]

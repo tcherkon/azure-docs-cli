@@ -3,11 +3,15 @@ uid: az_functionapp
 name: az functionapp
 summary: Manage function apps. To install the Azure Functions Core tools see https://github.com/Azure/azure-functions-core-tools.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_functionapp_create
   name: az functionapp create
   summary: Create a function app.
   description: The function app's name must be able to produce a unique FQDN as AppName.azurewebsites.net.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az functionapp create --name
                           --resource-group
@@ -100,9 +104,11 @@ directCommands:
   - name: --max-worker-count
     summary: Maximum number of workers to be allocated.
     description: ''
+    isPreview: true
   - name: --min-worker-count
     summary: Minimum number of workers to be allocated.
     description: ''
+    isPreview: true
   - name: --os-type
     parameterValueGroup: "Linux, Windows"
     summary: Set the OS type for the app to be created.
@@ -133,6 +139,8 @@ directCommands:
   name: az functionapp restart
   summary: Restart a function app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az functionapp restart [--ids]
                            [--name]
@@ -162,6 +170,8 @@ directCommands:
   name: az functionapp show
   summary: Get the details of a function app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az functionapp show [--ids]
                         [--name]

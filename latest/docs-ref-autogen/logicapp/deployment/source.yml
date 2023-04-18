@@ -3,11 +3,15 @@ uid: az_logicapp_deployment_source
 name: az logicapp deployment source
 summary: Manage logicapp app deployment via source control.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_logicapp_deployment_source_config-zip
   name: az logicapp deployment source config-zip
   summary: Perform deployment using the kudu zip push deployment for a logic app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az logicapp deployment source config-zip --name
                                              --resource-group

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **monitor-control-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az monitor data-collection rule association** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage data collection rule association for monitor control service.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_data-collection_rule_association_create
   name: az monitor data-collection rule association create
   summary: Create an association.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule association create --name
                                                        --resource
@@ -40,6 +44,8 @@ directCommands:
   name: az monitor data-collection rule association delete
   summary: Delete an association.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule association delete --name
                                                        --resource
@@ -65,6 +71,8 @@ directCommands:
   name: az monitor data-collection rule association list
   summary: List associations for the specified data collection rule. And Lists associations for the specified resource.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule association list [--endpoint-name]
                                                      [--resource]
@@ -92,6 +100,8 @@ directCommands:
   name: az monitor data-collection rule association show
   summary: Return the specified association.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule association show --name
                                                      --resource
@@ -111,6 +121,8 @@ directCommands:
   name: az monitor data-collection rule association update
   summary: Update an association.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule association update --name
                                                        --resource

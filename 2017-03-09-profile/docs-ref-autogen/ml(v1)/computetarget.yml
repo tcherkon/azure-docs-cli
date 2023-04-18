@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml computetarget** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Computetarget subgroup commands.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_computetarget_delete
   name: az ml computetarget delete
   summary: Delete a compute target (aks or amlcompute or computeinstance).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget delete --name
                                [--path]
@@ -44,6 +48,8 @@ directCommands:
   name: az ml computetarget detach
   summary: Detach a compute target (aks or remote) from a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget detach --name
                                [--path]
@@ -76,6 +82,8 @@ directCommands:
   name: az ml computetarget get-credentials
   summary: Get credentials for a compute target (aks or remote).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget get-credentials --name
                                         [--path]
@@ -108,6 +116,8 @@ directCommands:
   name: az ml computetarget list
   summary: List all the compute targets attached to a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget list [--path]
                              [--resource-group]
@@ -135,6 +145,8 @@ directCommands:
   name: az ml computetarget show
   summary: Show details of a specific compute target.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml computetarget show --name
                              [--path]

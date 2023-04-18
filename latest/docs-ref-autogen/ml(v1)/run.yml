@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-cli-ml** extension for the Azure CLI  (version 2.0.28 or higher).  The extension will automatically install the first time you run an **az ml run** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands for submitting, updating, and monitoring runs.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml(v1)_run_cancel
   name: az ml run cancel
   summary: Cancel run.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run cancel --run
                      [--experiment-name]
@@ -49,6 +53,8 @@ directCommands:
   name: az ml run download-logs
   summary: Download log files.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run download-logs --output-dir
                             --run
@@ -91,6 +97,8 @@ directCommands:
   name: az ml run list
   summary: List runs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run list [--compute-target-name]
                    [--experiment-name]
@@ -153,6 +161,8 @@ directCommands:
   name: az ml run monitor-logs
   summary: Monitor the logs for an existing run.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run monitor-logs --run
                            [--experiment-name]
@@ -190,6 +200,8 @@ directCommands:
   name: az ml run monitor-tensorboard
   summary: Monitor an existing run using tensorboard.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run monitor-tensorboard --run
                                   [--experiment-name]
@@ -231,6 +243,8 @@ directCommands:
   name: az ml run show
   summary: Show run.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run show --run
                    [--experiment-name]
@@ -268,6 +282,8 @@ directCommands:
   name: az ml run submit-hyperdrive
   summary: Submit a hyper parameter sweep using run config.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run submit-hyperdrive --hyperdrive-configuration-name
                                 [--async]
@@ -330,6 +346,8 @@ directCommands:
   name: az ml run submit-pipeline
   summary: Submit a pipeline for execution, from a published pipeline ID or pipeline YAML file.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run submit-pipeline [--datapaths]
                               [--experiment-name]
@@ -381,6 +399,8 @@ directCommands:
   name: az ml run submit-script
   summary: Submit a script for execution.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run submit-script [--async]
                             [--conda-dependencies]
@@ -437,6 +457,8 @@ directCommands:
   name: az ml run update
   summary: Update the run by adding tags.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml run update --run
                      [--add-tag]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **support** extension for the Azure CLI  (version 2.0.81 or higher).  The extension will automatically install the first time you run an **az support tickets** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Create and manage Azure support ticket.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_support_tickets_create
   name: az support tickets create
   summary: Creates a new support ticket for Quota increase, Technical, Billing, and Subscription Management issues for the specified subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az support tickets create --contact-country
                               --contact-email
@@ -428,6 +432,8 @@ directCommands:
   name: az support tickets list
   summary: Lists all the support tickets for an Azure subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az support tickets list [--filters]
   examples:
   - summary: List support tickets for a subscription.
@@ -444,6 +450,8 @@ directCommands:
   name: az support tickets show
   summary: Gets support ticket details for an Azure subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az support tickets show --ticket-name
   examples:
   - summary: Get details of a subscription ticket.
@@ -457,6 +465,8 @@ directCommands:
   name: az support tickets update
   summary: Updates severity level, status and customer contact information for a support ticket.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az support tickets update --ticket-name
                               [--contact-additional-emails]

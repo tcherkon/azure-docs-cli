@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **providerhub** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az providerhub sku** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage sku with providerhub.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_providerhub_sku_create
   name: az providerhub sku create
   summary: Creates or updates the resource type skus in the given resource type. And Creates or updates the resource type skus in the given resource type. And Creates or updates the resource type skus in the given resource type. And Create the resource type skus in the given resource type.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku create --provider-namespace
                               --resource-type
@@ -60,6 +64,8 @@ directCommands:
   name: az providerhub sku delete
   summary: Deletes a resource type sku. And Deletes a resource type sku. And Deletes a resource type sku. And Deletes a resource type sku.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku delete [--ids]
                               [--nested-first]
@@ -112,6 +118,8 @@ directCommands:
   name: az providerhub sku list
   summary: Gets the list of skus for the given resource type. And Gets the list of skus for the given resource type. And Gets the list of skus for the given resource type. And Gets the list of skus for the given resource type.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku list --provider-namespace
                             --resource-type
@@ -150,6 +158,8 @@ directCommands:
   name: az providerhub sku show
   summary: Gets the sku details for the given resource type and sku name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku show [--ids]
                             [--provider-namespace]
@@ -179,6 +189,8 @@ directCommands:
   name: az providerhub sku show-nested-resource-type-first
   summary: Gets the sku details for the given resource type and sku name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku show-nested-resource-type-first [--ids]
                                                        [--nested-first]
@@ -212,6 +224,8 @@ directCommands:
   name: az providerhub sku show-nested-resource-type-second
   summary: Gets the sku details for the given resource type and sku name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku show-nested-resource-type-second [--ids]
                                                         [--nested-first]
@@ -249,6 +263,8 @@ directCommands:
   name: az providerhub sku show-nested-resource-type-third
   summary: Gets the sku details for the given resource type and sku name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az providerhub sku show-nested-resource-type-third [--ids]
                                                        [--nested-first]

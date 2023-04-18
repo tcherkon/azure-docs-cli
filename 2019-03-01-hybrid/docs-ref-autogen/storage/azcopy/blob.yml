@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storage-preview** extension for the Azure CLI  (version 2.25.0 or higher).  The extension will automatically install the first time you run an **az storage azcopy blob** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage object storage for unstructured data (blobs) using AzCopy.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storage_azcopy_blob_delete
   name: az storage azcopy blob delete
   summary: Delete blobs from a storage blob container using AzCopy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage azcopy blob delete --container
                                   [--account-key]
@@ -60,6 +64,8 @@ directCommands:
   name: az storage azcopy blob download
   summary: Download blobs from a storage blob container using AzCopy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage azcopy blob download --container
                                     --destination
@@ -113,6 +119,8 @@ directCommands:
   name: az storage azcopy blob sync
   summary: Sync blobs recursively to a storage blob container using AzCopy.
   description: To learn more about azcopy sync,see https://docs.microsoft.com/azure/storage/common/storage-ref-azcopy-sync.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage azcopy blob sync --container
                                 --source
@@ -160,6 +168,8 @@ directCommands:
   name: az storage azcopy blob upload
   summary: Upload blobs to a storage blob container using AzCopy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storage azcopy blob upload --container
                                   --source

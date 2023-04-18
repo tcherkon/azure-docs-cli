@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dnc** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az dnc controller** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage controller with dnc.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dnc_controller_create
   name: az dnc controller create
   summary: Create a dnc controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc controller create --resource-group
                              --resource-name
@@ -45,6 +53,10 @@ directCommands:
   name: az dnc controller delete
   summary: Deletes the DNC controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc controller delete [--ids]
                              [--no-wait]
@@ -80,6 +92,10 @@ directCommands:
   name: az dnc controller show
   summary: Gets details about the specified dnc controller.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc controller show [--ids]
                            [--resource-group]
@@ -105,6 +121,10 @@ directCommands:
   name: az dnc controller wait
   summary: Place the CLI in a waiting state until a condition of the dnc controller is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'dnc' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dnc controller wait [--created]
                            [--custom]

@@ -3,11 +3,15 @@ uid: az_staticwebapp_users
 name: az staticwebapp users
 summary: Manage users of the static app.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_staticwebapp_users_invite
   name: az staticwebapp users invite
   summary: Create invitation link for specified user to the static app.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az staticwebapp users invite --authentication-provider
                                  --domain
@@ -52,6 +56,8 @@ directCommands:
   name: az staticwebapp users list
   summary: Lists users and assigned roles, limited to users who accepted their invites.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az staticwebapp users list --name
                                [--authentication-provider]
@@ -76,6 +82,8 @@ directCommands:
   name: az staticwebapp users update
   summary: Updates a user entry with the listed roles. Either user details or user id is required.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az staticwebapp users update --name
                                  --roles

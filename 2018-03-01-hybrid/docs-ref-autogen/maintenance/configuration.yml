@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **maintenance** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az maintenance configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage maintenance configuration with maintenance.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_maintenance_configuration_create
   name: az maintenance configuration create
   summary: Create configuration record.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance configuration create --resource-group
                                         --resource-name
@@ -117,6 +125,10 @@ directCommands:
   name: az maintenance configuration delete
   summary: Delete Configuration record.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance configuration delete --resource-group
                                         --resource-name
@@ -142,6 +154,10 @@ directCommands:
   name: az maintenance configuration list
   summary: Get Configuration records within a subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az maintenance configuration list
   examples:
   - summary: MaintenanceConfigurations_List
@@ -150,6 +166,10 @@ directCommands:
   name: az maintenance configuration show
   summary: Get Configuration record.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance configuration show --resource-group
                                       --resource-name
@@ -173,6 +193,10 @@ directCommands:
   name: az maintenance configuration update
   summary: Patch configuration record.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'maintenance' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az maintenance configuration update --resource-group
                                         --resource-name

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **spring-cloud** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az spring-cloud app binding redis** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage Azure Cache for Redis bindings.
 description: ''
+status: Deprecated
+isDeprecated: true
+deprecateInfo: This command group is implicitly deprecated because command group 'spring-cloud app binding' is deprecated and will be removed in a future release. Use 'spring app binding' instead.
+sourceType: Extension
 directCommands:
 - uid: az_spring-cloud_app_binding_redis_add
   name: az spring-cloud app binding redis add
   summary: Bind an Azure Cache for Redis with the app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app binding' is deprecated and will be removed in a future release. Use 'spring app binding' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app binding redis add --app
                                           --name
@@ -50,6 +58,10 @@ directCommands:
   name: az spring-cloud app binding redis update
   summary: Update an Azure Cache for Redis service binding of the app.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'spring-cloud app binding' is deprecated and will be removed in a future release. Use 'spring app binding' instead.
+  sourceType: Extension
   syntax: >-
     az spring-cloud app binding redis update --app
                                              --name

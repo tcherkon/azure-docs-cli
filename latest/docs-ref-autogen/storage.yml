@@ -3,11 +3,16 @@ uid: az_storage
 name: az storage
 summary: Manage Azure Cloud Storage resources.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_storage_copy
   name: az storage copy
   summary: Copy files or directories to or from Azure storage.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage copy [--account-key]
                     [--account-name]
@@ -129,6 +134,8 @@ directCommands:
   - name: --destination-account-name
     summary: Storage account name of copy destination.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--destination-account-name' has been deprecated and will be removed in a future release. Use '--account-name' instead.
   - name: --destination-blob
     summary: Blob name in blob container of copy destination storage account.
     description: ''
@@ -141,6 +148,8 @@ directCommands:
   - name: --destination-local-path
     summary: The path/url of copy destination. It can be a local path, an url to azure storage server. If you provide destination parameter here, you do not need to provide arguments in copy destination arguments group and copy destination arguments will be deprecated in future.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--destination-local-path' has been deprecated and will be removed in a future release. Use '--destination' instead.
   - name: --destination-share
     summary: File share name of copy destination storage account.
     description: ''
@@ -196,6 +205,8 @@ directCommands:
   - name: --source-local-path
     summary: The path/url of copy source. It can be a local path, an url to azure storage server or AWS S3 buckets. If you provide source parameter here, you do not need to provide arguments in copy source arguments group and copy source arguments will be deprecated in future.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--source-local-path' has been deprecated and will be removed in a future release. Use '--source' instead.
   - name: --source-sas
     summary: Shared Access Signature (SAS) token of copy source. Must be used in conjunction with source storage account name.
     description: ''
@@ -205,11 +216,14 @@ directCommands:
   - name: <EXTRA_OPTIONS>
     summary: Other options which will be passed through to azcopy as it is. Please put all the extra options after a `--`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
+    isExperimental: true
 - uid: az_storage_remove
   name: az storage remove
   summary: Delete blobs or files from Azure Storage.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
   syntax: >-
     az storage remove [--account-key]
                       [--account-name]
@@ -283,7 +297,6 @@ directCommands:
   - name: --share-name -s
     summary: The file share name.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/storage/_help.py
 commands:
 - az_storage_account
 - az_storage_account_blob-inventory-policy

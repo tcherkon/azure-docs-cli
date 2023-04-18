@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **notification-hub** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az notification-hub namespace** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage notification hub namespace.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_notification-hub_namespace_check-availability
   name: az notification-hub namespace check-availability
   summary: Check the availability of the given service namespace across all Azure subscriptions. This is useful because the domain name is created based on the service namespace name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az notification-hub namespace check-availability --name
   examples:
   - summary: Check name availability of namespace
@@ -25,6 +33,10 @@ directCommands:
   name: az notification-hub namespace create
   summary: Create a service namespace. Once created, this namespace's resource manifest is immutable. This operation is idempotent.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace create --name
                                          --resource-group
@@ -62,6 +74,10 @@ directCommands:
   name: az notification-hub namespace delete
   summary: Delete an existing namespace. This operation also removes all associated notification hubs under the namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace delete [--ids]
                                          [--name]
@@ -100,6 +116,10 @@ directCommands:
   name: az notification-hub namespace list
   summary: List available namespaces.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az notification-hub namespace list [--resource-group]
   examples:
   - summary: List available namespaces within a resource group
@@ -114,6 +134,10 @@ directCommands:
   name: az notification-hub namespace show
   summary: Return the description for the specified namespace.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace show [--ids]
                                        [--name]
@@ -142,6 +166,10 @@ directCommands:
   name: az notification-hub namespace update
   summary: Update a service namespace. The namespace's resource manifest is immutable and cannot be modified.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace update --name
                                          --resource-group
@@ -174,6 +202,10 @@ directCommands:
   name: az notification-hub namespace wait
   summary: Place the CLI in a waiting state until a condition of the Notification Hub Namesapce is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'notification-hub' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az notification-hub namespace wait --name
                                        --resource-group

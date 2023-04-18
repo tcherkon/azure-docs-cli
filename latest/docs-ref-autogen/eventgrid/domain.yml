@@ -3,11 +3,16 @@ uid: az_eventgrid_domain
 name: az eventgrid domain
 summary: Manage event domains.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_eventgrid_domain_create
   name: az eventgrid domain create
   summary: Create a domain.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid domain create --name
                                --resource-group
@@ -45,6 +50,9 @@ directCommands:
     parameterValueGroup: "noidentity, systemassigned"
     summary: The managed identity type for the resource. Will be deprecated and replaced by --mi-system-assigned-identity in future.
     description: ''
+    isDeprecated: true
+    isPreview: true
+    deprecateInfo: Argument 'identity' has been deprecated and will be removed in a future release.
   - name: --inbound-ip-rules
     summary: List of inbound IP rules.
     description: List of inbound IP rules specifying IP Address in CIDR notation e.g., 10.0.0.0/8 along with corresponding Action to perform based on the match or no match of the IpMask. Possible values include - Allow.
@@ -68,6 +76,7 @@ directCommands:
   - name: --mi-user-assigned
     summary: Add user assigned identities when identityType is user or mixed. This attribute is valid for all destination types except StorageQueue. Multiple attributes can be specified by using more than one `--mi-user-assigned` argument.
     description: ''
+    isPreview: true
   - name: --public-network-access
     parameterValueGroup: "disabled, enabled"
     summary: This determines if traffic is allowed over public network. By default it is enabled. You can further restrict to specific IPs by configuring.
@@ -77,14 +86,17 @@ directCommands:
     parameterValueGroup: "basic, premium"
     summary: The Sku name of the resource.
     description: ''
+    isPreview: true
   - name: --tags
     summary: 'Space-separated tags: key[=value] [key[=value] ...]. Use "" to clear existing tags.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_domain_delete
   name: az eventgrid domain delete
   summary: Delete a domain.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid domain delete [--ids]
                                [--name]
@@ -106,11 +118,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_domain_list
   name: az eventgrid domain list
   summary: List available domains.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid domain list [--odata-query]
                              [--resource-group]
@@ -130,11 +144,13 @@ directCommands:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_domain_show
   name: az eventgrid domain show
   summary: Get the details of a domain.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid domain show [--ids]
                              [--name]
@@ -160,11 +176,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 - uid: az_eventgrid_domain_update
   name: az eventgrid domain update
   summary: Update a domain.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: >-
     az eventgrid domain update [--identity {noidentity, systemassigned}]
                                [--ids]
@@ -185,6 +203,9 @@ directCommands:
     parameterValueGroup: "noidentity, systemassigned"
     summary: The managed identity type for the resource. Will be deprecated and replaced by --mi-system-assigned-identity in future.
     description: ''
+    isDeprecated: true
+    isPreview: true
+    deprecateInfo: Argument 'identity' has been deprecated and will be removed in a future release.
   - name: --ids
     summary: One or more resource IDs (space-delimited). It should be a complete resource ID containing all information of 'Resource Id' arguments. You should provide either --ids or other 'Resource Id' arguments.
     description: ''
@@ -197,6 +218,7 @@ directCommands:
   - name: --mi-user-assigned
     summary: Add user assigned identities when identityType is user or mixed. This attribute is valid for all destination types except StorageQueue. Multiple attributes can be specified by using more than one `--mi-user-assigned` argument.
     description: ''
+    isPreview: true
   - name: --name -n
     summary: Name of the domain.
     description: ''
@@ -211,13 +233,13 @@ directCommands:
     parameterValueGroup: "basic, premium"
     summary: The Sku name of the resource.
     description: ''
+    isPreview: true
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
   - name: --tags
     summary: 'Space-separated tags: key[=value] [key[=value] ...]. Use "" to clear existing tags.'
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 commands:
 - az_eventgrid_domain_create
 - az_eventgrid_domain_delete

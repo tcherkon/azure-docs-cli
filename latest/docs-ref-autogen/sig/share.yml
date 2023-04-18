@@ -3,11 +3,15 @@ uid: az_sig_share
 name: az sig share
 summary: Manage gallery sharing profile.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sig_share_add
   name: az sig share add
   summary: Share gallery with subscriptions and tenants.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig share add [--gallery-name]
                      [--ids]
@@ -49,6 +53,8 @@ directCommands:
   name: az sig share enable-community
   summary: Allow to share gallery to the community.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig share enable-community [--gallery-name]
                                   [--ids]
@@ -87,6 +93,8 @@ directCommands:
   name: az sig share remove
   summary: Stop sharing gallery with a subscription or tenant.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig share remove [--gallery-name]
                         [--ids]
@@ -128,6 +136,8 @@ directCommands:
   name: az sig share reset
   summary: Disable gallery from being shared with subscription or tenant.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig share reset [--gallery-name]
                        [--ids]
@@ -158,6 +168,8 @@ directCommands:
   name: az sig share wait
   summary: Place the CLI in a waiting state until a condition of a shared gallery is met.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig share wait --gallery-name
                       --resource-group

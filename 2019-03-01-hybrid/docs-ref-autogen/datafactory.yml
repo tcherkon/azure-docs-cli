@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Data Factory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_configure-factory-repo
   name: az datafactory configure-factory-repo
   summary: Updates a factory's repo information.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory configure-factory-repo [--factory-git-hub-configuration]
                                           [--factory-resource-id]
@@ -79,6 +83,8 @@ directCommands:
   name: az datafactory create
   summary: Create a factory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory create --factory-name
                           --resource-group
@@ -157,6 +163,8 @@ directCommands:
   name: az datafactory delete
   summary: Deletes a factory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory delete [--factory-name]
                           [--ids]
@@ -187,6 +195,8 @@ directCommands:
   name: az datafactory get-data-plane-access
   summary: Get Data Plane access.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory get-data-plane-access [--access-resource-path]
                                          [--expire-time]
@@ -232,6 +242,8 @@ directCommands:
   name: az datafactory get-git-hub-access-token
   summary: Get GitHub Access Token.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory get-git-hub-access-token --git-hub-access-code
                                             --git-hub-access-token-base-url
@@ -272,6 +284,8 @@ directCommands:
   name: az datafactory list
   summary: Lists factories. And Lists factories under the specified subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az datafactory list [--resource-group]
   examples:
   - summary: Factories_ListByResourceGroup
@@ -286,6 +300,8 @@ directCommands:
   name: az datafactory show
   summary: Gets a factory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory show [--factory-name]
                         [--ids]
@@ -315,6 +331,8 @@ directCommands:
   name: az datafactory update
   summary: Updates a factory.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory update [--factory-name]
                           [--ids]

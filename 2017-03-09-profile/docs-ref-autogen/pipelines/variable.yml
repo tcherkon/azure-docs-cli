@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines variable** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pipeline variables.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_variable_create
   name: az pipelines variable create
   summary: Add a variable to a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable create --name
                                  [--allow-override {false, true}]
@@ -59,6 +63,8 @@ directCommands:
   name: az pipelines variable delete
   summary: Delete a variable from pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable delete --name
                                  [--detect {false, true}]
@@ -97,6 +103,8 @@ directCommands:
   name: az pipelines variable list
   summary: List the variables in a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable list [--detect {false, true}]
                                [--org]
@@ -124,6 +132,8 @@ directCommands:
   name: az pipelines variable update
   summary: Update a variable in a pipeline.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines variable update --name
                                  [--allow-override {false, true}]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot central user** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure IoT Central users.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_central_user_create
   name: az iot central user create
   summary: Add a user to the application.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central user create --app-id
                                --assignee
@@ -47,6 +51,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -70,6 +76,8 @@ directCommands:
   name: az iot central user delete
   summary: Delete a user from the application.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central user delete --app-id
                                --assignee
@@ -94,6 +102,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -105,6 +115,8 @@ directCommands:
   name: az iot central user list
   summary: Get list of users for an IoT Central application.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central user list --app-id
                              [--api-version {2022-06-30-preview, 2022-07-31}]
@@ -124,6 +136,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -135,6 +149,8 @@ directCommands:
   name: az iot central user show
   summary: Get the details of a user by ID.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central user show --app-id
                              --assignee
@@ -159,6 +175,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.
@@ -175,6 +193,8 @@ directCommands:
     Updating the tenantId or objectId for a service principal user is not allowed.
 
     Updating the email address for an email user is not allowed.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot central user update --app-id
                                --assignee
@@ -203,6 +223,8 @@ directCommands:
     parameterValueGroup: "2022-06-30-preview, 2022-07-31"
     summary: This command parameter has been deprecated and will be ignored.In the future release, we will only support IoT Central APIs from latest GA version.If any API is not GA yet, we will call latest preview version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'api_version' has been deprecated and will be removed in a future release.
   - name: --central-api-uri --central-dns-suffix
     defaultValue: "azureiotcentral.com"
     summary: The IoT Central DNS suffix associated with your application.

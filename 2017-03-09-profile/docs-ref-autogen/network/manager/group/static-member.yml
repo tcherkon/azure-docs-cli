@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager group static-member** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage static members with network manager group.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_group_static-member_create
   name: az network manager group static-member create
   summary: Creates a static member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager group static-member create --name
                                                   --network-group
@@ -46,6 +50,8 @@ directCommands:
   name: az network manager group static-member delete
   summary: Deletes a static member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager group static-member delete --name
                                                   --network-group
@@ -81,6 +87,8 @@ directCommands:
   name: az network manager group static-member list
   summary: Lists the specified static member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager group static-member list --network-group
                                                 --network-manager
@@ -114,6 +122,8 @@ directCommands:
   name: az network manager group static-member show
   summary: Gets the specified static member.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager group static-member show --name
                                                 --network-group

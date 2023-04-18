@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops security permission** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage security permissions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_security_permission_list
   name: az devops security permission list
   summary: List tokens for given user/group and namespace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security permission list --id
                                        --subject
@@ -47,6 +51,8 @@ directCommands:
   name: az devops security permission reset
   summary: Reset permission for given permission bit(s).
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security permission reset --id
                                         --permission-bit
@@ -83,6 +89,8 @@ directCommands:
   name: az devops security permission reset-all
   summary: Clear all permissions of this token for a user/group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security permission reset-all --id
                                             --subject
@@ -119,6 +127,8 @@ directCommands:
   name: az devops security permission show
   summary: Show permissions for given token, namespace and user/group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security permission show --id
                                        --subject
@@ -150,6 +160,8 @@ directCommands:
   name: az devops security permission update
   summary: Assign allow or deny permission to given user/group.
   description: Learn more at https://aka.ms/azure-devops-cli-security-permission.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security permission update --id
                                          --subject

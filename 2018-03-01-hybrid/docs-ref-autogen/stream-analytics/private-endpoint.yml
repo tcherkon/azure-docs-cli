@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **stream-analytics** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az stream-analytics private-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage private endpoint with stream analytics.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_stream-analytics_private-endpoint_create
   name: az stream-analytics private-endpoint create
   summary: Create a Stream Analytics Private Endpoint or replaces an already existing Private Endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics private-endpoint create --cluster-name
                                                 --name
@@ -49,6 +57,10 @@ directCommands:
   name: az stream-analytics private-endpoint delete
   summary: Delete the specified private endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics private-endpoint delete [--cluster-name]
                                                 [--ids]
@@ -88,6 +100,10 @@ directCommands:
   name: az stream-analytics private-endpoint list
   summary: List the private endpoints in the cluster.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics private-endpoint list --cluster-name
                                               --resource-group
@@ -107,6 +123,10 @@ directCommands:
   name: az stream-analytics private-endpoint show
   summary: Get information about the specified Private Endpoint.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics private-endpoint show [--cluster-name]
                                               [--ids]
@@ -136,6 +156,10 @@ directCommands:
   name: az stream-analytics private-endpoint wait
   summary: Place the CLI in a waiting state until a condition of the stream-analytics private-endpoint is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'stream-analytics' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az stream-analytics private-endpoint wait [--cluster-name]
                                               [--created]

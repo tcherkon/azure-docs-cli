@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation software-update-configuration runs** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Software Update Configuration Runs.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automation_software-update-configuration_runs_list
   name: az automation software-update-configuration runs list
   summary: Return list of software update configuration runs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation software-update-configuration runs list --automation-account-name
                                                           --resource-group
@@ -31,6 +35,8 @@ directCommands:
   name: az automation software-update-configuration runs show
   summary: Get a single software update configuration runs by Id.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation software-update-configuration runs show --automation-account-name
                                                           --resource-group

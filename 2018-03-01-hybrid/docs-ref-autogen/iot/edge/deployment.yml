@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot edge deployment** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT Edge deployments at scale.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_edge_deployment_create
   name: az iot edge deployment create
@@ -33,6 +35,8 @@ directCommands:
     Note: If the properties.desired field of a module twin is set in a layered deployment,
 
     properties.desired will overwrite the desired properties for that module in any lower priority deployments.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot edge deployment create --content
                                   --deployment-id
@@ -121,6 +125,8 @@ directCommands:
   name: az iot edge deployment delete
   summary: Delete an IoT Edge deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot edge deployment delete --deployment-id
                                   [--auth-type {key, login}]
@@ -155,6 +161,8 @@ directCommands:
   name: az iot edge deployment list
   summary: List IoT Edge deployments in an IoT Hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot edge deployment list [--auth-type {key, login}]
                                 [--hub-name]
@@ -183,6 +191,8 @@ directCommands:
   name: az iot edge deployment show
   summary: Get the details of an IoT Edge deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot edge deployment show --deployment-id
                                 [--auth-type {key, login}]
@@ -213,6 +223,8 @@ directCommands:
   name: az iot edge deployment show-metric
   summary: Evaluate a target system metric defined in an IoT Edge deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot edge deployment show-metric --deployment-id
                                        --metric-id
@@ -265,6 +277,8 @@ directCommands:
     Note: IoT Edge deployment content is immutable. Deployment properties that can be
 
     updated are 'labels', 'metrics', 'priority' and 'targetCondition'.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot edge deployment update --deployment-id
                                   [--add]

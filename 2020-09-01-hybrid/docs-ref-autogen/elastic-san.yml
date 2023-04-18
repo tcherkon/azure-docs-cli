@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **elastic-san** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az elastic-san** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Elastic SAN.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_elastic-san_create
   name: az elastic-san create
   summary: Create an Elastic SAN.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san create --base-size-tib
                           --elastic-san-name
@@ -64,6 +72,10 @@ directCommands:
   name: az elastic-san delete
   summary: Delete an Elastic SAN.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san delete [--elastic-san-name]
                           [--ids]
@@ -99,6 +111,10 @@ directCommands:
   name: az elastic-san list
   summary: Get a list of Elastic SANs in a subscription.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az elastic-san list [--resource-group]
   examples:
   - summary: Get a list of Elastic SANs in a subscription.
@@ -111,6 +127,10 @@ directCommands:
   name: az elastic-san list-sku
   summary: Get a list of Elastic SAN skus.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az elastic-san list-sku [--filter]
   examples:
   - summary: Get a list of Elastic SAN skus.
@@ -123,6 +143,10 @@ directCommands:
   name: az elastic-san show
   summary: Get an Elastic SAN.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san show [--elastic-san-name]
                         [--ids]
@@ -148,6 +172,10 @@ directCommands:
   name: az elastic-san update
   summary: Update an Elastic SAN.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san update [--add]
                           [--availability-zones]
@@ -215,6 +243,10 @@ directCommands:
   name: az elastic-san wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'az elastic-san' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az elastic-san wait [--created]
                         [--custom]

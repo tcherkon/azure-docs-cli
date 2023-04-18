@@ -3,11 +3,15 @@ uid: az_sf_cluster_durability
 name: az sf cluster durability
 summary: Manage the durability of a cluster.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sf_cluster_durability_update
   name: az sf cluster durability update
   summary: Update the durability tier or VM SKU of a node type in the cluster.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sf cluster durability update --cluster-name
                                     --durability-level {Bronze, Gold, Silver}

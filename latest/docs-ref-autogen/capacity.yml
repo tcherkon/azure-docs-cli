@@ -3,6 +3,8 @@ uid: az_capacity
 name: az capacity
 summary: Manage capacity resources.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_capacity_reservation
 - az_capacity_reservation_create

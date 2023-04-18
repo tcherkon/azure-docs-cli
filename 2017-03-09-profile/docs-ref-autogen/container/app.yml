@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **deploy-to-azure** extension for the Azure CLI  (version 2.0.60 or higher).  The extension will automatically install the first time you run an **az container app** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to Manage Azure Container Instances App.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_container_app_up
   name: az container app up
   summary: Deploy to Azure Container Instances using GitHub Actions.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'container app' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az container app up [--acr]
                         [--branch-name]

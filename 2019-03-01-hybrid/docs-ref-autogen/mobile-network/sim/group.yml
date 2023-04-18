@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network sim group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage sim group.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_sim_group_create
   name: az mobile-network sim group create
   summary: Create a SIM group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim group create --name
                                        --resource-group
@@ -57,6 +61,8 @@ directCommands:
   name: az mobile-network sim group delete
   summary: Delete the specified SIM group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim group delete [--ids]
                                        [--name]
@@ -92,6 +98,8 @@ directCommands:
   name: az mobile-network sim group list
   summary: List all the SIM groups in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az mobile-network sim group list [--resource-group]
   examples:
   - summary: List sim group by resource group
@@ -104,6 +112,8 @@ directCommands:
   name: az mobile-network sim group show
   summary: Get information about the specified SIM group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim group show [--ids]
                                      [--name]
@@ -129,6 +139,8 @@ directCommands:
   name: az mobile-network sim group update
   summary: Update a SIM group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim group update [--add]
                                        [--encryption-key]
@@ -192,6 +204,8 @@ directCommands:
   name: az mobile-network sim group wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network sim group wait [--created]
                                      [--custom]

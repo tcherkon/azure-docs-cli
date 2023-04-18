@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mesh** extension for the Azure CLI  (version 2.0.67 or higher).  The extension will automatically install the first time you run an **az mesh network** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage networks.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mesh_network_delete
   name: az mesh network delete
   summary: Delete a network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh network delete --name
                            --resource-group
@@ -34,6 +38,8 @@ directCommands:
   name: az mesh network list
   summary: List networks.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az mesh network list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -43,6 +49,8 @@ directCommands:
   name: az mesh network show
   summary: Get the details of a network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mesh network show --name
                          --resource-group

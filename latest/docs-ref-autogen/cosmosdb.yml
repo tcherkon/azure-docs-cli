@@ -3,11 +3,16 @@ uid: az_cosmosdb
 name: az cosmosdb
 summary: Manage Azure Cosmos DB database accounts.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_cosmosdb_check-name-exists
   name: az cosmosdb check-name-exists
   summary: Checks if an Azure Cosmos DB account name exists.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb check-name-exists [--ids]
                                   [--name]
@@ -25,11 +30,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_create
   name: az cosmosdb create
   summary: Creates a new Azure Cosmos DB database account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb create --name
                        --resource-group
@@ -90,6 +97,7 @@ directCommands:
   - name: --assign-identity
     summary: Assign system or user assigned identities separated by spaces. Use '[system]' to refer system assigned identity.
     description: ''
+    isPreview: true
   - name: --backup-interval
     summary: The frequency(in minutes) with which backups are taken (only for accounts with periodic mode backups).
     description: ''
@@ -117,6 +125,7 @@ directCommands:
   - name: --default-identity
     summary: The primary identity to access key vault in CMK related features. e.g. 'FirstPartyIdentity', 'SystemAssignedIdentity' and more. User-assigned identities are specified in format 'UserAssignedIdentity=<resource ID of the user-assigned identity>'.
     description: ''
+    isPreview: true
   - name: --disable-key-based-metadata-write-access
     parameterValueGroup: "false, true"
     summary: Disable write operations on metadata resources (databases, containers, throughput) via account keys.
@@ -133,6 +142,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: If enabled the account is free-tier.
     description: ''
+    isPreview: true
   - name: --enable-multiple-write-locations
     parameterValueGroup: "false, true"
     summary: Enable Multiple Write Locations.
@@ -158,6 +168,7 @@ directCommands:
   - name: --key-uri
     summary: The URI of the key vault.
     description: ''
+    isPreview: true
   - name: --kind
     defaultValue: "GlobalDocumentDB"
     parameterValueGroup: "GlobalDocumentDB, MongoDB, Parse"
@@ -211,11 +222,13 @@ directCommands:
   - name: --virtual-network-rules
     summary: ACL's for virtual network.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_delete
   name: az cosmosdb delete
   summary: Deletes an Azure Cosmos DB database account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb delete [--ids]
                        [--name]
@@ -242,11 +255,13 @@ directCommands:
     defaultValue: "False"
     summary: Do not prompt for confirmation.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_failover-priority-change
   name: az cosmosdb failover-priority-change
   summary: Changes the failover priority for the Azure Cosmos DB database account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb failover-priority-change --failover-policies
                                          [--ids]
@@ -274,21 +289,27 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_list
   name: az cosmosdb list
   summary: List Azure Cosmos DB database accounts.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: az cosmosdb list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_list-connection-strings
   name: az cosmosdb list-connection-strings
   summary: List the connection strings for a Azure Cosmos DB database account.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'cosmosdb keys list --type connection-strings' instead.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb list-connection-strings [--ids]
                                         [--name]
@@ -310,11 +331,15 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_list-keys
   name: az cosmosdb list-keys
   summary: List the access keys for a Azure Cosmos DB database account.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'cosmosdb keys list' instead.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb list-keys [--ids]
                           [--name]
@@ -336,11 +361,15 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_list-read-only-keys
   name: az cosmosdb list-read-only-keys
   summary: List the read-only access keys for a Azure Cosmos DB database account.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'cosmosdb keys list --type read-only-keys' instead.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb list-read-only-keys [--ids]
                                     [--name]
@@ -362,11 +391,15 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_regenerate-key
   name: az cosmosdb regenerate-key
   summary: Regenerate an access key for a Azure Cosmos DB database account.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command has been deprecated and will be removed in a future release. Use 'cosmosdb keys regenerate' instead.
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb regenerate-key --key-kind {primary, primaryReadonly, secondary, secondaryReadonly}
                                [--ids]
@@ -395,11 +428,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_restore
   name: az cosmosdb restore
   summary: Create a new Azure Cosmos DB database account by restoring from an existing database account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb restore --account-name
                         --location
@@ -452,11 +487,13 @@ directCommands:
   - name: --tables-to-restore
     summary: Add table names to restore.
     description: 'Usage:          --tables-to-restore table1 [table2 ...].'
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_show
   name: az cosmosdb show
   summary: Get the details of an Azure Cosmos DB database account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb show [--ids]
                      [--name]
@@ -478,11 +515,13 @@ directCommands:
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 - uid: az_cosmosdb_update
   name: az cosmosdb update
   summary: Update an Azure Cosmos DB database account.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
   syntax: >-
     az cosmosdb update [--analytical-storage-schema-type {FullFidelity, WellDefined}]
                        [--backup-interval]
@@ -546,6 +585,7 @@ directCommands:
   - name: --default-identity
     summary: The primary identity to access key vault in CMK related features. e.g. 'FirstPartyIdentity', 'SystemAssignedIdentity' and more. User-assigned identities are specified in format 'UserAssignedIdentity=<resource ID of the user-assigned identity>'.
     description: ''
+    isPreview: true
   - name: --disable-key-based-metadata-write-access
     parameterValueGroup: "false, true"
     summary: Disable write operations on metadata resources (databases, containers, throughput) via account keys.
@@ -579,6 +619,7 @@ directCommands:
   - name: --key-uri
     summary: The URI of the key vault.
     description: ''
+    isPreview: true
   - name: --locations
     summary: Add a location to the Cosmos DB database account.
     description: >-
@@ -625,7 +666,6 @@ directCommands:
   - name: --virtual-network-rules
     summary: ACL's for virtual network.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/cosmosdb/_help.py
 commands:
 - az_cosmosdb_cassandra
 - az_cosmosdb_cassandra_keyspace

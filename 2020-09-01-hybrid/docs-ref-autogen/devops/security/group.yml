@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops security group** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage security groups.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_security_group_create
   name: az devops security group create
   summary: Create a new Azure DevOps group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security group create [--description]
                                     [--detect {false, true}]
@@ -80,6 +84,8 @@ directCommands:
   name: az devops security group delete
   summary: Delete an Azure DevOps group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security group delete --id
                                     [--detect {false, true}]
@@ -106,6 +112,8 @@ directCommands:
   name: az devops security group list
   summary: List all the groups in a project or organization.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security group list [--continuation-token]
                                   [--detect {false, true}]
@@ -139,6 +147,8 @@ directCommands:
   name: az devops security group show
   summary: Show group details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security group show --id
                                   [--detect {false, true}]
@@ -160,6 +170,8 @@ directCommands:
   name: az devops security group update
   summary: Update name AND/OR description for an Azure DevOps group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops security group update --id
                                     [--description]

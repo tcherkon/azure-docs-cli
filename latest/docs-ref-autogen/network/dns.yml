@@ -3,18 +3,22 @@ uid: az_network_dns
 name: az network dns
 summary: Manage DNS domains in Azure.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_network_dns_list-references
   name: az network dns list-references
   summary: Returns the DNS records specified by the referencing targetResourceIds.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
   syntax: az network dns list-references --parameters
   requiredParameters:
   - isRequired: true
     name: --parameters
     summary: Properties for dns resource reference request.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/network/_help.py
 commands:
 - az_network_dns_list-references
 - az_network_dns_record-set

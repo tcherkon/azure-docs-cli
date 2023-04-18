@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **purview** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az purview account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage account with purview.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_purview_account_add-root-collection-admin
   name: az purview account add-root-collection-admin
   summary: Add the administrator for root collection associated with this account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account add-root-collection-admin [--account-name]
                                                  [--ids]
@@ -41,6 +49,10 @@ directCommands:
   name: az purview account create
   summary: Create an account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account create --account-name
                               --resource-group
@@ -83,6 +95,10 @@ directCommands:
   name: az purview account delete
   summary: Deletes an account resource.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account delete [--account-name]
                               [--ids]
@@ -118,6 +134,10 @@ directCommands:
   name: az purview account list
   summary: List accounts in ResourceGroup And List accounts in Subscription.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account list [--resource-group]
                             [--skip-token]
@@ -137,6 +157,10 @@ directCommands:
   name: az purview account list-key
   summary: List the authorization keys associated with this account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account list-key --account-name
                                 --resource-group
@@ -156,6 +180,10 @@ directCommands:
   name: az purview account show
   summary: Get an account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account show [--account-name]
                             [--ids]
@@ -181,6 +209,10 @@ directCommands:
   name: az purview account update
   summary: Updates an account.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account update [--account-name]
                               [--ids]
@@ -224,6 +256,10 @@ directCommands:
   name: az purview account wait
   summary: Place the CLI in a waiting state until a condition of the purview account is met.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'purview' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az purview account wait [--account-name]
                             [--created]

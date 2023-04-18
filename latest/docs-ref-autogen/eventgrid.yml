@@ -3,6 +3,8 @@ uid: az_eventgrid
 name: az eventgrid
 summary: Manage Azure Event Grid topics, domains, domain topics, system topics partner topics, event subscriptions, system topic event subscriptions and partner topic event subscriptions.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 commands:
 - az_eventgrid_domain
 - az_eventgrid_domain_create

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines runs artifact** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage pipeline run artifacts.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_runs_artifact_download
   name: az pipelines runs artifact download
   summary: Download a pipeline artifact.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines runs artifact download --artifact-name
                                         --path
@@ -47,6 +51,8 @@ directCommands:
   name: az pipelines runs artifact list
   summary: List artifacts associated with a run.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines runs artifact list --run-id
                                     [--detect {false, true}]
@@ -72,6 +78,8 @@ directCommands:
   name: az pipelines runs artifact upload
   summary: Upload a pipeline artifact.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines runs artifact upload --artifact-name
                                       --path

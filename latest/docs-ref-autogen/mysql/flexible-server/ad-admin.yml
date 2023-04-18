@@ -3,11 +3,15 @@ uid: az_mysql_flexible-server_ad-admin
 name: az mysql flexible-server ad-admin
 summary: Manage server Active Directory administrator.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_mysql_flexible-server_ad-admin_create
   name: az mysql flexible-server ad-admin create
   summary: Create an Active Directory administrator.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server ad-admin create --display-name
                                              --identity
@@ -48,6 +52,8 @@ directCommands:
   name: az mysql flexible-server ad-admin delete
   summary: Delete an Active Directory administrator.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server ad-admin delete --resource-group
                                              --server-name
@@ -78,6 +84,8 @@ directCommands:
   name: az mysql flexible-server ad-admin list
   summary: List all Active Directory administrators.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server ad-admin list --resource-group
                                            --server-name
@@ -97,6 +105,8 @@ directCommands:
   name: az mysql flexible-server ad-admin show
   summary: Get an Active Directory administrator.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server ad-admin show --resource-group
                                            --server-name
@@ -116,6 +126,8 @@ directCommands:
   name: az mysql flexible-server ad-admin wait
   summary: Wait for the Active Directory administrator to satisfy certain conditions.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az mysql flexible-server ad-admin wait --resource-group
                                            --server-name

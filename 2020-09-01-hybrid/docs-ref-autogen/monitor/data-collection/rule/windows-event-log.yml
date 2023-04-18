@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **monitor-control-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az monitor data-collection rule windows-event-log** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Windows Event Log data source.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_monitor_data-collection_rule_windows-event-log_add
   name: az monitor data-collection rule windows-event-log add
   summary: Add a Windows Event Log data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule windows-event-log add --name
                                                           --streams {Microsoft-Event, Microsoft-WindowsEvent}
@@ -54,6 +58,8 @@ directCommands:
   name: az monitor data-collection rule windows-event-log delete
   summary: Delete a Windows Event Log data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule windows-event-log delete --name
                                                              [--ids]
@@ -85,6 +91,8 @@ directCommands:
   name: az monitor data-collection rule windows-event-log list
   summary: List Windows Event Log data sources.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule windows-event-log list --resource-group
                                                            --rule-name
@@ -104,6 +112,8 @@ directCommands:
   name: az monitor data-collection rule windows-event-log show
   summary: Show a Windows Event Log data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule windows-event-log show --name
                                                            [--ids]
@@ -135,6 +145,8 @@ directCommands:
   name: az monitor data-collection rule windows-event-log update
   summary: Update a Windows Event Log data source.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az monitor data-collection rule windows-event-log update --name
                                                              [--ids]

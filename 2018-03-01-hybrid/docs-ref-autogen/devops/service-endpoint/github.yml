@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az devops service-endpoint github** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage GitHub service endpoints/connections.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_devops_service-endpoint_github_create
   name: az devops service-endpoint github create
   summary: Create a GitHub service endpoint.
   description: For automation, set GitHub PAT token in AZURE_DEVOPS_EXT_GITHUB_PAT environment variable. You can learn more about this at https://aka.ms/azure-devops-cli-service-endpoint.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az devops service-endpoint github create --github-url
                                              --name

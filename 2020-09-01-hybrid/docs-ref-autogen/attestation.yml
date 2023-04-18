@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **attestation** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az attestation** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Microsoft Azure Attestation (MAA).
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_attestation_create
   name: az attestation create
   summary: Creates a new Attestation Provider instance.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation create --location
                           --name
@@ -45,6 +53,10 @@ directCommands:
   name: az attestation delete
   summary: Delete Attestation Service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation delete [--id]
                           [--name]
@@ -71,6 +83,10 @@ directCommands:
   name: az attestation get-default-by-location
   summary: Get the default provider by location.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az attestation get-default-by-location --location
   examples:
   - summary: AttestationProviders_GetDefaultWithLocation
@@ -84,6 +100,10 @@ directCommands:
   name: az attestation list
   summary: Returns a list of attestation providers in a subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az attestation list [--resource-group]
   examples:
   - summary: AttestationProviders_ListByResourceGroup
@@ -98,6 +118,10 @@ directCommands:
   name: az attestation list-default
   summary: Get the default provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az attestation list-default
   examples:
   - summary: AttestationProviders_GetDefault
@@ -106,6 +130,10 @@ directCommands:
   name: az attestation show
   summary: Get the status of Attestation Provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation show [--id]
                         [--name]
@@ -127,6 +155,10 @@ directCommands:
   name: az attestation update
   summary: Updates the Attestation Provider.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'attestation' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az attestation update --name
                           --resource-group

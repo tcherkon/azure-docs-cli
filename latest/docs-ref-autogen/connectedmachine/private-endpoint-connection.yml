@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **connectedmachine** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az connectedmachine private-endpoint-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage private endpoint connection with connectedmachine.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_connectedmachine_private-endpoint-connection_delete
   name: az connectedmachine private-endpoint-connection delete
   summary: Delete a private endpoint connection with a given name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine private-endpoint-connection delete [--ids]
                                                            [--name]
@@ -51,6 +55,8 @@ directCommands:
   name: az connectedmachine private-endpoint-connection list
   summary: Get all private endpoint connections on a private link scope.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine private-endpoint-connection list --resource-group
                                                          --scope-name
@@ -70,6 +76,8 @@ directCommands:
   name: az connectedmachine private-endpoint-connection show
   summary: Get a private endpoint connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine private-endpoint-connection show [--ids]
                                                          [--name]
@@ -99,6 +107,8 @@ directCommands:
   name: az connectedmachine private-endpoint-connection update
   summary: Approve or reject a private endpoint connection with a given name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine private-endpoint-connection update [--connection-state]
                                                            [--id]
@@ -147,6 +157,8 @@ directCommands:
   name: az connectedmachine private-endpoint-connection wait
   summary: Place the CLI in a waiting state until a condition of the connectedmachine private-endpoint-connection is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az connectedmachine private-endpoint-connection wait [--created]
                                                          [--custom]

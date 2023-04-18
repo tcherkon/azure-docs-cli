@@ -7,6 +7,10 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot device registration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT device registrations for the IoT Device Provisioning Service.
 description: Use `az iot dps enrollment registration` or `az iot dps enrollment-group registration` to view and delete registrations.
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_iot_device_registration_create
   name: az iot device registration create
@@ -19,6 +23,10 @@ directCommands:
     - x509 certificate
 
     If using x509 authentication methods, the certificate and key files (and passphrase if needed) must be provided.
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'iot device registration' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az iot device registration create --registration-id
                                       [--auth-type {key, login}]

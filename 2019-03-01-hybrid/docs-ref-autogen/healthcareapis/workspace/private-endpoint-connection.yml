@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **healthcareapis** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az healthcareapis workspace private-endpoint-connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage workspace private endpoint connection with healthcareapis.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_healthcareapis_workspace_private-endpoint-connection_create
   name: az healthcareapis workspace private-endpoint-connection create
   summary: Update the state of the specified private endpoint connection associated with the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace private-endpoint-connection create --name
                                                                    --resource-group
@@ -54,6 +58,8 @@ directCommands:
   name: az healthcareapis workspace private-endpoint-connection delete
   summary: Deletes a private endpoint connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace private-endpoint-connection delete [--ids]
                                                                    [--name]
@@ -93,6 +99,8 @@ directCommands:
   name: az healthcareapis workspace private-endpoint-connection list
   summary: Lists all private endpoint connections for a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace private-endpoint-connection list --resource-group
                                                                  --workspace-name
@@ -112,6 +120,8 @@ directCommands:
   name: az healthcareapis workspace private-endpoint-connection show
   summary: Gets the specified private endpoint connection associated with the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace private-endpoint-connection show [--ids]
                                                                  [--name]
@@ -141,6 +151,8 @@ directCommands:
   name: az healthcareapis workspace private-endpoint-connection update
   summary: Update the state of the specified private endpoint connection associated with the workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace private-endpoint-connection update [--add]
                                                                    [--force-string]
@@ -204,6 +216,8 @@ directCommands:
   name: az healthcareapis workspace private-endpoint-connection wait
   summary: Place the CLI in a waiting state until a condition of the healthcareapis workspace private-endpoint-connection is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace private-endpoint-connection wait [--created]
                                                                  [--custom]

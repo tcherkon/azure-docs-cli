@@ -3,6 +3,8 @@ uid: az_search
 name: az search
 summary: Manage Azure Search services, admin keys and query keys.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_search_admin-key
 - az_search_admin-key_renew

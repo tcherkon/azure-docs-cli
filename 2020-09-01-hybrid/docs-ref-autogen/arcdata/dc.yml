@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **arcdata** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az arcdata dc** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Create, delete, and manage data controllers.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_arcdata_dc_create
   name: az arcdata dc create
   summary: Create data controller.
   description: Create data controller - kube config is required on your system along with credentials for the monitoring dashboards provided by the following environment variables - AZDATA_LOGSUI_USERNAME and AZDATA_LOGSUI_PASSWORD for Logs Dashboard, and AZDATA_METRICSUI_USERNAME and AZDATA_METRICSUI_PASSWORD for Metrics Dashboard. Alternatively AZDATA_USERNAME and AZDATA_PASSWORD will be used as a fallback if either sets of environment variables are missing. When using ARM-targeted arguments, the following optional environment variables are also possible - WORKSPACE_ID for Log Analytics Workspace ID and WORKSPACE_SHARED_KEY for the Log Analytics Primary Key.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc create --connectivity-mode
                          --name
@@ -132,6 +136,8 @@ directCommands:
   name: az arcdata dc delete
   summary: Delete data controller.
   description: Delete data controller - kube config is required on your system.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc delete --name
                          [--force]
@@ -174,6 +180,8 @@ directCommands:
   name: az arcdata dc export
   summary: Export metrics, logs or usage.
   description: Export metrics, logs or usage to a file.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc export --k8s-namespace
                          --path
@@ -204,6 +212,8 @@ directCommands:
   name: az arcdata dc list
   summary: List Azure Arc data controllers by resource group or subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az arcdata dc list [--resource-group]
   examples:
   - summary: Lists all Arc data controllers in the given resource group.
@@ -218,6 +228,8 @@ directCommands:
   name: az arcdata dc list-upgrades
   summary: List available upgrade versions.
   description: Attempts to list versions that are available in the docker image registry for upgrade. - kube config is required on your system along with the following environment variables ['AZDATA_USERNAME', 'AZDATA_PASSWORD'].
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc list-upgrades --k8s-namespace
                                 [--use-k8s]
@@ -237,6 +249,8 @@ directCommands:
   name: az arcdata dc update
   summary: Update data controller.
   description: Updates the datacontroller to enable/disable auto-uploading logs and metrics.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc update [--auto-upload-logs {false, true}]
                          [--auto-upload-metrics {false, true}]
@@ -274,19 +288,24 @@ directCommands:
   - name: --maintenance-duration
     summary: Duration of the default maintenance window.
     description: ''
+    isPreview: true
   - name: --maintenance-enabled
     parameterValueGroup: "false, true"
     summary: Set the enabled flag on the default maintenance window.
     description: ''
+    isPreview: true
   - name: --maintenance-recurrence
     summary: Recurring interval for the default maintenance window.
     description: ''
+    isPreview: true
   - name: --maintenance-start
     summary: Date time of the start of the first default maintenance window.
     description: ''
+    isPreview: true
   - name: --maintenance-time-zone
     summary: Timezone used to calculate the default maintenance window.
     description: ''
+    isPreview: true
   - name: --name -n
     summary: Data controller name.
     description: ''
@@ -304,6 +323,8 @@ directCommands:
   name: az arcdata dc upgrade
   summary: Upgrade data controller.
   description: Upgrade data controller to the desired-version specified.  If desired-version is not specified, an attempt to upgrade to the latest version will be made. If you are unsure of the desired version, you may use the list-upgrades command to view available versions, or use the --dry-run argument to show which version would be used.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az arcdata dc upgrade [--desired-version]
                           [--dry-run]
@@ -339,6 +360,8 @@ directCommands:
   - name: --target
     summary: The desired version tag to which the data controller will be upgraded, or empty to use the latest valid version.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Option '--target' has been deprecated and will be removed in a future release. Use '--desired-version' instead.
   - name: --use-k8s
     summary: Upgrade data controller using local Kubernetes APIs.
     description: ''
@@ -346,6 +369,8 @@ directCommands:
   name: az arcdata dc upload
   summary: Upload exported data file.
   description: Upload data file exported from a data controller to Azure.
+  status: GA
+  sourceType: Extension
   syntax: az arcdata dc upload --path
   requiredParameters:
   - isRequired: true

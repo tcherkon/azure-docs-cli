@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az boards work-item** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage work items.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_boards_work-item_create
   name: az boards work-item create
   summary: Create a work item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards work-item create --title
                                --type
@@ -75,6 +79,8 @@ directCommands:
   name: az boards work-item delete
   summary: Delete a work item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards work-item delete --id
                                [--destroy]
@@ -110,6 +116,8 @@ directCommands:
   name: az boards work-item show
   summary: Show details for a work item.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards work-item show --id
                              [--as-of]
@@ -150,6 +158,8 @@ directCommands:
   name: az boards work-item update
   summary: Update work items.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az boards work-item update --id
                                [--area]

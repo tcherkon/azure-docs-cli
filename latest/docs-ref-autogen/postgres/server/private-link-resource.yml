@@ -3,11 +3,15 @@ uid: az_postgres_server_private-link-resource
 name: az postgres server private-link-resource
 summary: Manage PostgreSQL server private link resources.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_postgres_server_private-link-resource_list
   name: az postgres server private-link-resource list
   summary: List the private link resources supported for a PostgreSQL server.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az postgres server private-link-resource list [--ids]
                                                   [--resource-group]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Azure Digital Twins solutions & infrastructure.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_create
   name: az dt create
   summary: Create or update a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt create --dt-name
                  --resource-group
@@ -55,6 +59,8 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Assign a system generated identity to the Digital Twins instance.
     description: ''
+    isDeprecated: true
+    deprecateInfo: Argument 'assign_identity' has been deprecated and will be removed in a future release. Use '--mi-system-assigned' instead.
   - name: --location -l
     summary: Digital Twins instance location. If no location is provided the resource group location is used.You can configure the default location using `az configure --defaults location=<name>`.
     description: ''
@@ -88,6 +94,8 @@ directCommands:
   name: az dt delete
   summary: Delete an existing Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt delete --dt-name
                  [--no-wait]
@@ -119,6 +127,8 @@ directCommands:
   name: az dt list
   summary: List the collection of Digital Twins instances by subscription or resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az dt list [--resource-group]
   examples:
   - summary: List all instances in the current subscription.
@@ -137,6 +147,10 @@ directCommands:
   name: az dt reset
   summary: Reset an existing Digital Twins instance by deleting associated assets. Currently only supports deleting models and twins.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: 'This command is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az dt reset --dt-name
                 [--resource-group]
@@ -161,6 +175,8 @@ directCommands:
   name: az dt show
   summary: Show an existing Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt show --dt-name
                [--resource-group]
@@ -182,6 +198,8 @@ directCommands:
   name: az dt wait
   summary: Wait until an operation on an Digital Twins instance is complete.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt wait --dt-name
                [--created]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-network-manager** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az network manager connection subscription** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage subscription-group connection with network.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_manager_connection_subscription_create
   name: az network manager connection subscription create
   summary: Create a connection from a subscription to a cross-tenant network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection subscription create --connection-name
                                                       --network-manager
@@ -36,6 +40,8 @@ directCommands:
   name: az network manager connection subscription delete
   summary: Deletes a network manager connection.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection subscription delete [--connection-name]
                                                       [--ids]
@@ -62,6 +68,8 @@ directCommands:
   name: az network manager connection subscription list
   summary: List all network manager connections created by this subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection subscription list [--skip-token]
                                                     [--top]
@@ -79,6 +87,8 @@ directCommands:
   name: az network manager connection subscription show
   summary: Get a specified connection created by this subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection subscription show [--connection-name]
                                                     [--ids]
@@ -100,6 +110,8 @@ directCommands:
   name: az network manager connection subscription update
   summary: Update a connection from this subscription to a cross tenant network manager.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network manager connection subscription update [--add]
                                                       [--connection-name]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datamigration** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datamigration sql-managed-instance** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage database migrations to SQL Managed Instance.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datamigration_sql-managed-instance_cancel
   name: az datamigration sql-managed-instance cancel
   summary: Stop in-progress database migration to SQL Managed Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-managed-instance cancel --migration-operation-id
                                                  [--ids]
@@ -52,6 +56,8 @@ directCommands:
   name: az datamigration sql-managed-instance create
   summary: Create a new database migration to a given SQL Managed Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-managed-instance create --managed-instance-name
                                                  --resource-group
@@ -142,6 +148,8 @@ directCommands:
   name: az datamigration sql-managed-instance cutover
   summary: Initiate cutover for in-progress online database migration to SQL Managed Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-managed-instance cutover --migration-operation-id
                                                   [--ids]
@@ -182,6 +190,8 @@ directCommands:
   name: az datamigration sql-managed-instance show
   summary: Retrieve the specified database migration for a given SQL Managed Instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-managed-instance show [--expand]
                                                [--ids]
@@ -221,6 +231,8 @@ directCommands:
   name: az datamigration sql-managed-instance wait
   summary: Place the CLI in a waiting state until a condition of the datamigration sql-managed-instance is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datamigration sql-managed-instance wait [--created]
                                                [--custom]

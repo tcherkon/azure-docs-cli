@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **communication** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az communication identity user** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage user identities for a Communication Service resource.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_communication_identity_user_create
   name: az communication identity user create
   summary: Creates a new ACS Identity.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication identity user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az communication identity user create [--connection-string]
   examples:
   - summary: Create ACS user
@@ -24,6 +32,10 @@ directCommands:
   name: az communication identity user delete
   summary: Deletes an existing ACS Identity, revokes all tokens for that ACS Identity and deletes all associated data.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'communication identity user' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az communication identity user delete --user
                                           [--connection-string]

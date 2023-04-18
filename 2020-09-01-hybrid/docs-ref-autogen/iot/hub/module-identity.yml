@@ -7,6 +7,8 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az iot hub module-identity** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage IoT device modules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_iot_hub_module-identity_create
   name: az iot hub module-identity create
@@ -15,6 +17,8 @@ directCommands:
     When using the auth method of shared_private_key (also known as symmetric keys),
 
     if no custom keys are provided the service will generate them for the module.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-identity create --device-id
                                       --module-id
@@ -80,6 +84,8 @@ directCommands:
   name: az iot hub module-identity delete
   summary: Delete a device in an IoT Hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-identity delete --device-id
                                       --module-id
@@ -119,6 +125,8 @@ directCommands:
   name: az iot hub module-identity list
   summary: List modules located on an IoT device in an IoT Hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-identity list --device-id
                                     [--auth-type {key, login}]
@@ -154,6 +162,8 @@ directCommands:
   name: az iot hub module-identity renew-key
   summary: Renew target keys of an IoT Hub device module with sas authentication.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-identity renew-key --device-id
                                          --hub-name
@@ -205,6 +215,8 @@ directCommands:
   name: az iot hub module-identity show
   summary: Get the details of an IoT device module in an IoT Hub.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-identity show --device-id
                                     --module-id
@@ -240,6 +252,8 @@ directCommands:
   name: az iot hub module-identity update
   summary: Update an IoT Hub device module.
   description: Use --set followed by property assignments for updating a module. Leverage properties returned from 'iot hub module-identity show'.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az iot hub module-identity update --device-id
                                       --module-id

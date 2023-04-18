@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **hardware-security-modules** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az dedicated-hsm** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage dedicated hsm with hardware security modules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dedicated-hsm_create
   name: az dedicated-hsm create
   summary: Create a dedicated HSM in the specified subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm create --name
                             --resource-group
@@ -100,6 +104,8 @@ directCommands:
   name: az dedicated-hsm delete
   summary: Deletes the specified Azure Dedicated HSM.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm delete [--ids]
                             [--name]
@@ -135,6 +141,8 @@ directCommands:
   name: az dedicated-hsm list
   summary: The List operation gets information about the dedicated hsms associated with the subscription and within the specified resource group. And The List operation gets information about the dedicated HSMs associated with the subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm list [--resource-group]
                           [--top]
@@ -158,6 +166,8 @@ directCommands:
   name: az dedicated-hsm list-outbound-network-dependency-endpoint
   summary: Gets a list of egress endpoints (network endpoints of all outbound dependencies) in the specified dedicated hsm resource. The operation returns properties of each egress endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm list-outbound-network-dependency-endpoint --name
                                                                --resource-group
@@ -177,6 +187,8 @@ directCommands:
   name: az dedicated-hsm show
   summary: Gets the specified Azure dedicated HSM.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm show [--ids]
                           [--name]
@@ -206,6 +218,8 @@ directCommands:
   name: az dedicated-hsm update
   summary: Update a dedicated HSM in the specified subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm update [--ids]
                             [--name]
@@ -242,6 +256,8 @@ directCommands:
   name: az dedicated-hsm wait
   summary: Place the CLI in a waiting state until a condition of the dedicated-hsm is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dedicated-hsm wait [--created]
                           [--custom]

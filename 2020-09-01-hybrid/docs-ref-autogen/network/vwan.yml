@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **virtual-wan** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network vwan** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtual WANs.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_vwan_create
   name: az network vwan create
   summary: Create a virtual WAN.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vwan create --name
                            --resource-group
@@ -60,6 +64,8 @@ directCommands:
   name: az network vwan delete
   summary: Delete a virtual WAN.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vwan delete [--ids]
                            [--name]
@@ -82,6 +88,8 @@ directCommands:
   name: az network vwan list
   summary: List virtual WANs.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: az network vwan list [--resource-group]
   optionalParameters:
   - name: --resource-group -g
@@ -91,6 +99,8 @@ directCommands:
   name: az network vwan show
   summary: Get the details of a virtual WAN.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vwan show [--ids]
                          [--name]
@@ -113,6 +123,8 @@ directCommands:
   name: az network vwan update
   summary: Update settings of a virtual WAN.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network vwan update [--add]
                            [--branch-to-branch-traffic {false, true}]

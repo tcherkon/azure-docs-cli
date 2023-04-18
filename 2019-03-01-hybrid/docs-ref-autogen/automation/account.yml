@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Automation Account.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_automation_account_create
   name: az automation account create
   summary: Create automation account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation account' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation account create --automation-account-name
                                  --resource-group
@@ -46,6 +54,10 @@ directCommands:
   name: az automation account delete
   summary: Delete an automation account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation account' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation account delete [--automation-account-name]
                                  [--ids]
@@ -76,6 +88,10 @@ directCommands:
   name: az automation account list
   summary: Retrieve a list of accounts within a given resource group. And Retrieve a list of accounts within a given subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation account' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az automation account list [--resource-group]
   examples:
   - summary: List automation accounts by resource group
@@ -90,6 +106,10 @@ directCommands:
   name: az automation account show
   summary: Get information about an Automation Account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation account' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation account show [--automation-account-name]
                                [--ids]
@@ -115,6 +135,10 @@ directCommands:
   name: az automation account update
   summary: Update an automation account.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation account' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation account update [--automation-account-name]
                                  [--ids]

@@ -3,11 +3,16 @@ uid: az_eventgrid_extension-topic
 name: az eventgrid extension-topic
 summary: Manage Azure Event Grid extension topics.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_eventgrid_extension-topic_show
   name: az eventgrid extension-topic show
   summary: Get the details of an extension topic.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
   syntax: az eventgrid extension-topic show --scope
   examples:
   - summary: Show the details of an extension topic.
@@ -17,7 +22,6 @@ directCommands:
     name: --scope
     summary: The identifier of the resource to which extension topic is queried. The scope can be a subscription, or a resource group, or a top level resource belonging to a resource provider namespace. For example, use '/subscriptions/{subscriptionId}/' for a subscription, '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}' for a resource group, and '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}' for Azure resource.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/eventgrid/_help.py
 commands:
 - az_eventgrid_extension-topic_show
 globalParameters:

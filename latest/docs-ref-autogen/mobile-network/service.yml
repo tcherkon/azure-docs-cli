@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **mobile-network** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az mobile-network service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage service.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_mobile-network_service_create
   name: az mobile-network service create
   summary: Create a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network service create --mobile-network-name
                                      --name
@@ -64,6 +68,8 @@ directCommands:
   name: az mobile-network service delete
   summary: Delete the specified service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network service delete [--ids]
                                      [--mobile-network-name]
@@ -103,6 +109,8 @@ directCommands:
   name: az mobile-network service list
   summary: List all the services in a mobile network.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network service list --mobile-network-name
                                    --resource-group
@@ -122,6 +130,8 @@ directCommands:
   name: az mobile-network service show
   summary: Get information about the specified service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network service show [--ids]
                                    [--mobile-network-name]
@@ -151,6 +161,8 @@ directCommands:
   name: az mobile-network service update
   summary: Update a service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network service update [--add]
                                      [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
@@ -218,6 +230,8 @@ directCommands:
   name: az mobile-network service wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az mobile-network service wait [--created]
                                    [--custom]

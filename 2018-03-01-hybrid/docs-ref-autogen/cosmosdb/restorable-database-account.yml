@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **cosmosdb-preview** extension for the Azure CLI  (version 2.17.1 or higher).  The extension will automatically install the first time you run an **az cosmosdb restorable-database-account** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage restorable Azure Cosmos DB accounts.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_cosmosdb_restorable-database-account_list
   name: az cosmosdb restorable-database-account list
   summary: List all the database accounts that can be restored.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az cosmosdb restorable-database-account list [--account-name]
                                                  [--location]
@@ -26,6 +30,8 @@ directCommands:
   name: az cosmosdb restorable-database-account show
   summary: Show the details of a database account that can be restored.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az cosmosdb restorable-database-account show [--instance-id]
                                                  [--location]

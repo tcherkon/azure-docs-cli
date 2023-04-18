@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **redisenterprise** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az redisenterprise operation-status** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Redis Enterprise operation status.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_redisenterprise_operation-status_show
   name: az redisenterprise operation-status show
   summary: Get the status of an operation.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az redisenterprise operation-status show [--ids]
                                              [--location]

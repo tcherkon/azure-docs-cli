@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-iot** extension for the Azure CLI  (version 2.37.0 or higher).  The extension will automatically install the first time you run an **az dt data-history connection** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure data history connections.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_dt_data-history_connection_delete
   name: az dt data-history connection delete
   summary: Delete a data history connection configured on a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt data-history connection delete --cn
                                          --dt-name
@@ -56,6 +60,8 @@ directCommands:
   name: az dt data-history connection list
   summary: List all data history connections configured on a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt data-history connection list --dt-name
                                        [--resource-group]
@@ -75,6 +81,8 @@ directCommands:
   name: az dt data-history connection show
   summary: Show details of a data history connection configured on a Digital Twins instance.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt data-history connection show --cn
                                        --dt-name
@@ -99,6 +107,8 @@ directCommands:
   name: az dt data-history connection wait
   summary: Wait until an operation on a data history connection is complete.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az dt data-history connection wait --cn
                                        --dt-name

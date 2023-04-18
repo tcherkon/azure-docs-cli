@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **cloud-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az cloud-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cloud service (extended support).
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_cloud-service_create
   name: az cloud-service create
   summary: Create a cloud service (extended support). Please note some properties can be set only during cloud service creation.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service create --cloud-service-name
                             --resource-group
@@ -87,6 +95,10 @@ directCommands:
   name: az cloud-service delete
   summary: Delete a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service delete [--cloud-service-name]
                             [--ids]
@@ -119,6 +131,10 @@ directCommands:
   name: az cloud-service delete-instance
   summary: Delete role instances in a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service delete-instance [--cloud-service-name]
                                      [--ids]
@@ -155,6 +171,10 @@ directCommands:
   name: az cloud-service list
   summary: Get a list of all cloud services under a resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az cloud-service list --resource-group
   requiredParameters:
   - isRequired: true
@@ -165,11 +185,19 @@ directCommands:
   name: az cloud-service list-all
   summary: Get a list of all cloud services in the subscription, regardless of the associated resource group.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az cloud-service list-all
 - uid: az_cloud-service_power-off
   name: az cloud-service power-off
   summary: Power off the cloud service. Note that resources are still attached and you are getting charged for the resources.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service power-off [--cloud-service-name]
                                [--ids]
@@ -197,6 +225,10 @@ directCommands:
   name: az cloud-service rebuild
   summary: Rebuild Role Instances. Reinstall the operating system on instances of web roles or worker roles and initialize the storage resources that are used by them. If you do not want to initialize storage resources, you can use Reimage Role Instances.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service rebuild [--cloud-service-name]
                              [--ids]
@@ -228,6 +260,10 @@ directCommands:
   name: az cloud-service reimage
   summary: Reimage asynchronous operation reinstalls the operating system on instances of web roles or worker roles.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service reimage [--cloud-service-name]
                              [--ids]
@@ -259,6 +295,10 @@ directCommands:
   name: az cloud-service restart
   summary: Restart one or more role instances in a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service restart [--cloud-service-name]
                              [--ids]
@@ -290,6 +330,10 @@ directCommands:
   name: az cloud-service show
   summary: Display information about a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service show [--cloud-service-name]
                           [--ids]
@@ -312,6 +356,10 @@ directCommands:
   name: az cloud-service show-instance-view
   summary: Get the status of a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service show-instance-view [--cloud-service-name]
                                         [--ids]
@@ -334,6 +382,10 @@ directCommands:
   name: az cloud-service start
   summary: Start the cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service start [--cloud-service-name]
                            [--ids]
@@ -361,6 +413,10 @@ directCommands:
   name: az cloud-service update
   summary: Update a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service update [--cloud-service-name]
                             [--ids]
@@ -392,6 +448,10 @@ directCommands:
   name: az cloud-service wait
   summary: Place the CLI in a waiting state until a condition of the cloud-service is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service wait [--cloud-service-name]
                           [--created]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **datafactory** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az datafactory linked-service** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage linked service with datafactory.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_datafactory_linked-service_create
   name: az datafactory linked-service create
   summary: Create a linked service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory linked-service create --factory-name
                                          --linked-service-name
@@ -46,6 +50,8 @@ directCommands:
   name: az datafactory linked-service delete
   summary: Deletes a linked service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory linked-service delete [--factory-name]
                                          [--ids]
@@ -80,6 +86,8 @@ directCommands:
   name: az datafactory linked-service list
   summary: Lists linked services.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory linked-service list --factory-name
                                        --resource-group
@@ -99,6 +107,8 @@ directCommands:
   name: az datafactory linked-service show
   summary: Gets a linked service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory linked-service show [--factory-name]
                                        [--ids]
@@ -132,6 +142,8 @@ directCommands:
   name: az datafactory linked-service update
   summary: Update a linked service.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az datafactory linked-service update [--add]
                                          [--annotations]

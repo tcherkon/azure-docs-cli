@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation job** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Automation Job.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_automation_job_list
   name: az automation job list
   summary: Retrieve a list of jobs.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation job' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation job list --automation-account-name
                            --resource-group
@@ -31,6 +39,10 @@ directCommands:
   name: az automation job resume
   summary: Resume the job identified by jobName.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation job' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation job resume [--automation-account-name]
                              [--ids]
@@ -60,6 +72,10 @@ directCommands:
   name: az automation job show
   summary: Retrieve the job identified by job name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation job' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation job show [--automation-account-name]
                            [--ids]
@@ -89,6 +105,10 @@ directCommands:
   name: az automation job stop
   summary: Stop the job identified by jobName.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation job' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation job stop [--automation-account-name]
                            [--ids]
@@ -118,6 +138,10 @@ directCommands:
   name: az automation job suspend
   summary: Suspend the job identified by job name.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'automation job' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az automation job suspend [--automation-account-name]
                               [--ids]

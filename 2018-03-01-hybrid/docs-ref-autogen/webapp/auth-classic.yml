@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **authV2** extension for the Azure CLI  (version 2.23.0 or higher).  The extension will automatically install the first time you run an **az webapp auth-classic** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage webapp authentication and authorization in the classic format.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_webapp_auth-classic_show
   name: az webapp auth-classic show
   summary: Show the authentication settings for the webapp in the classic format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth-classic show [--ids]
                                 [--name]
@@ -41,6 +45,8 @@ directCommands:
   name: az webapp auth-classic update
   summary: Update the authentication settings for the webapp in the classic format.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az webapp auth-classic update [--aad-allowed-token-audiences]
                                   [--aad-client-id]

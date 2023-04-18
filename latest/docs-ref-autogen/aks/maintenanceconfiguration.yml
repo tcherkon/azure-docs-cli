@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **aks-preview** extension for the Azure CLI  (version 2.44.0 or higher).  The extension will automatically install the first time you run an **az aks maintenanceconfiguration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage maintenance configurations in managed Kubernetes cluster.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_aks_maintenanceconfiguration_add
   name: az aks maintenanceconfiguration add
   summary: Add a maintenance configuration in managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks maintenanceconfiguration add --cluster-name
                                         --name
@@ -178,6 +182,8 @@ directCommands:
   name: az aks maintenanceconfiguration delete
   summary: Delete a maintenance configuration in managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks maintenanceconfiguration delete --cluster-name
                                            --name
@@ -199,6 +205,8 @@ directCommands:
   name: az aks maintenanceconfiguration list
   summary: List maintenance configurations in managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks maintenanceconfiguration list --cluster-name
                                          --resource-group
@@ -215,6 +223,8 @@ directCommands:
   name: az aks maintenanceconfiguration show
   summary: Show the details of a maintenance configuration in managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks maintenanceconfiguration show --cluster-name
                                          --name
@@ -236,6 +246,8 @@ directCommands:
   name: az aks maintenanceconfiguration update
   summary: Update a maintenance configuration of a managed Kubernetes cluster.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az aks maintenanceconfiguration update --cluster-name
                                            --name

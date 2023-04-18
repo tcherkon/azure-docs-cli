@@ -3,6 +3,8 @@ uid: az_sf
 name: az sf
 summary: Manage and administer Azure Service Fabric clusters.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_sf_application
 - az_sf_application_certificate

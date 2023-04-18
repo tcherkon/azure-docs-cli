@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az repos pr work-item** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage work items associated with pull requests.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_repos_pr_work-item_add
   name: az repos pr work-item add
   summary: Link one or more work items to a pull request.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos pr work-item add --id
                               --work-items
@@ -38,6 +42,8 @@ directCommands:
   name: az repos pr work-item list
   summary: List linked work items for a pull request.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos pr work-item list --id
                                [--detect {false, true}]
@@ -59,6 +65,8 @@ directCommands:
   name: az repos pr work-item remove
   summary: Unlink one or more work items from a pull request.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos pr work-item remove --id
                                  --work-items

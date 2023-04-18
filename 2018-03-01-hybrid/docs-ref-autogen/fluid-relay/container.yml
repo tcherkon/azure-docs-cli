@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **fluid-relay** extension for the Azure CLI  (version 2.39.0 or higher).  The extension will automatically install the first time you run an **az fluid-relay container** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Fluid Relay Container.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_fluid-relay_container_delete
   name: az fluid-relay container delete
   summary: Delete a Fluid Relay container.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fluid-relay container delete [--container-name]
                                     [--ids]
@@ -46,6 +50,8 @@ directCommands:
   name: az fluid-relay container list
   summary: List all Fluid Relay containers which are children of a given Fluid Relay server.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fluid-relay container list --resource-group
                                   --server-name
@@ -65,6 +71,8 @@ directCommands:
   name: az fluid-relay container show
   summary: Get a Fluid Relay container.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az fluid-relay container show [--container-name]
                                   [--ids]

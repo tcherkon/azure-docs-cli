@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines agent** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage agents.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_agent_list
   name: az pipelines agent list
   summary: Get a list of agents in a pool.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines agent list --pool-id
                             [--agent-name]
@@ -56,6 +60,8 @@ directCommands:
   name: az pipelines agent show
   summary: Show agent details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines agent show --agent-id
                             --pool-id

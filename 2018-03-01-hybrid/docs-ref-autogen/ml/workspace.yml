@@ -15,11 +15,15 @@ description: >-
   - Upgrade `az ml workspace private-endpoint` commands to equivalent `az network private-endpoint` commands.
 
   - Also, upgrade `az ml workspace share` commands to equivalent `az role assignment create` commands.
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_ml_workspace_create
   name: az ml workspace create
   summary: Create a workspace.
   description: 'When a workspace is created, several Azure resources that will be used by Azure ML also get created by default: Azure Storage, Azure Container Registry, Azure Key Vault, and Azure Application Insights. You can instead use existing Azure resource instances for those when creating the workspace by specifying the resource IDs in the workspace configuration YAML file.'
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace create --resource-group
                            [--application-insights]
@@ -70,6 +74,7 @@ directCommands:
   - name: --managed-network -m
     summary: Managed Network Isolation Mode for the workspace.
     description: ''
+    isPreview: true
   - name: --name -n
     summary: Name of the Azure ML workspace.
     description: ''
@@ -97,6 +102,8 @@ directCommands:
   name: az ml workspace delete
   summary: Delete a workspace.
   description: By default the dependent resources associated with the workspace (Azure Storage, Azure Container Registry, Azure Key Vault, Azure Application Insights) are not deleted. To delete those as well, include --all-resources.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace delete --name
                            --resource-group
@@ -129,6 +136,8 @@ directCommands:
   name: az ml workspace diagnose
   summary: Diagnose workspace setup problems.
   description: If your workspace is not working as expected, you can run this diagnosis to check if the workspace has been broken. For private endpoint workspace, it will also help check out if the network setup to this workspace and its dependent resource has problem or not.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace diagnose --name
                              --resource-group
@@ -154,6 +163,8 @@ directCommands:
   name: az ml workspace list
   summary: List all the workspaces in a subscription.
   description: The list of workspaces can be filtered by resource group.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace list [--max-results]
                          [--resource-group]
@@ -173,6 +184,8 @@ directCommands:
   name: az ml workspace list-keys
   summary: List workspace keys for dependent resources such as Azure Storage, Azure Container Registry, and Azure Application Insights.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace list-keys --name
                               --resource-group
@@ -189,6 +202,8 @@ directCommands:
   name: az ml workspace show
   summary: Show details for a workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace show --name
                          --resource-group
@@ -205,6 +220,8 @@ directCommands:
   name: az ml workspace sync-keys
   summary: Sync workspace keys for dependent resources such as Azure Storage, Azure Container Registry, and Azure Application Insights.
   description: If the keys for any resource in the workspace are changed, it can take around an hour for them to automatically be updated. This command triggers the workspace to immediately synchronize keys. A possible scenario is needing immediate access to storage after regenerating the storage keys.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace sync-keys --name
                               --resource-group
@@ -227,6 +244,8 @@ directCommands:
   name: az ml workspace update
   summary: Update a workspace.
   description: The 'description', 'tags', and 'friendly_name' properties can be updated.
+  status: GA
+  sourceType: Extension
   syntax: >-
     az ml workspace update --name
                            --resource-group
@@ -287,6 +306,7 @@ directCommands:
   - name: --managed-network -m
     summary: Managed Network Isolation Mode for the workspace.
     description: ''
+    isPreview: true
   - name: --no-wait
     defaultValue: "False"
     summary: Do not wait for the long-running-operation to finish. Default is False.

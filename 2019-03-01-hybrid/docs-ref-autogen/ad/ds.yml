@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **ad** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az ad ds** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage domain service with azure active directory.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: 'This command group is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+sourceType: Extension
 directCommands:
 - uid: az_ad_ds_create
   name: az ad ds create
   summary: Create a new domain service with the specified parameters.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'ad ds' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ad ds create --domain
                     --name
@@ -162,6 +170,10 @@ directCommands:
   name: az ad ds delete
   summary: The Delete Domain Service operation deletes an existing Domain Service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'ad ds' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ad ds delete [--ids]
                     [--name]
@@ -193,6 +205,10 @@ directCommands:
   name: az ad ds list
   summary: List domain services in resource group or in subscription.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'ad ds' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az ad ds list [--resource-group]
   examples:
   - summary: List Domain Service By Group
@@ -207,6 +223,10 @@ directCommands:
   name: az ad ds show
   summary: Get the specified domain service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'ad ds' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ad ds show [--ids]
                   [--name]
@@ -228,6 +248,10 @@ directCommands:
   name: az ad ds update
   summary: Update the existing deployment properties for domain service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'ad ds' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ad ds update [--domain-config-type {FullySynced, ResourceTrusting}]
                     [--external-access {Disabled, Enabled}]
@@ -370,6 +394,10 @@ directCommands:
   name: az ad ds wait
   summary: Place the CLI in a waiting state until a condition of the ad ds is met.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'ad ds' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az ad ds wait [--created]
                   [--custom]

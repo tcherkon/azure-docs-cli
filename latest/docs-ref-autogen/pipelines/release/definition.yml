@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az pipelines release definition** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage release definitions.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_pipelines_release_definition_list
   name: az pipelines release definition list
   summary: List release definitions.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines release definition list [--artifact-source-id]
                                          [--artifact-type {build, externaltfsbuild, git, github, jenkins, tfvc}]
@@ -48,6 +52,8 @@ directCommands:
   name: az pipelines release definition show
   summary: Get the details of a release definition.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az pipelines release definition show [--detect {false, true}]
                                          [--id]

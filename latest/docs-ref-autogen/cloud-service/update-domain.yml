@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **cloud-service** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az cloud-service update-domain** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cloud service update domain with cloud service.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_cloud-service_update-domain_list-update-domain
   name: az cloud-service update-domain list-update-domain
   summary: Get a list of all update domains in a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service update-domain list-update-domain --cloud-service-name
                                                       --resource-group
@@ -28,6 +36,10 @@ directCommands:
   name: az cloud-service update-domain show-update-domain
   summary: Get the specified update domain of a cloud service.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service update-domain show-update-domain [--cloud-service-name]
                                                       [--ids]
@@ -54,6 +66,10 @@ directCommands:
   name: az cloud-service update-domain walk-update-domain
   summary: Update the role instances in the specified update domain.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'cloud-service' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az cloud-service update-domain walk-update-domain [--cloud-service-name]
                                                       [--ids]

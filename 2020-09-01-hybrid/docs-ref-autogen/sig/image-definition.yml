@@ -3,11 +3,15 @@ uid: az_sig_image-definition
 name: az sig image-definition
 summary: Manage shared gallery image with VM.
 description: ''
+status: GA
+sourceType: CoreAndExtension
 directCommands:
 - uid: az_sig_image-definition_create
   name: az sig image-definition create
   summary: Create a gallery image definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition create --gallery-image-definition
                                    --gallery-name
@@ -278,6 +282,8 @@ directCommands:
   name: az sig image-definition delete
   summary: Delete a gallery image.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition delete [--gallery-image-definition]
                                    [--gallery-name]
@@ -304,6 +310,8 @@ directCommands:
   name: az sig image-definition list
   summary: List gallery Image Definitions in a gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition list --gallery-name
                                  --resource-group
@@ -320,6 +328,10 @@ directCommands:
   name: az sig image-definition list-community
   summary: List VM Image definitions in a gallery community (preview).
   description: List VM Image definitions in a gallery community (private preview feature, please contact community image gallery team by email sigpmdev@microsoft.com to register for preview if you're interested in using this feature).
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sig image-definition list-community [--ids]
                                            [--location]
@@ -356,6 +368,8 @@ directCommands:
   name: az sig image-definition show
   summary: Retrieves information about a gallery Image Definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition show [--gallery-image-definition]
                                  [--gallery-name]
@@ -382,6 +396,10 @@ directCommands:
   name: az sig image-definition show-community
   summary: Get an image in a gallery community (preview).
   description: Get an image in a gallery community (private preview feature, please contact community image gallery team by email sigpmdev@microsoft.com to register for preview if you're interested in using this feature).
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: 'This command is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
+  sourceType: Extension
   syntax: >-
     az sig image-definition show-community [--gallery-image-definition]
                                            [--ids]
@@ -414,6 +432,8 @@ directCommands:
   name: az sig image-definition update
   summary: Update a VM Image definition.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig image-definition update --gallery-image-definition
                                    --gallery-name

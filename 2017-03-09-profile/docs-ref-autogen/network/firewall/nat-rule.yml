@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-firewall** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az network firewall nat-rule** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage and configure Azure Firewall NAT rules.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_firewall_nat-rule_create
   name: az network firewall nat-rule create
   summary: Create an Azure Firewall NAT rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall nat-rule create --collection-name
                                         --dest-addr
@@ -89,6 +93,8 @@ directCommands:
   name: az network firewall nat-rule delete
   summary: Delete an Azure Firewall NAT rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall nat-rule delete [--collection-name]
                                         [--firewall-name]
@@ -119,6 +125,8 @@ directCommands:
   name: az network firewall nat-rule list
   summary: List Azure Firewall NAT rules.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall nat-rule list --collection-name
                                       --firewall-name
@@ -140,6 +148,8 @@ directCommands:
   name: az network firewall nat-rule show
   summary: Get the details of an Azure Firewall NAT rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network firewall nat-rule show [--collection-name]
                                       [--firewall-name]

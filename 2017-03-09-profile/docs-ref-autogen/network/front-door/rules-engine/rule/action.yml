@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **front-door** extension for the Azure CLI  (version 2.0.68 or higher).  The extension will automatically install the first time you run an **az network front-door rules-engine rule action** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Rules Engine actions for Front Door.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_front-door_rules-engine_rule_action_add
   name: az network front-door rules-engine rule action add
   summary: Add an action to a Rules Engine rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule action add --action-type {ForwardRouteOverride, RedirectRouteOverride, RequestHeader, ResponseHeader}
                                                        --front-door-name
@@ -122,6 +126,8 @@ directCommands:
   name: az network front-door rules-engine rule action list
   summary: Show all actions that apply for a Rules Engine rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule action list --front-door-name
                                                         --name
@@ -148,6 +154,8 @@ directCommands:
   name: az network front-door rules-engine rule action remove
   summary: Remove an action from a Rules Engine rule.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network front-door rules-engine rule action remove --action-type {ForwardRouteOverride, RedirectRouteOverride, RequestHeader, ResponseHeader}
                                                           --front-door-name

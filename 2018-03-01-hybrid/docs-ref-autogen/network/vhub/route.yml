@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **virtual-wan** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network vhub route** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage entries in the virtual hub route table.
 description: ''
+status: Deprecated
+isDeprecated: true
+deprecateInfo: This command group has been deprecated and will be removed in a future release. Use 'network vhub route-table' instead.
+sourceType: Extension
 directCommands:
 - uid: az_network_vhub_route_add
   name: az network vhub route add
   summary: Add a route to the virtual hub route table.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'network vhub route' is deprecated and will be removed in a future release. Use 'network vhub route-table' instead.
+  sourceType: Extension
   syntax: >-
     az network vhub route add --address-prefixes
                               --next-hop
@@ -44,6 +52,10 @@ directCommands:
   name: az network vhub route list
   summary: List routes in the virtual hub route table.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'network vhub route' is deprecated and will be removed in a future release. Use 'network vhub route-table' instead.
+  sourceType: Extension
   syntax: >-
     az network vhub route list --resource-group
                                --vhub-name
@@ -60,6 +72,10 @@ directCommands:
   name: az network vhub route remove
   summary: Remove a route from the virtual hub route table.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'network vhub route' is deprecated and will be removed in a future release. Use 'network vhub route-table' instead.
+  sourceType: Extension
   syntax: >-
     az network vhub route remove --index
                                  --resource-group
@@ -87,6 +103,10 @@ directCommands:
   name: az network vhub route reset
   summary: Reset virtual hub route when the route state is failed.
   description: ''
+  status: Deprecated
+  isDeprecated: true
+  deprecateInfo: This command is implicitly deprecated because command group 'network vhub route' is deprecated and will be removed in a future release. Use 'network vhub route-table' instead.
+  sourceType: Extension
   syntax: >-
     az network vhub route reset --resource-group
                                 --vhub-name

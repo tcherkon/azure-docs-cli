@@ -3,11 +3,15 @@ uid: az_sig
 name: az sig
 summary: Manage shared image gallery.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_sig_create
   name: az sig create
   summary: Create a shared image gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig create --gallery-name
                   --resource-group
@@ -59,6 +63,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable soft-deletion for resources in this gallery, allowing them to be recovered within retention time.
     description: ''
+    isPreview: true
   - name: --tags
     summary: 'Space-separated tags: key[=value] [key[=value] ...]. Use "" to clear existing tags.'
     description: ''
@@ -66,6 +71,8 @@ directCommands:
   name: az sig delete
   summary: Delete a Shared Image Gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig delete --gallery-name
                   --resource-group
@@ -82,6 +89,8 @@ directCommands:
   name: az sig list
   summary: List share image galleries.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: az sig list [--resource-group]
   examples:
   - summary: List shared galleries by subscription id.
@@ -94,6 +103,8 @@ directCommands:
   name: az sig list-community
   summary: List all community galleries shared directly to your subscription or tenant.
   description: List all community galleries shared directly to your subscription or tenant.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig list-community [--location]
                           [--marker]
@@ -117,6 +128,8 @@ directCommands:
   name: az sig list-shared
   summary: List all shared galleries shared directly to your subscription or tenant.
   description: List all shared galleries shared directly to your subscription or tenant.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig list-shared --location
                        [--shared-to {tenant}]
@@ -139,6 +152,8 @@ directCommands:
   name: az sig show
   summary: Retrieve information about a Shared Image Gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig show [--gallery-name]
                 [--ids]
@@ -169,6 +184,8 @@ directCommands:
   name: az sig show-community
   summary: Get a community gallery by gallery public name.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig show-community [--ids]
                           [--location]
@@ -191,6 +208,8 @@ directCommands:
   name: az sig show-shared
   summary: Get a gallery that has been shared directly to your subscription or tenant.
   description: Get a gallery that has been shared directly to your subscription or tenant.
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig show-shared [--gallery-unique-name]
                        [--ids]
@@ -216,6 +235,8 @@ directCommands:
   name: az sig update
   summary: Update a share image gallery.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az sig update --gallery-name
                   --resource-group
@@ -292,6 +313,7 @@ directCommands:
     parameterValueGroup: "false, true"
     summary: Enable soft-deletion for resources in this gallery, allowing them to be recovered within retention time.
     description: ''
+    isPreview: true
 commands:
 - az_sig_create
 - az_sig_delete

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **azure-devops** extension for the Azure CLI  (version 2.30.0 or higher).  The extension will automatically install the first time you run an **az repos policy required-reviewer** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage required reviewer policy.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_repos_policy_required-reviewer_create
   name: az repos policy required-reviewer create
   summary: Create required reviewer policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos policy required-reviewer create --blocking {false, true}
                                              --branch
@@ -74,6 +78,8 @@ directCommands:
   name: az repos policy required-reviewer update
   summary: Update required reviewer policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az repos policy required-reviewer update --id
                                              [--blocking {false, true}]

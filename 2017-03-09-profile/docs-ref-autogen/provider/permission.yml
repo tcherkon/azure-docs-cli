@@ -3,18 +3,22 @@ uid: az_provider_permission
 name: az provider permission
 summary: Manage permissions for a provider.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_provider_permission_list
   name: az provider permission list
   summary: List permissions from a provider.
   description: ''
+  status: GA
+  sourceType: Core
+  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/resource/_help.py
   syntax: az provider permission list --namespace
   requiredParameters:
   - isRequired: true
     name: --namespace -n
     summary: The resource namespace, aka 'provider'.
     description: ''
-  editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/resource/_help.py
 commands:
 - az_provider_permission_list
 globalParameters:

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **nginx** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az nginx deployment configuration** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage NGINX configuration resources.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_nginx_deployment_configuration_create
   name: az nginx deployment configuration create
   summary: Create a configuration for an NGINX deployment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment configuration create --configuration-name
                                              --deployment-name
@@ -73,6 +77,8 @@ directCommands:
   name: az nginx deployment configuration delete
   summary: Delete an Nginx configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment configuration delete [--configuration-name]
                                              [--deployment-name]
@@ -112,6 +118,8 @@ directCommands:
   name: az nginx deployment configuration list
   summary: List all configurations under the specified deployment and resource group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment configuration list --deployment-name
                                            --resource-group
@@ -131,6 +139,8 @@ directCommands:
   name: az nginx deployment configuration show
   summary: Get the properties of a specific Nginx configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment configuration show [--configuration-name]
                                            [--deployment-name]
@@ -160,6 +170,8 @@ directCommands:
   name: az nginx deployment configuration update
   summary: Update an Nginx configuration.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment configuration update [--add]
                                              [--configuration-name]
@@ -240,6 +252,8 @@ directCommands:
   name: az nginx deployment configuration wait
   summary: Place the CLI in a waiting state until a condition is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az nginx deployment configuration wait [--configuration-name]
                                            [--created]

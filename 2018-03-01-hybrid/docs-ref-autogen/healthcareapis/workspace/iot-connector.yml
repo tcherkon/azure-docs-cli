@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **healthcareapis** extension for the Azure CLI  (version 2.15.0 or higher).  The extension will automatically install the first time you run an **az healthcareapis workspace iot-connector** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage iot connector with healthcareapis.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_healthcareapis_workspace_iot-connector_create
   name: az healthcareapis workspace iot-connector create
   summary: Create an IoT Connector resource with the specified parameters.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace iot-connector create --iot-connector-name
                                                      --resource-group
@@ -79,6 +83,8 @@ directCommands:
   name: az healthcareapis workspace iot-connector delete
   summary: Deletes an IoT Connector.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace iot-connector delete [--ids]
                                                      [--iot-connector-name]
@@ -118,6 +124,8 @@ directCommands:
   name: az healthcareapis workspace iot-connector list
   summary: Lists all IoT Connectors for the given workspace.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace iot-connector list --resource-group
                                                    --workspace-name
@@ -137,6 +145,8 @@ directCommands:
   name: az healthcareapis workspace iot-connector show
   summary: Gets the properties of the specified IoT Connector.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace iot-connector show [--ids]
                                                    [--iot-connector-name]
@@ -166,6 +176,8 @@ directCommands:
   name: az healthcareapis workspace iot-connector update
   summary: Patch an IoT Connector.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace iot-connector update [--identity-type {None, SystemAssigned, SystemAssigned,UserAssigned, UserAssigned}]
                                                      [--ids]
@@ -213,6 +225,8 @@ directCommands:
   name: az healthcareapis workspace iot-connector wait
   summary: Place the CLI in a waiting state until a condition of the healthcareapis workspace iot-connector is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az healthcareapis workspace iot-connector wait [--created]
                                                    [--custom]

@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **arcappliance** extension for the Azure CLI  (version 2.41.0 or higher).  The extension will automatically install the first time you run an **az arcappliance delete** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Command group for deletion of an Appliance cluster and resource.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'arcappliance' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_arcappliance_delete_hci
   name: az arcappliance delete hci
   summary: Command to delete HCI Appliance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance delete' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance delete hci --config-file
                                [--location]
@@ -44,6 +52,10 @@ directCommands:
   name: az arcappliance delete kubevirt
   summary: Command to delete KubeVirt Appliance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance delete' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance delete kubevirt --config-file
                                     [--location]
@@ -76,6 +88,10 @@ directCommands:
   name: az arcappliance delete scvmm
   summary: Command to delete SCVMM Appliance. e.g az arcappliance delete scvmm --config-file [REQUIRED].
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance delete' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance delete scvmm --config-file
                                  [--location]
@@ -108,6 +124,10 @@ directCommands:
   name: az arcappliance delete vmware
   summary: Command to delete VMware Appliance.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'arcappliance delete' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az arcappliance delete vmware --config-file
                                   [--location]

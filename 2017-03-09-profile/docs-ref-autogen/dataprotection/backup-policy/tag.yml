@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **dataprotection** extension for the Azure CLI  (version 2.43.0 or higher).  The extension will automatically install the first time you run an **az dataprotection backup-policy tag** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Create criterias and add or remove tag in policy.
 description: ''
+status: Experimental
+isExperimental: true
+previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_dataprotection_backup-policy_tag_create-absolute-criteria
   name: az dataprotection backup-policy tag create-absolute-criteria
   summary: Create absolute criteria.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az dataprotection backup-policy tag create-absolute-criteria --absolute-criteria {AllBackup, FirstOfDay, FirstOfMonth, FirstOfWeek, FirstOfYear}
   examples:
   - summary: create absolute criteria
@@ -26,6 +34,10 @@ directCommands:
   name: az dataprotection backup-policy tag create-generic-criteria
   summary: Create generic criteria.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy tag create-generic-criteria [--days-of-month]
                                                                 [--days-of-week {Friday, Monday, Saturday, Sunday, Thursday, Tuesday, Wednesday}]
@@ -54,6 +66,10 @@ directCommands:
   name: az dataprotection backup-policy tag remove
   summary: Remove existing tag from a backup policy.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy tag remove --name {Daily, Monthly, Weekly, Yearly}
                                                --policy
@@ -74,6 +90,10 @@ directCommands:
   name: az dataprotection backup-policy tag set
   summary: Add new tag or update existing tag of a backup policy.
   description: ''
+  status: Experimental
+  isExperimental: true
+  previewOrExperimentalInfo: "Command group 'dataprotection' is experimental and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az dataprotection backup-policy tag set --criteria
                                             --name {Daily, Monthly, Weekly, Yearly}

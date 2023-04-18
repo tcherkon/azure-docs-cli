@@ -7,11 +7,19 @@ extensionInformation: >-
   > This reference is part of the **hybridaks** extension for the Azure CLI  (version 2.32.0 or higher).  The extension will automatically install the first time you run an **az hybridaks vnet** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage virtual networks for hybridaks.
 description: ''
+status: Preview
+isPreview: true
+previewOrExperimentalInfo: "Command group 'hybridaks' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+sourceType: Extension
 directCommands:
 - uid: az_hybridaks_vnet_create
   name: az hybridaks vnet create
   summary: Creates the Hybrid AKS virtual network.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks vnet' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks vnet create --custom-location
                              --name
@@ -72,6 +80,10 @@ directCommands:
   name: az hybridaks vnet delete
   summary: Deletes the Hybrid AKS virtual network.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks vnet' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks vnet delete --name
                              --resource-group
@@ -102,6 +114,10 @@ directCommands:
   name: az hybridaks vnet list
   summary: Lists the Hybrid AKS virtual networks by resource group or subscription.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks vnet' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: az hybridaks vnet list [--resource-group]
   examples:
   - summary: ListVirtualNetworkByResourceGroup
@@ -116,6 +132,10 @@ directCommands:
   name: az hybridaks vnet show
   summary: Gets the Hybrid AKS virtual network.
   description: ''
+  status: Preview
+  isPreview: true
+  previewOrExperimentalInfo: "Command group 'hybridaks vnet' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus"
+  sourceType: Extension
   syntax: >-
     az hybridaks vnet show --name
                            --resource-group

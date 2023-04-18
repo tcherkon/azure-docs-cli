@@ -3,11 +3,15 @@ uid: az_ppg
 name: az ppg
 summary: Manage Proximity Placement Groups.
 description: ''
+status: GA
+sourceType: Core
 directCommands:
 - uid: az_ppg_show
   name: az ppg show
   summary: Get a proximity placement group.
   description: ''
+  status: GA
+  sourceType: Core
   syntax: >-
     az ppg show [--ids]
                 [--include-colocation-status {False, True}]

@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **timeseriesinsights** extension for the Azure CLI  (version 2.11.0 or higher).  The extension will automatically install the first time you run an **az tsi access-policy** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage access policy with timeseriesinsights.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_tsi_access-policy_create
   name: az tsi access-policy create
   summary: Create an access policy in the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi access-policy create --access-policy-name
                                 --environment-name
@@ -50,6 +54,8 @@ directCommands:
   name: az tsi access-policy delete
   summary: Delete the access policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi access-policy delete [--access-policy-name]
                                 [--environment-name]
@@ -84,6 +90,8 @@ directCommands:
   name: az tsi access-policy list
   summary: List all the available access policies associated with the environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi access-policy list --environment-name
                               --resource-group
@@ -103,6 +111,8 @@ directCommands:
   name: az tsi access-policy show
   summary: Show the access policy with the specified name in the specified environment.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi access-policy show [--access-policy-name]
                               [--environment-name]
@@ -132,6 +142,8 @@ directCommands:
   name: az tsi access-policy update
   summary: Update the access policy.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az tsi access-policy update [--access-policy-name]
                                 [--description]

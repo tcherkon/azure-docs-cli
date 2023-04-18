@@ -3,6 +3,8 @@ uid: az_resourcemanagement
 name: az resourcemanagement
 summary: Resourcemanagement CLI command group.
 description: ''
+status: GA
+sourceType: Core
 commands:
 - az_resourcemanagement_private-link
 - az_resourcemanagement_private-link_create

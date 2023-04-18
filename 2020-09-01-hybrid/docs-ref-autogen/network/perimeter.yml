@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **nsp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az network perimeter** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage Network Security Perimeters.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_network_perimeter_create
   name: az network perimeter create
   summary: Creates a Network Security Perimeter.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network perimeter create --name
                                 --resource-group
@@ -40,6 +44,8 @@ directCommands:
   name: az network perimeter delete
   summary: Deletes a network security perimeter.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network perimeter delete [--ids]
                                 [--name]
@@ -70,6 +76,8 @@ directCommands:
   name: az network perimeter list
   summary: List all network security perimeters in a subscription.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network perimeter list [--resource-group]
                               [--skip-token]
@@ -91,6 +99,8 @@ directCommands:
   name: az network perimeter show
   summary: Gets the specified network security perimeter by the name.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az network perimeter show [--ids]
                               [--name]

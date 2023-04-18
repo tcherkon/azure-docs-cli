@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **automation** extension for the Azure CLI  (version 2.40.0 or higher).  The extension will automatically install the first time you run an **az automation hrwg hrw** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Hrw.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_automation_hrwg_hrw_create
   name: az automation hrwg hrw create
   summary: Create a hybrid runbook worker.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg hrw create --automation-account-name
                                   --hybrid-runbook-worker-group-name
@@ -46,6 +50,8 @@ directCommands:
   name: az automation hrwg hrw delete
   summary: Delete a hybrid runbook worker.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg hrw delete [--automation-account-name]
                                   [--hybrid-runbook-worker-group-name]
@@ -84,6 +90,8 @@ directCommands:
   name: az automation hrwg hrw list
   summary: List a list of hybrid runbook workers.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg hrw list --automation-account-name
                                 --hybrid-runbook-worker-group-name
@@ -113,6 +121,8 @@ directCommands:
   name: az automation hrwg hrw move
   summary: Move a hybrid worker to a different group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg hrw move --automation-account-name
                                 --hybrid-runbook-worker-group-name
@@ -142,6 +152,8 @@ directCommands:
   name: az automation hrwg hrw show
   summary: Get a hybrid runbook worker.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az automation hrwg hrw show [--automation-account-name]
                                 [--hybrid-runbook-worker-group-name]

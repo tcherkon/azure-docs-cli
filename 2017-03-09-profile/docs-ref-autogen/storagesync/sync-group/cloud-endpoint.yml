@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **storagesync** extension for the Azure CLI  (version 2.3.1 or higher).  The extension will automatically install the first time you run an **az storagesync sync-group cloud-endpoint** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Manage cloud endpoint.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_storagesync_sync-group_cloud-endpoint_create
   name: az storagesync sync-group cloud-endpoint create
   summary: Create a new cloud endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group cloud-endpoint create --name
                                                     --storage-sync-service
@@ -65,6 +69,8 @@ directCommands:
   name: az storagesync sync-group cloud-endpoint delete
   summary: Delete a given cloud endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group cloud-endpoint delete --name
                                                     --storage-sync-service
@@ -109,6 +115,8 @@ directCommands:
   name: az storagesync sync-group cloud-endpoint list
   summary: List all cloud endpoints in a sync group.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group cloud-endpoint list --storage-sync-service
                                                   --sync-group-name
@@ -138,6 +146,8 @@ directCommands:
   name: az storagesync sync-group cloud-endpoint show
   summary: Show the properties for a given cloud endpoint.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group cloud-endpoint show --name
                                                   --storage-sync-service
@@ -172,6 +182,8 @@ directCommands:
   name: az storagesync sync-group cloud-endpoint wait
   summary: Place the CLI in a waiting state until a condition of a cloud endpoint is met.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az storagesync sync-group cloud-endpoint wait --name
                                                   --resource-group

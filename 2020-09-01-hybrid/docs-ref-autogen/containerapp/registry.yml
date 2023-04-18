@@ -7,11 +7,15 @@ extensionInformation: >-
   > This reference is part of the **containerapp** extension for the Azure CLI  (version 2.45.0 or higher).  The extension will automatically install the first time you run an **az containerapp registry** command.  [Learn more](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview) about extensions.
 summary: Commands to manage container registry information.
 description: ''
+status: GA
+sourceType: Extension
 directCommands:
 - uid: az_containerapp_registry_list
   name: az containerapp registry list
   summary: List container registries configured in a container app.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp registry list --name
                                   --resource-group
@@ -31,6 +35,8 @@ directCommands:
   name: az containerapp registry remove
   summary: Remove a container registry's details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp registry remove --server
                                     [--ids]
@@ -62,6 +68,8 @@ directCommands:
   name: az containerapp registry set
   summary: Add or update a container registry's details.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp registry set --server
                                  [--identity]
@@ -107,6 +115,8 @@ directCommands:
   name: az containerapp registry show
   summary: Show details of a container registry.
   description: ''
+  status: GA
+  sourceType: Extension
   syntax: >-
     az containerapp registry show --server
                                   [--ids]
