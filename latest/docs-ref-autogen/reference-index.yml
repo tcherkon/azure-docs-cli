@@ -305,6 +305,7 @@ commands:
 - az_aks
 - az_alerts-management
 - az_alias
+- az_amlfs
 - az_ams
 - az_apim
 - az_appconfig
@@ -443,6 +444,7 @@ commands:
 - az_network-function
 - az_networkcloud
 - az_networkfabric
+- az_new-relic
 - az_next
 - az_nginx
 - az_notification-hub
