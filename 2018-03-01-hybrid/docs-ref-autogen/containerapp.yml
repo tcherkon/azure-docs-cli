@@ -51,6 +51,7 @@ directCommands:
                            [--enable-dapr {false, true}]
                            [--env-vars]
                            [--environment]
+                           [--environment-type {connected, managed}]
                            [--exposed-port]
                            [--image]
                            [--ingress {external, internal}]
@@ -185,6 +186,11 @@ directCommands:
     description: ''
   - name: --environment
     summary: Name or resource ID of the container app's environment.
+    description: ''
+  - name: --environment-type
+    defaultValue: "managed"
+    parameterValueGroup: "connected, managed"
+    summary: Type of environment.
     description: ''
   - name: --exposed-port
     summary: Additional exposed port. Only supported by tcp transport protocol. Must be unique per environment if the app ingress is external.
