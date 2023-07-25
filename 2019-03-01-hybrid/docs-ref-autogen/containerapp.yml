@@ -51,6 +51,7 @@ directCommands:
                            [--enable-dapr {false, true}]
                            [--env-vars]
                            [--environment]
+                           [--environment-type {connected, managed}]
                            [--exposed-port]
                            [--image]
                            [--ingress {external, internal}]
@@ -126,6 +127,11 @@ directCommands:
           --image my-app:v1.0 --environment MyContainerappEnv \
           --secrets mysecret=secretvalue1 anothersecret="secret value 2" \
           --secret-volume-mount "mnt/secrets"
+  - summary: Create a container app hosted on a Connected Environment.
+    syntax: >-
+      az containerapp create -n MyContainerapp -g MyResourceGroup \
+          --image my-app:v1.0 --environment MyContainerappConnectedEnv \
+          --environment-type connected
   requiredParameters:
   - isRequired: true
     name: --name -n
@@ -185,6 +191,11 @@ directCommands:
     description: ''
   - name: --environment
     summary: Name or resource ID of the container app's environment.
+    description: ''
+  - name: --environment-type
+    defaultValue: "managed"
+    parameterValueGroup: "connected, managed"
+    summary: Type of environment.
     description: ''
   - name: --exposed-port
     summary: Additional exposed port. Only supported by tcp transport protocol. Must be unique per environment if the app ingress is external.
