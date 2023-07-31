@@ -15,37 +15,21 @@ directCommands:
   syntax: >-
     az network firewall create --name
                                --resource-group
-                               [--allow-active-ftp {0, 1, f, false, n, no, t, true, y, yes}]
-                               [--conf-name]
+                               [--allow-active-ftp {false, true}]
                                [--count]
                                [--dns-servers]
-                               [--enable-dns-proxy {0, 1, f, false, n, no, t, true, y, yes}]
-                               [--enable-fat-flow-logging {0, 1, f, false, n, no, t, true, y, yes}]
-                               [--enable-udp-log-optimization {0, 1, f, false, n, no, t, true, y, yes}]
+                               [--enable-dns-proxy {false, true}]
                                [--firewall-policy]
                                [--location]
-                               [--m-conf-name]
-                               [--m-public-ip]
-                               [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                                [--private-ranges]
-                               [--public-ip]
-                               [--route-server-id]
                                [--sku {AZFW_Hub, AZFW_VNet}]
                                [--tags]
                                [--threat-intel-mode {Alert, Deny, Off}]
-                               [--tier {Basic, Premium, Standard}]
                                [--vhub]
-                               [--vnet-name]
-                               [--zones]
+                               [--zones {1, 2, 3}]
   examples:
   - summary: Create a Azure firewall with private ranges
     syntax: az network firewall create -g MyResourceGroup -n MyFirewall --private-ranges 10.0.0.0 10.0.0.0/16 IANAPrivateRanges
-  - summary: Create a Virtual WAN Secure Hub Firewall
-    syntax: az network firewall create -g MyResourceGroup -n MyFirewall --sku AZFW_Hub --tier Standard --virtual-hub MyVirtualHub1 --public-ip-count 1
-  - summary: Create a Basic SKU Firewall with Management IP Configuration
-    syntax: az network firewall create -g MyResourceGroup -n MyFirewall --sku AZFW_VNet --tier Basic --vnet-name MyVNet --conf-name MyIpConfig --m-conf-name MyManagementIpConfig --m-public-ip MyPublicIp
-  - summary: Create a Basic SKU Firewall with Virtual Hub
-    syntax: az network firewall create -g MyResourceGroup -n MyFirewall --sku AZFW_Hub --tier Basic --vhub MyVHub --public-ip-count 2
   requiredParameters:
   - isRequired: true
     name: --name -n
@@ -57,79 +41,45 @@ directCommands:
     description: ''
   optionalParameters:
   - name: --allow-active-ftp
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
+    parameterValueGroup: "false, true"
     summary: Allow Active FTP. By default it is false. It's only allowed for azure firewall on virtual network.
-    description: ''
-  - name: --conf-name
-    summary: Name of the IP configuration.
     description: ''
   - name: --count --public-ip-count
     summary: Number of Public IP Address associated with azure firewall. It's used to add public ip addresses into this firewall.
     description: ''
   - name: --dns-servers
-    summary: Space-separated list of DNS server IP addresses.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
+    summary: Space-separated list of DNS server IP addresses.
     description: ''
   - name: --enable-dns-proxy
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
+    parameterValueGroup: "false, true"
     summary: Enable DNS Proxy.
-    description: ''
-  - name: --enable-fat-flow-logging --fat-flow-logging
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Allow fat flow logging. By default it is false.
-    description: ''
-  - name: --enable-udp-log-optimization --udp-log-optimization
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Allow UDP log optimization. By default it is false.
     description: ''
   - name: --firewall-policy --policy
     summary: Name or ID of the firewallPolicy associated with this azure firewall.
     description: ''
   - name: --location -l
-    summary: Resource location.
-    description: ''
-  - name: --m-conf-name
-    summary: Name of the management IP configuration.
-    description: ''
-  - name: --m-public-ip
-    summary: Name or ID of the public IP to use for management IP configuration.
-    description: ''
-  - name: --no-wait
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Do not wait for the long-running operation to finish.
+    summary: 'Location. Values from: `az account list-locations`. You can configure the default location using `az configure --defaults location=<location>`.'
     description: ''
   - name: --private-ranges
-    summary: Space-separated list of SNAT privaterange. Validate values are single Ip, Ipprefixes or a single special value "IANAPrivateRanges".  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
-    description: ''
-  - name: --public-ip
-    summary: Name or ID of the public IP to use.
-    description: ''
-  - name: --route-server-id
-    summary: The Route Server Id for the firewall.
+    summary: Space-separated list of SNAT private range. Validate values are single Ip, Ip prefixes or a single special value "IANAPrivateRanges".
     description: ''
   - name: --sku
     parameterValueGroup: "AZFW_Hub, AZFW_VNet"
-    summary: SKU of Azure firewall. This field cannot be updated after the creation. The default sku in server end is AZFW_VNet. If you want to attach azure firewall to  vhub, you should set sku to AZFW_Hub.
+    summary: SKU of Azure firewall. This field cannot be updated after the creation. The default sku in server end is AZFW_VNet. If you want to attach azure firewall to vhub, you should set sku to AZFW_Hub.
     description: ''
   - name: --tags
-    summary: Resource tags.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
+    summary: 'Space-separated tags: key[=value] [key[=value] ...]. Use "" to clear existing tags.'
     description: ''
   - name: --threat-intel-mode
     parameterValueGroup: "Alert, Deny, Off"
     summary: The operation mode for Threat Intelligence.
     description: ''
-  - name: --tier
-    defaultValue: "Standard"
-    parameterValueGroup: "Basic, Premium, Standard"
-    summary: Tier of an azure firewall. --tier will take effect only when --sku is set.
-    description: ''
   - name: --vhub --virtual-hub
     summary: Name or ID of the virtualHub to which the firewall belongs.
     description: ''
-  - name: --vnet-name
-    summary: The virtual network (VNet) name. It should contain one subnet called "AzureFirewallSubnet".
-    description: ''
   - name: --zones -z
-    summary: 'Space-separated list of availability zones into which to provision the resource. Allowed values: 1, 2, 3.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.'
+    parameterValueGroup: "1, 2, 3"
+    summary: Space-separated list of availability zones into which to provision the resource.
     description: ''
 - uid: az_network_firewall_delete
   name: az network firewall delete
@@ -138,7 +88,6 @@ directCommands:
   syntax: >-
     az network firewall delete [--ids]
                                [--name]
-                               [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                                [--resource-group]
                                [--subscription]
   optionalParameters:
@@ -147,40 +96,6 @@ directCommands:
     description: ''
   - name: --name -n
     summary: Azure Firewall name.
-    description: ''
-  - name: --no-wait
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Do not wait for the long-running operation to finish.
-    description: ''
-  - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
-    description: ''
-  - name: --subscription
-    summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-    description: ''
-- uid: az_network_firewall_learned-ip-prefix
-  name: az network firewall learned-ip-prefix
-  summary: Retrieves a list of all IP prefixes that azure firewall has learned to not SNAT.
-  description: ''
-  syntax: >-
-    az network firewall learned-ip-prefix [--ids]
-                                          [--name]
-                                          [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
-                                          [--resource-group]
-                                          [--subscription]
-  examples:
-  - summary: List Learned IP Prefixes
-    syntax: az network firewall learned-ip-prefix -g MyResourceGroup -n MyFirewall
-  optionalParameters:
-  - name: --ids
-    summary: One or more resource IDs (space-delimited). It should be a complete resource ID containing all information of 'Resource Id' arguments. You should provide either --ids or other 'Resource Id' arguments.
-    description: ''
-  - name: --name -n
-    summary: Azure Firewall name.
-    description: ''
-  - name: --no-wait
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Do not wait for the long-running operation to finish.
     description: ''
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
@@ -200,7 +115,7 @@ directCommands:
 - uid: az_network_firewall_list-fqdn-tags
   name: az network firewall list-fqdn-tags
   summary: Gets all the Azure Firewall FQDN Tags in a subscription.
-  description: ':keyword api_version: Api Version. Default value is "2021-08-01". Note that overriding this  default value may result in unsupported behavior. :paramtype api_version: str :keyword callable cls: A custom type or function that will be passed the direct response :return: An iterator like instance of either AzureFirewallFqdnTagListResult or the result of  cls(response) :rtype:  ~azure.core.paging.ItemPaged[~azure.mgmt.network.v2021_08_01.models.AzureFirewallFqdnTagListResult] :raises: ~azure.core.exceptions.HttpResponseError.'
+  description: ''
   syntax: az network firewall list-fqdn-tags
 - uid: az_network_firewall_show
   name: az network firewall show
@@ -230,59 +145,48 @@ directCommands:
   description: ''
   syntax: >-
     az network firewall update [--add]
-                               [--allow-active-ftp {0, 1, f, false, n, no, t, true, y, yes}]
+                               [--allow-active-ftp {false, true}]
                                [--count]
                                [--dns-servers]
-                               [--enable-dns-proxy {0, 1, f, false, n, no, t, true, y, yes}]
-                               [--enable-fat-flow-logging {0, 1, f, false, n, no, t, true, y, yes}]
-                               [--enable-udp-log-optimization {0, 1, f, false, n, no, t, true, y, yes}]
+                               [--enable-dns-proxy {false, true}]
                                [--firewall-policy]
-                               [--force-string {0, 1, f, false, n, no, t, true, y, yes}]
+                               [--force-string]
                                [--ids]
                                [--name]
-                               [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                                [--private-ranges]
                                [--public-ips]
                                [--remove]
                                [--resource-group]
-                               [--route-server-id]
                                [--set]
                                [--subscription]
                                [--tags]
                                [--threat-intel-mode {Alert, Deny, Off}]
                                [--vhub]
-                               [--zones]
+                               [--zones {1, 2, 3}]
   optionalParameters:
   - name: --add
+    defaultValue: "[]"
     summary: 'Add an object to a list of objects by specifying a path and key value pairs.  Example: --add property.listProperty <key=value, string or JSON string>.'
     description: ''
   - name: --allow-active-ftp
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
+    parameterValueGroup: "false, true"
     summary: Allow Active FTP. By default it is false. It's only allowed for azure firewall on virtual network.
     description: ''
   - name: --count --public-ip-count
     summary: Number of Public IP Address associated with azure firewall. It's used to add public ip addresses into this firewall.
     description: ''
   - name: --dns-servers
-    summary: Space-separated list of DNS server IP addresses.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
+    summary: Space-separated list of DNS server IP addresses.
     description: ''
   - name: --enable-dns-proxy
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
+    parameterValueGroup: "false, true"
     summary: Enable DNS Proxy.
-    description: ''
-  - name: --enable-fat-flow-logging --fat-flow-logging
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Allow fat flow logging. By default it is false.
-    description: ''
-  - name: --enable-udp-log-optimization --udp-log-optimization
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Allow UDP log optimization. By default it is false.
     description: ''
   - name: --firewall-policy --policy
     summary: Name or ID of the firewallPolicy associated with this azure firewall.
     description: ''
   - name: --force-string
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
+    defaultValue: "False"
     summary: When using 'set' or 'add', preserve string literals instead of attempting to convert to JSON.
     description: ''
   - name: --ids
@@ -291,33 +195,28 @@ directCommands:
   - name: --name -n
     summary: Azure Firewall name.
     description: ''
-  - name: --no-wait
-    parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
-    summary: Do not wait for the long-running operation to finish.
-    description: ''
   - name: --private-ranges
-    summary: Space-separated list of SNAT privaterange. Validate values are single Ip, Ipprefixes or a single special value "IANAPrivateRanges".  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
+    summary: Space-separated list of SNAT private range. Validate values are single Ip, Ip prefixes or a single special value "IANAPrivateRanges".
     description: ''
   - name: --public-ips
-    summary: Space-separated list of Public IP addresses associated with azure firewall. It's used to delete public ip addresses from this firewall.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
+    summary: Space-separated list of Public IP addresses associated with azure firewall. It's used to delete public ip addresses from this firewall.
     description: ''
   - name: --remove
+    defaultValue: "[]"
     summary: 'Remove a property or an element from a list.  Example: --remove property.list <indexToRemove> OR --remove propertyToRemove.'
     description: ''
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
     description: ''
-  - name: --route-server-id
-    summary: The Route Server Id for the firewall.
-    description: ''
   - name: --set
+    defaultValue: "[]"
     summary: 'Update an object by specifying a property path and value to set.  Example: --set property1.property2=<value>.'
     description: ''
   - name: --subscription
     summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
     description: ''
   - name: --tags
-    summary: Resource tags.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.
+    summary: 'Space-separated tags: key[=value] [key[=value] ...]. Use "" to clear existing tags.'
     description: ''
   - name: --threat-intel-mode
     parameterValueGroup: "Alert, Deny, Off"
@@ -327,63 +226,8 @@ directCommands:
     summary: Name or ID of the virtualHub to which the firewall belongs.
     description: ''
   - name: --zones -z
-    summary: 'Space-separated list of availability zones into which to provision the resource. Allowed values: 1, 2, 3.  Support shorthand-syntax, json-file and yaml-file. Try `??` to show more.'
-    description: ''
-- uid: az_network_firewall_wait
-  name: az network firewall wait
-  summary: Place the CLI in a waiting state until a condition is met.
-  description: ''
-  syntax: >-
-    az network firewall wait [--created]
-                             [--custom]
-                             [--deleted]
-                             [--exists]
-                             [--ids]
-                             [--interval]
-                             [--name]
-                             [--resource-group]
-                             [--subscription]
-                             [--timeout]
-                             [--updated]
-  optionalParameters:
-  - name: --created
-    defaultValue: "False"
-    summary: Wait until created with 'provisioningState' at 'Succeeded'.
-    description: ''
-  - name: --custom
-    summary: Wait until the condition satisfies a custom JMESPath query. E.g. provisioningState!='InProgress', instanceView.statuses[?code=='PowerState/running'].
-    description: ''
-  - name: --deleted
-    defaultValue: "False"
-    summary: Wait until deleted.
-    description: ''
-  - name: --exists
-    defaultValue: "False"
-    summary: Wait until the resource exists.
-    description: ''
-  - name: --ids
-    summary: One or more resource IDs (space-delimited). It should be a complete resource ID containing all information of 'Resource Id' arguments. You should provide either --ids or other 'Resource Id' arguments.
-    description: ''
-  - name: --interval
-    defaultValue: "30"
-    summary: Polling interval in seconds.
-    description: ''
-  - name: --name -n
-    summary: Azure Firewall name.
-    description: ''
-  - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
-    description: ''
-  - name: --subscription
-    summary: Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-    description: ''
-  - name: --timeout
-    defaultValue: "3600"
-    summary: Maximum wait in seconds.
-    description: ''
-  - name: --updated
-    defaultValue: "False"
-    summary: Wait until updated with provisioningState at 'Succeeded'.
+    parameterValueGroup: "1, 2, 3"
+    summary: Space-separated list of availability zones into which to provision the resource.
     description: ''
 commands:
 - az_network_firewall_application-rule
@@ -402,7 +246,6 @@ commands:
 - az_network_firewall_ip-config_delete
 - az_network_firewall_ip-config_list
 - az_network_firewall_ip-config_show
-- az_network_firewall_learned-ip-prefix
 - az_network_firewall_list
 - az_network_firewall_list-fqdn-tags
 - az_network_firewall_management-ip-config
@@ -451,7 +294,6 @@ commands:
 - az_network_firewall_policy_rule-collection-group_update
 - az_network_firewall_policy_show
 - az_network_firewall_policy_update
-- az_network_firewall_policy_wait
 - az_network_firewall_show
 - az_network_firewall_threat-intel-allowlist
 - az_network_firewall_threat-intel-allowlist_create
@@ -459,7 +301,6 @@ commands:
 - az_network_firewall_threat-intel-allowlist_show
 - az_network_firewall_threat-intel-allowlist_update
 - az_network_firewall_update
-- az_network_firewall_wait
 globalParameters:
 - name: --debug
   summary: Increase logging verbosity to show all debug logs.

@@ -1454,43 +1454,6 @@
       - name: Summary
         uid: az_containerapp
         displayName: az containerapp
-      - name: auth
-        items:
-        - name: Summary
-          uid: az_containerapp_auth
-          displayName: az containerapp auth
-        - name: apple
-          uid: az_containerapp_auth_apple
-          displayName: az containerapp auth apple
-          items: []
-        - name: facebook
-          uid: az_containerapp_auth_facebook
-          displayName: az containerapp auth facebook
-          items: []
-        - name: github
-          uid: az_containerapp_auth_github
-          displayName: az containerapp auth github
-          items: []
-        - name: google
-          uid: az_containerapp_auth_google
-          displayName: az containerapp auth google
-          items: []
-        - name: microsoft
-          uid: az_containerapp_auth_microsoft
-          displayName: az containerapp auth microsoft
-          items: []
-        - name: openid-connect
-          uid: az_containerapp_auth_openid-connect
-          displayName: az containerapp auth openid-connect
-          items: []
-        - name: twitter
-          uid: az_containerapp_auth_twitter
-          displayName: az containerapp auth twitter
-          items: []
-      - name: compose
-        uid: az_containerapp_compose
-        displayName: az containerapp compose
-        items: []
       - name: connection
         items:
         - name: Summary
@@ -1504,135 +1467,6 @@
           uid: az_containerapp_connection_update
           displayName: az containerapp connection update
           items: []
-      - name: dapr
-        uid: az_containerapp_dapr
-        displayName: az containerapp dapr
-        items: []
-      - name: env
-        items:
-        - name: Summary
-          uid: az_containerapp_env
-          displayName: az containerapp env
-        - name: certificate
-          uid: az_containerapp_env_certificate
-          displayName: az containerapp env certificate
-          items: []
-        - name: dapr-component
-          uid: az_containerapp_env_dapr-component
-          displayName: az containerapp env dapr-component
-          items: []
-        - name: logs
-          uid: az_containerapp_env_logs
-          displayName: az containerapp env logs
-          items: []
-        - name: storage
-          uid: az_containerapp_env_storage
-          displayName: az containerapp env storage
-          items: []
-        - name: workload-profile
-          uid: az_containerapp_env_workload-profile
-          displayName: az containerapp env workload-profile
-          items: []
-      - name: github-action
-        uid: az_containerapp_github-action
-        displayName: az containerapp github-action
-        items: []
-      - name: hostname
-        uid: az_containerapp_hostname
-        displayName: az containerapp hostname
-        items: []
-      - name: identity
-        uid: az_containerapp_identity
-        displayName: az containerapp identity
-        items: []
-      - name: ingress
-        items:
-        - name: Summary
-          uid: az_containerapp_ingress
-          displayName: az containerapp ingress
-        - name: access-restriction
-          uid: az_containerapp_ingress_access-restriction
-          displayName: az containerapp ingress access-restriction
-          items: []
-        - name: cors
-          uid: az_containerapp_ingress_cors
-          displayName: az containerapp ingress cors
-          items: []
-        - name: sticky-sessions
-          uid: az_containerapp_ingress_sticky-sessions
-          displayName: az containerapp ingress sticky-sessions
-          items: []
-        - name: traffic
-          uid: az_containerapp_ingress_traffic
-          displayName: az containerapp ingress traffic
-          items: []
-      - name: job
-        items:
-        - name: Summary
-          uid: az_containerapp_job
-          displayName: az containerapp job
-        - name: execution
-          uid: az_containerapp_job_execution
-          displayName: az containerapp job execution
-          items: []
-        - name: identity
-          uid: az_containerapp_job_identity
-          displayName: az containerapp job identity
-          items: []
-        - name: secret
-          uid: az_containerapp_job_secret
-          displayName: az containerapp job secret
-          items: []
-      - name: logs
-        uid: az_containerapp_logs
-        displayName: az containerapp logs
-        items: []
-      - name: patch
-        uid: az_containerapp_patch
-        displayName: az containerapp patch
-        items: []
-      - name: registry
-        uid: az_containerapp_registry
-        displayName: az containerapp registry
-        items: []
-      - name: replica
-        uid: az_containerapp_replica
-        displayName: az containerapp replica
-        items: []
-      - name: revision
-        items:
-        - name: Summary
-          uid: az_containerapp_revision
-          displayName: az containerapp revision
-        - name: label
-          uid: az_containerapp_revision_label
-          displayName: az containerapp revision label
-          items: []
-      - name: secret
-        uid: az_containerapp_secret
-        displayName: az containerapp secret
-        items: []
-      - name: service
-        items:
-        - name: Summary
-          uid: az_containerapp_service
-          displayName: az containerapp service
-        - name: kafka
-          uid: az_containerapp_service_kafka
-          displayName: az containerapp service kafka
-          items: []
-        - name: postgres
-          uid: az_containerapp_service_postgres
-          displayName: az containerapp service postgres
-          items: []
-        - name: redis
-          uid: az_containerapp_service_redis
-          displayName: az containerapp service redis
-          items: []
-      - name: ssl
-        uid: az_containerapp_ssl
-        displayName: az containerapp ssl
-        items: []
   - name: Container Instances
     items:
     - name: Summary
@@ -1998,121 +1832,43 @@
       - name: Summary
         uid: az_cosmosdb
         displayName: az cosmosdb
-      - name: dts
-        uid: az_cosmosdb_dts
-        displayName: az cosmosdb dts
-        items: []
-      - name: gremlin
-        items:
-        - name: Summary
-          uid: az_cosmosdb_gremlin
-          displayName: az cosmosdb gremlin
-        - name: database
-          uid: az_cosmosdb_gremlin_database
-          displayName: az cosmosdb gremlin database
-          items: []
-        - name: graph
-          uid: az_cosmosdb_gremlin_graph
-          displayName: az cosmosdb gremlin graph
-          items: []
-        - name: restorable-database
-          uid: az_cosmosdb_gremlin_restorable-database
-          displayName: az cosmosdb gremlin restorable-database
-          items: []
-        - name: restorable-graph
-          uid: az_cosmosdb_gremlin_restorable-graph
-          displayName: az cosmosdb gremlin restorable-graph
-          items: []
-        - name: restorable-resource
-          uid: az_cosmosdb_gremlin_restorable-resource
-          displayName: az cosmosdb gremlin restorable-resource
-          items: []
-      - name: mongocluster
-        items:
-        - name: Summary
-          uid: az_cosmosdb_mongocluster
-          displayName: az cosmosdb mongocluster
-        - name: firewall
-          items:
-          - name: Summary
-            uid: az_cosmosdb_mongocluster_firewall
-            displayName: az cosmosdb mongocluster firewall
-          - name: rule
-            uid: az_cosmosdb_mongocluster_firewall_rule
-            displayName: az cosmosdb mongocluster firewall rule
-            items: []
       - name: mongodb
         items:
         - name: Summary
           uid: az_cosmosdb_mongodb
           displayName: az cosmosdb mongodb
-        - name: collection
-          uid: az_cosmosdb_mongodb_collection
-          displayName: az cosmosdb mongodb collection
-          items: []
-        - name: database
-          uid: az_cosmosdb_mongodb_database
-          displayName: az cosmosdb mongodb database
-          items: []
         - name: restorable-collection
           uid: az_cosmosdb_mongodb_restorable-collection
           displayName: az cosmosdb mongodb restorable-collection
           items: []
-        - name: role
-          items:
-          - name: Summary
-            uid: az_cosmosdb_mongodb_role
-            displayName: az cosmosdb mongodb role
-          - name: definition
-            uid: az_cosmosdb_mongodb_role_definition
-            displayName: az cosmosdb mongodb role definition
-            items: []
-        - name: user
-          items:
-          - name: Summary
-            uid: az_cosmosdb_mongodb_user
-            displayName: az cosmosdb mongodb user
-          - name: definition
-            uid: az_cosmosdb_mongodb_user_definition
-            displayName: az cosmosdb mongodb user definition
-            items: []
+        - name: restorable-database
+          uid: az_cosmosdb_mongodb_restorable-database
+          displayName: az cosmosdb mongodb restorable-database
+          items: []
+        - name: restorable-resource
+          uid: az_cosmosdb_mongodb_restorable-resource
+          displayName: az cosmosdb mongodb restorable-resource
+          items: []
       - name: restorable-database-account
         uid: az_cosmosdb_restorable-database-account
         displayName: az cosmosdb restorable-database-account
-        items: []
-      - name: service
-        uid: az_cosmosdb_service
-        displayName: az cosmosdb service
         items: []
       - name: sql
         items:
         - name: Summary
           uid: az_cosmosdb_sql
           displayName: az cosmosdb sql
-        - name: container
-          uid: az_cosmosdb_sql_container
-          displayName: az cosmosdb sql container
-          items: []
-        - name: database
-          uid: az_cosmosdb_sql_database
-          displayName: az cosmosdb sql database
-          items: []
         - name: restorable-container
           uid: az_cosmosdb_sql_restorable-container
           displayName: az cosmosdb sql restorable-container
           items: []
-      - name: table
-        items:
-        - name: Summary
-          uid: az_cosmosdb_table
-          displayName: az cosmosdb table
-        - name: restorable-resource
-          uid: az_cosmosdb_table_restorable-resource
-          displayName: az cosmosdb table restorable-resource
+        - name: restorable-database
+          uid: az_cosmosdb_sql_restorable-database
+          displayName: az cosmosdb sql restorable-database
           items: []
-        - name: restorable-table
-          uid: az_cosmosdb_table_restorable-table
-          displayName: az cosmosdb table restorable-table
+        - name: restorable-resource
+          uid: az_cosmosdb_sql_restorable-resource
+          displayName: az cosmosdb sql restorable-resource
           items: []
     - name: managed-cassandra
       items:
@@ -2120,14 +1876,9 @@
         uid: az_managed-cassandra
         displayName: az managed-cassandra
       - name: cluster
-        items:
-        - name: Summary
-          uid: az_managed-cassandra_cluster
-          displayName: az managed-cassandra cluster
-        - name: backup
-          uid: az_managed-cassandra_cluster_backup
-          displayName: az managed-cassandra cluster backup
-          items: []
+        uid: az_managed-cassandra_cluster
+        displayName: az managed-cassandra cluster
+        items: []
       - name: datacenter
         uid: az_managed-cassandra_datacenter
         displayName: az managed-cassandra datacenter
@@ -3667,10 +3418,6 @@
         uid: az_aks_maintenanceconfiguration
         displayName: az aks maintenanceconfiguration
         items: []
-      - name: mesh
-        uid: az_aks_mesh
-        displayName: az aks mesh
-        items: []
       - name: nodepool
         items:
         - name: Summary
@@ -3938,18 +3685,6 @@
         uid: az_ml_environment
         displayName: az ml environment
         items: []
-      - name: feature-set
-        uid: az_ml_feature-set
-        displayName: az ml feature-set
-        items: []
-      - name: feature-store
-        uid: az_ml_feature-store
-        displayName: az ml feature-store
-        items: []
-      - name: feature-store-entity
-        uid: az_ml_feature-store-entity
-        displayName: az ml feature-store-entity
-        items: []
       - name: job
         uid: az_ml_job
         displayName: az ml job
@@ -3975,14 +3710,9 @@
         displayName: az ml schedule
         items: []
       - name: workspace
-        items:
-        - name: Summary
-          uid: az_ml_workspace
-          displayName: az ml workspace
-        - name: outbound-rule
-          uid: az_ml_workspace_outbound-rule
-          displayName: az ml workspace outbound-rule
-          items: []
+        uid: az_ml_workspace
+        displayName: az ml workspace
+        items: []
     - name: ml(v1)
       items:
       - name: Summary
@@ -4739,10 +4469,6 @@
             uid: az_monitor_app-insights_component_billing
             displayName: az monitor app-insights component billing
             items: []
-          - name: continues-export
-            uid: az_monitor_app-insights_component_continues-export
-            displayName: az monitor app-insights component continues-export
-            items: []
           - name: linked-storage
             uid: az_monitor_app-insights_component_linked-storage
             displayName: az monitor app-insights component linked-storage
@@ -4754,10 +4480,6 @@
         - name: metrics
           uid: az_monitor_app-insights_metrics
           displayName: az monitor app-insights metrics
-          items: []
-        - name: web-test
-          uid: az_monitor_app-insights_web-test
-          displayName: az monitor app-insights web-test
           items: []
       - name: data-collection
         items:
@@ -6488,10 +6210,6 @@
           uid: az_spring_api-portal_custom-domain
           displayName: az spring api-portal custom-domain
           items: []
-      - name: apm
-        uid: az_spring_apm
-        displayName: az spring apm
-        items: []
       - name: app
         items:
         - name: Summary
@@ -6626,10 +6344,6 @@
       - name: dev-tool
         uid: az_spring_dev-tool
         displayName: az spring dev-tool
-        items: []
-      - name: eureka-server
-        uid: az_spring_eureka-server
-        displayName: az spring eureka-server
         items: []
       - name: gateway
         items:
