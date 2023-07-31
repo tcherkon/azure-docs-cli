@@ -5150,6 +5150,14 @@
         uid: az_networkfabric_internalnetwork
         displayName: az networkfabric internalnetwork
         items: []
+      - name: internetgateway
+        uid: az_networkfabric_internetgateway
+        displayName: az networkfabric internetgateway
+        items: []
+      - name: internetgatewayrule
+        uid: az_networkfabric_internetgatewayrule
+        displayName: az networkfabric internetgatewayrule
+        items: []
       - name: ipcommunity
         uid: az_networkfabric_ipcommunity
         displayName: az networkfabric ipcommunity
@@ -5173,6 +5181,10 @@
       - name: nni
         uid: az_networkfabric_nni
         displayName: az networkfabric nni
+        items: []
+      - name: npb
+        uid: az_networkfabric_npb
+        displayName: az networkfabric npb
         items: []
       - name: rack
         uid: az_networkfabric_rack
