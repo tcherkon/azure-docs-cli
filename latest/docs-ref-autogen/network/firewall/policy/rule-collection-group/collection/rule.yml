@@ -28,7 +28,6 @@ directCommands:
                                                                          [--description]
                                                                          [--dest-addr]
                                                                          [--dest-ipg]
-                                                                         [--destination-fqdns]
                                                                          [--destination-ports]
                                                                          [--enable-tls-insp {false, true}]
                                                                          [--fqdn-tags]
@@ -39,7 +38,6 @@ directCommands:
                                                                          [--target-fqdns]
                                                                          [--target-urls]
                                                                          [--translated-address]
-                                                                         [--translated-fqdn]
                                                                          [--translated-port]
                                                                          [--web-categories]
   requiredParameters:
@@ -78,9 +76,6 @@ directCommands:
   - name: --dest-ipg --destination-ip-groups
     summary: Space-separated list of name or resource id of destination IpGroups.
     description: ''
-  - name: --destination-fqdns
-    summary: Space-separated list of destination FQDNs.
-    description: ''
   - name: --destination-ports
     summary: Space-separated list of destination ports. This argument is supported for Nat and Network Rule.
     description: ''
@@ -113,9 +108,6 @@ directCommands:
     description: ''
   - name: --translated-address
     summary: Translated address for this NAT rule collection.
-    description: ''
-  - name: --translated-fqdn
-    summary: Translated FQDN for this NAT rule collection.
     description: ''
   - name: --translated-port
     summary: Translated port for this NAT rule collection.
@@ -174,7 +166,6 @@ directCommands:
                                                                             [--description]
                                                                             [--dest-addr]
                                                                             [--dest-ipg]
-                                                                            [--destination-fqdns]
                                                                             [--destination-ports]
                                                                             [--enable-tls-insp {false, true}]
                                                                             [--force-string]
@@ -188,7 +179,6 @@ directCommands:
                                                                             [--target-fqdns]
                                                                             [--target-urls]
                                                                             [--translated-address]
-                                                                            [--translated-fqdn]
                                                                             [--translated-port]
                                                                             [--web-categories]
   examples:
@@ -228,9 +218,6 @@ directCommands:
     description: ''
   - name: --dest-ipg --destination-ip-groups
     summary: Space-separated list of name or resource id of destination IpGroups.
-    description: ''
-  - name: --destination-fqdns
-    summary: Space-separated list of destination FQDNs.
     description: ''
   - name: --destination-ports
     summary: Space-separated list of destination ports. This argument is supported for Nat and Network Rule.
@@ -275,9 +262,6 @@ directCommands:
     description: ''
   - name: --translated-address
     summary: Translated address for this NAT rule collection.
-    description: ''
-  - name: --translated-fqdn
-    summary: Translated FQDN for this NAT rule collection.
     description: ''
   - name: --translated-port
     summary: Translated port for this NAT rule collection.
